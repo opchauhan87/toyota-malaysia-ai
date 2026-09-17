@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Toyota Malaysia AI — Call Reports</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7f5;
+    color: #1d2b24;
+}
+
+.header {
+    background: #14532d;
+    color: white;
+    padding: 22px 30px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 6px 0 0;
+    opacity: .85;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 14px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+
+.card .label {
+    font-size: 13px;
+    color: #68756e;
+}
+
+.card .value {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.panel {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    overflow: hidden;
+}
+
+.panel-header {
+    padding: 18px 20px;
+    border-bottom: 1px solid #e5e9e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.search {
+    padding: 9px 12px;
+    border: 1px solid #ccd5cf;
+    border-radius: 6px;
+    width: 280px;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 13px 14px;
+    border-bottom: 1px solid #edf0ee;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+th {
+    background: #f7f9f8;
+    color: #526059;
+    font-size: 12px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.badge.interested {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.badge.not {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.badge.other {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+button {
+    border: 0;
+    background: #166534;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #14532d;
+}
+
+details {
+    margin-top: 8px;
+}
+
+.conversation {
+    padding: 15px;
+    background: #f8faf9;
+    white-space: normal;
+    min-width: 450px;
+}
+
+.msg {
+    padding: 9px 12px;
+    margin: 7px 0;
+    border-radius: 7px;
+}
+
+.msg.customer {
+    background: #e8f5e9;
+}
+
+.msg.ai {
+    background: #eef2ff;
+}
+
+.msg strong {
+    display: block;
+    margin-bottom: 3px;
+}
+
+audio {
+    width: 220px;
+    height: 34px;
+}
+
+.empty {
+    padding: 35px;
+    text-align: center;
+    color: #718078;
+}
+
+@media (max-width: 1200px) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search {
+        width: 180px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Toyota Malaysia AI — Call Reports</h1>
+    <p>Voice AI campaign reporting</p>
+</div>
+
+<div class="container">
+
+<div class="cards">
+
+    <div class="card">
+        <div class="label">Total Calls</div>
+        <div class="value">{{ stats.total }}</div>
+    </div>
+
+    <div class="card">
+        <div class="label">Interested</div>
+        <div class="value">{{ stats.interested }}</div>
+    </div>
+
+    <div class="card">
+        <div class="label">Not Interested</div>
+        <div class="value">{{ stats.not_interested }}</div>
+    </div>
+
+    <div class="card">
+        <div class="label">Call Back</div>
+        <div class="value">{{ stats.callback }}</div>
+    </div>
+
+    <div class="card">
+        <div class="label">WhatsApp</div>
+        <div class="value">{{ stats.whatsapp }}</div>
+    </div>
+
+    <div class="card">
+        <div class="label">Wrong Number</div>
+        <div class="value">{{ stats.wrong_number }}</div>
+    </div>
+
+    <div class="card">
+        <div class="label">DNC</div>
+        <div class="value">{{ stats.dnc }}</div>
+    </div>
+
+</div>
+
+<div class="panel">
+
+<div class="panel-header">
+    <h2>Call History</h2>
+    <input
+        id="search"
+        class="search"
+        type="text"
+        placeholder="Search lead, phone, name..."
+        onkeyup="filterTable()"
+    >
+</div>
+
+<div class="table-wrap">
+
+<table id="calls">
+
+<thead>
+<tr>
+    <th>Date / Time</th>
+    <th>Lead ID</th>
+    <th>Customer</th>
+    <th>Phone</th>
+    <th>Duration</th>
+    <th>Intent</th>
+    <th>Disposition</th>
+    <th>VICIdial</th>
+    <th>Recording</th>
+    <th>Conversation</th>
+</tr>
+</thead>
+
+<tbody>
+
+{% for r in reports %}
+
+<tr>
+
+<td>
+{% if r.start_time %}
+{{ r.start_time.replace('T', ' ')[:19] }}
+{% else %}
+-
+{% endif %}
+</td>
+
+<td>{{ r.lead_id or '-' }}</td>
+
+<td>{{ r.first_name or '-' }}</td>
+
+<td>{{ r.phone_number or '-' }}</td>
+
+<td>
+{% if r.duration_seconds %}
+{{ "%.1f"|format(r.duration_seconds) }} sec
+{% else %}
+-
+{% endif %}
+</td>
+
+<td>
+{% if r.intent == "Interested" %}
+<span class="badge interested">Interested</span>
+{% elif r.intent %}
+<span class="badge not">{{ r.intent }}</span>
+{% else %}
+-
+{% endif %}
+</td>
+
+<td>
+{% if r.disposition == "Not Interested" %}
+<span class="badge not">{{ r.disposition }}</span>
+{% elif r.disposition %}
+<span class="badge interested">{{ r.disposition }}</span>
+{% else %}
+-
+{% endif %}
+</td>
+
+<td>{{ r.vicidial_status or '-' }}</td>
+
+<td>
+{% if r.recording %}
+<audio controls preload="none"
+       src="/toyota-reports/recordings/{{ r.recording.split('/')[-1] }}">
+</audio>
+{% else %}
+-
+{% endif %}
+</td>
+
+<td>
+
+{% if r.conversation %}
+
+<details>
+<summary>View</summary>
+
+<div class="conversation">
+
+{% for msg in r.conversation %}
+
+<div class="msg {{ msg.speaker }}">
+
+<strong>
+{% if msg.speaker == "customer" %}
+Customer
+{% else %}
+AI
+{% endif %}
+</strong>
+
+{{ msg.english_text or msg.original_text or '' }}
+
+</div>
+
+{% endfor %}
+
+</div>
+</details>
+
+{% else %}
+-
+{% endif %}
+
+</td>
+
+</tr>
+
+{% else %}
+
+<tr>
+<td colspan="10" class="empty">
+No call reports found.
+</td>
+</tr>
+
+{% endfor %}
+
+</tbody>
+
+</table>
+
+</div>
+</div>
+
+</div>
+
+<script>
+function filterTable() {
+    const input = document
+        .getElementById("search")
+        .value
+        .toLowerCase();
+
+    const rows = document
+        .querySelectorAll("#calls tbody tr");
+
+    rows.forEach(row => {
+        row.style.display =
+            row.innerText.toLowerCase().includes(input)
+                ? ""
+                : "none";
+    });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,822 @@
+{
+  "country": "Malaysia",
+  "currency": "MYR",
+  "last_updated": "2026-09-15",
+  "source_policy": {
+    "primary": "Toyota Malaysia Official",
+    "secondary": [],
+    "price_must_be_verified": true
+  },
+  "models": [
+    {
+      "model_name": "Vios",
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "body_type": "Sedan",
+      "generation": "",
+      "variants": [
+        {
+          "variant_name": "Vios 1.5E AT",
+          "fuel_type": "Petrol",
+          "price_myr": 90600,
+          "price_basis": "Starting price",
+          "source": "Toyota Malaysia Official"
+        },
+        {
+          "variant_name": "Vios 1.5G AT",
+          "fuel_type": "Petrol",
+          "price_myr": 96600,
+          "price_basis": "Starting price",
+          "source": "Toyota Malaysia Official"
+        },
+        {
+          "variant_name": "Vios 1.5 HEV AT",
+          "fuel_type": "Hybrid Electric",
+          "price_myr": 103900,
+          "price_basis": "Starting price",
+          "source": "Toyota Malaysia Official"
+        },
+        {
+          "variant_name": "Vios 1.5 HEV GR Sport",
+          "fuel_type": "Hybrid Electric",
+          "price_myr": 109900,
+          "price_basis": "Starting price",
+          "source": "Toyota Malaysia Official"
+        }
+      ],
+      "official_url": "https://www.toyota.com.my/en/models/vios.html",
+      "last_verified": "2026-09-15",
+      "technical_specifications": {
+        "petrol": {
+          "engine_model": "2NR-VE",
+          "engine_type": "4-cylinder, In-line, 16-valve, DOHC with Dual VVT-i",
+          "displacement_cc": 1496,
+          "max_output_ps": 106,
+          "max_output_rpm": 6000,
+          "max_torque_nm": 138,
+          "max_torque_rpm": 4200,
+          "fuel_consumption_l_per_100km": 5.2,
+          "transmission": "7-Speed CVT with Sequential Shiftmatic",
+          "drive": "Front Wheel Drive",
+          "drive_modes": [
+            "Power",
+            "ECO",
+            "Normal"
+          ]
+        },
+        "hybrid": {
+          "engine_model": "2NR-VEX",
+          "engine_type": "4-cylinder, In-line, 16-valve, DOHC with Dual VVT-i",
+          "displacement_cc": 1496,
+          "engine_output_ps": 91,
+          "engine_max_torque_nm": 121,
+          "motor_output_ps": 80,
+          "motor_max_torque_nm": 141,
+          "combined_output_ps": 111,
+          "fuel_consumption_l_per_100km": 3.6,
+          "transmission": "E-CVT",
+          "drive": "Front Wheel Drive",
+          "drive_modes": [
+            "Power",
+            "ECO",
+            "Normal",
+            "EV"
+          ],
+          "battery_type": "Lithium Ion",
+          "battery_capacity_ahr": 4.3
+        }
+      },
+      "dimensions": {
+        "length_mm": 4425,
+        "width_mm": 1740,
+        "height_mm": 1480,
+        "wheelbase_mm": 2620
+      },
+      "technical_source": "Toyota Malaysia Official Vios HEV Brochure - January 2026",
+      "safety_features": {
+        "active_safety": [
+          "Toyota Safety Sense (TSS)",
+          "Pre-Collision System (PCS)",
+          "Lane Departure Warning (LDW)",
+          "Lane Departure Prevention (LDP)",
+          "Front Departure Alert (FDA)",
+          "Lane Keeping Control (LKC)",
+          "Adaptive Cruise Control (ACC)",
+          "Auto High Beam (AHB)",
+          "Pedal Misoperation Control (PMC)",
+          "Blind Spot Monitor (BSM)",
+          "Rear Cross Traffic Alert (RCTA)",
+          "3D Panoramic View Monitor (3D PVM)",
+          "Parking Clearance Sonar",
+          "Anti-Lock Braking System (ABS)",
+          "Brake Assist (BA)",
+          "Vehicle Stability Control (VSC)",
+          "Traction Control (TRC)",
+          "Electronic Brake-force Distribution (EBD)",
+          "Hill-Start Assist (HSA)",
+          "Emergency Stop Signal (ESS)"
+        ],
+        "passive_safety": [
+          "6 SRS Airbags",
+          "ISOFIX Child Seat Anchors",
+          "3-Point ELR Seatbelts"
+        ],
+        "security": [
+          "Horn Alarm with Immobiliser"
+        ]
+      },
+      "safety_source": "Toyota Malaysia Official Vios Brochure",
+      "comfort_interior_connectivity": {
+        "Vios 1.5 HEV AT": {
+          "display_audio": "10.1-inch Display Audio",
+          "apple_carplay": "Wireless",
+          "android_auto": "Wireless",
+          "speakers": 6,
+          "usb_charging_ports": 3,
+          "wireless_charger": true,
+          "smart_entry_push_start": true,
+          "air_conditioning": "Automatic",
+          "rear_air_vent": true,
+          "steering": "Leather, tilt and telescopic",
+          "multi_function_steering": [
+            "Audio",
+            "MID",
+            "Bluetooth",
+            "ACC",
+            "Drive Mode",
+            "LKA"
+          ],
+          "multi_information_display": "7-inch TFT",
+          "ambient_lighting": "64-colour",
+          "parking_brake": "Electronic Parking Brake with Auto Brake Hold",
+          "power_windows": "All with driver auto up/down and jam protection",
+          "seat_material": "Leather"
+        },
+        "Vios 1.5G AT": {
+          "display_audio": "10.1-inch Display Audio",
+          "apple_carplay": "Wireless",
+          "android_auto": "Wireless",
+          "speakers": 6,
+          "usb_charging_ports": 3,
+          "wireless_charger": true,
+          "smart_entry_push_start": true,
+          "air_conditioning": "Automatic",
+          "rear_air_vent": true,
+          "steering": "Leather, tilt and telescopic",
+          "multi_function_steering": [
+            "Audio",
+            "MID",
+            "Bluetooth",
+            "ACC",
+            "Drive Mode",
+            "LKA"
+          ],
+          "multi_information_display": "7-inch TFT",
+          "ambient_lighting": "64-colour",
+          "parking_brake": "Electronic Parking Brake with Auto Brake Hold",
+          "power_windows": "All with driver auto up/down and jam protection",
+          "seat_material": "Leather"
+        },
+        "Vios 1.5E AT": {
+          "display_audio": "9-inch Display Audio",
+          "apple_carplay": "Wireless",
+          "android_auto": "Wireless",
+          "speakers": 4,
+          "usb_charging_ports": 3,
+          "wireless_charger": true,
+          "smart_entry_push_start": true,
+          "air_conditioning": "Manual",
+          "rear_air_vent": true,
+          "steering": "Urethane, tilt only",
+          "multi_function_steering": [
+            "Audio",
+            "MID",
+            "Bluetooth",
+            "Drive Mode"
+          ],
+          "multi_information_display": "4.2-inch TFT",
+          "ambient_lighting": true,
+          "parking_brake": "Handbrake",
+          "power_windows": "All with driver auto up/down and jam protection",
+          "seat_material": "Fabric"
+        },
+        "Vios 1.5 HEV GR Sport": {
+          "display_audio": "10.1-inch Display Audio",
+          "apple_carplay": "Wireless",
+          "android_auto": "Wireless",
+          "speakers": 6,
+          "usb_charging_ports": 3,
+          "wireless_charger": true,
+          "smart_entry_push_start": true,
+          "parking_brake": "Electronic Parking Brake with Auto Brake Hold",
+          "power_windows": "All with driver auto up/down and jam protection",
+          "seat_material": "GR Sport Combi Leather + Suede",
+          "steering": "Leather",
+          "interior_theme": "GR Sport"
+        }
+      },
+      "comfort_source": "Toyota Malaysia Official Vios / Vios HEV / Vios HEV GR Sport Brochures - 2026",
+      "exterior": {
+        "petrol_variants": {
+          "Vios 1.5G AT": {
+            "headlamps": "Auto LED with Follow Me Home",
+            "daytime_running_lights": "LED",
+            "rear_lamps": "LED combination with sequential turn signal",
+            "rear_view_mirror": "Power adjustable, auto fold, signal lamps and Blind Spot Monitor",
+            "windshield_wiper": "Rain sensing",
+            "wheels": "17-inch alloy",
+            "tyre_size": "205/50 R17",
+            "front_grille": "Piano Black",
+            "antenna": "Shark Fin",
+            "aerokit": true,
+            "rfid": true,
+            "outside_door_handle": "Body colour",
+            "acoustic_windshield": true
+          },
+          "Vios 1.5E AT": {
+            "headlamps": "Auto LED with Follow Me Home",
+            "daytime_running_lights": "LED",
+            "rear_lamps": "LED combination",
+            "rear_view_mirror": "Power adjustable, auto fold and signal lamps",
+            "windshield_wiper": "Intermittent",
+            "wheels": "16-inch alloy",
+            "tyre_size": "195/60 R16",
+            "front_grille": "Black",
+            "antenna": "Shark Fin",
+            "outside_door_handle": "Body colour"
+          }
+        },
+        "hev": {
+          "headlamps": "LED with Auto High Beam",
+          "front_aerodynamic_air_vents": true,
+          "rear_turn_signals": "Sequential",
+          "hev_exclusive_badge": true
+        },
+        "colours": [
+          {
+            "name": "Celestite Grey Metallic",
+            "code": "1K3",
+            "availability": "HEV-exclusive"
+          },
+          {
+            "name": "Platinum White Pearl",
+            "code": "089"
+          },
+          {
+            "name": "Spicy Scarlet SE",
+            "code": "R77"
+          },
+          {
+            "name": "Attitude Black",
+            "code": "218"
+          },
+          {
+            "name": "Silver Metallic",
+            "code": "1D4"
+          }
+        ]
+      },
+      "exterior_source": "Toyota Malaysia Official Vios / Vios HEV Brochures",
+      "warranty": {
+        "vehicle_warranty": {
+          "duration_years": 5,
+          "mileage": "Unlimited",
+          "applies_to": [
+            "Vios 1.5E AT",
+            "Vios 1.5G AT",
+            "Vios 1.5 HEV AT",
+            "Vios 1.5 HEV GR Sport"
+          ],
+          "terms": "Terms and conditions apply"
+        },
+        "hybrid_electric_warranty": {
+          "duration_years": 8,
+          "mileage": "Unlimited",
+          "components": [
+            "Hybrid Electric Vehicle battery",
+            "Inverter",
+            "Power Management Control ECU"
+          ],
+          "extension": {
+            "available": true,
+            "additional_years": 2,
+            "coverage_years": "9th and 10th year"
+          }
+        }
+      },
+      "service_savers": {
+        "petrol": [
+          {
+            "duration": "3 Years / 60,000 km",
+            "price_myr": 2298
+          },
+          {
+            "duration": "5 Years / 100,000 km",
+            "price_myr": 3562
+          }
+        ],
+        "hybrid": [
+          {
+            "duration": "3 Years / 60,000 km",
+            "price_myr": 2350
+          },
+          {
+            "duration": "5 Years / 100,000 km",
+            "price_myr": 3650
+          }
+        ]
+      },
+      "warranty_source": "Toyota Malaysia Official Vios Price List, Vios HEV Price List and Vios HEV Brochure - 2026",
+      "price_starting_myr": 90600,
+      "knowledge_status": "VERIFICATION_REQUIRED"
+    },
+    {
+      "model_name": "Yaris",
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "body_type": "Hatchback",
+      "generation": "",
+      "variants": [
+        {
+          "variant_name": "Yaris 1.5E AT",
+          "fuel_type": "Petrol",
+          "engine_capacity_cc": 1496,
+          "price_myr": 88000,
+          "price_basis": "On-the-road price including SST, without insurance",
+          "source": "Toyota Malaysia Official",
+          "source_document_date": "January 2026",
+          "price_market": "Peninsular Malaysia",
+          "owner_type": "Individual Private Owner",
+          "price_source": "Toyota Malaysia Official",
+          "price_last_verified": "2026-09-15"
+        },
+        {
+          "variant_name": "Yaris 1.5G AT",
+          "fuel_type": "Petrol",
+          "engine_capacity_cc": 1496,
+          "price_myr": 91600,
+          "price_basis": "On-the-road price including SST, without insurance",
+          "source": "Toyota Malaysia Official",
+          "source_document_date": "January 2026",
+          "price_market": "Peninsular Malaysia",
+          "owner_type": "Individual Private Owner",
+          "price_source": "Toyota Malaysia Official",
+          "price_last_verified": "2026-09-15"
+        }
+      ],
+      "official_url": "https://www.toyota.com.my/en/models/yaris.html",
+      "last_verified": "2026-09-15",
+      "technical_specifications": {
+        "engine": {
+          "engine_model": "2NR-FE",
+          "engine_type": "4-cylinder, In-line, 16-valve, DOHC with Dual VVT-i",
+          "displacement_cc": 1496,
+          "fuel_type": "Petrol",
+          "max_output_ps": 107,
+          "max_torque_nm": 140
+        },
+        "transmission": {
+          "type": "CVT",
+          "description": "7-speed Sport Sequential Shiftmatic"
+        },
+        "drive": "Front Wheel Drive",
+        "drive_modes": [
+          "ECO",
+          "Normal",
+          "Power"
+        ],
+        "fuel_consumption_l_per_100km": 6.3
+      },
+      "dimensions": {
+        "length_mm": 4145,
+        "width_mm": 1730,
+        "height_mm": 1500,
+        "wheelbase_mm": 2550
+      },
+      "technical_source": "Toyota Malaysia Official Yaris Brochure / Specifications - 2026",
+      "safety_features": {
+        "active_safety": [
+          "Toyota Safety Sense (TSS)",
+          "Pre-Collision System (PCS)",
+          "Lane Departure Alert (LDA)",
+          "3D Panoramic View Monitor (PVM)",
+          "Blind Spot Monitor (BSM)",
+          "Rear Cross Traffic Alert (RCTA)",
+          "Hill-start Assist Control (HAC)",
+          "Front Parking Sensors",
+          "Rear Parking Sensors",
+          "Vehicle Stability Control (VSC)",
+          "Anti-Lock Braking System (ABS)",
+          "Brake Assist (BA)",
+          "Electronic Brake-force Distribution (EBD)",
+          "Traction Control"
+        ],
+        "passive_safety": [
+          "7 SRS Airbags",
+          "3-Point Seatbelts",
+          "ISOFIX Child Seat Anchors"
+        ],
+        "driver_assistance": [
+          "Toyota Safety Sense",
+          "Pre-Collision System",
+          "Lane Departure Alert",
+          "Blind Spot Monitor",
+          "Rear Cross Traffic Alert"
+        ]
+      },
+      "safety_source": "Toyota Malaysia Official Yaris 2026 e-Brochure and Yaris Official Model Page",
+      "comfort_interior_connectivity": {
+        "Yaris 1.5E AT": {
+          "display_audio": "9-inch Display Audio",
+          "apple_carplay": "Wireless",
+          "android_auto": "Wireless",
+          "wireless_charger": true,
+          "vehicle_telematics_system": true,
+          "bluetooth": true,
+          "usb": true,
+          "smart_entry": true,
+          "push_start": true,
+          "air_conditioning": "Automatic",
+          "multi_information_display": true,
+          "steering_controls": true
+        },
+        "Yaris 1.5G AT": {
+          "display_audio": "9-inch Display Audio",
+          "apple_carplay": "Wireless",
+          "android_auto": "Wireless",
+          "wireless_charger": true,
+          "vehicle_telematics_system": true,
+          "bluetooth": true,
+          "usb": true,
+          "smart_entry": true,
+          "push_start": true,
+          "air_conditioning": "Automatic",
+          "multi_information_display": true,
+          "steering_controls": true
+        }
+      },
+      "comfort_source": "Toyota Malaysia Official Yaris 2026 e-Brochure",
+      "exterior": {
+        "common": {
+          "headlamps": "LED",
+          "daytime_running_lights": "LED",
+          "rear_combination_lamps": "LED",
+          "front_fog_lamps": "LED",
+          "rear_fog_lamp": true,
+          "windshield_glass": "Acoustic",
+          "front_grille": "Colour with Plating",
+          "wing_mirrors": "Power-adjustable and retractable with turn indicators and auto fold",
+          "rfid": true,
+          "wheels": "16-inch Alloy",
+          "tyre_size": "195/50R16",
+          "spare_wheel": "195/50R16 Alloy"
+        },
+        "1.5G_AT": {
+          "door_outer_handle": "Chrome Plated",
+          "aerokit": "Optional",
+          "two_tone_exterior": "Optional"
+        },
+        "1.5E_AT": {
+          "door_outer_handle": "Body Colour",
+          "aerokit": "Optional",
+          "two_tone_exterior": "Optional"
+        }
+      },
+      "colours": [
+        "Platinum White Pearl",
+        "Silver Metallic",
+        "Red Mica Metallic",
+        "2-tone Red Mica Metallic",
+        "2-tone Platinum White Pearl"
+      ],
+      "exterior_source": "Toyota Malaysia Official Yaris 2026 e-Brochure and Yaris Official Model Page",
+      "security_features": [
+        "Immobiliser",
+        "Alarm system",
+        "Vehicle Telematics System (VTS)"
+      ],
+      "warranty": {
+        "vehicle_warranty": {
+          "duration_years": 5,
+          "mileage": "Unlimited",
+          "terms": "Terms and conditions apply"
+        }
+      },
+      "service_savers": {
+        "available": true,
+        "packages": [
+          {
+            "duration": "3 Years / 60,000 km",
+            "type": "Toyota Service Savers"
+          },
+          {
+            "duration": "5 Years / 100,000 km",
+            "type": "Toyota Service Savers"
+          }
+        ]
+      },
+      "warranty_service_source": "Toyota Malaysia Official Yaris 2026 Price List and Yaris Official Brochure",
+      "knowledge_status": "READY",
+      "price_starting_myr": 88000
+    },
+    {
+      "model_name": "Yaris Cross",
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "market_region": "Peninsular Malaysia",
+      "body_type": "SUV / Crossover",
+      "generation": "",
+      "variants": [
+        {
+          "variant_name": "Yaris Cross 1.5S",
+          "fuel_type": "Petrol",
+          "engine_capacity_cc": 1496,
+          "selling_price_myr": 99580,
+          "price_myr": 100250,
+          "price_basis": "On-the-road price without insurance",
+          "owner_type": "Company Private",
+          "effective_from": "2026-05-08",
+          "source": "Toyota Malaysia Official"
+        },
+        {
+          "variant_name": "Yaris Cross 1.5S HEV",
+          "fuel_type": "Hybrid Electric",
+          "engine_capacity_cc": 1496,
+          "selling_price_myr": 109580,
+          "price_myr": 110250,
+          "price_basis": "On-the-road price without insurance",
+          "owner_type": "Company Private",
+          "effective_from": "2026-05-08",
+          "source": "Toyota Malaysia Official"
+        }
+      ],
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross.html",
+      "last_verified": "2026-09-15",
+      "price_starting_myr": 99900,
+      "knowledge_status": "ENRICHED"
+    },
+    {
+      "model_name": "Yaris Cross HEV",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross-hybrid-electric.html",
+      "price_starting_myr": 109900,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Corolla",
+      "body_type": "Sedan",
+      "official_url": "https://www.toyota.com.my/en/models/corolla.html",
+      "price_starting_myr": 144800,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Corolla GR Sport",
+      "body_type": "Sedan",
+      "official_url": "https://www.toyota.com.my/en/models/corolla/corolla-gr-sport.html",
+      "price_starting_myr": 149800,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Corolla Cross",
+      "body_type": "Crossover",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross.html",
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Corolla Cross HEV",
+      "body_type": "Crossover",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric.html",
+      "price_starting_myr": 140800,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Corolla Cross HEV GR Sport",
+      "body_type": "Crossover",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric/corolla-cross-hev-gr-sport.html",
+      "price_starting_myr": 148800,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Camry",
+      "body_type": "Sedan",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric/camry.html",
+      "price_starting_myr": 221800,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Camry HEV",
+      "body_type": "Sedan",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric.html",
+      "price_starting_myr": 248800,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Veloz",
+      "body_type": "MPV",
+      "official_url": "https://www.toyota.com.my/en/models/veloz.html",
+      "price_starting_myr": 95000,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Innova Zenix",
+      "body_type": "Crossover / MPV",
+      "official_url": "https://www.toyota.com.my/en/models/zenix.html",
+      "price_starting_myr": 165000,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Fortuner",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/fortuner.html",
+      "price_starting_myr": 195880,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Harrier HEV",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/harrier-hybrid-electric.html",
+      "price_starting_myr": 289000,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Hilux",
+      "body_type": "Pickup",
+      "official_url": "https://www.toyota.com.my/en/models/hilux.html",
+      "price_starting_myr": 103880,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Hilux GR Sport",
+      "body_type": "Pickup",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-gr-sport.html",
+      "price_starting_myr": 169080,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Hilux BEV",
+      "body_type": "Pickup",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-bev.html",
+      "price_starting_myr": 226300,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Hiace",
+      "body_type": "Van",
+      "official_url": "https://www.toyota.com.my/en/models/hiace.html",
+      "price_starting_myr": 127800,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Hiace SLWB",
+      "body_type": "Van",
+      "official_url": "https://www.toyota.com.my/en/models/hiace-slwb.html",
+      "price_starting_myr": 172000,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "bZ4X",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/bz4x.html",
+      "price_starting_myr": 220000,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Urban Cruiser BEV",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/urban-cruiser.html",
+      "price_starting_myr": 198000,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Alphard",
+      "body_type": "MPV",
+      "official_url": "https://www.toyota.com.my/en/models/alphard.html",
+      "price_starting_myr": 538000,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Vellfire",
+      "body_type": "MPV",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire.html",
+      "price_starting_myr": 438000,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "Vellfire HEV",
+      "body_type": "MPV",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire/vellfire-hybrid-electric.html",
+      "price_starting_myr": 549900,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "GR Yaris",
+      "body_type": "Hatchback",
+      "official_url": "https://www.toyota.com.my/en/models/gr-yaris.html",
+      "price_starting_myr": 315600,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "GR Corolla",
+      "body_type": "Hatchback",
+      "official_url": "https://www.toyota.com.my/en/models/gr-corolla.html",
+      "price_starting_myr": 368950,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    },
+    {
+      "model_name": "GR86",
+      "body_type": "Coupe",
+      "official_url": "https://www.toyota.com.my/en/models/gr86.html",
+      "price_starting_myr": 296000,
+      "brand": "Toyota",
+      "market": "Malaysia",
+      "knowledge_status": "MODEL_INDEXED",
+      "last_verified": "2026-09-15"
+    }
+  ],
+  "bulk_import": {
+    "enabled": true,
+    "last_run": "2026-09-15 19:24:12",
+    "source": "Toyota Malaysia Official",
+    "seed_file": "data/toyota_bulk_seed.json",
+    "duplicate_protection": true,
+    "preserve_existing_data": true
+  },
+  "knowledge_engine": {
+    "version": "1.0",
+    "last_validation": "2026-09-15",
+    "source_policy": "Toyota Malaysia Official",
+    "unknown_data_policy": "DO_NOT_GUESS"
+  }
+}

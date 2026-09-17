@@ -1,0 +1,2901 @@
+{
+  "country": "Malaysia",
+  "currency": "MYR",
+  "source_policy": {
+    "primary": "Toyota Malaysia Official",
+    "brochure_data_is_source_backed": true,
+    "candidate_data_requires_final_review": true,
+    "historical_sources_never_auto_promoted": true,
+    "master_import": false,
+    "unknown_values": null,
+    "no_hallucination": true
+  },
+  "generated_at": "2026-09-15T20:10:04.144409",
+  "total_records": 29,
+  "verified_candidates": 7,
+  "review_required": 22,
+  "current_sources": 23,
+  "historical_sources": 6,
+  "records": [
+    {
+      "source_file": "Camry-HEV-Brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.259489",
+      "model_name_candidate": "Camry HEV",
+      "text_length": 14965,
+      "variants_candidates": [
+        "4.0L",
+        "2.5L",
+        "2.5V",
+        "Hybrid Electric",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "4.0",
+          "2.5"
+        ],
+        "power_candidates": [
+          "188",
+          "204",
+          "136",
+          "230"
+        ],
+        "torque_candidates": [
+          "221",
+          "246",
+          "208"
+        ],
+        "transmission_candidates": [
+          "E-CVT",
+          "CVT",
+          "8-speed Automatic"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "RCTA",
+        "Automatic High Beam",
+        "AHB",
+        "Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "USB",
+        "Panoramic View Monitor",
+        "Leather",
+        "LED",
+        "Sunroof",
+        "Head-Up Display"
+      ],
+      "warranty_candidates": [
+        "q J HYBRID BATTERY «INVERTER —_ ces” A +POWER MANAGEMENT CONTROL ECU Za = / a aN 8 years warranty from the date of first 2 < Q registration with unlimited mileage A\\ GB a 7 WN) covering the Hybrid Electric Vehicle Pr ~ ez = hy (HEV) battery, inverter and power ES | Al ID",
+        "+POWER MANAGEMENT CONTROL ECU Za = / a aN 8 years warranty from the date of first 2 < Q registration with unlimited mileage A\\ GB a 7 WN) covering the Hybrid Electric Vehicle Pr ~ ez = hy (HEV) battery, inverter and power ES | Al ID management control ECU. Warranty bn | cA <— a WZ NV",
+        "registration with unlimited mileage A\\ GB a 7 WN) covering the Hybrid Electric Vehicle Pr ~ ez = hy (HEV) battery, inverter and power ES | Al ID management control ECU. Warranty bn | cA <— a WZ NV can be extended for another 2 years. i —— y rs v Terms and conditions apply. —y) MX Y P = — BY",
+        "Terms and conditions apply. —y) MX Y P = — BY ms > WARRANTY 5 years vehicle warranty from the date of “ first registration with unlimited mileage. - p Terms and conditions apply. a",
+        "= — BY ms > WARRANTY 5 years vehicle warranty from the date of “ first registration with unlimited mileage. - p Terms and conditions apply. a *International standard for wireless charging developed by Wi ireless P ower Cons",
+        "ms > WARRANTY 5 years vehicle warranty from the date of “ first registration with unlimited mileage. - p Terms and conditions apply. a *International standard for wireless charging developed by Wi ireless P ower Cons",
+        "+ Allimages used are for illustrative purposes. el ees be] HYBRID ELECTRIC fees « 5 years vehicle warranty from the date of WARRANTY ape WA pe first registration with unlimited mileage. CHOWER HARAGEMENT CONROL ECU TOYOTA WEEsiTE hi ee WARRANTY terms and conditions apply. Terms and conditions apply. TOBOOKA TEST DRIVE [a] See Stony UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday.",
+        "el ees be] HYBRID ELECTRIC fees « 5 years vehicle warranty from the date of WARRANTY ape WA pe first registration with unlimited mileage. CHOWER HARAGEMENT CONROL ECU TOYOTA WEEsiTE hi ee WARRANTY terms and conditions apply. Terms and conditions apply. TOBOOKA TEST DRIVE [a] See Stony UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my",
+        "HYBRID ELECTRIC fees « 5 years vehicle warranty from the date of WARRANTY ape WA pe first registration with unlimited mileage. CHOWER HARAGEMENT CONROL ECU TOYOTA WEEsiTE hi ee WARRANTY terms and conditions apply. Terms and conditions apply. TOBOOKA TEST DRIVE [a] See Stony UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 90,
+        "expected_model_from_filename": "Camry HEV",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:4.0,2.5"
+        ],
+        "warnings": []
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/camry-hev/2025/v1/Camry-HEV-Brochure.pdf",
+        "source_date": "2025",
+        "source_year": 2025,
+        "source_month": null
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "VERIFIED_CANDIDATE",
+        "confidence_score": 85,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "Camry-HEV-Brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/camry-hev/2025/v1/Camry-HEV-Brochure.pdf",
+        "source_date": "2025",
+        "source_year": 2025
+      }
+    },
+    {
+      "source_file": "Corolla-Cross-GR-Sport-2023-Brochure-4.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.276951",
+      "model_name_candidate": "Corolla Cross HEV GR Sport",
+      "text_length": 19233,
+      "variants_candidates": [
+        "1.8L",
+        "5.2m",
+        "1.8V",
+        "1.8G",
+        "GR Sport"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.8"
+        ],
+        "power_candidates": [
+          "2"
+        ],
+        "transmission_candidates": [
+          "E-CVT",
+          "CVT",
+          "7-speed CVT with Sequential Shiftmatic"
+        ],
+        "drivetrain_candidates": [
+          "FWD"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Adaptive Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX",
+        "Tyre Pressure Warning System",
+        "TPWS"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Panoramic View Monitor",
+        "Parking Sensor",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "A from the date of first registration with unlimited 2 YEARS eee Terms and WARRANTY Pa a PTA em ole ey Va aad ee SAFE- CONNECTIVI- Trust for smoother journeys ahead Technology at your command",
+        "ae y 0.0. 0.0.8 iz me YEARS WARRANTY The Corolla Cross has been 5 years vehicle warranty from awarded a 5-star ASEAN NCAP the date of first registration Cri Nvaeele ale with unlimited mileage.",
+        "0.0. 0.0.8 iz me YEARS WARRANTY The Corolla Cross has been 5 years vehicle warranty from awarded a 5-star ASEAN NCAP the date of first registration Cri Nvaeele ale with unlimited mileage. Terms and conditions apply.",
+        "WARRANTY The Corolla Cross has been 5 years vehicle warranty from awarded a 5-star ASEAN NCAP the date of first registration Cri Nvaeele ale with unlimited mileage. Terms and conditions apply. ===== PAGE 15 ====="
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 65,
+        "expected_model_from_filename": "Corolla Cross",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.8"
+        ],
+        "warnings": [
+          "FILENAME_MODEL_MISMATCH:Corolla Cross!=Corolla Cross HEV GR Sport",
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/Corolla-Cross-GR-Sport-2023-Brochure-4.pdf",
+        "source_date": "2023",
+        "source_year": 2023,
+        "source_month": null
+      },
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "spec_validation": {
+        "status": "HISTORICAL_REVIEW",
+        "confidence_score": 48,
+        "issues": [
+          "SUSPICIOUS_PS:2.0"
+        ],
+        "warnings": [
+          "HISTORICAL_SOURCE"
+        ],
+        "source_priority": "HISTORICAL_OR_SECONDARY"
+      },
+      "provenance": {
+        "source_file": "Corolla-Cross-GR-Sport-2023-Brochure-4.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/Corolla-Cross-GR-Sport-2023-Brochure-4.pdf",
+        "source_date": "2023",
+        "source_year": 2023
+      }
+    },
+    {
+      "source_file": "Corolla-GR-Sport-Brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.294773",
+      "model_name_candidate": "Corolla GR Sport",
+      "text_length": 17459,
+      "variants_candidates": [
+        "1.8L",
+        "1.8GR",
+        "GR SPORT"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.8"
+        ],
+        "power_candidates": [
+          "2"
+        ],
+        "transmission_candidates": [
+          "CVT",
+          "7-speed to a finely-tuned"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Automatic High Beam",
+        "AHB",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX",
+        "Tyre Pressure Warning System"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Panoramic View Monitor",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "smartphone. eS EAN =| Total peace of mind YYEARS WARRANTY 5 years warranty from the date of first registration with unlimited mileage. Terms and conditions apply.",
+        "eS EAN =| Total peace of mind YYEARS WARRANTY 5 years warranty from the date of first registration with unlimited mileage. Terms and conditions apply. Actual vehicle may vary from image shown.",
+        "YYEARS WARRANTY 5 years warranty from the date of first registration with unlimited mileage. Terms and conditions apply. Actual vehicle may vary from image shown.",
+        "* Allimages used are for illustrative purposes. — Follow us! -}—— cs Toyota Malaysia WARRANTY 5 years warranty from the date of first registration with Salis e) mileage. Io} oe toyotamy sae RcdaNeltleteael yea",
+        "— Follow us! -}—— cs Toyota Malaysia WARRANTY 5 years warranty from the date of first registration with Salis e) mileage. Io} oe toyotamy sae RcdaNeltleteael yea UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am —- 5:30pm,"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 85,
+        "expected_model_from_filename": "Corolla GR Sport",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.8"
+        ],
+        "warnings": [
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-gr-sport/v2/Corolla-GR-Sport-Brochure.pdf",
+        "source_date": null,
+        "source_year": null,
+        "source_month": null
+      },
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "spec_validation": {
+        "status": "HISTORICAL_REVIEW",
+        "confidence_score": 43,
+        "issues": [
+          "SUSPICIOUS_PS:2.0"
+        ],
+        "warnings": [
+          "HISTORICAL_SOURCE"
+        ],
+        "source_priority": "HISTORICAL_OR_SECONDARY"
+      },
+      "provenance": {
+        "source_file": "Corolla-GR-Sport-Brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-gr-sport/v2/Corolla-GR-Sport-Brochure.pdf",
+        "source_date": null,
+        "source_year": null
+      }
+    },
+    {
+      "source_file": "Corolla-GR-Sport-eBrochure-2023.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.311065",
+      "model_name_candidate": "Corolla GR Sport",
+      "text_length": 26102,
+      "variants_candidates": [
+        "1.8L",
+        "1.8GR",
+        "GR SPORT"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.8"
+        ],
+        "transmission_candidates": [
+          "CVT",
+          "7-speed Continuously",
+          "7-speed Sequential Shiftmatic CVT"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Automatic High Beam",
+        "AHB",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX",
+        "Tyre Pressure Warning System"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Panoramic View Monitor",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "ee ee AS a ee ae Tore | ; | == oh YEARS == Se WARRANTY Wireless Charger 9” Display Audio g ts ep cel 5 years warranty from the date of first | Cc an y registration with unlimited mileage.",
+        "| ; | == oh YEARS == Se WARRANTY Wireless Charger 9” Display Audio g ts ep cel 5 years warranty from the date of first | Cc an y registration with unlimited mileage. alias gh LA / Terms and conditions apply. eee 2 oe Tee",
+        "== Se WARRANTY Wireless Charger 9” Display Audio g ts ep cel 5 years warranty from the date of first | Cc an y registration with unlimited mileage. alias gh LA / Terms and conditions apply. eee 2 oe Tee co Se ey a pe E, ; ie |",
+        "= ea) TOYOTA ay) TOYOTA — Follow us! +—— SERVICE SAVERS a V YEARS 2 Ae ole BELEN AE) 5 years warranty from the date of first OQ TOYOTA i ienantiery el Roa Aeneas For Your Auto-Financing Needs io} eo toyotamy UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 80,
+        "expected_model_from_filename": "Corolla GR Sport",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.8"
+        ],
+        "warnings": [
+          "NO_POWER_CANDIDATE",
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/Corolla-GR-Sport-eBrochure-2023.pdf",
+        "source_date": "2023",
+        "source_year": 2023,
+        "source_month": null
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 65,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "Corolla-GR-Sport-eBrochure-2023.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/Corolla-GR-Sport-eBrochure-2023.pdf",
+        "source_date": "2023",
+        "source_year": 2023
+      }
+    },
+    {
+      "source_file": "GR-Corolla-2023-Brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.340744",
+      "model_name_candidate": "GR Corolla",
+      "text_length": 18721,
+      "variants_candidates": [
+        "1.6L",
+        "5.3s",
+        "1.6T",
+        "M/T"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.6"
+        ],
+        "power_candidates": [
+          "300"
+        ],
+        "torque_candidates": [
+          "370"
+        ],
+        "transmission_candidates": [
+          "6-speed Manual"
+        ],
+        "drivetrain_candidates": [
+          "AWD"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "DRCC",
+        "Automatic High Beam",
+        "AHB",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "USB",
+        "Smart Entry",
+        "Parking Sensor",
+        "Dual Zone",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "* Allimages used are for illustrative purposes. ! TOYOTA ay) — Follow us! -}—— 2) SERVICE SAVERS TOYOTA 2 OCR EEE WARRANTY emer & BING. Cee ne aie ieee a arenas For Your Auto-Financing Needs o ry ed UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am — 5:30pm,"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 90,
+        "expected_model_from_filename": "GR Corolla",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.6"
+        ],
+        "warnings": []
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/GR-Corolla-2023-Brochure.pdf",
+        "source_date": "2023",
+        "source_year": 2023,
+        "source_month": null
+      },
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "spec_validation": {
+        "status": "HISTORICAL_REVIEW",
+        "confidence_score": 73,
+        "issues": [],
+        "warnings": [
+          "HISTORICAL_SOURCE"
+        ],
+        "source_priority": "HISTORICAL_OR_SECONDARY"
+      },
+      "provenance": {
+        "source_file": "GR-Corolla-2023-Brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/GR-Corolla-2023-Brochure.pdf",
+        "source_date": "2023",
+        "source_year": 2023
+      }
+    },
+    {
+      "source_file": "GR-Corolla-Brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.359789",
+      "model_name_candidate": "GR Corolla",
+      "text_length": 23684,
+      "variants_candidates": [
+        "1.6L",
+        "5.3s",
+        "M/T",
+        "A/T"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.6"
+        ],
+        "power_candidates": [
+          "300"
+        ],
+        "torque_candidates": [
+          "400",
+          "370"
+        ],
+        "transmission_candidates": [
+          "Automatic Transmission",
+          "6-speed Manual"
+        ],
+        "drivetrain_candidates": [
+          "AWD"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Automatic High Beam",
+        "AHB",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "USB",
+        "Smart Entry",
+        "Parking Sensor",
+        "Dual Zone",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "« All images used are for illustrative purposes. — Follow us! -}—— V YEARS cs Toyota Malaysia WARRANTY bo) er clay icc the oS of first @ oe t \" ae ancient a a haan d"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 90,
+        "expected_model_from_filename": "GR Corolla",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.6"
+        ],
+        "warnings": []
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/gr-corolla/january-2026/v3/GR-Corolla-Brochure.pdf",
+        "source_date": "2026-january",
+        "source_year": 2026,
+        "source_month": "january"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "VERIFIED_CANDIDATE",
+        "confidence_score": 90,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "GR-Corolla-Brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/gr-corolla/january-2026/v3/GR-Corolla-Brochure.pdf",
+        "source_date": "2026-january",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "GR86-2023-Brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.383485",
+      "model_name_candidate": "GR86",
+      "text_length": 17995,
+      "variants_candidates": [
+        "2.4L",
+        "6.3s",
+        "6.8s",
+        "M/T",
+        "A/T"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "2.4"
+        ],
+        "power_candidates": [
+          "237"
+        ],
+        "torque_candidates": [
+          "250"
+        ],
+        "transmission_candidates": [
+          "Automatic Transmission",
+          "6-speed Automatic",
+          "6-speed Manual"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Automatic High Beam",
+        "AHB",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "USB",
+        "Smart Entry",
+        "Parking Sensor",
+        "Dual Zone",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 90,
+        "expected_model_from_filename": "GR86",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:2.4"
+        ],
+        "warnings": []
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/GR86-2023-Brochure.pdf",
+        "source_date": "2023",
+        "source_year": 2023,
+        "source_month": null
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "VERIFIED_CANDIDATE",
+        "confidence_score": 85,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "GR86-2023-Brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/GR86-2023-Brochure.pdf",
+        "source_date": "2023",
+        "source_year": 2023
+      }
+    },
+    {
+      "source_file": "Hiace-eBrochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.400117",
+      "model_name_candidate": "Hiace",
+      "text_length": 10053,
+      "variants_candidates": [
+        "6.4m"
+      ],
+      "technical_specifications": {
+        "transmission_candidates": [
+          "6-speed Automatic"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "LDA",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "airbags",
+        "airbag"
+      ],
+      "feature_candidates": [
+        "Parking Sensor",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "Meter Panel - : : Multi-Information Display (MID) Monochrome Audio System Type 7” Display Audio C) TOYOTA 5 years warranty from the date Speakers 2 Speaker >... of fist regitration or 150.000 km Air Conditioner Front & Rear With For Your Auto-Financing Needs WARRANTY __ Tetmsand conditions apply.",
+        "Audio System Type 7” Display Audio C) TOYOTA 5 years warranty from the date Speakers 2 Speaker >... of fist regitration or 150.000 km Air Conditioner Front & Rear With For Your Auto-Financing Needs WARRANTY __ Tetmsand conditions apply. ===== PAGE 10 ====="
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 65,
+        "expected_model_from_filename": "Hiace",
+        "issues": [],
+        "warnings": [
+          "NO_DISPLACEMENT_CANDIDATE",
+          "NO_POWER_CANDIDATE",
+          "NO_TORQUE_CANDIDATE",
+          "LIMITED_FEATURE_DATA"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/new-hiace/june-2025/Hiace-eBrochure.pdf",
+        "source_date": "2025-june",
+        "source_year": 2025,
+        "source_month": "june"
+      },
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "spec_validation": {
+        "status": "HISTORICAL_REVIEW",
+        "confidence_score": 33,
+        "issues": [],
+        "warnings": [
+          "HISTORICAL_SOURCE"
+        ],
+        "source_priority": "HISTORICAL_OR_SECONDARY"
+      },
+      "provenance": {
+        "source_file": "Hiace-eBrochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/new-hiace/june-2025/Hiace-eBrochure.pdf",
+        "source_date": "2025-june",
+        "source_year": 2025
+      }
+    },
+    {
+      "source_file": "Innova-Zenix-e-Brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.409972",
+      "model_name_candidate": "Innova Zenix",
+      "text_length": 15105,
+      "variants_candidates": [
+        "2.0L",
+        "hybrid electric",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "2.0"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Automatic High Beam",
+        "AHB",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "USB",
+        "Smart Entry",
+        "Panoramic View Monitor",
+        "Parking Sensor",
+        "Electronic Parking Brake",
+        "Power Seat",
+        "Leather",
+        "LED",
+        "Sunroof"
+      ],
+      "warranty_candidates": [
+        "UP ANT oe ee Tate eee LE VEHICLE TELEMATICS SYSTEM AUREUS OA eh 211) P ea Ae (VTS) 5 years warranty from the date of first WARRANTY Conveniently track and monitor the relae lated ia} Pra aalie mileage. 8 years warranty from the date of first location of your car in real time via Terms and conditions apply. registration with unlimited mileage covering the Toyota 24SEVEN mobile app. the Hybrid Electric Vehicle (HEV) battery,",
+        "Tate eee LE VEHICLE TELEMATICS SYSTEM AUREUS OA eh 211) P ea Ae (VTS) 5 years warranty from the date of first WARRANTY Conveniently track and monitor the relae lated ia} Pra aalie mileage. 8 years warranty from the date of first location of your car in real time via Terms and conditions apply. registration with unlimited mileage covering the Toyota 24SEVEN mobile app. the Hybrid Electric Vehicle (HEV) battery, inverter and power management control ECU.",
+        "VEHICLE TELEMATICS SYSTEM AUREUS OA eh 211) P ea Ae (VTS) 5 years warranty from the date of first WARRANTY Conveniently track and monitor the relae lated ia} Pra aalie mileage. 8 years warranty from the date of first location of your car in real time via Terms and conditions apply. registration with unlimited mileage covering the Toyota 24SEVEN mobile app. the Hybrid Electric Vehicle (HEV) battery, inverter and power management control ECU. Warranty can be extended for another 2 years.",
+        "location of your car in real time via Terms and conditions apply. registration with unlimited mileage covering the Toyota 24SEVEN mobile app. the Hybrid Electric Vehicle (HEV) battery, inverter and power management control ECU. Warranty can be extended for another 2 years. Terms and conditions apply. Toyota prides itself in keeping its cars longer on the road. But beyond its legendary legacy of durability and reliability is the commitment to go the extra mile for every customer.",
+        "+ Vehicle and specifications in this catalogue may vary from models available locally. * Vehicle body and accessory colours might differ from the printed photos in this catalogue. + Allimages used are for illustrative purposes. WARRANTY 5 years warranty from the date of first ee A oi registration with STAs) mileage. HTP Terms and Conditions apply. aT a",
+        "* Vehicle body and accessory colours might differ from the printed photos in this catalogue. + Allimages used are for illustrative purposes. WARRANTY 5 years warranty from the date of first ee A oi registration with STAs) mileage. HTP Terms and Conditions apply. aT a UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm,"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 75,
+        "expected_model_from_filename": "Innova Zenix",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:2.0"
+        ],
+        "warnings": [
+          "NO_POWER_CANDIDATE",
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/august-2025/innova-zenix/v2/Innova-Zenix-e-Brochure.pdf",
+        "source_date": "2025-august",
+        "source_year": 2025,
+        "source_month": "august"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 60,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "Innova-Zenix-e-Brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/august-2025/innova-zenix/v2/Innova-Zenix-e-Brochure.pdf",
+        "source_date": "2025-august",
+        "source_year": 2025
+      }
+    },
+    {
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.423480",
+      "model_name_candidate": "Yaris Cross HEV",
+      "text_length": 20032,
+      "variants_candidates": [
+        "1.5L",
+        "3.6L",
+        "Hybrid Electric",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.5",
+          "3.6"
+        ],
+        "transmission_candidates": [
+          "e-CVT",
+          "CVT",
+          "7-speed CVT with Sequential Shiftmatic e-CVT"
+        ],
+        "fuel_consumption_candidates": [
+          "3.6",
+          "27.8"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "LDA",
+        "LTA",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitor",
+        "BSM",
+        "RCTA",
+        "AHB",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Panoramic View Monitor",
+        "Parking Sensor",
+        "Electronic Parking Brake",
+        "Power Seat",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "Bea == Clee ire Celta Handling Stability Drive confidently with an 8-year unlimited Engineered for better stability and ride comfort. mileage warranty on key hybrid components, With a lower centre of gravity through the keeping your vehicle consistently reliable for strategic placement of the hybrid system. years to come. Optional: Extension for years 9 and 10 available.",
+        "GUARAN-* Total peace of mind I) PB e Yeas miei) BTM is isis) 8 years warranty from the date of first registration with the date of first registration with eae unlimited mileage covering the Hybrid Electric Vehicle YEARS unlimited mileage. MS Set at (HEV) battery, inverter and power management control | Terms and conditions apply. y A Relea Amey oil hae ela oL",
+        "Total peace of mind I) PB e Yeas miei) BTM is isis) 8 years warranty from the date of first registration with the date of first registration with eae unlimited mileage covering the Hybrid Electric Vehicle YEARS unlimited mileage. MS Set at (HEV) battery, inverter and power management control | Terms and conditions apply. y A Relea Amey oil hae ela oL WARRANTY eM ae cad extended for another 2 years (9 & 10\" year).",
+        "I) PB e Yeas miei) BTM is isis) 8 years warranty from the date of first registration with the date of first registration with eae unlimited mileage covering the Hybrid Electric Vehicle YEARS unlimited mileage. MS Set at (HEV) battery, inverter and power management control | Terms and conditions apply. y A Relea Amey oil hae ela oL WARRANTY eM ae cad extended for another 2 years (9 & 10\" year). UE be Rael neo",
+        "the date of first registration with eae unlimited mileage covering the Hybrid Electric Vehicle YEARS unlimited mileage. MS Set at (HEV) battery, inverter and power management control | Terms and conditions apply. y A Relea Amey oil hae ela oL WARRANTY eM ae cad extended for another 2 years (9 & 10\" year). UE be Rael neo | “Android Auto™ functions may vary depending on smartphone model. **International standard for wireless charging developed by Wireless Power Consortium.",
+        "B82 12 3) : ey ew epee Aiea (Fas [== YEARS AV Tn a oe WARRANTY BT ae eee eee PIR eRe A colR 8 years warranty from the date of first registration with unlimited alas een the date of first registration mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter has been awarded with unlimited mileage. Eine So aurcurt tm ulece cll ee melon WA amu haCetiCe EESie le sian ion",
+        "ew epee Aiea (Fas [== YEARS AV Tn a oe WARRANTY BT ae eee eee PIR eRe A colR 8 years warranty from the date of first registration with unlimited alas een the date of first registration mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter has been awarded with unlimited mileage. Eine So aurcurt tm ulece cll ee melon WA amu haCetiCe EESie le sian ion Terms and conditions apply. MC Rectal hace eh ee PS ce Car a Bec safety rating.",
+        "WARRANTY BT ae eee eee PIR eRe A colR 8 years warranty from the date of first registration with unlimited alas een the date of first registration mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter has been awarded with unlimited mileage. Eine So aurcurt tm ulece cll ee melon WA amu haCetiCe EESie le sian ion Terms and conditions apply. MC Rectal hace eh ee PS ce Car a Bec safety rating. Terms and conditions apply. UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 80,
+        "expected_model_from_filename": "Yaris Cross HEV",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.5,3.6"
+        ],
+        "warnings": [
+          "NO_POWER_CANDIDATE",
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/yaris-cross/may-2026/v3/all-new-yaris-cross-hev-e-brochure.pdf",
+        "source_date": "2026-may",
+        "source_year": 2026,
+        "source_month": "may"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 63,
+        "issues": [],
+        "warnings": [
+          "NO_MODEL_SPECIFIC_RANGE"
+        ],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/yaris-cross/may-2026/v3/all-new-yaris-cross-hev-e-brochure.pdf",
+        "source_date": "2026-may",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "bz4x-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.445964",
+      "model_name_candidate": "bZ4X",
+      "text_length": 6696,
+      "variants_candidates": [
+        "BEV"
+      ],
+      "technical_specifications": {
+        "torque_candidates": [
+          "269"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "Dynamic Radar Cruise Control",
+        "BSM",
+        "BA"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "USB",
+        "Leather"
+      ],
+      "warranty_candidates": [
+        "Red 2 (3U5) MC. (8X8) Actual vehicle colour may vary from image above. a WARRANTY ( y EZ Tira) aA x par “INVERTER *BEV ECU @ ge"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 70,
+        "expected_model_from_filename": "bZ4X",
+        "issues": [],
+        "warnings": [
+          "NO_DISPLACEMENT_CANDIDATE",
+          "NO_POWER_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/bz4x/march-2026/bz4x-e-brochure.pdf",
+        "source_date": "2026-march",
+        "source_year": 2026,
+        "source_month": "march"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 55,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "bz4x-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/bz4x/march-2026/bz4x-e-brochure.pdf",
+        "source_date": "2026-march",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "camry-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.454823",
+      "model_name_candidate": "Camry HEV",
+      "text_length": 14965,
+      "variants_candidates": [
+        "4.0L",
+        "2.5L",
+        "2.5V",
+        "Hybrid Electric",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "4.0",
+          "2.5"
+        ],
+        "power_candidates": [
+          "188",
+          "204",
+          "136",
+          "230"
+        ],
+        "torque_candidates": [
+          "221",
+          "246",
+          "208"
+        ],
+        "transmission_candidates": [
+          "E-CVT",
+          "CVT",
+          "8-speed Automatic"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "RCTA",
+        "Automatic High Beam",
+        "AHB",
+        "Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "USB",
+        "Panoramic View Monitor",
+        "Leather",
+        "LED",
+        "Sunroof",
+        "Head-Up Display"
+      ],
+      "warranty_candidates": [
+        "q J HYBRID BATTERY «INVERTER —_ ces” A +POWER MANAGEMENT CONTROL ECU Za = / a aN 8 years warranty from the date of first 2 < Q registration with unlimited mileage A\\ GB a 7 WN) covering the Hybrid Electric Vehicle Pr ~ ez = hy (HEV) battery, inverter and power ES | Al ID",
+        "+POWER MANAGEMENT CONTROL ECU Za = / a aN 8 years warranty from the date of first 2 < Q registration with unlimited mileage A\\ GB a 7 WN) covering the Hybrid Electric Vehicle Pr ~ ez = hy (HEV) battery, inverter and power ES | Al ID management control ECU. Warranty bn | cA <— a WZ NV",
+        "registration with unlimited mileage A\\ GB a 7 WN) covering the Hybrid Electric Vehicle Pr ~ ez = hy (HEV) battery, inverter and power ES | Al ID management control ECU. Warranty bn | cA <— a WZ NV can be extended for another 2 years. i —— y rs v Terms and conditions apply. —y) MX Y P = — BY",
+        "Terms and conditions apply. —y) MX Y P = — BY ms > WARRANTY 5 years vehicle warranty from the date of “ first registration with unlimited mileage. - p Terms and conditions apply. a",
+        "= — BY ms > WARRANTY 5 years vehicle warranty from the date of “ first registration with unlimited mileage. - p Terms and conditions apply. a *International standard for wireless charging developed by Wi ireless P ower Cons",
+        "ms > WARRANTY 5 years vehicle warranty from the date of “ first registration with unlimited mileage. - p Terms and conditions apply. a *International standard for wireless charging developed by Wi ireless P ower Cons",
+        "+ Allimages used are for illustrative purposes. el ees be] HYBRID ELECTRIC fees « 5 years vehicle warranty from the date of WARRANTY ape WA pe first registration with unlimited mileage. CHOWER HARAGEMENT CONROL ECU TOYOTA WEEsiTE hi ee WARRANTY terms and conditions apply. Terms and conditions apply. TOBOOKA TEST DRIVE [a] See Stony UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday.",
+        "el ees be] HYBRID ELECTRIC fees « 5 years vehicle warranty from the date of WARRANTY ape WA pe first registration with unlimited mileage. CHOWER HARAGEMENT CONROL ECU TOYOTA WEEsiTE hi ee WARRANTY terms and conditions apply. Terms and conditions apply. TOBOOKA TEST DRIVE [a] See Stony UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my",
+        "HYBRID ELECTRIC fees « 5 years vehicle warranty from the date of WARRANTY ape WA pe first registration with unlimited mileage. CHOWER HARAGEMENT CONROL ECU TOYOTA WEEsiTE hi ee WARRANTY terms and conditions apply. Terms and conditions apply. TOBOOKA TEST DRIVE [a] See Stony UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 70,
+        "expected_model_from_filename": "Camry",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:4.0,2.5"
+        ],
+        "warnings": [
+          "FILENAME_MODEL_MISMATCH:Camry!=Camry HEV"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/camry-ice/2025/v1/camry-e-brochure.pdf",
+        "source_date": "2025",
+        "source_year": 2025,
+        "source_month": null
+      },
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "spec_validation": {
+        "status": "HISTORICAL_REVIEW",
+        "confidence_score": 68,
+        "issues": [],
+        "warnings": [
+          "HISTORICAL_SOURCE"
+        ],
+        "source_priority": "HISTORICAL_OR_SECONDARY"
+      },
+      "provenance": {
+        "source_file": "camry-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/camry-ice/2025/v1/camry-e-brochure.pdf",
+        "source_date": "2025",
+        "source_year": 2025
+      }
+    },
+    {
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.472846",
+      "model_name_candidate": "Corolla Cross HEV",
+      "text_length": 19655,
+      "variants_candidates": [
+        "1.8L",
+        "1.8V",
+        "5.2m",
+        "HYBRID ELECTRIC",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.8"
+        ],
+        "power_candidates": [
+          "139"
+        ],
+        "torque_candidates": [
+          "172"
+        ],
+        "transmission_candidates": [
+          "CVT",
+          "7-speed CVT with Sequential Shiftmatic"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "Adaptive Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Automatic High Beam",
+        "AHB",
+        "Parking Support Brake",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX",
+        "TPWS"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Panoramic View Monitor",
+        "Parking Sensor",
+        "Electronic Parking Brake",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "es ee Year-round Reliability Intelligent Technology Drive with confidence, backed by an 8-year The 4\" Generation Hybrid Electric System unlimited mileage warranty on key hybrid features improved battery longevity, efficient air components, ensuring your vehicle stays filtration, and advanced cooling for superior reliable for years to come. (Optional performance and durability. extension available for years 9 and 10.)",
+        "GUARAN-?T Total peace of mind Ree al CR ES mice) BT iirc) 1.2.5; PEEL from the date of first registration | the date of first registration with with unlimited mileage covering the Hybrid unlimited mileage. VAs alia aaa AV ree ie ool (oe WA RR Terms and conditions apply. Beh Tey yas es At ne management control ECU. Optionally, this Cc Hybrid Electric warranty can be extended for",
+        "Total peace of mind Ree al CR ES mice) BT iirc) 1.2.5; PEEL from the date of first registration | the date of first registration with with unlimited mileage covering the Hybrid unlimited mileage. VAs alia aaa AV ree ie ool (oe WA RR Terms and conditions apply. Beh Tey yas es At ne management control ECU. Optionally, this Cc Hybrid Electric warranty can be extended for Elatetg (ed Chit O10",
+        "the date of first registration with with unlimited mileage covering the Hybrid unlimited mileage. VAs alia aaa AV ree ie ool (oe WA RR Terms and conditions apply. Beh Tey yas es At ne management control ECU. Optionally, this Cc Hybrid Electric warranty can be extended for Elatetg (ed Chit O10 Terms and conditions apply. **International standard for wireless charging developed by Wireless Power Consortium.",
+        "+All images used are for illustrative purposes. H ea th hk YEARS WARRAN , nthe WARRANTY Be em CEy See Sen Cae OCCA celia) 8 years warranty from the date of first registration with unlimited The Corolla Cross the date of first registration mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter PE Pe olan cis (-16) Presta ne arte Erneta rare custome steurl Mae ate h stars a 5-star ASEAN NCAP",
+        "H ea th hk YEARS WARRAN , nthe WARRANTY Be em CEy See Sen Cae OCCA celia) 8 years warranty from the date of first registration with unlimited The Corolla Cross the date of first registration mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter PE Pe olan cis (-16) Presta ne arte Erneta rare custome steurl Mae ate h stars a 5-star ASEAN NCAP Terms and conditions apply. CUCU Aen ecules te Rome area ee Cae aaa safety rating."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 90,
+        "expected_model_from_filename": "Corolla Cross HEV",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.8"
+        ],
+        "warnings": []
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev/2026/july/v2/corolla-cross-hev-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026,
+        "source_month": "july"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "VERIFIED_CANDIDATE",
+        "confidence_score": 85,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "corolla-cross-hev-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev/2026/july/v2/corolla-cross-hev-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "corolla-cross-hev-gr-sport-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.490544",
+      "model_name_candidate": "Corolla Cross HEV GR Sport",
+      "text_length": 21620,
+      "variants_candidates": [
+        "1.8L",
+        "5.2m",
+        "GR SPORT",
+        "HYBRID ELECTRIC",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.8"
+        ],
+        "power_candidates": [
+          "2"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "Adaptive Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "RCTA",
+        "Automatic High Beam",
+        "Parking Support Brake",
+        "Vehicle Stability Control",
+        "VSC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "TPWS"
+      ],
+      "feature_candidates": [
+        "Android Auto",
+        "Wireless Charger",
+        "Push Start",
+        "Parking Sensor",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "See ea Nett Reliability Intelligent Technology Drive with confidence, backed by an 8-year The 4 Generation Hybrid Electric System unlimited mileage warranty on key hybrid features improved battery longevity, efficient air components, ensuring your vehicle stays filtration, and Advanced cooling for superior reliable for years to come. (Optional performance and durability. extension available for years\"9 and 10.)",
+        "a : NEW COROLLA CROSS F , : HEV GR SPORT GUARAN-T Total peace of mind 5 years vehicle warranty oD aS\" from the date of first registration with unlimited Z ERR mileage. Terms and",
+        "+ Allimages used are for illustrative purposes. okktok ? YEARS WARRANTY The Corolla Cross has been 5 years vehicle warranty from awarded a 5-star ASEAN NCAP the date of first registration safety rating. with unlimited mileage.",
+        "okktok ? YEARS WARRANTY The Corolla Cross has been 5 years vehicle warranty from awarded a 5-star ASEAN NCAP the date of first registration safety rating. with unlimited mileage. Terms and conditions apply.",
+        "WARRANTY The Corolla Cross has been 5 years vehicle warranty from awarded a 5-star ASEAN NCAP the date of first registration safety rating. with unlimited mileage. Terms and conditions apply. OUT Aaa f A a",
+        "Terms and conditions apply. OUT Aaa f A a 8 years warranty from the date of first registration with unlimited mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter and power management control ECU. Optionally, this Hybrid Electric warranty can be extended for another",
+        "8 years warranty from the date of first registration with unlimited mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter and power management control ECU. Optionally, this Hybrid Electric warranty can be extended for another 2 years (9 & 10\" year). Terms and conditions apply."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 80,
+        "expected_model_from_filename": "Corolla Cross HEV GR Sport",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.8"
+        ],
+        "warnings": [
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev-gr/2026/july/corolla-cross-hev-gr-sport-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026,
+        "source_month": "july"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 55,
+        "issues": [
+          "SUSPICIOUS_PS:2.0"
+        ],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "corolla-cross-hev-gr-sport-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev-gr/2026/july/corolla-cross-hev-gr-sport-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "corolla-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.509742",
+      "model_name_candidate": "Corolla",
+      "text_length": 21785,
+      "variants_candidates": [
+        "1.8L"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.8"
+        ],
+        "transmission_candidates": [
+          "CVT",
+          "Automatic transmission",
+          "7-speed Continuously Variable",
+          "7-speed gear shifts.",
+          "7-speed Sequential Shiftmatic CVT"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Automatic High Beam",
+        "AHB",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX",
+        "Tyre Pressure Warning System"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Panoramic View Monitor",
+        "Parking Sensor",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "jo ra = pemrey ry 5 |) >, S oO ; | _* rere e YEARS _ << = ay WARRANTY \\ eee 7 oe ee A Wireless Charger 10” Display Audio with COVA mice RETR LES Pengecas Tanpa Wayar AACP-ready Connectivity elie Lara iae Lh omit Te Le"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 80,
+        "expected_model_from_filename": "Corolla",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.8"
+        ],
+        "warnings": [
+          "NO_POWER_CANDIDATE",
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla/march-2026/v3/corolla-e-brochure.pdf",
+        "source_date": "2026-march",
+        "source_year": 2026,
+        "source_month": "march"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 65,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "corolla-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla/march-2026/v3/corolla-e-brochure.pdf",
+        "source_date": "2026-march",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "fortuner-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.528818",
+      "model_name_candidate": "Fortuner",
+      "text_length": 19564,
+      "variants_candidates": [
+        "2.7L",
+        "2.4L"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "2.7",
+          "2.4"
+        ],
+        "power_candidates": [
+          "204",
+          "166",
+          "150"
+        ],
+        "torque_candidates": [
+          "500",
+          "245",
+          "400"
+        ],
+        "transmission_candidates": [
+          "6-speed Automatic"
+        ],
+        "drivetrain_candidates": [
+          "4WD",
+          "AWD"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Panoramic View Monitor",
+        "Parking Sensor",
+        "Automatic Air Conditioning",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "mobile app. GUARAN =I Total peace of mind >... RS 5 years warranty from the date of first registration with unlimited mileage. Terms and Conditions apply. *Wireless charging for Qi standard-compliant devices.",
+        "GUARAN =I Total peace of mind >... RS 5 years warranty from the date of first registration with unlimited mileage. Terms and Conditions apply. *Wireless charging for Qi standard-compliant devices. Image(s) shown may vary for different variants. Specifications may vary depending on Fortuner variant."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 90,
+        "expected_model_from_filename": "Fortuner",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:2.7,2.4"
+        ],
+        "warnings": []
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/fortuner/2026/july/v2/fortuner-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026,
+        "source_month": "july"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 75,
+        "issues": [
+          "SUSPICIOUS_NM:245.0"
+        ],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "fortuner-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/fortuner/2026/july/v2/fortuner-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "gr-yaris-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.546238",
+      "model_name_candidate": "GR Yaris",
+      "text_length": 19615,
+      "variants_candidates": [
+        "1.6L",
+        "5.2s",
+        "M/T",
+        "A/T"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.6"
+        ],
+        "power_candidates": [
+          "300"
+        ],
+        "torque_candidates": [
+          "400"
+        ],
+        "transmission_candidates": [
+          "Automatic Transmission",
+          "6-Speed Manual"
+        ],
+        "drivetrain_candidates": [
+          "AWD"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Automatic High Beam",
+        "AHB",
+        "Vehicle Stability Control",
+        "VSC",
+        "ABS",
+        "Brake Assist",
+        "BA",
+        "airbags",
+        "airbag"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Bluetooth",
+        "USB",
+        "Dual Zone",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "- All images used are for illustrative purposes. — Follow us! }—— cs Toyota Malaysia WARRANTY CRC ee RR fe ana et ane a @ o be hada UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 90,
+        "expected_model_from_filename": "GR Yaris",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.6"
+        ],
+        "warnings": []
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/gr-yaris/july-2026/gr-yaris-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026,
+        "source_month": "july"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "VERIFIED_CANDIDATE",
+        "confidence_score": 90,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "gr-yaris-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/gr-yaris/july-2026/gr-yaris-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "gr86-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.567142",
+      "model_name_candidate": "GR86",
+      "text_length": 18096,
+      "variants_candidates": [
+        "2.4L",
+        "6.3s",
+        "6.8s",
+        "M/T",
+        "A/T"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "2.4"
+        ],
+        "torque_candidates": [
+          "250"
+        ],
+        "transmission_candidates": [
+          "Automatic Transmission",
+          "6-speed Automatic",
+          "6-speed Manual"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Automatic High Beam",
+        "AHB",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "USB",
+        "Smart Entry",
+        "Parking Sensor",
+        "Dual Zone",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 85,
+        "expected_model_from_filename": "GR86",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:2.4"
+        ],
+        "warnings": [
+          "NO_POWER_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/gr-86/v2/gr86-brochure.pdf",
+        "source_date": null,
+        "source_year": null,
+        "source_month": null
+      },
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "spec_validation": {
+        "status": "HISTORICAL_REVIEW",
+        "confidence_score": 58,
+        "issues": [],
+        "warnings": [
+          "HISTORICAL_SOURCE"
+        ],
+        "source_priority": "HISTORICAL_OR_SECONDARY"
+      },
+      "provenance": {
+        "source_file": "gr86-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/gr-86/v2/gr86-brochure.pdf",
+        "source_date": null,
+        "source_year": null
+      }
+    },
+    {
+      "source_file": "harrier-hev-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.584533",
+      "model_name_candidate": "Harrier HEV",
+      "text_length": 16721,
+      "variants_candidates": [
+        "2.5L",
+        "4.7L",
+        "HYBRID ELECTRIC",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "2.5",
+          "4.7"
+        ],
+        "power_candidates": [
+          "178",
+          "217"
+        ],
+        "torque_candidates": [
+          "221",
+          "202"
+        ],
+        "transmission_candidates": [
+          "E-CVT",
+          "CVT"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Parking Support Brake",
+        "Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Panoramic View Monitor",
+        "Dual Zone",
+        "Leather",
+        "LED",
+        "Head-Up Display"
+      ],
+      "warranty_candidates": [
+        "GUARAN-T Total peace of mind. 5-year warranty with unlimited mileage from date of the first registration. Terms and Conditions apply.",
+        "Terms and Conditions apply. 8-year warranty from the date of first registration with unlimited mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter and power management",
+        "Terms and Conditions apply. 8-year warranty from the date of first registration with unlimited mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter and power management control ECU. Warranty can be extended for",
+        "registration with unlimited mileage covering the Hybrid Electric Vehicle (HEV) battery, inverter and power management control ECU. Warranty can be extended for another 2 years. Terms and Conditions apply."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 90,
+        "expected_model_from_filename": "Harrier HEV",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:2.5,4.7"
+        ],
+        "warnings": []
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/harrier-hev/march-2026/v2/harrier-hev-e-brochure.pdf",
+        "source_date": "2026-march",
+        "source_year": 2026,
+        "source_month": "march"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "VERIFIED_CANDIDATE",
+        "confidence_score": 85,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "harrier-hev-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/harrier-hev/march-2026/v2/harrier-hev-e-brochure.pdf",
+        "source_date": "2026-march",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "hiace-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.598212",
+      "model_name_candidate": "Hiace",
+      "text_length": 4903,
+      "variants_candidates": [
+        "3.0L"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "3.0"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "BA",
+        "airbags",
+        "airbag"
+      ],
+      "feature_candidates": [
+        "USB",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "7 available locally. \"aad YEARS Fee eee ee ton bones a + Vehicle body and accessory colours might defer slightly from the printed =e travelled, whichever occurs first. photos in this catalogue. 3 WARRANTY Terms & Conditions apply. + Optional accessories are available at extra cost. ‘ + Allimages used are for illustrative purposes. UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 70,
+        "expected_model_from_filename": "Hiace",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:3.0"
+        ],
+        "warnings": [
+          "NO_POWER_CANDIDATE",
+          "NO_TORQUE_CANDIDATE",
+          "LIMITED_FEATURE_DATA"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/hiace/april-2026/hiace-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026,
+        "source_month": "april"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 60,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "hiace-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/hiace/april-2026/hiace-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "hilux-bev-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.603245",
+      "model_name_candidate": "Hilux BEV",
+      "text_length": 9017,
+      "variants_candidates": [
+        "6.5HOURS",
+        "BEV"
+      ],
+      "technical_specifications": {
+        "power_candidates": [
+          "196"
+        ],
+        "drivetrain_candidates": [
+          "4WD"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "ABS",
+        "BA"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "USB",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "74 Actual vehicle colour may vary from image above. as WARRANTY Yy EZZIS ONDIMITED MNDEAGE XA «BEV BATTERY -INVERTER -BEVECU"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 65,
+        "expected_model_from_filename": "Hilux BEV",
+        "issues": [],
+        "warnings": [
+          "NO_DISPLACEMENT_CANDIDATE",
+          "NO_TORQUE_CANDIDATE",
+          "LIMITED_SAFETY_DATA"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/hilux-bev/april-2026/hilux-bev-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026,
+        "source_month": "april"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 60,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "hilux-bev-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/hilux-bev/april-2026/hilux-bev-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.613953",
+      "model_name_candidate": "Hilux GR Sport",
+      "text_length": 17286,
+      "variants_candidates": [
+        "2.4V",
+        "2.4E",
+        "GR SPORT"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "2.8"
+        ],
+        "transmission_candidates": [
+          "6-speed automatic",
+          "6-speed Manual"
+        ],
+        "drivetrain_candidates": [
+          "4WD"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Dynamic Radar Cruise Control",
+        "Adaptive Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Panoramic View Monitor",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "Please refer to the full spec sheet at the back of the brochure. 5 years warranty from the date of first registration or 150,000 km travelled, whichever occurs first. Terms and conditions apply. OPTIONAL ACCESSORIES",
+        "00 m mm (2 mm m 5,3 6m 5 years warranty from the date of first Hilux has been awarded a 5-star (2. .4 L v 28 registration or 150,000 km travelled, 8 L ari rating in the Adult Occupant va ant whichever occurs first."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 80,
+        "expected_model_from_filename": "Hilux GR Sport",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:2.8"
+        ],
+        "warnings": [
+          "NO_POWER_CANDIDATE",
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/hilux/2026/sept/v1/hilux-gr-s-rogue-e-brochure.pdf",
+        "source_date": "2026",
+        "source_year": 2026,
+        "source_month": null
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 70,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/hilux/2026/sept/v1/hilux-gr-s-rogue-e-brochure.pdf",
+        "source_date": "2026",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "toyota-vios-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.629632",
+      "model_name_candidate": "Vios",
+      "text_length": 12793,
+      "variants_candidates": [
+        "1.5G",
+        "1.5E"
+      ],
+      "technical_specifications": {
+        "power_candidates": [
+          "106"
+        ],
+        "torque_candidates": [
+          "138"
+        ],
+        "transmission_candidates": [
+          "CVT",
+          "7-speed CVT with",
+          "7-Speed CVT with Sequential Shiftmatic"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitor",
+        "BSM",
+        "RCTA",
+        "AHB",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Multi Information Display",
+        "Panoramic View Monitor",
+        "Parking Clearance Sonar",
+        "Electronic Parking Brake",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "Total peace of mind 5 years vehicle warranty from the date of ﬁrst registration with unlimited mileage.",
+        "5 years vehicle warranty from the date of ﬁrst registration with unlimited mileage. Terms and conditions apply"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "VALID_CANDIDATE",
+        "confidence_score": 80,
+        "expected_model_from_filename": "Vios",
+        "issues": [],
+        "warnings": [
+          "NO_DISPLACEMENT_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/vios/april-2026/toyota-vios-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026,
+        "source_month": "april"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 70,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "toyota-vios-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/vios/april-2026/toyota-vios-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "toyota-vios-hev-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.640366",
+      "model_name_candidate": "Vios HEV",
+      "text_length": 15555,
+      "variants_candidates": [
+        "1.5G",
+        "1.5E",
+        "Hybrid Electric",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "transmission_candidates": [
+          "CVT",
+          "7-Speed CVT with Sequential Shiftmatic"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Multi Information Display",
+        "Panoramic View Monitor",
+        "Parking Clearance Sonar",
+        "Electronic Parking Brake",
+        "Leather",
+        "LED",
+        "Toyota Vios"
+      ],
+      "warranty_candidates": [
+        "Q EM Ids LL) en * WARRAMH A Re a —— Ror R onl CRC ESA Ce EL) cA AORN Rel Romie ace treo) Y > ae . the date of first registration unlimited mileage, covering the Hybrid Electric Vehicle i Ss iy — ae: = with unlimited mileage. (HEV) battery, inverter, and power management control _— fl = — Terms and conditions apply. OU O)o}eColat- ARR aol ot ltt CR LEC Aol old me extended for another 2 years (9% & 10\" year).",
+        "en * WARRAMH A Re a —— Ror R onl CRC ESA Ce EL) cA AORN Rel Romie ace treo) Y > ae . the date of first registration unlimited mileage, covering the Hybrid Electric Vehicle i Ss iy — ae: = with unlimited mileage. (HEV) battery, inverter, and power management control _— fl = — Terms and conditions apply. OU O)o}eColat- ARR aol ot ltt CR LEC Aol old me extended for another 2 years (9% & 10\" year). Terms and conditions apply."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 70,
+        "expected_model_from_filename": "Vios HEV",
+        "issues": [],
+        "warnings": [
+          "NO_DISPLACEMENT_CANDIDATE",
+          "NO_POWER_CANDIDATE",
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/vios-hev/april-2026/toyota-vios-hev-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026,
+        "source_month": "april"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 48,
+        "issues": [],
+        "warnings": [
+          "NO_MODEL_SPECIFIC_RANGE"
+        ],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "toyota-vios-hev-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/vios-hev/april-2026/toyota-vios-hev-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.654250",
+      "model_name_candidate": "Vios HEV GR Sport",
+      "text_length": 16766,
+      "variants_candidates": [
+        "GR SPORT",
+        "HYBRID ELECTRIC",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "power_candidates": [
+          "2"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "LTA",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "AHB",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Multi Information Display",
+        "Panoramic View Monitor",
+        "Parking Clearance Sonar",
+        "Electronic Parking Brake",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "===== PAGE 11 ===== CONNECTIVITY & WARRANTY ALL-NEW VIOS HYBRID ELECTRIC GR SPORT Intuitive cc fours i s",
+        "*FREE subscription for the first 3 years GUARAN- Total peace of mind —— a ee AS WARRANTY PTET as) ; eT ee jaa\" FF gp en cea ra 3 —_—_ FN > SLs) aes (HEV) LA A and power management feet"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 70,
+        "expected_model_from_filename": "Vios HEV GR Sport",
+        "issues": [],
+        "warnings": [
+          "NO_DISPLACEMENT_CANDIDATE",
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/vios-hev-grs/april-2026/toyota-vios-hev-gr-sport-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026,
+        "source_month": "april"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 53,
+        "issues": [],
+        "warnings": [
+          "NO_MODEL_SPECIFIC_RANGE"
+        ],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/vios-hev-grs/april-2026/toyota-vios-hev-gr-sport-e-brochure.pdf",
+        "source_date": "2026-april",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "urban-cruiser-bev-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.669203",
+      "model_name_candidate": "Urban Cruiser BEV",
+      "text_length": 9702,
+      "variants_candidates": [
+        "5.2m",
+        "BEV"
+      ],
+      "technical_specifications": {
+        "torque_candidates": [
+          "193"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Adaptive Cruise Control",
+        "Blind Spot Monitor",
+        "BSM",
+        "RCTA",
+        "Brake Assist",
+        "BA",
+        "airbags",
+        "airbag"
+      ],
+      "feature_candidates": [
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "“i WHITE (ZHJ) BLACK (WB3) LAND BREEZE EN WA ) Actual vehicle colour may vary from image above. 5 YEARS WARRANTY d From the date of first registration with unlimited mileage. y Terms and Conditions apply. (AR fen",
+        "EN WA ) Actual vehicle colour may vary from image above. 5 YEARS WARRANTY d From the date of first registration with unlimited mileage. y Terms and Conditions apply. (AR fen 8 YEARS WARRANTY from the date of first registration with unlimited",
+        "From the date of first registration with unlimited mileage. y Terms and Conditions apply. (AR fen 8 YEARS WARRANTY from the date of first registration with unlimited mileage for BEV battery, inverter and BEV ECU. BATTERY ROECTRIC Optionally, this Battery Electric warranty can be",
+        "8 YEARS WARRANTY from the date of first registration with unlimited mileage for BEV battery, inverter and BEV ECU. BATTERY ROECTRIC Optionally, this Battery Electric warranty can be «BEV BATTERY -INVERTER «BEV ECU extended for another 2 years (9th & 10th year). Terms and Conditions apply."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 65,
+        "expected_model_from_filename": "Urban Cruiser BEV",
+        "issues": [],
+        "warnings": [
+          "NO_DISPLACEMENT_CANDIDATE",
+          "NO_POWER_CANDIDATE",
+          "LIMITED_FEATURE_DATA"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/urban-cruiser/march-2026/urban-cruiser-bev-e-brochure.pdf",
+        "source_date": "2026-march",
+        "source_year": 2026,
+        "source_month": "march"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 55,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "urban-cruiser-bev-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/urban-cruiser/march-2026/urban-cruiser-bev-e-brochure.pdf",
+        "source_date": "2026-march",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.678478",
+      "model_name_candidate": "Alphard",
+      "text_length": 30171,
+      "variants_candidates": [
+        "2.5L",
+        "2.4L",
+        "2.4T",
+        "Hybrid Electric",
+        "HEV"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "2.5",
+          "2.4"
+        ],
+        "power_candidates": [
+          "182",
+          "278"
+        ],
+        "torque_candidates": [
+          "235",
+          "430"
+        ],
+        "transmission_candidates": [
+          "E-CVT",
+          "CVT",
+          "8-speed Automatic",
+          "7-speed Super CVT-i with Sports Sequential Shiftmatic"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Lane Tracing Assist",
+        "LTA",
+        "Dynamic Radar Cruise Control",
+        "DRCC",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Parking Support Brake",
+        "Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "ABS",
+        "EBD",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "USB",
+        "Smart Entry",
+        "Multi Information Display",
+        "Panoramic View Monitor",
+        "Parking Sensor",
+        "Power Seat",
+        "Leather",
+        "LED",
+        "Head-Up Display"
+      ],
+      "warranty_candidates": [
+        ": WU i * UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. * Details of specifications and equipment are also subject to change to suit local conditions and requirements. >. Pt pe ES HYBRID ELECTRIC * Vehicle and specifications in this i a may aan sili available locally. Vehicle body ond YEARS with unlimited mileage. WARRANTY accessory colours might differ slightly from the printed photos in this catalogue. WARRANTY terms and Conditions apply. Energy Efficient Vehicle \"POWER MANAGEMENT CONTROL ECU « Allimages are used for illustrative purposes. ===== PAGE 18 =====",
+        "* Details of specifications and equipment are also subject to change to suit local conditions and requirements. >. Pt pe ES HYBRID ELECTRIC * Vehicle and specifications in this i a may aan sili available locally. Vehicle body ond YEARS with unlimited mileage. WARRANTY accessory colours might differ slightly from the printed photos in this catalogue. WARRANTY terms and Conditions apply. Energy Efficient Vehicle \"POWER MANAGEMENT CONTROL ECU « Allimages are used for illustrative purposes. ===== PAGE 18 =====",
+        "ys ! ' —_ 1 i = 3h Sy (Ghat ef OL jh | | fo CCC tS a s <——1,605mm 3,000mm 1,625mm == 5 years warranty from the 1,850 5,010 j 7 . date of first registration — = a ‘WA ath | with unlimited mileage. Diagrams shown are for illustration purposes only. Terms and Conditions apply. Energy Efficient Vehicle",
+        "| | fo CCC tS a s <——1,605mm 3,000mm 1,625mm == 5 years warranty from the 1,850 5,010 j 7 . date of first registration — = a ‘WA ath | with unlimited mileage. Diagrams shown are for illustration purposes only. Terms and Conditions apply. Energy Efficient Vehicle ===== PAGE 29 ====="
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 90,
+        "expected_model_from_filename": "Alphard",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:2.5,2.4"
+        ],
+        "warnings": []
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/alphard-and-vellfire/july-2026/v4/vellfire-alphard-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026,
+        "source_month": "july"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "VERIFIED_CANDIDATE",
+        "confidence_score": 85,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "vellfire-alphard-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/alphard-and-vellfire/july-2026/v4/vellfire-alphard-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026
+      }
+    },
+    {
+      "source_file": "veloz-e-brochure-3.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.704999",
+      "model_name_candidate": "Veloz",
+      "text_length": 19137,
+      "variants_candidates": [
+        "1.5L"
+      ],
+      "technical_specifications": {
+        "displacement_candidates": [
+          "1.5"
+        ],
+        "transmission_candidates": [
+          "CVT",
+          "7-Speed CVT >",
+          "7-speed CVT"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Toyota Safety Sense",
+        "Pre-Collision System",
+        "PCS",
+        "LDA",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "Brake Assist",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag",
+        "ISOFIX"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Panoramic View Monitor",
+        "Parking Sensor",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "*Android Auto™ will be available when the service is officially launched in Malaysia. WARRAN- 1 : For a total peace of mind > .... 5 years warranty from the mTAIr ea; date of first registration with WARRANTY ianlimited mitcage. Actual vehicle may vary from image shown.",
+        "For a total peace of mind > .... 5 years warranty from the mTAIr ea; date of first registration with WARRANTY ianlimited mitcage. Actual vehicle may vary from image shown. ===== PAGE 13 =====",
+        "EX TRA MUUGE eerree Apple CarPlay WA RRAKG ries <i as r QD TOYOTA works with 5 years warranty from the The Veloz has been Energy Efficient Vehicle androidauto date of first registration awarded a 5-star with unlimited mileage. ASEAN NCAP For Your Auto-Financing Needs Terms and Conditions apply. safety rating.",
+        "as r QD TOYOTA works with 5 years warranty from the The Veloz has been Energy Efficient Vehicle androidauto date of first registration awarded a 5-star with unlimited mileage. ASEAN NCAP For Your Auto-Financing Needs Terms and Conditions apply. safety rating. UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am — 5:30pm, Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my"
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "REVIEW_REQUIRED",
+        "confidence_score": 80,
+        "expected_model_from_filename": "Veloz",
+        "issues": [
+          "SUSPICIOUS_DISPLACEMENT:1.5"
+        ],
+        "warnings": [
+          "NO_POWER_CANDIDATE",
+          "NO_TORQUE_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/veloz-e-brochure-3.pdf",
+        "source_date": null,
+        "source_year": null,
+        "source_month": null
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 65,
+        "issues": [],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "veloz-e-brochure-3.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/veloz-e-brochure-3.pdf",
+        "source_date": null,
+        "source_year": null
+      }
+    },
+    {
+      "source_file": "yaris-e-brochure.txt",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T20:01:59.723342",
+      "model_name_candidate": "Yaris",
+      "text_length": 10890,
+      "variants_candidates": [
+        "1.5G",
+        "1.5E"
+      ],
+      "technical_specifications": {
+        "power_candidates": [
+          "107",
+          "2"
+        ],
+        "torque_candidates": [
+          "140"
+        ],
+        "transmission_candidates": [
+          "CVT",
+          "7-speed Sport Sequential shifting gears up or down with Choose between SPORT and",
+          "7-speed Sport Sequential Shiftmatic mode"
+        ]
+      },
+      "dimensions": {},
+      "safety_features_candidates": [
+        "Pre-Collision System",
+        "PCS",
+        "Lane Departure Alert",
+        "LDA",
+        "Blind Spot Monitor",
+        "BSM",
+        "Rear Cross Traffic Alert",
+        "RCTA",
+        "Panoramic View Monitor",
+        "3D Panoramic View Monitor",
+        "Vehicle Stability Control",
+        "VSC",
+        "Traction Control",
+        "TRC",
+        "ABS",
+        "EBD",
+        "BA",
+        "Hill-start Assist Control",
+        "HAC",
+        "airbags",
+        "airbag"
+      ],
+      "feature_candidates": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Wireless Charger",
+        "Bluetooth",
+        "USB",
+        "Smart Entry",
+        "Push Start",
+        "Panoramic View Monitor",
+        "Parking Sensor",
+        "Leather",
+        "LED"
+      ],
+      "warranty_candidates": [
+        "The Yaris has been Follow us! awarded a 5-star 5 years warranty from the ASEAN NCAP Toyota Malaysia date of first registration safety rating. with unlimited mileage. Energy Ef f icient toyotamy",
+        "5 years warranty from the ASEAN NCAP Toyota Malaysia date of first registration safety rating. with unlimited mileage. Energy Ef f icient toyotamy Terms and conditions apply. Vehicle UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am – 5:30pm, Monday to Friday."
+      ],
+      "validation_status": "CANDIDATE_ONLY",
+      "validation": {
+        "validation_status": "VALID_CANDIDATE",
+        "confidence_score": 80,
+        "expected_model_from_filename": "Yaris",
+        "issues": [],
+        "warnings": [
+          "NO_DISPLACEMENT_CANDIDATE"
+        ]
+      },
+      "source_metadata": {
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/yaris/july-2026/yaris-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026,
+        "source_month": "july"
+      },
+      "source_priority": "CURRENT_PRIMARY",
+      "spec_validation": {
+        "status": "REVIEW_REQUIRED",
+        "confidence_score": 55,
+        "issues": [
+          "SUSPICIOUS_PS:2.0"
+        ],
+        "warnings": [],
+        "source_priority": "CURRENT_PRIMARY"
+      },
+      "provenance": {
+        "source_file": "yaris-e-brochure.txt",
+        "source_type": "Toyota Malaysia Official Brochure",
+        "brochure_url": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/yaris/july-2026/yaris-e-brochure.pdf",
+        "source_date": "2026-july",
+        "source_year": 2026
+      }
+    }
+  ]
+}

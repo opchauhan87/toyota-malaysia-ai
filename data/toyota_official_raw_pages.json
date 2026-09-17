@@ -1,0 +1,317 @@
+{
+  "source": "Toyota Malaysia Official",
+  "generated_at": "2026-09-15 19:31:57",
+  "total_pages": 31,
+  "successful": 30,
+  "failed": 1,
+  "pages": [
+    {
+      "model_name": "GR86",
+      "official_url": "https://www.toyota.com.my/en/models/gr86.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:53",
+      "http_fetch": "SUCCESS",
+      "html_length": 1424898,
+      "text_length": 1135,
+      "raw_text": "Toyota GR86 | Coupe | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "GR Corolla",
+      "official_url": "https://www.toyota.com.my/en/models/gr-corolla.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:53",
+      "http_fetch": "SUCCESS",
+      "html_length": 1417121,
+      "text_length": 1148,
+      "raw_text": "Toyota GR Corolla | Sports Hatchback | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "GR Yaris",
+      "official_url": "https://www.toyota.com.my/en/models/gr-yaris.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:53",
+      "http_fetch": "SUCCESS",
+      "html_length": 1412497,
+      "text_length": 1146,
+      "raw_text": "Toyota GR Yaris | Sports Hatchback | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Corolla Cross HEV GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric/corolla-cross-hev-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:53",
+      "http_fetch": "SUCCESS",
+      "html_length": 1492304,
+      "text_length": 1245,
+      "raw_text": "Toyota Corolla Cross HEV GR Sport | SUV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Hilux GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:53",
+      "http_fetch": "SUCCESS",
+      "html_length": 1472885,
+      "text_length": 1236,
+      "raw_text": "Toyota Hilux GR Sport | Pickup | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Corolla GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/corolla/corolla-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:53",
+      "http_fetch": "SUCCESS",
+      "html_length": 1466652,
+      "text_length": 1246,
+      "raw_text": "Toyota Corolla GR Sport | Specifications | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Vios HEV GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/vios/vios-hev-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:54",
+      "http_fetch": "SUCCESS",
+      "html_length": 1501541,
+      "text_length": 1269,
+      "raw_text": "Toyota Vios HEV GR Sport | Sedan | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Yaris Cross HEV",
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:54",
+      "http_fetch": "SUCCESS",
+      "html_length": 1451371,
+      "text_length": 1270,
+      "raw_text": "Toyota Yaris Cross Hybrid Electric | SUV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "bZ4X",
+      "official_url": "https://www.toyota.com.my/en/models/bz4x.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:54",
+      "http_fetch": "SUCCESS",
+      "html_length": 1426547,
+      "text_length": 1293,
+      "raw_text": "Toyota bZ4X | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Urban Cruiser BEV",
+      "official_url": "https://www.toyota.com.my/en/models/urban-cruiser.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:54",
+      "http_fetch": "SUCCESS",
+      "html_length": 1425992,
+      "text_length": 1302,
+      "raw_text": "Toyota Urban Cruiser | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Hilux BEV",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-bev.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:54",
+      "http_fetch": "SUCCESS",
+      "html_length": 1446100,
+      "text_length": 1263,
+      "raw_text": "Toyota Hilux BEV | Pickup | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Corolla Cross HEV",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:54",
+      "http_fetch": "SUCCESS",
+      "html_length": 1471411,
+      "text_length": 1368,
+      "raw_text": "Toyota Corolla Cross Hybrid Electric | Crossover | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Innova Zenix HEV",
+      "official_url": "https://www.toyota.com.my/en/models/zenix/zenix-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:54",
+      "http_fetch": "SUCCESS",
+      "html_length": 1470459,
+      "text_length": 1323,
+      "raw_text": "Toyota Innova Zenix Hybrid Electric | Crossover | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Camry HEV",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:54",
+      "http_fetch": "SUCCESS",
+      "html_length": 1444949,
+      "text_length": 1247,
+      "raw_text": "Toyota Camry Hybrid Electric | Sedan | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Vellfire HEV",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire/vellfire-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:55",
+      "http_fetch": "SUCCESS",
+      "html_length": 1462433,
+      "text_length": 1221,
+      "raw_text": "Toyota Vellfire Hybrid Electric | Executive MPV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} Scroll down {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Vios HEV",
+      "official_url": "https://www.toyota.com.my/en/models/vios/vios-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:55",
+      "http_fetch": "SUCCESS",
+      "html_length": 1467833,
+      "text_length": 1228,
+      "raw_text": "Toyota Vios Hybrid Electric | Sedan | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} Scroll down {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Harrier HEV",
+      "official_url": "https://www.toyota.com.my/en/models/harrier-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:55",
+      "http_fetch": "SUCCESS",
+      "html_length": 1451360,
+      "text_length": 1266,
+      "raw_text": "Toyota Harrier Hybrid Electric | SUV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "yaris cross",
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross-hybrid-electric/yaris-cross.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:55",
+      "http_fetch": "SUCCESS",
+      "html_length": 1416662,
+      "text_length": 1212,
+      "raw_text": "Toyota Yaris Cross | Specifications | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "fortuner",
+      "official_url": "https://www.toyota.com.my/en/models/fortuner.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:55",
+      "http_fetch": "SUCCESS",
+      "html_length": 1445654,
+      "text_length": 1232,
+      "raw_text": "Toyota Fortuner | SUV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "vios",
+      "official_url": "https://www.toyota.com.my/en/models/vios.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:55",
+      "http_fetch": "SUCCESS",
+      "html_length": 1461187,
+      "text_length": 1222,
+      "raw_text": "Toyota Vios | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "corolla",
+      "official_url": "https://www.toyota.com.my/en/models/corolla.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:55",
+      "http_fetch": "SUCCESS",
+      "html_length": 1444396,
+      "text_length": 1323,
+      "raw_text": "Toyota Corolla | Sedan | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "camry",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric/camry.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:56",
+      "http_fetch": "SUCCESS",
+      "html_length": 1450089,
+      "text_length": 1286,
+      "raw_text": "Toyota Camry 2.5 V AT | Sedan | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "yaris",
+      "official_url": "https://www.toyota.com.my/en/models/yaris.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:56",
+      "http_fetch": "SUCCESS",
+      "html_length": 1451153,
+      "text_length": 1325,
+      "raw_text": "Toyota Yaris | Hatchback | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "veloz",
+      "official_url": "https://www.toyota.com.my/en/models/veloz.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:56",
+      "http_fetch": "SUCCESS",
+      "html_length": 1445543,
+      "text_length": 1248,
+      "raw_text": "Toyota Veloz | MPV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} 1\"> {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Innova Zenix",
+      "official_url": "https://www.toyota.com.my/en/models/zenix.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:56",
+      "http_fetch": "SUCCESS",
+      "html_length": 1445009,
+      "text_length": 1236,
+      "raw_text": "Toyota Innova Zenix | MPV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} 1\"> {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "vellfire",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:56",
+      "http_fetch": "SUCCESS",
+      "html_length": 1443669,
+      "text_length": 1261,
+      "raw_text": "Toyota Vellfire | Executive MPV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "alphard",
+      "official_url": "https://www.toyota.com.my/en/models/alphard.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:56",
+      "http_fetch": "SUCCESS",
+      "html_length": 1440564,
+      "text_length": 1231,
+      "raw_text": "Toyota Alphard | MPV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "hilux",
+      "official_url": "https://www.toyota.com.my/en/models/hilux.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:56",
+      "http_fetch": "SUCCESS",
+      "html_length": 1474282,
+      "text_length": 1322,
+      "raw_text": "Toyota Hilux | Pickup | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> , 0\"> 1\" class=\"cpl-i-hva--location\">{{card.locations.length + \" \" + card.locationsType}} {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "hiace slwb",
+      "official_url": "https://www.toyota.com.my/en/models/hiace-slwb.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:57",
+      "http_fetch": "SUCCESS",
+      "html_length": 1415816,
+      "text_length": 1196,
+      "raw_text": "Toyota Hiace SLWB | Van | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "hiace",
+      "official_url": "https://www.toyota.com.my/en/models/hiace.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:57",
+      "http_fetch": "SUCCESS",
+      "html_length": 1408355,
+      "text_length": 1210,
+      "raw_text": "Toyota Hiace | Van | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[priceOption]}} 1 && !list.hideInNav\"> !item.hideMlp)\"> {{list.priceList[priceOption]}} {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} {{masthead.content.priceList[priceOption]}} Scroll down {{overview.content.externalLink.label}} {{overview.footer.priceList[priceOption]}} {{card.smallText}} {{card.smallText}} {{card.smallText}} {{card.smallText}} 1\"> {{acc.ctaBtn.label}} {{acc.priceSummary.header.label}} {{section.currency}} {{acc.priceSummary.header.amount}} {{acc.priceSummary.content.label}} {{list.amount}} {{acc.priceSummary.footer.label}} {{acc.priceSummary.footer.amount}} {{acc.priceSummary.ctaBtn.label}} {{priceOptions.state.label}} {{option.label}} {{priceOptions.priceType.label}} {{option.label}} {{explore.maintenanceLink.text}} 1\"> {{list.pdfLabel}} {{price.priceOptions[priceOption]}} SELECT COUNTRY Select Country Asia Bangladesh Bhutan Brunei Darussalam Cambodia Indonesia India Laos Malaysia Myanmar Nepal Pakistan Philippines Singapore Sri Lanka Thailand Vietnam Adjust cookie preferences"
+    },
+    {
+      "model_name": "Corolla Cross GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross/cross-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "fetched_at": "2026-09-15 19:31:57",
+      "http_fetch": "FAILED",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

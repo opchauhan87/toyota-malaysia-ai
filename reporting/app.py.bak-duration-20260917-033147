@@ -1,0 +1,140 @@
+from flask import Flask, render_template, jsonify, send_file, abort, request
+from pathlib import Path
+from datetime import datetime
+import json
+import os
+
+BASE_DIR = Path("/opt/toyota-malaysia-ai")
+REPORT_DIR = BASE_DIR / "reports" / "calls"
+RECORDING_DIR = BASE_DIR / "recordings"
+
+app = Flask(__name__)
+
+
+def load_reports():
+    reports = []
+
+    for path in REPORT_DIR.glob("toyota-*.json"):
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            data["_report_file"] = path.name
+            reports.append(data)
+
+        except Exception:
+            continue
+
+    reports.sort(
+        key=lambda x: x.get("start_time") or "",
+        reverse=True
+    )
+
+    return reports
+
+
+def calculate_stats(reports):
+    total = len(reports)
+
+    interested = sum(
+        1 for r in reports
+        if r.get("intent") == "Interested"
+    )
+
+    not_interested = sum(
+        1 for r in reports
+        if r.get("disposition") == "Not Interested"
+    )
+
+    callback = sum(
+        1 for r in reports
+        if r.get("disposition") == "Call Back Later"
+    )
+
+    whatsapp = sum(
+        1 for r in reports
+        if r.get("disposition") == "Interested – WhatsApp"
+    )
+
+    wrong_number = sum(
+        1 for r in reports
+        if r.get("disposition") == "Wrong Number"
+    )
+
+    dnc = sum(
+        1 for r in reports
+        if r.get("disposition") == "Do Not Contact"
+    )
+
+    total_duration = sum(
+        float(r.get("duration_seconds") or 0)
+        for r in reports
+    )
+
+    return {
+        "total": total,
+        "interested": interested,
+        "not_interested": not_interested,
+        "callback": callback,
+        "whatsapp": whatsapp,
+        "wrong_number": wrong_number,
+        "dnc": dnc,
+        "total_duration": round(total_duration, 2),
+    }
+
+
+@app.route("/")
+def dashboard():
+    reports = load_reports()
+    stats = calculate_stats(reports)
+
+    return render_template(
+        "dashboard.html",
+        reports=reports,
+        stats=stats
+    )
+
+
+@app.route("/api/reports")
+def api_reports():
+    reports = load_reports()
+    return jsonify({
+        "stats": calculate_stats(reports),
+        "reports": reports
+    })
+
+
+@app.route("/recordings/<path:filename>")
+def recording(filename):
+    requested = (RECORDING_DIR / filename).resolve()
+
+    try:
+        requested.relative_to(RECORDING_DIR.resolve())
+    except ValueError:
+        abort(403)
+
+    if not requested.is_file():
+        abort(404)
+
+    return send_file(
+        requested,
+        mimetype="audio/wav",
+        conditional=True
+    )
+
+
+@app.route("/health")
+def health():
+    return jsonify({
+        "status": "ok",
+        "reports": len(load_reports()),
+        "time": datetime.now().astimezone().isoformat()
+    })
+
+
+if __name__ == "__main__":
+    app.run(
+        host="127.0.0.1",
+        port=9080,
+        debug=False
+    )

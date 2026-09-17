@@ -1,0 +1,1519 @@
+{
+  "generated_at": "2026-09-15T20:37:52.645729",
+  "record_count": 28,
+  "records": [
+    {
+      "model_name": "Vios",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "1496"
+        ],
+        "transmission": [
+          "7-speed CVT with",
+          "7-Speed CVT with Sequential Shiftmatic"
+        ],
+        "fuel_type": [],
+        "battery": []
+      },
+      "evidence": {
+        "model_terms": [
+          "of where your journey starts and ends. Defy the norm and set a new course with the Vios. ALL-NEW FASTBACK",
+          "yet rear biased cabin. With a sporty lowered body yet reﬁned for comfort. It's not the Vios you know yet it's unmistakably Vios. Look ahead, not behind. Defy. More than just illuminating",
+          "sporty lowered body yet reﬁned for comfort. It's not the Vios you know yet it's unmistakably Vios. Look ahead, not behind. Defy. More than just illuminating your journey, the Vios projects"
+        ],
+        "power": [
+          "bold appearance in motion. LED Headlamps with Auto High Beam New sleek design that delivers an unmistakable brightness and improved driving visibility. Front Aerodynamic Air Vents",
+          "Toyota DOHC + Dual VVT-i 106 PS | 138 Nm The engine delivers both improved fuel eﬃciency and throttle response. Compact and reliable for a spirited drive every day.",
+          "LANE KEEPING CONTROL (LKC) Constantly keeps the vehicle centred in its lane by actively applying slight corrective steering. STEERING CONTROL"
+        ],
+        "torque": [
+          "sporty lowered body yet reﬁned for comfort. It's not the Vios you know yet it's unmistakably Vios. Look ahead, not behind. Defy. More than just illuminating your journey, the Vios projects",
+          "LED Headlamps with Auto High Beam New sleek design that delivers an unmistakable brightness and improved driving visibility. Front Aerodynamic Air Vents Improves brake cooling",
+          "Toyota DOHC + Dual VVT-i 106 PS | 138 Nm The engine delivers both improved fuel eﬃciency and throttle response. Compact and reliable for a spirited drive every day."
+        ],
+        "specification": [
+          "M02/26 SPECIFICATIONS 1.5G 1.5E ENGINE Model 2NR-VE Type 4-cylinder, In-line, 16-valve DOHC with Dual VVT-i"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Yaris",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "yaris-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "1496"
+        ],
+        "transmission": [
+          "7-speed Sport Sequential shifting gears up or down with Choose between SPORT and",
+          "7-speed Sport Sequential Shiftmatic mode",
+          "Continuously Variable Transmission (CVT) with"
+        ],
+        "fuel_type": [],
+        "battery": []
+      },
+      "evidence": {
+        "model_terms": [
+          "So, buckle up and get ready to amp up your vibe. Dare To Live with the New Yaris. 1 INTRO EXTERIOR",
+          "2-tone Black Roof, Front LED Headlamps, Outer Wing Mirror and Daytime Running Lights details to the blatant Rear Spoiler (DRL) & Fog Lamps sportiness, the New Yaris will get you turning heads. Pitch-black aesthetics around the The LED headlamps are New Yaris enhance its mystique, accentuated by the Daytime creating a striking first Running Lights (DRL) which help",
+          "will get you turning heads. Pitch-black aesthetics around the The LED headlamps are New Yaris enhance its mystique, accentuated by the Daytime creating a striking first Running Lights (DRL) which help impression. brighten up your drive. 2 EXTERIOR"
+        ],
+        "power": [
+          "always gotta look fire! From the eye-catching 2-tone Black Roof, Front LED Headlamps, Outer Wing Mirror and Daytime Running Lights details to the blatant Rear Spoiler (DRL) & Fog Lamps sportiness, the New Yaris will get you turning heads. Pitch-black aesthetics around the The LED headlamps are",
+          "2-tone Black Roof, Front LED Headlamps, Outer Wing Mirror and Daytime Running Lights details to the blatant Rear Spoiler (DRL) & Fog Lamps sportiness, the New Yaris will get you turning heads. Pitch-black aesthetics around the The LED headlamps are New Yaris enhance its mystique, accentuated by the Daytime creating a striking first Running Lights (DRL) which help",
+          "Rear Spoiler (DRL) & Fog Lamps sportiness, the New Yaris will get you turning heads. Pitch-black aesthetics around the The LED headlamps are New Yaris enhance its mystique, accentuated by the Daytime creating a striking first Running Lights (DRL) which help impression. brighten up your drive."
+        ],
+        "torque": [
+          "Dual VVT-i Engine MAX. OUTPUT MAX. TORQUE 107PS 140Nm The 2NR-FE engine offers smooth accelerations, fuel efficiency and effective delivery of power and torque.",
+          "MAX. OUTPUT MAX. TORQUE 107PS 140Nm The 2NR-FE engine offers smooth accelerations, fuel efficiency and effective delivery of power and torque. Continuously Variable Paddle Shifters Drive Mode Switch",
+          "Displacement cc (mm) 1,496 Max. output PS / rpm 107 / 6,000 Max. torque Nm / rpm 140 / 4,200 TRANSMISSION Type Continuously Variable Transmission (CVT) with 7-speed Sport Sequential Shiftmatic mode"
+        ],
+        "specification": [
+          "13 COLOUR OPTIONS SPECIFICATIONS 1.5G 1.5E ENGINE Model 2NR-FE Type 4-cylinder, In-line, 16-valve, DOHC with Dual VVT-i",
+          "Rear Digital Video Recorder (DVR) Optional • UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. • Details of specifications and equipment are also subject to change to suit local conditions and requirements. • Vehicle and specifications in this catalogue may vary from models available locally. • Vehicle body and accessory colours might differ from the photos in this catalogue. • Optional accessories are available at extra cost.",
+          "• UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. • Details of specifications and equipment are also subject to change to suit local conditions and requirements. • Vehicle and specifications in this catalogue may vary from models available locally. • Vehicle body and accessory colours might differ from the photos in this catalogue. • Optional accessories are available at extra cost. • All images used are for illustrative purposes."
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Yaris Cross",
+      "source_type": "SHARED_SOURCE",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "source_priority": null,
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "1500",
+          "3600",
+          "4",
+          "0"
+        ],
+        "transmission": [
+          "7-speed CVT with Sequential Shiftmatic e-CVT",
+          "e-CVT"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "3",
+          "12"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "(CO jee. & Better Emissions TEM eile Yaris Cross Hybrid 37 Experience the best of both worlds where Electric CO, Emissions: electric efficiency meets petrol power to improve Toyota's hybrid system helps create a cleaner, performance and elevate every drive with more sustainable future through less petrol effortless control. | usage and reduced carbon footprint.",
+          "===== PAGE 4 ===== A | The All-New Yaris Cross Hybrid Electric blends electric and Cp Me a smooth, fuel-efficient drive. Experience fi J | responsive acceleration, whisper-quiet operation, and == 7 =] on Ne co apepipgenetter ai MNT te dive foci gah BON knoe 1p ANTIK I Ke] oo Ec",
+          ">) i. R FO R 4 iN N ie is Designed to move with playful confidence, the All-New ee Yaris Cross delivers smooth, responsive performance, ae on turning every drive into an effortlessly joyful experience. CONFIDENCE IN MOTION a ee - 1.5L 2NR-VEX DOHC + DUAL VVT-I ENGINE VA , ~ ey"
+        ],
+        "power": [
+          "Yaris Cross Hybrid 37 Experience the best of both worlds where Electric CO, Emissions: electric efficiency meets petrol power to improve Toyota's hybrid system helps create a cleaner, performance and elevate every drive with more sustainable future through less petrol effortless control. | usage and reduced carbon footprint. | |",
+          "fs, ——— > SS ~ . (2 Aa 7 a ) Eh, ‘ ps = ff SE, 5 a I . | ian. 3 Dy y i 2 \\ , 4 ie AE b ae / \\ A 4",
+          "wae = eae _ repositioning of the Hybrid Electric battery | : allows the boot space to be uncompromised. LED REAR COMBINATION LAMPS Fa -_ ™ Distinctive light curtain tail lamps deliver a sharp, uniform glow - elevating visibility and accentuating the vehicle's moder design. F ~ a ."
+        ],
+        "torque": [
+          "ey oa . Ae LGA class-leading low COz emissions, and no extra 1 2 i te ae i y ae maintenance required, every drive is efficient, 1 Taam g bs a4 oN yy, confident, and carefree. Max. Torque “ CaS eed 4, *Based on NEDC (Combined). Ba - g Cos as Fa 5 ey ee i), Z om Se 5 eae",
+          "EES : SUMP ae Va ee en iia WIRELESS CHARGER Nise e Bie OE) CIRO) WIRELESS AACP CONNECTIVITY* Offers convenient charging for Qi** PNM al ccre etree) Ur Teale) Connect your smartphone wirelessly standard-compliant devices, and shares your vehicle's real-time to the multimedia display for calls, without the use of a cable. location through a mobile app. music, and navigation. With Apple DCE Et Ameen aa CarPlay® and Android Auto™, enjoy fey se eee",
+          "Engine Torque Ware) 138 / 4,200 121 / 4,000 - 4,800 Electric Motor Power kW (PS) - 59 (80) Electric Motor Torque Nm - aca Combined Output — kW (PS) a 82 (111) TRANSMISSION aero 7-speed CVT with Sequential Shiftmatic e-CVT CHASSIS (en"
+        ],
+        "specification": [
+          "===== PAGE 14 ===== SPECIFICATIONS ENGINE Ae) oP da AV Model 2NR-VE 2NR-VEX Type 4-cylinder, In-line, 16-valve DOHC with Dual-VVT-i Displacement cc spel)",
+          "===== PAGE 15 ===== SPECIFICATIONS INTERIOR ib R-}-) oR 3 |= Tana alia a 1alOMIe- Lams 1-180) With Drive Mode Switch Peta cor Normal Mode Meter Combination eens Negative L LCD Pease ences",
+          "===== PAGE 16 ===== SPECIFICATIONS 10a d ABS) P| ACTIVE Surrounding Monitoring System Blind Spot Monitor (BSM) rn"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Yaris Cross HEV",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "1500",
+          "3600",
+          "4",
+          "0"
+        ],
+        "transmission": [
+          "7-speed CVT with Sequential Shiftmatic e-CVT",
+          "e-CVT"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "3",
+          "12"
+        ]
+      },
+      "evidence": {
+        "model_terms": [],
+        "power": [
+          "Yaris Cross Hybrid 37 Experience the best of both worlds where Electric CO, Emissions: electric efficiency meets petrol power to improve Toyota's hybrid system helps create a cleaner, performance and elevate every drive with more sustainable future through less petrol effortless control. | usage and reduced carbon footprint. | |",
+          "fs, ——— > SS ~ . (2 Aa 7 a ) Eh, ‘ ps = ff SE, 5 a I . | ian. 3 Dy y i 2 \\ , 4 ie AE b ae / \\ A 4",
+          "wae = eae _ repositioning of the Hybrid Electric battery | : allows the boot space to be uncompromised. LED REAR COMBINATION LAMPS Fa -_ ™ Distinctive light curtain tail lamps deliver a sharp, uniform glow - elevating visibility and accentuating the vehicle's moder design. F ~ a ."
+        ],
+        "torque": [
+          "ey oa . Ae LGA class-leading low COz emissions, and no extra 1 2 i te ae i y ae maintenance required, every drive is efficient, 1 Taam g bs a4 oN yy, confident, and carefree. Max. Torque “ CaS eed 4, *Based on NEDC (Combined). Ba - g Cos as Fa 5 ey ee i), Z om Se 5 eae",
+          "EES : SUMP ae Va ee en iia WIRELESS CHARGER Nise e Bie OE) CIRO) WIRELESS AACP CONNECTIVITY* Offers convenient charging for Qi** PNM al ccre etree) Ur Teale) Connect your smartphone wirelessly standard-compliant devices, and shares your vehicle's real-time to the multimedia display for calls, without the use of a cable. location through a mobile app. music, and navigation. With Apple DCE Et Ameen aa CarPlay® and Android Auto™, enjoy fey se eee",
+          "Engine Torque Ware) 138 / 4,200 121 / 4,000 - 4,800 Electric Motor Power kW (PS) - 59 (80) Electric Motor Torque Nm - aca Combined Output — kW (PS) a 82 (111) TRANSMISSION aero 7-speed CVT with Sequential Shiftmatic e-CVT CHASSIS (en"
+        ],
+        "specification": [
+          "===== PAGE 14 ===== SPECIFICATIONS ENGINE Ae) oP da AV Model 2NR-VE 2NR-VEX Type 4-cylinder, In-line, 16-valve DOHC with Dual-VVT-i Displacement cc spel)",
+          "===== PAGE 15 ===== SPECIFICATIONS INTERIOR ib R-}-) oR 3 |= Tana alia a 1alOMIe- Lams 1-180) With Drive Mode Switch Peta cor Normal Mode Meter Combination eens Negative L LCD Pease ences",
+          "===== PAGE 16 ===== SPECIFICATIONS 10a d ABS) P| ACTIVE Surrounding Monitoring System Blind Spot Monitor (BSM) rn"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Corolla",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "corolla-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "7",
+          "1800",
+          "6",
+          "8"
+        ],
+        "transmission": [
+          "7-speed Continuously Variable",
+          "7-speed gear shifts.",
+          "7-speed Sequential Shiftmatic CVT"
+        ],
+        "fuel_type": [],
+        "battery": [
+          "7",
+          "2"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "wy a oe = THisis COROLLA — ADRIVE QUALITY | DURABILITY | RELIABILITY",
+          ": x | : | | oe | MORE PRESTIGIOUS. Stand out in the crowd with an imposing new look. With protruding front and rear bumper corners and a front lower grille design that highlights impressive detailing, the Toyota Corolla is ready to take on tomorrow. | Tampil berbeza dengan gaya baharu. Dilengkapi dengan rekaan hadapan melengkung, bampar sisi dan rekaan gril hadapan rendah yang menyerlahkan kemasan terperinci. Toyota Corolla bersedia untuk menawan hari esok. B/W 4 re Nae” oe : 4 tL ieee | :",
+          "grille design that highlights impressive detailing, the Toyota Corolla is ready to take on tomorrow. | Tampil berbeza dengan gaya baharu. Dilengkapi dengan rekaan hadapan melengkung, bampar sisi dan rekaan gril hadapan rendah yang menyerlahkan kemasan terperinci. Toyota Corolla bersedia untuk menawan hari esok. B/W 4 re Nae” oe : 4 tL ieee | : a SN we AN =a pa . Ss a"
+        ],
+        "power": [
+          "pa . Ss a a oe - Auto Bi-LED Headlamps 17” Alloy Rims LED-based that further emphasises the Exclusively developed for Prestige models, headlamps’ wide and dynamic appeal. the alloy rims’ multi-axis configuration exudes athletic boldness that adds to its premium profile.",
+          "Auto Bi-LED Headlamps 17” Alloy Rims LED-based that further emphasises the Exclusively developed for Prestige models, headlamps’ wide and dynamic appeal. the alloy rims’ multi-axis configuration exudes athletic boldness that adds to its premium profile. Lampu Utama LED taco) a Rekaan estetik Lampu Utama diserlahkan Direka khas untuk model Prestige, rim aloi dengan",
+          ", FE im Lik Ts, i ee} f n > Tm i fae =i ; 3 ai¢ ef DPS % \" B, os “3 : ae -e ee: a ee : i L OD pele a» dtl cate ; ae et ieee ee a - Ley p 7 é : eet ry 5 |] a ae a , - ' ©. . . a ; ."
+        ],
+        "torque": [
+          "Bore x Stroke mm 80.5 x 88.3 Max. Output kW (PS) / rpm 103 (139) / 6,400 Max. Torque Nm (Kg-m) / rom 172 (17.6) / 4,000 TRANSMISSION Type 7-speed Sequential Shiftmatic CVT Paddle Shifters With fe RY"
+        ],
+        "specification": [
+          "Toyota Premium Security & Solar Film With Vehicle Telematics System (VTS) With * UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. - Details of specifications and equipment are also subject to change to suit local conditions and requirements. * Vehicle and specifications in this catalogue may vary from models available locally. * Vehicle body and accessory colours might differ from the printed photos in this catalogue. - All images used are for illustrative purposes.",
+          "Vehicle Telematics System (VTS) With * UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. - Details of specifications and equipment are also subject to change to suit local conditions and requirements. * Vehicle and specifications in this catalogue may vary from models available locally. * Vehicle body and accessory colours might differ from the printed photos in this catalogue. - All images used are for illustrative purposes. ] ea) TOYOTA CP) TOYOTA — Follow us! +}——",
+          "* UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. - Details of specifications and equipment are also subject to change to suit local conditions and requirements. * Vehicle and specifications in this catalogue may vary from models available locally. * Vehicle body and accessory colours might differ from the printed photos in this catalogue. - All images used are for illustrative purposes. ] ea) TOYOTA CP) TOYOTA — Follow us! +}—— SERVICE SAVERS ca eT eer"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Corolla GR Sport",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "Corolla-GR-Sport-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "0",
+          "1800"
+        ],
+        "transmission": [
+          "10-SPEED SPORT SEQUENTIAL SHIFTMATIC",
+          "7-speed to a finely-tuned",
+          "10-speed CVT, delivering shorter response times between gear shifts and",
+          "10-speed Sport Sequential Shiftmatic CVT"
+        ],
+        "fuel_type": [],
+        "battery": [
+          "0",
+          "2",
+          "7",
+          "12"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "===== PAGE 2 ===== COROLLA GR SPORT OVERVIEW The Toyota Corolla GR Sport is a reimagined fusion of a performance sedan with sporty design, bringing race-inspired energy to the road. Every detail, from the exclusive GR grille to its",
+          "COROLLA GR SPORT OVERVIEW The Toyota Corolla GR Sport is a reimagined fusion of a performance sedan with sporty design, bringing race-inspired energy to the road. Every detail, from the exclusive GR grille to its aerodynamic features, reflects a commitment to",
+          "===== PAGE 3 ===== COROLLA GR SPORT ine O) a BES MIU eeu CMR ei ERC 6S tlc S — . SS Te ae \\ =~ = WY ae ] e- : Z)"
+        ],
+        "power": [
+          "~ Sa 1 a7 | ‘ Y J y | . G lf AUTO BI-LED HEADLAMPS WITH FOLLOW-ME-HOME FUNCTION Auto Bi-LED Headlamps efficiently illuminate the road ahead at night. \\ 1 \\\\ AT mE ~ ae oS / ee ss a — | 7 8 2 on E = * ~ ;",
+          "| ‘ Y J y | . G lf AUTO BI-LED HEADLAMPS WITH FOLLOW-ME-HOME FUNCTION Auto Bi-LED Headlamps efficiently illuminate the road ahead at night. \\ 1 \\\\ AT mE ~ ae oS / ee ss a — | 7 8 2 on E = * ~ ; — as _— “S — zs:",
+          "— as _— “S — zs: im — J a ~ ~ 4 FOG LAMPS A bolder, redesigned LED fog lamp positioned on the lower bumper to amplify its presence. Actual vehicle may vary from image shown."
+        ],
+        "torque": [
+          "The transmission has been upgraded from a 7-speed to a finely-tuned 10-speed CVT, delivering shorter response times between gear shifts and improved alignment with engine RPM. This fuels the driver with a surge of acceleration, enabling quicker overtakes and a more engaging drive. ws UN ae eT) hf 119 or _ ‘ POWER (+ = CO Waco)",
+          "Bore x Stroke mm 80.5 x 88.3 Max. Output AAC Weeden 103 (139) / 6,400 Max. Torque Nm (kg-m) / rpm 172 (17.6) / 4,000 TRANSMISSION Type 10-speed Sport Sequential Shiftmatic CVT Paddle Shifters With CHASSIS"
+        ],
+        "specification": [
+          "Toyota Premium Security & Solar Film Vial Vehicle Telematics System (VTS) Vial * UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. * Details of specifications and equipment are also subject to change to suit local conditions and requirements. - Vehicle and specifications in this catalogue may vary from models available locally. * Vehicle body and accessory colours might differ from the printed photos in this catalogue. * Allimages used are for illustrative purposes.",
+          "Vehicle Telematics System (VTS) Vial * UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. * Details of specifications and equipment are also subject to change to suit local conditions and requirements. - Vehicle and specifications in this catalogue may vary from models available locally. * Vehicle body and accessory colours might differ from the printed photos in this catalogue. * Allimages used are for illustrative purposes. — Follow us! -}——",
+          "* UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. * Details of specifications and equipment are also subject to change to suit local conditions and requirements. - Vehicle and specifications in this catalogue may vary from models available locally. * Vehicle body and accessory colours might differ from the printed photos in this catalogue. * Allimages used are for illustrative purposes. — Follow us! -}—— cs Toyota Malaysia"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Corolla Cross",
+      "source_type": "OFFICIAL_WEB_PRIMARY",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "source_priority": null,
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "1800",
+          "4"
+        ],
+        "transmission": [
+          "7-speed CVT with Sequential Shiftmatic"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "Nickel Metal Hydride Battery",
+          "7",
+          "1.8"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "aos es = ; NEW COROLLA CROSS | HYBRID ELECTRIC ===== PAGE 2 =====",
+          "rd 4 Z Sages li I Drive beyond expectations with the New Corolla Cross Hybrid Electric, designed to reduce emissions with zero compromise on style, comfort, and performance. ===== PAGE 3 =====",
+          "eo) Better Emissions ID ei Corolla Cross Hybrid coy Experience the best of both worlds—electric Electric CO, Emissions: and petrol power, working together for Toyota's hybrid system helps create a cleaner, improved performance, with a lower centre of more sustainable future by using less petrol and gravity for better handling and a more stable, reducing your carbon footprint. comfortable ride."
+        ],
+        "power": [
+          "Felon -eMer- |g is charged for quicker charges battery acceleration — a ies PS cai Sig a Smee a = =~ 7 oa ee iy pe a cm — : 1%) rn",
+          "Corolla Cross Hybrid coy Experience the best of both worlds—electric Electric CO, Emissions: and petrol power, working together for Toyota's hybrid system helps create a cleaner, improved performance, with a lower centre of more sustainable future by using less petrol and gravity for better handling and a more stable, reducing your carbon footprint. comfortable ride. ===== PAGE 5 =====",
+          "‘Only available for 1.8V variant. ye Nv E ae < oN Oy y ie igh SR 139ps 172nm SS per ee SN a : Ba Max. Output Max. Torque a ry Al a — Dar ~~ NS or VeRO dia a 3 : v m ie"
+        ],
+        "torque": [
+          "‘Only available for 1.8V variant. ye Nv E ae < oN Oy y ie igh SR 139ps 172nm SS per ee SN a : Ba Max. Output Max. Torque a ry Al a — Dar ~~ NS or VeRO dia a 3 : v m ie",
+          "139ps 172nm SS per ee SN a : Ba Max. Output Max. Torque a ry Al a — Dar ~~ NS or VeRO dia a 3 : v m ie 4 SEQUENTIAL SHIFTMATIC i NA a poss) | Ci Bt 5 om =<) ¥.",
+          "Experience true comfort. Inside, spacious design and refined See) driving environme nt built around your needs, a a: in =\" enhancing every journe \\ we SB gee ie a Y IN ee weer 3 — : )) Ed ee . 7 bel : f SS WSS ' S a in Sn , ; ="
+        ],
+        "specification": [
+          "===== PAGE 14 ===== SPECIFICATIONS POWERTRAIN a2 Ad AP) ayes) 4-cylinder, In-line, 16-Valve DOHC with WT-i Bore x Stroke ala) 80.5 x 88.3 Max. Output aC Waren) 72 (98) / 5,200 103 (139) / 6,400",
+          "Toyota Premium Security & Solar Film With Vehicle Telematics System (VTS) Coola ot TN AN Uisam Miele re) o} +UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. +Details of specifications and equipment are also subject to change to suit local conditions and requirements. +Vehicle and specifications in this catalogue may vary from models available locally. Vehicle body and accessory colours might differ slightly from the printed photos in this catalogue. +All images used are for illustrative purposes.",
+          "Vehicle Telematics System (VTS) Coola ot TN AN Uisam Miele re) o} +UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. +Details of specifications and equipment are also subject to change to suit local conditions and requirements. +Vehicle and specifications in this catalogue may vary from models available locally. Vehicle body and accessory colours might differ slightly from the printed photos in this catalogue. +All images used are for illustrative purposes. H ea th hk"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Corolla Cross HEV",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "1800",
+          "4"
+        ],
+        "transmission": [
+          "7-speed CVT with Sequential Shiftmatic"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "Nickel Metal Hydride Battery",
+          "7",
+          "1.8"
+        ]
+      },
+      "evidence": {
+        "model_terms": [],
+        "power": [
+          "Felon -eMer- |g is charged for quicker charges battery acceleration — a ies PS cai Sig a Smee a = =~ 7 oa ee iy pe a cm — : 1%) rn",
+          "Corolla Cross Hybrid coy Experience the best of both worlds—electric Electric CO, Emissions: and petrol power, working together for Toyota's hybrid system helps create a cleaner, improved performance, with a lower centre of more sustainable future by using less petrol and gravity for better handling and a more stable, reducing your carbon footprint. comfortable ride. ===== PAGE 5 =====",
+          "‘Only available for 1.8V variant. ye Nv E ae < oN Oy y ie igh SR 139ps 172nm SS per ee SN a : Ba Max. Output Max. Torque a ry Al a — Dar ~~ NS or VeRO dia a 3 : v m ie"
+        ],
+        "torque": [
+          "‘Only available for 1.8V variant. ye Nv E ae < oN Oy y ie igh SR 139ps 172nm SS per ee SN a : Ba Max. Output Max. Torque a ry Al a — Dar ~~ NS or VeRO dia a 3 : v m ie",
+          "139ps 172nm SS per ee SN a : Ba Max. Output Max. Torque a ry Al a — Dar ~~ NS or VeRO dia a 3 : v m ie 4 SEQUENTIAL SHIFTMATIC i NA a poss) | Ci Bt 5 om =<) ¥.",
+          "Experience true comfort. Inside, spacious design and refined See) driving environme nt built around your needs, a a: in =\" enhancing every journe \\ we SB gee ie a Y IN ee weer 3 — : )) Ed ee . 7 bel : f SS WSS ' S a in Sn , ; ="
+        ],
+        "specification": [
+          "===== PAGE 14 ===== SPECIFICATIONS POWERTRAIN a2 Ad AP) ayes) 4-cylinder, In-line, 16-Valve DOHC with WT-i Bore x Stroke ala) 80.5 x 88.3 Max. Output aC Waren) 72 (98) / 5,200 103 (139) / 6,400",
+          "Toyota Premium Security & Solar Film With Vehicle Telematics System (VTS) Coola ot TN AN Uisam Miele re) o} +UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. +Details of specifications and equipment are also subject to change to suit local conditions and requirements. +Vehicle and specifications in this catalogue may vary from models available locally. Vehicle body and accessory colours might differ slightly from the printed photos in this catalogue. +All images used are for illustrative purposes.",
+          "Vehicle Telematics System (VTS) Coola ot TN AN Uisam Miele re) o} +UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. +Details of specifications and equipment are also subject to change to suit local conditions and requirements. +Vehicle and specifications in this catalogue may vary from models available locally. Vehicle body and accessory colours might differ slightly from the printed photos in this catalogue. +All images used are for illustrative purposes. H ea th hk"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Corolla Cross HEV GR Sport",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "corolla-cross-hev-gr-sport-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "3",
+          "1800",
+          "7"
+        ],
+        "transmission": [],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": []
+      },
+      "evidence": {
+        "model_terms": [
+          "pablo sib oC fsa Dm a BEYOND ZERO Wherever life takes you, the New Corolla Cross HEV GR Sport keeps the spirit of play alive and opens new paths for everyday journeys, your way. NEW COROLLA CROSS HEV GR SPORT",
+          "nie NEW COROLLA CROSS RRC oe ' ' ' HEV GR Sel ds The New Corolla Cross HEV GR Sport is a Pi - = commanding, daunting presence that dominates i. 4 il i. By | '® R the road. With bold lines and sporty aesthetics, it s : : embodies power and precision in every detail. eseees Tae oe ee Ue d",
+          "Soop os on NEW COROLLA CROSS Art is in the details. 5 4 \" a HEV GR SPORT Every inch of the New Corolla Cross HEV GR Sport is designed to amplify attitude and express liberty. : 7 i ' It's your personal space with comfort, style and A A F 5 | N i) a ey | O ey advanced technology at your command. [LT GF REINVENT YOUR SPACE"
+        ],
+        "power": [
+          "pablo sib oC fsa Dm a BEYOND ZERO Wherever life takes you, the New Corolla Cross HEV GR Sport keeps the spirit of play alive and opens new paths for everyday journeys, your way. NEW COROLLA CROSS HEV GR SPORT",
+          "coating for optimal airflow. ———— P, BI-LED HEADLAMPS, J os LED DAYTIME RUNNING LIGHTS (DRL) = — y & FRONT SEQUENTIAL SIGNAL LIGHTS Se Form and function seamlessly combine with headlamps 2 ms and front sequential signal lights that strikingly attract the 6",
+          "LED DAYTIME RUNNING LIGHTS (DRL) = — y & FRONT SEQUENTIAL SIGNAL LIGHTS Se Form and function seamlessly combine with headlamps 2 ms and front sequential signal lights that strikingly attract the 6 eye while lighting the path ahead, be it day or night. SS"
+        ],
+        "torque": [
+          "ra 142m / X Giga 5,200rm 53k 3,600rm 163m ! SS Wee Max. Output Max. Output Max. Torque Max. Torque eh: a ] (Engine Only) (Motor Only) (Engine Only) (Motor Only) eS Aes SPORTS SUSPENSION-TUNED & BRACING FX: os",
+          "“Borex Stroke mm Prete) omen at O13) _ i Ba ee 72 (98) / 5,200 Max. Torque Nm /rpm | aCe cH) alist] Poa) i) Bical sa) Leas aso Synchronous Motor with Permanent Magnet reac Pes. a ——_—————— ll! OO"
+        ],
+        "specification": [
+          "===== PAGE 14 ===== MAIN SPECIFICATIONS DCS aS yes Peale Ma Maelo ele AE ery) eeulals cc | Wis} i “Borex Stroke mm Prete)",
+          "===== PAGE 15 ===== MAIN SPECIFICATIONS il ele elle TT Black with Red Stitching earls | Black Leather (Red Stitching & GR Embroidery) 3 cee eres et ‘a at ae) Berio noa 7 i (ihe Bn tot",
+          "===== PAGE 16 ===== MAIN SPECIFICATIONS TaN ECT Immobiliser, Alarm & Speed Auto Door Lock Be emu ea eT Clea) Ata) Vehicle Telematics System (VTS) | Re at + UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice."
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Camry",
+      "source_type": "OFFICIAL_WEB_PRIMARY",
+      "source_file": "camry-e-brochure.txt",
+      "source_priority": null,
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [
+          "221"
+        ],
+        "displacement_cc": [
+          "4",
+          "4000",
+          "2500",
+          "1"
+        ],
+        "transmission": [
+          "8-speed Automatic",
+          "E-CVT Direct Shift 8-speed Automatic"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "2.5",
+          "7",
+          "1"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "WF —_ — tt NEW CAMRY Ss BEYOND ZERO ===== PAGE 2 ===== —",
+          "It's revered, because it's not just great. It's made even greater by the will to never settle. The New Camry ===== PAGE 3 ===== meepoe!D SYSTEM",
+          "meepoe!D SYSTEM The New Camry Hybrid Electric sets a new standard as Malaysia's first sedan to come with the 5\" Generation Toyota Hybrid Electric System. This system has a compact transaxle and Power Control Unit (PCU), and a newly developed Lithium-ion battery installed below the rear seat."
+        ],
+        "power": [
+          "rear 74, i Lae A ito xa Z > S yy =e ‘ ak | ee) Ee oa PS 7 pe A fe S me m e af F =, (OED (A Se. KG ee % \" Lo ait” (Sie op os , (es Ste he CPs ~ / = = TOW 3 eee Ze a",
+          "af F =, (OED (A Se. KG ee % \" Lo ait” (Sie op os , (es Ste he CPs ~ / = = TOW 3 eee Ze a a \\ enn > gh > celta! 5 BS Nes ~3 The New Camry Hybrid A we BN shi & SS yeney if 7”) Electric has the best fuel as, SS 7; 7",
+          "-— HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm"
+        ],
+        "torque": [
+          "-— HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm",
+          "MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230PS)",
+          "138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230PS) *Only applicable to the 2.5 HEV variant. **Only applicable to the 2.5V variant."
+        ],
+        "specification": [
+          "1,580mm 2,825mm 1,590mm 1,840mm 4,920mm 1,840mm + UMW Toyota Motor reserve the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models available locally. + Vehicle body and accessory colours might differ from the printed photos in the catalogue. + Allimages used are for illustrative purposes.",
+          "1,840mm 4,920mm 1,840mm + UMW Toyota Motor reserve the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models available locally. + Vehicle body and accessory colours might differ from the printed photos in the catalogue. + Allimages used are for illustrative purposes. el ees be]",
+          "+ UMW Toyota Motor reserve the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models available locally. + Vehicle body and accessory colours might differ from the printed photos in the catalogue. + Allimages used are for illustrative purposes. el ees be] HYBRID ELECTRIC fees"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Camry HEV",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [
+          "221"
+        ],
+        "displacement_cc": [
+          "4",
+          "4000",
+          "2500",
+          "1"
+        ],
+        "transmission": [
+          "8-speed Automatic",
+          "E-CVT Direct Shift 8-speed Automatic"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "2.5",
+          "7",
+          "1"
+        ]
+      },
+      "evidence": {
+        "model_terms": [],
+        "power": [
+          "rear 74, i Lae A ito xa Z > S yy =e ‘ ak | ee) Ee oa PS 7 pe A fe S me m e af F =, (OED (A Se. KG ee % \" Lo ait” (Sie op os , (es Ste he CPs ~ / = = TOW 3 eee Ze a",
+          "af F =, (OED (A Se. KG ee % \" Lo ait” (Sie op os , (es Ste he CPs ~ / = = TOW 3 eee Ze a a \\ enn > gh > celta! 5 BS Nes ~3 The New Camry Hybrid A we BN shi & SS yeney if 7”) Electric has the best fuel as, SS 7; 7",
+          "-— HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm"
+        ],
+        "torque": [
+          "-— HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm",
+          "MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230PS)",
+          "138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230PS) *Only applicable to the 2.5 HEV variant. **Only applicable to the 2.5V variant."
+        ],
+        "specification": [
+          "1,580mm 2,825mm 1,590mm 1,840mm 4,920mm 1,840mm + UMW Toyota Motor reserve the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models available locally. + Vehicle body and accessory colours might differ from the printed photos in the catalogue. + Allimages used are for illustrative purposes.",
+          "1,840mm 4,920mm 1,840mm + UMW Toyota Motor reserve the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models available locally. + Vehicle body and accessory colours might differ from the printed photos in the catalogue. + Allimages used are for illustrative purposes. el ees be]",
+          "+ UMW Toyota Motor reserve the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models available locally. + Vehicle body and accessory colours might differ from the printed photos in the catalogue. + Allimages used are for illustrative purposes. el ees be] HYBRID ELECTRIC fees"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Veloz",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "veloz-e-brochure-3.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "1496",
+          "1500",
+          "7"
+        ],
+        "transmission": [
+          "7-Speed CVT > ,",
+          "7-speed CVT"
+        ],
+        "fuel_type": [],
+        "battery": [
+          "4",
+          "7",
+          "8",
+          "12"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "cruise the roads in style with the bold and sporty Veloz. ===== PAGE 4 ===== .",
+          "rT op > Le 4 ) In a Veloz, you can drive in style without compromising comfort. i yo . \\ Mele oe",
+          "“ oa KO) FORTABLE No matter the place, distance or occasion, the Veloz is & eo WSN a versatile and well-equipped to suit your needs. yi \" i. P \\ ai y ais Fiises: Pa—\\"
+        ],
+        "power": [
+          "o n _ Soa | ars 5 - Aan. qn <. oa de: ER Ok Se ?, fC ps a oe ~ “ ta = . : : ; + ?< \\ * . ~~ oe . . a ‘2 ~ > ‘ . . oo * ut an: ax: bai na Pe ee ne : 14 . . ae . 2 > be Be i Ne et | > ae oa a ey - tT} - ee 4 wh",
+          "™ es et ‘sy = a dob ey heen cern 7 ‘ Rene RS We . r - pnt aets whe AGM ae Rake: Pitt : fe io _ a ‘ eas wt me eg ai ad ah. n y PSS pe e* ae 4 eae en nts wa ~ . sie ae) Mi ry, i , ee cee o-] 5 P . ir él Pe Ae i) cb ean TAY - Sera te eee eee, , cs % aA eit he a a tai yi : eek . , ' “ee Lisa RS % epee BS brs) APE ae ae 9 ny “ v ) Ry, 2 : “sy ny ne PV eve es * oe Sy 7 - Menge? 2 Mi i - - AO i P 4 aN 4h) om : x uw aa Cant . ig * yee rae Teh = ra te “mn WN ar: - ve 8 Mr ey . vif ae * 6 ue Si 4% S seam ik PS",
+          "- Sera te eee eee, , cs % aA eit he a a tai yi : eek . , ' “ee Lisa RS % epee BS brs) APE ae ae 9 ny “ v ) Ry, 2 : “sy ny ne PV eve es * oe Sy 7 - Menge? 2 Mi i - - AO i P 4 aN 4h) om : x uw aa Cant . ig * yee rae Teh = ra te “mn WN ar: - ve 8 Mr ey . vif ae * 6 ue Si 4% S seam ik PS . hat) howe f a J Seek at ; ’ nih ath mf pig ON : 4 “| eyes 2 oe mt. : . * yt ore PH, i wy TN m4 &,.3 Riad me we e , ; . ‘eee at , ew Ba ae BeOS eam wh eae ca Ney Ae NER SS stn | BN 7S, es ed Rutt pata thi PS te ON Ma. ee Fee eas yc A Borda as ‘ hi DS ra 8 EEN :"
+        ],
+        "torque": [
+          "Bore x Stroke mm 72.5x 90.6 Max. Output kW (PS) /rpm 78 (106) / 6000 Max. Torque Nm (kg-m) / rpm 138 (14) / 4200 Type | 7-speed CVT Suspension Front / Rear Macpherson Strut with Stabiliser / Torsion-Beam with Stabiliser Brakes Front / Rear | Disc / Disc Tyres & Rims & Spare Tyre 205/50 R17, Alloy"
+        ],
+        "specification": [
+          "+. 1,515mm ———+] + 2,750mm ————————_+ + 1, 510mm ——> 1,750mm ———+ J_¢@$pm$mpmgmaUmamAaamaaA A 4475 mm A + * UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. * Details of specifications and equipment are also subject to change to suit local conditions and requirements. * Vehicle and specifications in this catalogue may vary from models available locally. Vehicle body and accessory colours might differ slightly from the printed photos in this catalogue. * Allimages are used for illustrative purposes.",
+          "1,750mm ———+ J_¢@$pm$mpmgmaUmamAaamaaA A 4475 mm A + * UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. * Details of specifications and equipment are also subject to change to suit local conditions and requirements. * Vehicle and specifications in this catalogue may vary from models available locally. Vehicle body and accessory colours might differ slightly from the printed photos in this catalogue. * Allimages are used for illustrative purposes. aque ieee SS TOYOTA “= Works with",
+          "* UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. * Details of specifications and equipment are also subject to change to suit local conditions and requirements. * Vehicle and specifications in this catalogue may vary from models available locally. Vehicle body and accessory colours might differ slightly from the printed photos in this catalogue. * Allimages are used for illustrative purposes. aque ieee SS TOYOTA “= Works with EX TRA MUUGE eerree Apple CarPlay"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Innova Zenix",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "Innova-Zenix-e-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "2000",
+          "4",
+          "2"
+        ],
+        "transmission": [],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "5",
+          "12"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "ree Sleek looks meet bold personality with the Innova Zenix. Turn heads at every turn of the corner with its refreshed design and advanced features that will elevate every moment of your drive. Actual vehicle may vary from image shown.",
+          "? iio 4 p Wp Ce Si Te Hf The Innova Zenix is available in both hybrid electric and conventional engines. se hs Pe > ga ee Se Oe sid Bs RE. we a ee) oN kG RF “ ea Sane",
+          ". 7 ntl =a. a - From a spacious cabin to advanced interior features, the Innova Zenix offers more than just your essentials for its crossover segment. a AAA ee ioe i : > 4 ie j ; Tone aes ge —! _ [- ws - = sae Se ia: Sa f ~~ 4 . 3 i es vey"
+        ],
+        "power": [
+          "rp 2. Mra: RSE os Reames! oF | Sa “eat ia f Ps aye eed Sa Care ie ae rae ee: S.. . Sic + eh se a Jo a ae i BEG ae ze re. Meth BT PENA Ce J aa a 5",
+          "<=\" <— = 7 a” “Me yo) ——— \\ =f Ee aa = ; Enhance your visibility with the SS ——_ pee LED headlamps that light up your el . iil adventures ahead. = 7 } (eu : PS — ; s = 5 Pa <> os",
+          "el . iil adventures ahead. = 7 } (eu : PS — ; s = 5 Pa <> os / MOO =! ‘ — ——y y ZA — = Ps / = | a a we ree"
+        ],
+        "torque": [
+          "Ot Rea eae a . PRM boss. Von 7 Roe Ee ee j a nM | fe) eee ay ” ENE. 4 bake Pes te et a oe | ae y ‘ To oPoON \\ SS ‘h . ;",
+          "RIES ea a (Oh VPRO emi naa ELECTRONIC PARKING BRAKE PADDLE SHIFT SMARTPHONE CONNECTIVITY & AUTO BRAKE HOLD Every adventure is now smoother with Experience seamless entertainment Enjoy peace of mind with the better stability, thanks to the Zenix’s on-the-go with wireless Apple Carplay® parking brake, now installed with lighter steering wheel. and wired Android Auto™ connectivity. electronic functionality. p 7 : = J",
+          "Bore x Stroke mm 80.5 x 97.6 Max. Output kW (PS) / rpm 128 (174) / 6,600 Max. Torque Nm / rpm 188 / 4,400 - 5,200 205 / 4,500 - 4,900 TRANSMISSION i Sere CHASSIS Suspension Front / Rear Macpherson Strut with Stabiliser / Torsion-Beam with Stabiliser"
+        ],
+        "specification": [
+          "===== PAGE 9 ===== SPECIFICATIONS ENGINE Model yee Type 4-cylinder, In-line, 16-valve DOHC, Chain Drive Displacement feta iPclsv i",
+          "===== PAGE 10 ===== SPECIFICATIONS INTERIOR 3D Panoramic View Monitor (PVM) With Digital Video Recorder (DVR) - Front With Luggage Tray With",
+          "I< 1,850 mm —————_>} Omen. WA OO) 0 0708) DEE ean ir econ ¢* UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. * Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models available locally. * Vehicle body and accessory colours might differ from the printed photos in this catalogue. + Allimages used are for illustrative purposes."
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Fortuner",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "fortuner-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [
+          "204",
+          "166",
+          "150"
+        ],
+        "torque_nm": [
+          "500",
+          "245"
+        ],
+        "displacement_cc": [
+          "2800",
+          "2700",
+          "2400",
+          "4",
+          "0"
+        ],
+        "transmission": [
+          "6-speed AT Transmission",
+          "6-speed Automatic with Sequential Shifter"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Diesel"
+        ],
+        "battery": [
+          "2.8",
+          "4",
+          "2",
+          "16"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "===== PAGE 1 ===== FORTUNER Cy, CRAFTED TO PERFORM TOYOTA Vila“ ahah Naa 7 yt",
+          "Max torque & wide flat torque range 400Nm / 1,600-2,000rom Image(s) shown may vary for different variants. Specifications may vary depending on Fortuner variant. ===== PAGE 3 ===== oo.",
+          "aw power to the other wheel on the axle to o wy maintain forward momentum. Image(s) shown may vary for different variants. Specifications may vary depending on Fortuner variant. ===== PAGE 4 ===== DUALITY, PERSONIFIED"
+        ],
+        "power": [
+          "\" eo fuel efficiency. 7 a fe ae Max Output y r Cd «4 A rf 204PS / 3,000-3,400rpm I ye a ms fe co / iy) Max torque & wide flat torque range ¢’ PH) \\ Rien Ket © , 500Nm / 1,600-2,800rpm S : Wy Electronic Common-rail Fuel Injection . . - . a rc e",
+          "~~ ; \\; a, Enjoy overall performance across the rev range with Dual VVT-i. a ea ie v Max Output oF 166PS / 5,200rpm ‘ Max torque & wide flat torque range 245Nm / 4,000rpm 2.4L Engine (Diesel) Max Output",
+          "2.4L Engine (Diesel) Max Output 150PS / 3,400rpm Max torque & wide flat torque range 400Nm / 1,600-2,000rom Image(s) shown may vary for different variants. Specifications may vary depending on Fortuner variant."
+        ],
+        "torque": [
+          "y r Cd «4 A rf 204PS / 3,000-3,400rpm I ye a ms fe co / iy) Max torque & wide flat torque range ¢’ PH) \\ Rien Ket © , 500Nm / 1,600-2,800rpm S : Wy Electronic Common-rail Fuel Injection . . - . a rc e ~ ‘ aq WA PNG ae 2.7L Engine (Petrol) ' BN h F a",
+          "oF 166PS / 5,200rpm ‘ Max torque & wide flat torque range 245Nm / 4,000rpm 2.4L Engine (Diesel) Max Output 150PS / 3,400rpm Max torque & wide flat torque range",
+          "150PS / 3,400rpm Max torque & wide flat torque range 400Nm / 1,600-2,000rom Image(s) shown may vary for different variants. Specifications may vary depending on Fortuner variant. ===== PAGE 3 ====="
+        ],
+        "specification": [
+          "Max torque & wide flat torque range 400Nm / 1,600-2,000rom Image(s) shown may vary for different variants. Specifications may vary depending on Fortuner variant. ===== PAGE 3 ===== oo.",
+          "aw power to the other wheel on the axle to o wy maintain forward momentum. Image(s) shown may vary for different variants. Specifications may vary depending on Fortuner variant. ===== PAGE 4 ===== DUALITY, PERSONIFIED",
+          "Makes every turn exciting we —_——— and eye-catching. ra Image(s) shown may vary for different variants. Specifications may vary depending on Fortuner variant. ===== PAGE 5 ===== ie 7"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Harrier HEV",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "harrier-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "2487",
+          "2500",
+          "4700"
+        ],
+        "transmission": [
+          "E-CVT) EV Mode allows for almost complete silence with",
+          "E-CVT blends engine and electric power reduced emissions. The Drive Mode Switch allows you",
+          "E-CVT"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": []
+      },
+      "evidence": {
+        "model_terms": [],
+        "power": [
+          "*Based on NEDC Combined MAX. OUTPUT MAX. TORQUE Engine Engine 178 PS",
+          "Engine Engine 178 PS 5,700rpm 221Nm 3,600-5,200rpm",
+          "Combined Output 217PS BATTERY POWERS CAR BATTERY IS CHARGED DUAL POWER FOR QUICKER Start / Low Speed Normal Driving ACCELERATION Only the motor powers the whole car with The engine and motor powers Hard Acceleration"
+        ],
+        "torque": [
+          "*Based on NEDC Combined MAX. OUTPUT MAX. TORQUE Engine Engine 178 PS",
+          "178 PS 5,700rpm 221Nm 3,600-5,200rpm Motor Motor",
+          "Motor Motor 88 kW 202 Nm Combined Output 217PS"
+        ],
+        "specification": [
+          "and a refined driving experience. SPORT Mode for an even more responsive performance. Specifications shown in this brochure differ depending on region. Please refer to your local dealer for info on available features. PRESENCE PERFECTED The Harrier balances assertive presence with quiet sophistication, leaving a lasting impression wherever it arrives.",
+          "oncoming vehicles. Specifications shown in this brochure differ depending on region. Please refer to your local dealer for info on available features. *Driver remains solely responsible at all times for safe driving. 360-T ADVANCED It’s all about the Trust & Technology by Toyota.",
+          "your protection, in case of emergencies or accidents. Specifications shown in this brochure differ depending on region. Please refer to your local dealer for info on available features. VEHICLE STABILITY CONTROL (VSC) EMERGENCY STOP SIGNAL (ESS) & TRACTION CONTROL (TRC) WITH BRAKE ASSIST (BA) Always be in control of the Harrier even on slippery Sudden braking will cause the emergency signals"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Hilux",
+      "source_type": "SHARED_SOURCE",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "source_priority": null,
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "2755",
+          "2800",
+          "4",
+          "8"
+        ],
+        "transmission": [
+          "6-speed automatic",
+          "6-speed Automatic with 6-speed Automatic with Super ECT & Sequential Shifter 6-speed Manual"
+        ],
+        "fuel_type": [
+          "Diesel"
+        ],
+        "battery": [
+          "2.4",
+          "16"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "HILUX GR SPORT HILUX ROGUE X",
+          "HILUX GR SPORT HILUX ROGUE X TOUGH SPORTY",
+          "TOUGH SPORTY The Gazoo Racing spirit now manifests in the Hilux line up. With the Hilux Rogue standing for total toughness, the Hilux GR Sport emerges to deliver a sense of uncompromised fun. HILUX GR SPORT"
+        ],
+        "power": [
+          "creating a strong powerful look. LED Fog Lamps Stylish 18\" Alloy Rims Positioned at the lower bumper Stylish 18\" Alloy Rims with corners to emphasise the wide Highway Terrain Tyres provide and low appearance. excellent road holding and highway cruising comfort.",
+          "Specifications may vary depending on Hilux variant. LED Rear Combination Lamps Have a characteristic design that others will admire. Bi-LED Headlamps",
+          "others will admire. Bi-LED Headlamps Lends the Hilux Rogue a little sophistication while maintaining the tough impression that the Hilux is well-known for. HILUX GR SPORT HILUX ROGUE"
+        ],
+        "torque": [
+          "PS 1,600-2,800 rpm Nm Extreme Power with Enhanced Efficiency The heavy-duty turbocharger results in superior performance while the increased common-rail fuel injection pressure contributes to increased",
+          "Displacement cc 2,755 2,393 Max. Output (SAE-Net) PS / rpm 224 / 3,000 204 / 3,400 150 / 3,400 Max. Torque (SAE-Net) Nm / rpm 550 / 1,600 - 2,800 500 / 1,600 - 2,800 400 / 1,600 - 2,000 TRANSMISSION Transmission 6-speed Automatic with 6-speed Automatic with Super ECT & Sequential Shifter 6-speed Manual Sequential & Paddle Shift CHASSIS"
+        ],
+        "specification": [
+          "*Optional accessory. Image(s) shown may vary for different variants. Specifications may vary depending on Hilux variant. LED Rear Combination Lamps Have a characteristic design that others will admire.",
+          "*Only available for the Hilux GR Sport. Image(s) shown may vary for different variants. Specifications may vary depending on Hilux variant. 2.8 LITRE ENGINE 1GD-FTV • 2.8 L INTERCOOLER VNT ELECTRONIC COMMON-RAIL FUEL INJECTION SYSTEM",
+          "*Driver remains solely responsible at all times for safe driving. Image(s) shown may vary for different variants. Specifications may vary depending on Hilux variant. Lane Departure Alert (LDA) with Yaw Assist* Alerts when you are out of the lane unintentionally and applies additional brake force to the inner wheels to"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Hilux GR Sport",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "2755",
+          "2800",
+          "4",
+          "8"
+        ],
+        "transmission": [
+          "6-speed automatic",
+          "6-speed Automatic with 6-speed Automatic with Super ECT & Sequential Shifter 6-speed Manual"
+        ],
+        "fuel_type": [
+          "Diesel"
+        ],
+        "battery": [
+          "2.4",
+          "16"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "HILUX GR SPORT HILUX ROGUE X",
+          "SPORTY The Gazoo Racing spirit now manifests in the Hilux line up. With the Hilux Rogue standing for total toughness, the Hilux GR Sport emerges to deliver a sense of uncompromised fun. HILUX GR SPORT",
+          "to deliver a sense of uncompromised fun. HILUX GR SPORT STYLE Un DISPUTe d"
+        ],
+        "power": [
+          "creating a strong powerful look. LED Fog Lamps Stylish 18\" Alloy Rims Positioned at the lower bumper Stylish 18\" Alloy Rims with corners to emphasise the wide Highway Terrain Tyres provide and low appearance. excellent road holding and highway cruising comfort.",
+          "Specifications may vary depending on Hilux variant. LED Rear Combination Lamps Have a characteristic design that others will admire. Bi-LED Headlamps",
+          "others will admire. Bi-LED Headlamps Lends the Hilux Rogue a little sophistication while maintaining the tough impression that the Hilux is well-known for. HILUX GR SPORT HILUX ROGUE"
+        ],
+        "torque": [
+          "PS 1,600-2,800 rpm Nm Extreme Power with Enhanced Efficiency The heavy-duty turbocharger results in superior performance while the increased common-rail fuel injection pressure contributes to increased",
+          "Displacement cc 2,755 2,393 Max. Output (SAE-Net) PS / rpm 224 / 3,000 204 / 3,400 150 / 3,400 Max. Torque (SAE-Net) Nm / rpm 550 / 1,600 - 2,800 500 / 1,600 - 2,800 400 / 1,600 - 2,000 TRANSMISSION Transmission 6-speed Automatic with 6-speed Automatic with Super ECT & Sequential Shifter 6-speed Manual Sequential & Paddle Shift CHASSIS"
+        ],
+        "specification": [
+          "*Optional accessory. Image(s) shown may vary for different variants. Specifications may vary depending on Hilux variant. LED Rear Combination Lamps Have a characteristic design that others will admire.",
+          "*Only available for the Hilux GR Sport. Image(s) shown may vary for different variants. Specifications may vary depending on Hilux variant. 2.8 LITRE ENGINE 1GD-FTV • 2.8 L INTERCOOLER VNT ELECTRONIC COMMON-RAIL FUEL INJECTION SYSTEM",
+          "*Driver remains solely responsible at all times for safe driving. Image(s) shown may vary for different variants. Specifications may vary depending on Hilux variant. Lane Departure Alert (LDA) with Yaw Assist* Alerts when you are out of the lane unintentionally and applies additional brake force to the inner wheels to"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Hilux BEV",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "hilux-bev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "2"
+        ],
+        "transmission": [],
+        "fuel_type": [
+          "Battery Electric"
+        ],
+        "battery": [
+          "59.2",
+          "4"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "EXTERIOR The Toyota Hilux BEV marks a bold new chapter, reinterpreting Hilux’s renowned toughness through a distinctive “Cyber Sumo” design. ‘ - * Oo” _/ e \\ b - = = 1 \\ ! a"
+        ],
+        "power": [
+          "FRONT MOTOR Cale a a 82kW poweR | 4129kKW 196PS Ween | 2 06 , le a y",
+          "ch DF 2 Be Dio Cane OPES A, ee prman a 7 é Spit site eee CL, ee ee eS oS yee = We Gt Pere fe PEE pO PS pia es A ila eee a ae eg Myr Paw er ny 4 : eae oom oe Poe ee \" ’ a 2 Se ey os pe ers “er Le ee ee awe - eS % ‘ his beaten ee Me # st Be 22 § ay Ss ae ¥ Raz ened Fe soe MES. Bit 2 Ee of i Re ies Sei a tht Gd pe tae #",
+          "ened Fe soe MES. Bit 2 Ee of i Re ies Sei a tht Gd pe tae # ie at Kee iy ae ge ee | re See oes © cae Cee pt Peete” Fes ot + ee Peay Mage Go PS os ieee Regfemne oe, 3 eet ie 2. Ge. ee ONE ate <a! ei “ eS a = Aha. ues bs Wii ron ey be eae aes sae ie “ Bao ako aie £4 fee » Bs Fs ae ieee oe :"
+        ],
+        "torque": [
+          "INTERIOR INFOTAINMENT UNIT CHARGING PORTS 12.3” Display Audio with Wireless Apple Carplay Wireless Charger. and Android Auto Connectivity. USB-C port. y y"
+        ],
+        "specification": [
+          "| | SPECIFICATIONS INTERIOR SAFETY Bee temegcsy) SECURITY"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Hiace",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "hiace-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "3000"
+        ],
+        "transmission": [],
+        "fuel_type": [
+          "Diesel"
+        ],
+        "battery": []
+      },
+      "evidence": {
+        "model_terms": [
+          "i? \\ en Te . The Toyota Hiace introduces a seamless balance of durability, versatility and comfort. With a powerful new engine, spacious interior, and a sleek, robust build, the Toyota Hiace delivers high-performing functionality that embodies pure transportation excellence. It now features a free-stop back door for flexible opening and easier loading in tight spaces. y We,",
+          "en Te . The Toyota Hiace introduces a seamless balance of durability, versatility and comfort. With a powerful new engine, spacious interior, and a sleek, robust build, the Toyota Hiace delivers high-performing functionality that embodies pure transportation excellence. It now features a free-stop back door for flexible opening and easier loading in tight spaces. y We, F oe se"
+        ],
+        "power": [],
+        "torque": [],
+        "specification": [
+          "===== PAGE 4 ===== SPECIFICATIONS VARIANT | PANEL VAN 3.0 TURBO DIESEL ENGINE DIMENSIONS CHASSIS",
+          "4,695mm 1,695mm 1,695mm Diagrams shown are for illustration purposes only. + UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models",
+          "+ UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models 7 available locally. \"aad YEARS Fee eee ee ton bones a + Vehicle body and accessory colours might defer slightly from the printed"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Hiace SLWB",
+      "source_type": "OFFICIAL_WEB_PRIMARY",
+      "source_file": "hiace-e-brochure.txt",
+      "source_priority": null,
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "3000"
+        ],
+        "transmission": [],
+        "fuel_type": [
+          "Diesel"
+        ],
+        "battery": []
+      },
+      "evidence": {
+        "model_terms": [],
+        "power": [],
+        "torque": [],
+        "specification": [
+          "===== PAGE 4 ===== SPECIFICATIONS VARIANT | PANEL VAN 3.0 TURBO DIESEL ENGINE DIMENSIONS CHASSIS",
+          "4,695mm 1,695mm 1,695mm Diagrams shown are for illustration purposes only. + UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models",
+          "+ UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice. + Details of specifications and equipment are also subject to change to suit local conditions and requirements. + Vehicle and specifications in this catalogue may vary from models 7 available locally. \"aad YEARS Fee eee ee ton bones a + Vehicle body and accessory colours might defer slightly from the printed"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "bZ4X",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "bz4x-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "4",
+          "1"
+        ],
+        "transmission": [],
+        "fuel_type": [
+          "Battery Electric"
+        ],
+        "battery": [
+          "73.1",
+          "7"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "\\\\ } Lo oS Z 4 LN | out, the bZ4X commands attention Toyota hammerhead front design with Daytime Running Lights. Bold black ensional panels sharpen its sporty, 20” ALUMINIUM WHEELS a AT",
+          "PERFORMANCE EB SISEA@ Mama ne The bZ4X features a high-capacity lithium-ion battery unit, capable of delivering up to 167kW Max Power, and 269Nm Max Torque, providing smooth and responsive acceleration when you need it. | LARGE BATTERY CAPACITY 73.1 kWh, giving you a driving range ie? >",
+          "SENSE 3.0 Safety oN ) Cruise safely on the road with the bZ4X’s F cutting edge safety features. Because the most precious thing in every Toyota is the people inside."
+        ],
+        "power": [
+          "EB SISEA@ Mama ne The bZ4X features a high-capacity lithium-ion battery unit, capable of delivering up to 167kW Max Power, and 269Nm Max Torque, providing smooth and responsive acceleration when you need it. | LARGE BATTERY CAPACITY 73.1 kWh, giving you a driving range ie? > of up to 525km* per full charge.",
+          "i” lee iP — . fa —d sae = Driver-focused cockpit design fio] . B keeps key information within oie Pees a sight while maintaining ; y Peta alll : ; attention on the road. l=) Ea er CE | 3 ENS aS = » 3 @& 2 hs a =",
+          "ea | Sue nee Front Turn Signal Lamps eErcueoweuss eer ar BSM, Reverse-Linked & Foot Light INTERIOR F ae"
+        ],
+        "torque": [
+          "EB SISEA@ Mama ne The bZ4X features a high-capacity lithium-ion battery unit, capable of delivering up to 167kW Max Power, and 269Nm Max Torque, providing smooth and responsive acceleration when you need it. | LARGE BATTERY CAPACITY 73.1 kWh, giving you a driving range ie? > of up to 525km* per full charge.",
+          "one A = A A 8-WAY POWER VE NMR U Ty NS } \\N Ne ADJUSTMENT WITH SUPPORT WITH > MEMORY FUNCTION es eee ae Ri eas 7 <u, Saleriaar Cts man acte ip asec) li car ts ar"
+        ],
+        "specification": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Urban Cruiser BEV",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "urban-cruiser-bev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "4"
+        ],
+        "transmission": [],
+        "fuel_type": [
+          "Battery Electric"
+        ],
+        "battery": [
+          "360"
+        ]
+      },
+      "evidence": {
+        "model_terms": [],
+        "power": [
+          "y) i _ eg Zz I; —=_, LED headlamps with = Daytime Running Lights Actual vehicle may vary from image shown ===== PAGE 3 =====",
+          "EXTERIOR The Urban Cruiser’s distinctive rear combination lamps and sculpted tailgate give it a commanding presence on every journey. Seamlessly blending form and function, it delivers bright, clear illumination for safe and confident drives. et: = “y 7 oregon ve. /",
+          "| s 18” Aluminium il Distinctive Rear Wheels Combination Lamps ===== PAGE 4 ===== PERFORMANCE"
+        ],
+        "torque": [
+          "on Ni aX ] MAX POWER DRIVING RANGE MAX TORQUE 128kW 6 426km 193Nm TURNING RADIUS — a With a tight 5.2m turning radius, ( it moves through narrow city streets == a with ease and agility. 2 ; . a",
+          "MOTOR GENERATOR [MO | ermanent Magnet synchronausmoter | faa :y NM) EyNasaen cas PERFORMANCE feta Phy DIMENSIONS & WEIGHT"
+        ],
+        "specification": [
+          "; | SPECIFICATIONS “ LNs a MOTOR GENERATOR [MO | ermanent Magnet synchronausmoter |",
+          "penne Ree } Toyota Malaysia ‘Co toyotam uate! G memes @ O we + UMW Toyota Motor reserves the right to al Iter any details of specifications and equipment without notice. - Details of specifications and equipment are also subject to change to suit local conditions and requirements. » Vehicle and specifications in this catalogue may vary from models available locally. e be acces might differ f e printed photos in this catalogue. JMW Toyota Motor Sdn. E 800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday.",
+          "uate! G memes @ O we + UMW Toyota Motor reserves the right to al Iter any details of specifications and equipment without notice. - Details of specifications and equipment are also subject to change to suit local conditions and requirements. » Vehicle and specifications in this catalogue may vary from models available locally. e be acces might differ f e printed photos in this catalogue. JMW Toyota Motor Sdn. E 800-8-TOYOTA (1800-8-869682) from 8:00am - 5:30pm, Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Alphard",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "2487",
+          "2393",
+          "6",
+          "2500",
+          "1",
+          "7",
+          "2400",
+          "3"
+        ],
+        "transmission": [
+          "7-speed Super CVT-i with Sports Sequential Shiftmatic",
+          "8-speed Automatic Power Sliding Door With Quiet Sliding Door",
+          "Continuously Variable Transmission (E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic",
+          "E-CVT TRANSMISSION* a",
+          "E-CVT blends engine and electric power for smooth acceleration, _ '",
+          "E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "Nickel-Metal Hydride Battery",
+          "7",
+          "28"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "PRESENTING THE VELLFIRE & ALPHARD TOYOTA Vove your world ===== PAGE 3 =====",
+          "—_ - ae ne 34 | 4 ~ — a ee rs a —aapsit = see ae ~ 5 is ro a ee ie pap te a ; : am True luxury is experienced, never spoken. The Toyota Vellfire and Alphard embody resolute perfection and are designed to imbue your every journey with unprecedented levels of refinement. Actual vehicle may vary from image shown ===== PAGE 4 =====",
+          "Colour 13 Specifications 14 THE ALPHARD. Exterior ee Io Interior ccsststntetntnntntnetneintietnsintintiitintitiittiitnn 24 PEPFOP MAN CSE cc eennnnnnnnnnnnnnnntnntnetintnntintieienien 29"
+        ],
+        "power": [
+          "— — ‘ ee . _ j ; a a ae See eee ee ee = : 4 iad — e eV D Cc) — sis oa pe ae — ee oo sage: a eae Pa —— a —_ - ae ne 34 | 4 ~ — a ee rs a —aapsit = see ae ~ 5 is ro a ee ie pap te a ; : am True luxury is experienced, never spoken. The Toyota Vellfire and Alphard embody resolute perfection and are designed to imbue your every journey with unprecedented levels of refinement. Actual vehicle may vary from image shown",
+          "PEPFOP MAN CSE cc eennnnnnnnnnnnnnnntnntnetintnntintieienien 29 Colour ccseeeeintnetnenneintintititintiiititiiiitiitn LO SPS CIFICATIOMS cc ccccccssssssnnssnnssnnssnssunssnssnetunesnesunestnstnssissssnssnnsesnsesinssnse 20 TOYOTA SAFETY SENSE. 29 ===== PAGE 5 =====",
+          "EXTRAORDINARILY REFINED. The Vellfire’s distinctive 19” alloy wheels add an exclusive touch to its visual appeal, complete with full LED headlamps with sequential signal lamps, cornering lamps, daytime running lights (DRL), and rear lamps with a powered back door switch. Ee ————””sCON ee” a r"
+        ],
+        "torque": [
+          "syste CUTE OF SORE ae : G2 2.5L ENGINE SS Re z Z . ~ . 2AR-FE, 2.5L naturally aspirated engine with | Actual vehicle may vary from image shown. 182PS & 235Nm of Torque. ===== PAGE 9 ===== THE EEA See LAR ee 09",
+          "Max. Output kW (PS) / rpm 138 (187) / 6,000 134 (182) / 6,000 Max. Torque Nm / rpm 233 / 4,300 - 4,500 235 / 4,100 Combine System Output kW (PS) 184 (250) = Fuel System Sequential Fuel Injection (SFI)",
+          "Max. Output kW (PS) 134 (182) 7 Max. Torque Nm 270 _ Hybrid Battery Type Nickel-Metal Hydride Battery = Suspension Front / Rear MacPherson Strut with Stabiliser / Double Wishbone with Stablizer"
+        ],
+        "specification": [
+          "Interior 10 Colour 13 Specifications 14 THE ALPHARD. Exterior ee Io Interior ccsststntetntnntntnetneintietnsintintiitintitiittiitnn 24",
+          "THE NEW VELLFIRE. 14 SPECIFICATIONS. VARIANT Vellfire 2.5 HEV Executive Lounge Vellfire 2.5 ae",
+          "THE NEW VELLFIRE. 15 SPECIFICATIONS. VARIANT Vellfire 2.5 HEV Executive Lounge Vellfire 2.5 Headlamps Type Tri-LED Headlamps with Cornering Lamps and Daytime Running Lights Sequential Turn Signal Lamps With (Front & Rear) Fog Lamps Front / Rear LED / LED"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Vellfire",
+      "source_type": "SHARED_SOURCE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "source_priority": null,
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "2487",
+          "2393",
+          "6",
+          "2500",
+          "1",
+          "7",
+          "2400",
+          "3"
+        ],
+        "transmission": [
+          "7-speed Super CVT-i with Sports Sequential Shiftmatic",
+          "8-speed Automatic Power Sliding Door With Quiet Sliding Door",
+          "Continuously Variable Transmission (E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic",
+          "E-CVT TRANSMISSION* a",
+          "E-CVT blends engine and electric power for smooth acceleration, _ '",
+          "E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "Nickel-Metal Hydride Battery",
+          "7",
+          "28"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "PRESENTING THE VELLFIRE & ALPHARD TOYOTA Vove your world ===== PAGE 3 =====",
+          "—_ - ae ne 34 | 4 ~ — a ee rs a —aapsit = see ae ~ 5 is ro a ee ie pap te a ; : am True luxury is experienced, never spoken. The Toyota Vellfire and Alphard embody resolute perfection and are designed to imbue your every journey with unprecedented levels of refinement. Actual vehicle may vary from image shown ===== PAGE 4 =====",
+          "===== PAGE 4 ===== THE NEW VELLFIRE. Exterior 05 4tt Gen Toyota Hybrid System (THS) 07 Performance 08"
+        ],
+        "power": [
+          "— — ‘ ee . _ j ; a a ae See eee ee ee = : 4 iad — e eV D Cc) — sis oa pe ae — ee oo sage: a eae Pa —— a —_ - ae ne 34 | 4 ~ — a ee rs a —aapsit = see ae ~ 5 is ro a ee ie pap te a ; : am True luxury is experienced, never spoken. The Toyota Vellfire and Alphard embody resolute perfection and are designed to imbue your every journey with unprecedented levels of refinement. Actual vehicle may vary from image shown",
+          "PEPFOP MAN CSE cc eennnnnnnnnnnnnnnntnntnetintnntintieienien 29 Colour ccseeeeintnetnenneintintititintiiititiiiitiitn LO SPS CIFICATIOMS cc ccccccssssssnnssnnssnnssnssunssnssnetunesnesunestnstnssissssnssnnsesnsesinssnse 20 TOYOTA SAFETY SENSE. 29 ===== PAGE 5 =====",
+          "EXTRAORDINARILY REFINED. The Vellfire’s distinctive 19” alloy wheels add an exclusive touch to its visual appeal, complete with full LED headlamps with sequential signal lamps, cornering lamps, daytime running lights (DRL), and rear lamps with a powered back door switch. Ee ————””sCON ee” a r"
+        ],
+        "torque": [
+          "syste CUTE OF SORE ae : G2 2.5L ENGINE SS Re z Z . ~ . 2AR-FE, 2.5L naturally aspirated engine with | Actual vehicle may vary from image shown. 182PS & 235Nm of Torque. ===== PAGE 9 ===== THE EEA See LAR ee 09",
+          "Max. Output kW (PS) / rpm 138 (187) / 6,000 134 (182) / 6,000 Max. Torque Nm / rpm 233 / 4,300 - 4,500 235 / 4,100 Combine System Output kW (PS) 184 (250) = Fuel System Sequential Fuel Injection (SFI)",
+          "Max. Output kW (PS) 134 (182) 7 Max. Torque Nm 270 _ Hybrid Battery Type Nickel-Metal Hydride Battery = Suspension Front / Rear MacPherson Strut with Stabiliser / Double Wishbone with Stablizer"
+        ],
+        "specification": [
+          "Interior 10 Colour 13 Specifications 14 THE ALPHARD. Exterior ee Io Interior ccsststntetntnntntnetneintietnsintintiitintitiittiitnn 24",
+          "THE NEW VELLFIRE. 14 SPECIFICATIONS. VARIANT Vellfire 2.5 HEV Executive Lounge Vellfire 2.5 ae",
+          "THE NEW VELLFIRE. 15 SPECIFICATIONS. VARIANT Vellfire 2.5 HEV Executive Lounge Vellfire 2.5 Headlamps Type Tri-LED Headlamps with Cornering Lamps and Daytime Running Lights Sequential Turn Signal Lamps With (Front & Rear) Fog Lamps Front / Rear LED / LED"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "Vellfire HEV",
+      "source_type": "OFFICIAL_WEB_PRIMARY",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "source_priority": null,
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "2487",
+          "2393",
+          "6",
+          "2500",
+          "1",
+          "7",
+          "2400",
+          "3"
+        ],
+        "transmission": [
+          "7-speed Super CVT-i with Sports Sequential Shiftmatic",
+          "8-speed Automatic Power Sliding Door With Quiet Sliding Door",
+          "Continuously Variable Transmission (E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic",
+          "E-CVT TRANSMISSION* a",
+          "E-CVT blends engine and electric power for smooth acceleration, _ '",
+          "E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic"
+        ],
+        "fuel_type": [
+          "Petrol",
+          "Hybrid Electric"
+        ],
+        "battery": [
+          "Nickel-Metal Hydride Battery",
+          "7",
+          "28"
+        ]
+      },
+      "evidence": {
+        "model_terms": [],
+        "power": [
+          "— — ‘ ee . _ j ; a a ae See eee ee ee = : 4 iad — e eV D Cc) — sis oa pe ae — ee oo sage: a eae Pa —— a —_ - ae ne 34 | 4 ~ — a ee rs a —aapsit = see ae ~ 5 is ro a ee ie pap te a ; : am True luxury is experienced, never spoken. The Toyota Vellfire and Alphard embody resolute perfection and are designed to imbue your every journey with unprecedented levels of refinement. Actual vehicle may vary from image shown",
+          "PEPFOP MAN CSE cc eennnnnnnnnnnnnnnntnntnetintnntintieienien 29 Colour ccseeeeintnetnenneintintititintiiititiiiitiitn LO SPS CIFICATIOMS cc ccccccssssssnnssnnssnnssnssunssnssnetunesnesunestnstnssissssnssnnsesnsesinssnse 20 TOYOTA SAFETY SENSE. 29 ===== PAGE 5 =====",
+          "EXTRAORDINARILY REFINED. The Vellfire’s distinctive 19” alloy wheels add an exclusive touch to its visual appeal, complete with full LED headlamps with sequential signal lamps, cornering lamps, daytime running lights (DRL), and rear lamps with a powered back door switch. Ee ————””sCON ee” a r"
+        ],
+        "torque": [
+          "syste CUTE OF SORE ae : G2 2.5L ENGINE SS Re z Z . ~ . 2AR-FE, 2.5L naturally aspirated engine with | Actual vehicle may vary from image shown. 182PS & 235Nm of Torque. ===== PAGE 9 ===== THE EEA See LAR ee 09",
+          "Max. Output kW (PS) / rpm 138 (187) / 6,000 134 (182) / 6,000 Max. Torque Nm / rpm 233 / 4,300 - 4,500 235 / 4,100 Combine System Output kW (PS) 184 (250) = Fuel System Sequential Fuel Injection (SFI)",
+          "Max. Output kW (PS) 134 (182) 7 Max. Torque Nm 270 _ Hybrid Battery Type Nickel-Metal Hydride Battery = Suspension Front / Rear MacPherson Strut with Stabiliser / Double Wishbone with Stablizer"
+        ],
+        "specification": [
+          "Interior 10 Colour 13 Specifications 14 THE ALPHARD. Exterior ee Io Interior ccsststntetntnntntnetneintietnsintintiitintitiittiitnn 24",
+          "THE NEW VELLFIRE. 14 SPECIFICATIONS. VARIANT Vellfire 2.5 HEV Executive Lounge Vellfire 2.5 ae",
+          "THE NEW VELLFIRE. 15 SPECIFICATIONS. VARIANT Vellfire 2.5 HEV Executive Lounge Vellfire 2.5 Headlamps Type Tri-LED Headlamps with Cornering Lamps and Daytime Running Lights Sequential Turn Signal Lamps With (Front & Rear) Fog Lamps Front / Rear LED / LED"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "GR Yaris",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "gr-yaris-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "4",
+          "1600",
+          "0",
+          "1",
+          "3000"
+        ],
+        "transmission": [
+          "8-Speed Gazoo Racing Direct Automatic Transmission",
+          "6-Speed Intelligent",
+          "6-Speed Manual with ae"
+        ],
+        "fuel_type": [],
+        "battery": [
+          "8",
+          "12"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "===== PAGE 2 ===== GR YARIS BORN FROM WRC It’s in its nature to thrill. The 2025 GR Yaris is an instant hot hatch classic, channelling your instinct for exceptionally enhanced power and razor-sharp control.",
+          "GR YARIS BORN FROM WRC It’s in its nature to thrill. The 2025 GR Yaris is an instant hot hatch classic, channelling your instinct for exceptionally enhanced power and razor-sharp control. ===== PAGE 3 =====",
+          "===== PAGE 3 ===== GR YARIS BORN FROM WRC — ~~ SS oo | ~"
+        ],
+        "power": [
+          "He a ee nes ee ee ———— / GALS siete SECC baks ~ i GAELS Wereorenerocc sty LIPS ft, bo ce aN ‘ : If; Png oT Beer GRy, b. ; ! 1 GYM NN \\ lla | WY) ys ~< wo res a, i ee - 4 | Cf / ? a",
+          "AS GE Pog ioe gh OTE LIE oy Zo LOK A ALLL : if ALLIS hg POLO SALT DE ggg aaa Lai DP Ine hold di 7 Wg 4 ADs SE vies Lhe es <p Yifco ~ DRO cme Pitt) SPS, Le DP Se oe. A Wf) jp ; ; LU BEEP AEDES THE TEMPE AP LLL LE LE Yop) Vp fii CAEP ILE LABS! ip je f fe’ PP kL LT PS LOLI F's! Ye 4 LS Mpulfitip pgp te pgp ti ppp JL LLLP i POT a ep eI Ye) Vii, Sify tj Ye gle ge LY) Yr 7 ; /. Ch ko , Pe hah fF gy 4 Yj / Yep, ‘",
+          "Wg 4 ADs SE vies Lhe es <p Yifco ~ DRO cme Pitt) SPS, Le DP Se oe. A Wf) jp ; ; LU BEEP AEDES THE TEMPE AP LLL LE LE Yop) Vp fii CAEP ILE LABS! ip je f fe’ PP kL LT PS LOLI F's! Ye 4 LS Mpulfitip pgp te pgp ti ppp JL LLLP i POT a ep eI Ye) Vii, Sify tj Ye gle ge LY) Yr 7 ; /. Ch ko , Pe hah fF gy 4 Yj / Yep, ‘ pg gy f/f A Lor pee SLES P AH LPI L; tif Vppp! LEE hf)” REL. LEDER LRA SAT AY LL AG tL roa"
+        ],
+        "torque": [
+          "300 PS Max Torque 400 Nm Inline 3-cylinder )-4SY) Direct & Port Injection, Turbo ; ” Dy Acceleration y, oe J 7 m > iy : ner” Le!",
+          "Enhanced Handling Stability From single-point fastening to three-point fastening, the suspension now withstands alignment changes during hard driving, enhancing steering responsiveness and handling stability. ff : Pw os . »D ‘ v Ne Se > dha , a .",
+          "Displacement (Bore x Stroke) cc (mm) 1,618 (87.5 x 89.7) Max. Output waded 300 / 6,500 Max. Torque Nm / rpm 400 / 3,250 - 4,600 Fuel System Direct Multipoint Injection (D-4ST) PERFORMANCE Acceleration (0-100 km/h) s oa Top Speed aanVAal 230 (Electronically Limited)"
+        ],
+        "specification": [
+          "===== PAGE 17 ===== GR YARIS SPECIFICATIONS MAIN SPECIFICATIONS VARIANT | GR Yaris 1.6L A/T | GR Yaris 1.6L M/T ENGINE Model G16E-GTS",
+          "GR YARIS SPECIFICATIONS MAIN SPECIFICATIONS VARIANT | GR Yaris 1.6L A/T | GR Yaris 1.6L M/T ENGINE Model G16E-GTS Type Inline 3-Cylinder, DOHC, Intercooler Turbocharged",
+          "===== PAGE 18 ===== GR YARIS SPECIFICATIONS MAIN SPECIFICATIONS VARIANT | GR Yaris 1.6L A/T | GR Yaris 1.6L M/T EXTERIOR FEATURES Headlamps Type LED Headlamps with LED Turn Signal Lamps"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "GR Corolla",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "GR-Corolla-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "4",
+          "3",
+          "1600",
+          "0",
+          "3000",
+          "1"
+        ],
+        "transmission": [
+          "8-Speed Gazoo Racing Direct Automatic Transmission",
+          "6-speed Manual with intelligent Manual Transmission [iMT]",
+          "6-speed short-shift intelligent Manual Transmission (iMT) delivers",
+          "6-speed Manual with iMT"
+        ],
+        "fuel_type": [],
+        "battery": [
+          "4",
+          "624",
+          "12"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "===== PAGE 2 ===== GR COROLLA BORN FROM WRC More intense and even more commanding. The new 2026 Toyota GR Corolla is an uncompromising combination of tuned-up performance and striking design. Make way as it makes a statement of total dominance on the roads.",
+          "GR COROLLA BORN FROM WRC More intense and even more commanding. The new 2026 Toyota GR Corolla is an uncompromising combination of tuned-up performance and striking design. Make way as it makes a statement of total dominance on the roads. ===== PAGE 3 =====",
+          "===== PAGE 3 ===== GR COROLLA BORN FROM WRC a =— le >i ——— ¥ s _ : @ P hil"
+        ],
+        "power": [
+          "| NS ee ce Ba ey i sts 5 Sa wy. MO 5 es S ae Ps om — Sie a ~Y Sas s ase CA ay Soe 3 So So et: y\\ O oj re J SF » Bee © * Se *, ok te . Ses = foe Sa ee i TI aD",
+          "of : Fr eu sa es ws _ \\ of pee ~ S85 < So age Bs * . ne . a pS — Se _ Sos 4 4 eo << foe sen moe oe Sass _ Sn _ So 1 p pa se _ ies _ Se sie oo sy > eo Se oe sa o Ses Se \\ o g NS is ese x",
+          "f ws caes eae res sarees = see = rea a - _ x ein soins — oan as = 4 aes ~ a — se ae as >. Ps set spate : ie vee Ss ee 2 as se se a v. . . . oa ao ‘ Se ee ee aah — = pees hoor se re ; ( si exe's ae - SS — oe veo a sss re \\ ss rs ier. — ote ci ae wre ses ss = = ; ms, Re oe \" Bae"
+        ],
+        "torque": [
+          "Take power and performance to the next level with a 1.6-litre turbocharged three-cylinder engine, delivering 300 horsepower and an additional 400Nm, up from the earlier 370Nm. Acceleration will now feel like an instant surge of force adding to its driving thrills. Engine Model 1.6L Turbocharged",
+          "1.6-litre turbocharged three-cylinder engine, delivering 300 horsepower and an additional 400Nm, up from the earlier 370Nm. Acceleration will now feel like an instant surge of force adding to its driving thrills. Engine Model 1.6L Turbocharged Horsepower",
+          "300 PS Max Torque 400 Nm Inline 3-cylinder O-4S) Direct & Port Injection, Turbo Acceleration 0-100km/h in 5.3s"
+        ],
+        "specification": [
+          "===== PAGE 16 ===== GR COROLLA SPECIFICATIONS MAIN SPECIFICATIONS VARIANT | GR Corolla 1.6 A/T | GR Corolla 1.6 M/T ENGINE Model G16E-GTS",
+          "GR COROLLA SPECIFICATIONS MAIN SPECIFICATIONS VARIANT | GR Corolla 1.6 A/T | GR Corolla 1.6 M/T ENGINE Model G16E-GTS Type Inline 3-Cylinder, DOHC, Intercooler Turbo",
+          "===== PAGE 17 ===== GR COROLLA SPECIFICATIONS MAIN SPECIFICATIONS VARIANT | GR Corolla 1.6 A/T | GR Corolla 1.6 M/T EXTERIOR FEATURES Headlamps Type Automatic Bi-LED Projector with LED Turn Signals"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    },
+    {
+      "model_name": "GR86",
+      "source_type": "DIRECT_PRIMARY",
+      "source_file": "gr86-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "evidence_status": "OCR_AVAILABLE",
+      "technical_candidates": {
+        "power_ps": [],
+        "torque_nm": [],
+        "displacement_cc": [
+          "2400",
+          "6"
+        ],
+        "transmission": [
+          "6-speed Manual or Automatic Transmission",
+          "6-speed close-ratio",
+          "6-speed auto, GR86 will always be a ride of thrill.",
+          "6-speed Automatic"
+        ],
+        "fuel_type": [],
+        "battery": [
+          "3"
+        ]
+      },
+      "evidence": {
+        "model_terms": [
+          "===== PAGE 2 ===== GR86 STORY BEHIND THE CONCEPT OF THE BEAST CONCEPT BEHIND The birth of a formidable machine forged through great engineering and man-made resolve has taken form of a modern-day sports car. Hear it roar down the highway with its powerful 2.4L engine. Feel the winds",
+          "down the highway with its powerful 2.4L engine. Feel the winds as it accelerates, reaching high speeds in an instant. Introducing the Toyota GR86. ===== PAGE 3 ===== GR86 STORY BEHIND THE CONCEPT OF THE BEAST",
+          "===== PAGE 3 ===== GR86 STORY BEHIND THE CONCEPT OF THE BEAST ee Mia : ae ; ae ae > = - f = } iY Sa = a —_ \\, sens, t= AN ne \" a —_ cn ’ arn, _ ww —> a aX = a —"
+        ],
+        "power": [
+          "~ a a : a : SoS ee sa ae eS aaa = SS po RPS Sees — > Espa Samer ns Sa = So Ss a Sg ere = = a — _ - = souaiemeaes a es . = @ Sa eee ee > Sa — a ee i : se _— - “SS eee ee — Se Ri or ee : a =|",
+          "uA mY ~ e ~ = Fe ae ——] il \\ Sa / D Ss =. = SS SS my 1 , a : ; SS PS Se caren \\ iA | \" SS Sas ae Me, g i , ia See ee oo | % { f ee : a ee SN wo Laren | = ; es en Hs, SS",
+          "i 2.4L Horizontally Opposed 4-cylinder Boxer Engine A sports car in the purest sense - the engine that keeps the heart racing by providing more torque and almost 20% more engine displacement than its predecessor. Horsepower 23/ PS"
+        ],
+        "torque": [
+          "23/ PS Max Torque 250 Nm Boxer 4-cylinder DOHC (D-4S Direct and Port Injection System) Acceleration 0-100km/h in 6.3s (Manual) and 6.8s (Auto)",
+          "Displacement rele 2,387 Max. Output wad elan 237 / 7,000 Max. Torque Naa ad olan) 250 / 3,700 Fuel Injection D-AS Direct & Port Injection Pe Ri eye) y| 6-speed Automatic"
+        ],
+        "specification": [
+          "===== PAGE 18 ===== GR86 SPECIFICATIONS VARIANT | GR86 2.4 M/T | GR86 2.4 A/T ENGINE Model FA24 Type Boxer 4-cylinder, 16-valve, DOHC",
+          "===== PAGE 19 ===== GR86 SPECIFICATIONS MAIN SPECIFICATIONS VARIANT | GR86 2.4 M/T | GR86 2.4 A/T INTERIOR FEATURES Material / Colour Leather with Suede / Black with Striking Red Accents",
+          "GR86 SPECIFICATIONS MAIN SPECIFICATIONS VARIANT | GR86 2.4 M/T | GR86 2.4 A/T INTERIOR FEATURES Material / Colour Leather with Suede / Black with Striking Red Accents aaah a Dale 6-way Adjustable"
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "price_import": false,
+        "master_import": false,
+        "variant_inference": false,
+        "unknown_allowed": true
+      }
+    }
+  ]
+}

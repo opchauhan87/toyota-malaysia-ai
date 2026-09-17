@@ -1,0 +1,725 @@
+{
+  "generated_at": "2026-09-15T13:02:24.016718Z",
+  "schema_version": "customer-kb-1.0",
+  "country": "Malaysia",
+  "currency": "MYR",
+  "source_policy": {
+    "primary": "Toyota Malaysia Official",
+    "secondary": [],
+    "no_hallucination": true,
+    "unknown_values": null,
+    "review_required_for_customer": false,
+    "customer_review": false,
+    "never_expose_review_status": true,
+    "no_guessing": true
+  },
+  "customer_response_policy": {
+    "review_required": false,
+    "answer_verified_only": true,
+    "never_guess": true,
+    "never_expose_internal_status": true,
+    "language": "English",
+    "unknown_response": "I'm sorry, but this information is not currently available in the verified Toyota Malaysia knowledge base."
+  },
+  "total_models": 28,
+  "models": [
+    {
+      "model_name": "Vios",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Sedan",
+      "dimensions": {
+        "length_mm": 4425,
+        "width_mm": 1740,
+        "height_mm": 1480,
+        "wheelbase_mm": 2620
+      },
+      "warranty": {
+        "vehicle_warranty": {
+          "duration_years": 5,
+          "mileage": "Unlimited",
+          "applies_to": [
+            "Vios 1.5E AT",
+            "Vios 1.5G AT",
+            "Vios 1.5 HEV AT",
+            "Vios 1.5 HEV GR Sport"
+          ],
+          "terms": "Terms and conditions apply"
+        },
+        "hybrid_electric_warranty": {
+          "duration_years": 8,
+          "mileage": "Unlimited",
+          "components": [
+            "Hybrid Electric Vehicle battery",
+            "Inverter",
+            "Power Management Control ECU"
+          ],
+          "extension": {
+            "available": true,
+            "additional_years": 2,
+            "coverage_years": "9th and 10th year"
+          }
+        }
+      },
+      "variants": [
+        {
+          "variant_name": "Vios 1.5E AT",
+          "fuel_type": "Petrol",
+          "price_myr": 90600,
+          "price_basis": "Starting price",
+          "source": "Toyota Malaysia Official",
+          "engine_displacement_cc": 1496,
+          "technical_evidence": [
+            {
+              "field": "engine_displacement_cc",
+              "value": 1496,
+              "source_file": "toyota-vios-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "engine_power_ps",
+              "value": 106,
+              "source_file": "toyota-vios-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "engine_torque_nm",
+              "value": 138,
+              "source_file": "toyota-vios-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            }
+          ],
+          "engine_power_ps": 106,
+          "engine_torque_nm": 138
+        },
+        {
+          "variant_name": "Vios 1.5G AT",
+          "fuel_type": "Petrol",
+          "price_myr": 96600,
+          "price_basis": "Starting price",
+          "source": "Toyota Malaysia Official",
+          "engine_displacement_cc": 1496,
+          "technical_evidence": [
+            {
+              "field": "engine_displacement_cc",
+              "value": 1496,
+              "source_file": "toyota-vios-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "engine_power_ps",
+              "value": 106,
+              "source_file": "toyota-vios-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "engine_torque_nm",
+              "value": 138,
+              "source_file": "toyota-vios-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            }
+          ],
+          "engine_power_ps": 106,
+          "engine_torque_nm": 138
+        },
+        {
+          "variant_name": "Vios 1.5 HEV AT",
+          "fuel_type": "Hybrid Electric",
+          "price_myr": 103900,
+          "price_basis": "Starting price",
+          "source": "Toyota Malaysia Official",
+          "hev_engine_power_ps": 91,
+          "technical_evidence": [
+            {
+              "field": "hev_engine_power_ps",
+              "value": 91,
+              "source_file": "toyota-vios-hev-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "hev_engine_torque_nm",
+              "value": 121,
+              "source_file": "toyota-vios-hev-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "combined_power_ps",
+              "value": 111,
+              "source_file": "toyota-vios-hev-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            }
+          ],
+          "hev_engine_torque_nm": 121,
+          "combined_power_ps": 111
+        },
+        {
+          "variant_name": "Vios 1.5 HEV GR Sport",
+          "fuel_type": "Hybrid Electric",
+          "price_myr": 109900,
+          "price_basis": "Starting price",
+          "source": "Toyota Malaysia Official",
+          "hev_engine_power_ps": 91,
+          "technical_evidence": [
+            {
+              "field": "hev_engine_power_ps",
+              "value": 91,
+              "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "hev_engine_torque_nm",
+              "value": 121,
+              "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "combined_power_ps",
+              "value": 111,
+              "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            }
+          ],
+          "hev_engine_torque_nm": 121,
+          "combined_power_ps": 111
+        }
+      ]
+    },
+    {
+      "model_name": "Yaris",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Hatchback",
+      "dimensions": {
+        "length_mm": 4145,
+        "width_mm": 1730,
+        "height_mm": 1500,
+        "wheelbase_mm": 2550
+      },
+      "warranty": {
+        "vehicle_warranty": {
+          "duration_years": 5,
+          "mileage": "Unlimited",
+          "terms": "Terms and conditions apply"
+        }
+      },
+      "variants": [
+        {
+          "variant_name": "Yaris 1.5E AT",
+          "fuel_type": "Petrol",
+          "engine_capacity_cc": 1496,
+          "price_myr": 88000,
+          "price_basis": "On-the-road price including SST, without insurance",
+          "source": "Toyota Malaysia Official",
+          "source_document_date": "January 2026",
+          "price_market": "Peninsular Malaysia",
+          "owner_type": "Individual Private Owner",
+          "price_source": "Toyota Malaysia Official",
+          "price_last_verified": "2026-09-15"
+        },
+        {
+          "variant_name": "Yaris 1.5G AT",
+          "fuel_type": "Petrol",
+          "engine_capacity_cc": 1496,
+          "price_myr": 91600,
+          "price_basis": "On-the-road price including SST, without insurance",
+          "source": "Toyota Malaysia Official",
+          "source_document_date": "January 2026",
+          "price_market": "Peninsular Malaysia",
+          "owner_type": "Individual Private Owner",
+          "price_source": "Toyota Malaysia Official",
+          "price_last_verified": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "model_name": "Yaris Cross",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "SUV / Crossover",
+      "variants": [
+        {
+          "variant_name": "Yaris Cross 1.5S",
+          "fuel_type": "Petrol",
+          "engine_capacity_cc": 1496,
+          "selling_price_myr": 99580,
+          "price_myr": 100250,
+          "price_basis": "On-the-road price without insurance",
+          "owner_type": "Company Private",
+          "effective_from": "2026-05-08",
+          "source": "Toyota Malaysia Official"
+        },
+        {
+          "variant_name": "Yaris Cross 1.5S HEV",
+          "fuel_type": "Hybrid Electric",
+          "engine_capacity_cc": 1496,
+          "selling_price_myr": 109580,
+          "price_myr": 110250,
+          "price_basis": "On-the-road price without insurance",
+          "owner_type": "Company Private",
+          "effective_from": "2026-05-08",
+          "source": "Toyota Malaysia Official",
+          "engine_power_ps": 91,
+          "technical_evidence": [
+            {
+              "field": "engine_power_ps",
+              "value": 91,
+              "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "engine_torque_nm",
+              "value": 121,
+              "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "motor_power_ps",
+              "value": 80,
+              "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            },
+            {
+              "field": "combined_power_ps",
+              "value": 111,
+              "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+              "status": "VERIFIED_SOURCE_CANDIDATE"
+            }
+          ],
+          "engine_torque_nm": 121,
+          "motor_power_ps": 80,
+          "combined_power_ps": 111
+        }
+      ]
+    },
+    {
+      "model_name": "Yaris Cross HEV",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "SUV"
+    },
+    {
+      "model_name": "Corolla",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Sedan"
+    },
+    {
+      "model_name": "Corolla GR Sport",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Sedan"
+    },
+    {
+      "model_name": "Corolla Cross",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Crossover"
+    },
+    {
+      "model_name": "Corolla Cross HEV",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Crossover"
+    },
+    {
+      "model_name": "Corolla Cross HEV GR Sport",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Crossover"
+    },
+    {
+      "model_name": "Camry",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Sedan"
+    },
+    {
+      "model_name": "Camry HEV",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Sedan"
+    },
+    {
+      "model_name": "Veloz",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "MPV"
+    },
+    {
+      "model_name": "Innova Zenix",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Crossover / MPV"
+    },
+    {
+      "model_name": "Fortuner",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "SUV"
+    },
+    {
+      "model_name": "Harrier HEV",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "SUV"
+    },
+    {
+      "model_name": "Hilux",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Pickup"
+    },
+    {
+      "model_name": "Hilux GR Sport",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Pickup"
+    },
+    {
+      "model_name": "Hilux BEV",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Pickup"
+    },
+    {
+      "model_name": "Hiace",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Van"
+    },
+    {
+      "model_name": "Hiace SLWB",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Van"
+    },
+    {
+      "model_name": "bZ4X",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "SUV"
+    },
+    {
+      "model_name": "Urban Cruiser BEV",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "SUV"
+    },
+    {
+      "model_name": "Alphard",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "MPV"
+    },
+    {
+      "model_name": "Vellfire",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "MPV"
+    },
+    {
+      "model_name": "Vellfire HEV",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "MPV"
+    },
+    {
+      "model_name": "GR Yaris",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Hatchback"
+    },
+    {
+      "model_name": "GR Corolla",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Hatchback"
+    },
+    {
+      "model_name": "GR86",
+      "model_id": null,
+      "country": "Malaysia",
+      "currency": "MYR",
+      "source_policy": {
+        "primary": "Toyota Malaysia Official",
+        "no_guessing": true,
+        "unknown_fields_are_null": true
+      },
+      "customer_answer_policy": {
+        "review_required": false,
+        "unknown_response": "Verified information for this item is currently not available in the approved Toyota Malaysia knowledge base."
+      },
+      "body_type": "Coupe"
+    }
+  ]
+}

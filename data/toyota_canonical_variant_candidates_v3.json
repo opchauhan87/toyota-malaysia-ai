@@ -1,0 +1,512 @@
+{
+  "generated_at": "2026-09-15T20:57:49.404975",
+  "resolver_version": "v3",
+  "policy": {
+    "official_current_sources_preferred": true,
+    "historical_sources_not_used_for_current_binding": true,
+    "unknown_not_guessed": true,
+    "master_import_allowed": false
+  },
+  "summary": {
+    "total_records": 53,
+    "candidate": 50,
+    "verified": 0,
+    "review_required": 3,
+    "master_modified": false
+  },
+  "records": [
+    {
+      "variant": "Vios 1.5E",
+      "field": "engine_displacement_cc",
+      "value": 1496,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5E",
+      "field": "engine_power_ps",
+      "value": 106,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5E",
+      "field": "engine_torque_nm",
+      "value": 138,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5G",
+      "field": "engine_displacement_cc",
+      "value": 1496,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5G",
+      "field": "engine_power_ps",
+      "value": 106,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5G",
+      "field": "engine_torque_nm",
+      "value": 138,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5 HEV",
+      "field": "hev_engine_power_ps",
+      "value": 91,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5 HEV",
+      "field": "hev_engine_torque_nm",
+      "value": 121,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5 HEV",
+      "field": "combined_power_ps",
+      "value": 111,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5 HEV GR Sport",
+      "field": "hev_engine_power_ps",
+      "value": 91,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5 HEV GR Sport",
+      "field": "hev_engine_torque_nm",
+      "value": 121,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vios 1.5 HEV GR Sport",
+      "field": "combined_power_ps",
+      "value": 111,
+      "status": "CANDIDATE",
+      "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Yaris Cross 1.5S HEV",
+      "field": "engine_power_ps",
+      "value": 91,
+      "status": "CANDIDATE",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Yaris Cross 1.5S HEV",
+      "field": "engine_torque_nm",
+      "value": 121,
+      "status": "CANDIDATE",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Yaris Cross 1.5S HEV",
+      "field": "motor_power_ps",
+      "value": 80,
+      "status": "CANDIDATE",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Yaris Cross 1.5S HEV",
+      "field": "combined_power_ps",
+      "value": 111,
+      "status": "CANDIDATE",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Camry 2.5 HEV",
+      "field": "engine_displacement_cc",
+      "value": 2487,
+      "status": "CANDIDATE",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Camry 2.5 HEV",
+      "field": "engine_power_ps",
+      "value": 188,
+      "status": "CANDIDATE",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Camry 2.5 HEV",
+      "field": "engine_torque_nm",
+      "value": 221,
+      "status": "CANDIDATE",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Camry 2.5 HEV",
+      "field": "motor_power_ps",
+      "value": 136,
+      "status": "CANDIDATE",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Camry 2.5 HEV",
+      "field": "motor_torque_nm",
+      "value": 208,
+      "status": "CANDIDATE",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Camry 2.5 HEV",
+      "field": "combined_power_ps",
+      "value": 230,
+      "status": "CANDIDATE",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Camry 2.5V",
+      "field": "engine_displacement_cc",
+      "value": 2487,
+      "status": "CANDIDATE",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Camry 2.5V",
+      "field": "engine_power_ps",
+      "value": 204,
+      "status": "CANDIDATE",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Camry 2.5V",
+      "field": "engine_torque_nm",
+      "value": 246,
+      "status": "CANDIDATE",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Corolla Cross 1.8V",
+      "field": "engine_power_ps",
+      "value": 98,
+      "status": "CANDIDATE",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Corolla Cross 1.8V",
+      "field": "engine_torque_nm",
+      "value": 142,
+      "status": "CANDIDATE",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Corolla Cross HEV",
+      "field": "engine_power_ps",
+      "value": 139,
+      "status": "CANDIDATE",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Corolla Cross HEV",
+      "field": "engine_torque_nm",
+      "value": 172,
+      "status": "CANDIDATE",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Hilux BEV",
+      "field": "motor_power_ps",
+      "value": 196,
+      "status": "CANDIDATE",
+      "source_file": "hilux-bev-e-brochure.txt",
+      "master_ready": false,
+      "reason": "Current Toyota brochure OCR explicitly identifies 196 PS power front motor; remaining BEV fields unresolved",
+      "master_variant_match": true
+    },
+    {
+      "variant": "Hilux 2.8 GR Sport",
+      "field": "engine_displacement_cc",
+      "value": 2755,
+      "status": "CANDIDATE",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Hilux 2.8 GR Sport",
+      "field": "engine_power_ps",
+      "value": 224,
+      "status": "CANDIDATE",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Hilux 2.8 GR Sport",
+      "field": "engine_torque_nm",
+      "value": 550,
+      "status": "CANDIDATE",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Hilux 2.4V / 2.4E family",
+      "field": "powertrain_specifications",
+      "value": {
+        "displacement_cc": 2393,
+        "power_ps_candidates": [
+          204,
+          150
+        ],
+        "torque_nm_candidates": [
+          500,
+          400
+        ]
+      },
+      "status": "REVIEW_REQUIRED",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "master_ready": false,
+      "reason": "Current brochure table contains multiple 2.4 variants and two power/torque sets; exact column binding required",
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vellfire 2.5 HEV",
+      "field": "engine_displacement_cc",
+      "value": 2487,
+      "status": "CANDIDATE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vellfire 2.5 HEV",
+      "field": "engine_power_ps",
+      "value": 187,
+      "status": "CANDIDATE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vellfire 2.5 HEV",
+      "field": "engine_torque_nm",
+      "value": 233,
+      "status": "CANDIDATE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vellfire 2.5 HEV",
+      "field": "motor_power_ps",
+      "value": 182,
+      "status": "CANDIDATE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vellfire 2.5 HEV",
+      "field": "motor_torque_nm",
+      "value": 270,
+      "status": "CANDIDATE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vellfire 2.5 HEV",
+      "field": "combined_power_ps",
+      "value": 250,
+      "status": "CANDIDATE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vellfire 2.4T",
+      "field": "engine_displacement_cc",
+      "value": 2393,
+      "status": "CANDIDATE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vellfire 2.4T",
+      "field": "engine_power_ps",
+      "value": 278,
+      "status": "CANDIDATE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Vellfire 2.4T",
+      "field": "engine_torque_nm",
+      "value": 430,
+      "status": "CANDIDATE",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "master_ready": false,
+      "master_variant_match": true
+    },
+    {
+      "variant": "Corolla Cross HEV GR Sport",
+      "field": "engine_displacement_cc",
+      "value": 1798,
+      "status": "CANDIDATE",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev-gr/2026/corolla-cross-hev-gr-sport-brochure.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026",
+      "master_ready": false
+    },
+    {
+      "variant": "Corolla Cross HEV GR Sport",
+      "field": "engine_power_ps",
+      "value": 98,
+      "status": "CANDIDATE",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev-gr/2026/corolla-cross-hev-gr-sport-brochure.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026",
+      "master_ready": false
+    },
+    {
+      "variant": "Corolla Cross HEV GR Sport",
+      "field": "engine_torque_nm",
+      "value": 142,
+      "status": "CANDIDATE",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev-gr/2026/corolla-cross-hev-gr-sport-brochure.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026",
+      "master_ready": false
+    },
+    {
+      "variant": "Corolla Cross HEV GR Sport",
+      "field": "motor_output_kw",
+      "value": 53,
+      "status": "CANDIDATE",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev-gr/2026/corolla-cross-hev-gr-sport-brochure.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026",
+      "master_ready": false
+    },
+    {
+      "variant": "Corolla Cross HEV GR Sport",
+      "field": "motor_torque_nm",
+      "value": 163,
+      "status": "CANDIDATE",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev-gr/2026/corolla-cross-hev-gr-sport-brochure.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026",
+      "master_ready": false
+    },
+    {
+      "variant": "Corolla Cross HEV GR Sport",
+      "field": "transmission",
+      "value": "E-CVT",
+      "status": "CANDIDATE",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/model-brochures/brochures/corolla-cross-hev-gr/2026/corolla-cross-hev-gr-sport-brochure.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026",
+      "master_ready": false
+    },
+    {
+      "variant": "Hiace SLWB",
+      "field": "engine_displacement_cc",
+      "value": 2755,
+      "status": "CANDIDATE",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/price-list-maintenance-packages/all-new-hiace/january-2026/5.0-swk-%28ip-cp%29-hiace-slwb-price-list.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026_PRICE_LIST",
+      "master_ready": false,
+      "reason": "Official price list identifies SLWB 2.8D"
+    },
+    {
+      "variant": "Hiace SLWB",
+      "field": "transmission",
+      "value": "Automatic",
+      "status": "CANDIDATE",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/price-list-maintenance-packages/all-new-hiace/january-2026/5.0-swk-%28ip-cp%29-hiace-slwb-price-list.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026_PRICE_LIST",
+      "master_ready": false,
+      "reason": "Official price list identifies 2.8D AT"
+    },
+    {
+      "variant": "Hiace SLWB",
+      "field": "engine_power_ps",
+      "value": null,
+      "status": "REVIEW_REQUIRED",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/price-list-maintenance-packages/all-new-hiace/january-2026/5.0-swk-%28ip-cp%29-hiace-slwb-price-list.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026_PRICE_LIST",
+      "master_ready": false,
+      "reason": "Power not present in verified source used here"
+    },
+    {
+      "variant": "Hiace SLWB",
+      "field": "engine_torque_nm",
+      "value": null,
+      "status": "REVIEW_REQUIRED",
+      "source_file": "https://www.toyota.com.my/content/dam/malaysia/price-list-maintenance-packages/all-new-hiace/january-2026/5.0-swk-%28ip-cp%29-hiace-slwb-price-list.pdf",
+      "source_type": "TOYOTA_OFFICIAL_CURRENT_2026_PRICE_LIST",
+      "master_ready": false,
+      "reason": "Torque not present in verified source used here"
+    }
+  ]
+}

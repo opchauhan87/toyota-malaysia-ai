@@ -1,0 +1,66 @@
+# =========================
+# Secrets / Environment
+# =========================
+.env
+.env.*
+!.env.example
+secrets/
+
+*.key
+*.pem
+*.crt
+*.p12
+*.token
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Logs / Runtime
+# =========================
+*.log
+logs/
+*.pid
+/run/
+
+# =========================
+# Customer recordings / PII
+# =========================
+recordings/
+*.wav
+*.mp3
+*.ogg
+
+# =========================
+# Customer call reports
+# =========================
+reports/calls/
+
+# =========================
+# Historical backups
+# =========================
+backups/
+
+# =========================
+# Generated reports / temporary
+# =========================
+reports/*.json
+
+# =========================
+# Generated / large source documents
+# =========================
+data/brochures/
+data/brochure_ocr/
+
+# Keep Toyota KB/catalogue JSON
+# =========================
+
+# Local source backups / old working copies
+*.bak
+*.backup.*
+*.before-*
+*.poc-backup

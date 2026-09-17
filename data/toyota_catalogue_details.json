@@ -1,0 +1,817 @@
+{
+  "source": "Toyota Malaysia Official",
+  "generated_at": "2026-09-15 19:31:17",
+  "source_records": 31,
+  "records": [
+    {
+      "model_name_raw": "gr86",
+      "model_name": "GR86",
+      "official_url": "https://www.toyota.com.my/en/models/gr86.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "gr corolla",
+      "model_name": "GR Corolla",
+      "official_url": "https://www.toyota.com.my/en/models/gr-corolla.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "gr yaris",
+      "model_name": "GR Yaris",
+      "official_url": "https://www.toyota.com.my/en/models/gr-yaris.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "corolla cross hev GR Sport",
+      "model_name": "Corolla Cross HEV GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric/corolla-cross-hev-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "hilux GR Sport",
+      "model_name": "Hilux GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "corolla GR Sport",
+      "model_name": "Corolla GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/corolla/corolla-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "vios hev GR Sport",
+      "model_name": "Vios HEV GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/vios/vios-hev-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "yaris cross HEV",
+      "model_name": "Yaris Cross HEV",
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "bz4x",
+      "model_name": "bZ4X",
+      "official_url": "https://www.toyota.com.my/en/models/bz4x.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "urban cruiser",
+      "model_name": "Urban Cruiser BEV",
+      "official_url": "https://www.toyota.com.my/en/models/urban-cruiser.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "hilux BEV",
+      "model_name": "Hilux BEV",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-bev.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "corolla cross HEV",
+      "model_name": "Corolla Cross HEV",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "zenix HEV",
+      "model_name": "Innova Zenix HEV",
+      "official_url": "https://www.toyota.com.my/en/models/zenix/zenix-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "camry HEV",
+      "model_name": "Camry HEV",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "vellfire HEV",
+      "model_name": "Vellfire HEV",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire/vellfire-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "vios HEV",
+      "model_name": "Vios HEV",
+      "official_url": "https://www.toyota.com.my/en/models/vios/vios-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "harrier HEV",
+      "model_name": "Harrier HEV",
+      "official_url": "https://www.toyota.com.my/en/models/harrier-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "yaris cross",
+      "model_name": "yaris cross",
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross-hybrid-electric/yaris-cross.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "fortuner",
+      "model_name": "fortuner",
+      "official_url": "https://www.toyota.com.my/en/models/fortuner.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "vios",
+      "model_name": "vios",
+      "official_url": "https://www.toyota.com.my/en/models/vios.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "corolla",
+      "model_name": "corolla",
+      "official_url": "https://www.toyota.com.my/en/models/corolla.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "camry",
+      "model_name": "camry",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric/camry.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "yaris",
+      "model_name": "yaris",
+      "official_url": "https://www.toyota.com.my/en/models/yaris.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "veloz",
+      "model_name": "veloz",
+      "official_url": "https://www.toyota.com.my/en/models/veloz.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "zenix",
+      "model_name": "Innova Zenix",
+      "official_url": "https://www.toyota.com.my/en/models/zenix.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "vellfire",
+      "model_name": "vellfire",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "alphard",
+      "model_name": "alphard",
+      "official_url": "https://www.toyota.com.my/en/models/alphard.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "hilux",
+      "model_name": "hilux",
+      "official_url": "https://www.toyota.com.my/en/models/hilux.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "hiace slwb",
+      "model_name": "hiace slwb",
+      "official_url": "https://www.toyota.com.my/en/models/hiace-slwb.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    },
+    {
+      "model_name_raw": "hiace",
+      "model_name": "hiace",
+      "official_url": "https://www.toyota.com.my/en/models/hiace.html",
+      "source": "Toyota Malaysia Official",
+      "source_verified": true,
+      "collected_at": "2026-09-15 19:31:17",
+      "brochure_url": null,
+      "pricing": {
+        "starting_price_myr": null,
+        "price_basis": null,
+        "price_market": null,
+        "price_owner_type": null,
+        "price_verified": false
+      },
+      "technical": {
+        "engine": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "transmission": null,
+        "fuel_type": null,
+        "hybrid": null,
+        "battery": null
+      },
+      "features": [],
+      "normalization_status": "SOURCE_RECORD"
+    }
+  ]
+}

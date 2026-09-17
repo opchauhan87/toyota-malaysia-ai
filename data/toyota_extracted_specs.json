@@ -1,0 +1,1540 @@
+{
+  "source": "Toyota Malaysia Official",
+  "generated_at": "2026-09-15 19:33:52",
+  "total_source_pages": 31,
+  "successful_extractions": 30,
+  "records": [
+    {
+      "model_name": "GR86",
+      "official_url": "https://www.toyota.com.my/en/models/gr86.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "GR Corolla",
+      "official_url": "https://www.toyota.com.my/en/models/gr-corolla.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "GR Yaris",
+      "official_url": "https://www.toyota.com.my/en/models/gr-yaris.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Corolla Cross HEV GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric/corolla-cross-hev-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Hilux GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Corolla GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/corolla/corolla-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Vios HEV GR Sport",
+      "official_url": "https://www.toyota.com.my/en/models/vios/vios-hev-gr-sport.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Yaris Cross HEV",
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": [
+        "Hybrid Electric"
+      ],
+      "hybrid": {
+        "detected": true,
+        "raw_matches": [
+          "Toyota Yaris Cross Hybrid Electric | SUV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.price"
+        ]
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 1,
+        "electric": 1,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "bZ4X",
+      "official_url": "https://www.toyota.com.my/en/models/bz4x.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Urban Cruiser BEV",
+      "official_url": "https://www.toyota.com.my/en/models/urban-cruiser.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Hilux BEV",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-bev.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": [
+        "Battery Electric"
+      ],
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": true,
+        "raw_matches": [
+          "Toyota Hilux BEV | Pickup | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.priceList[p"
+        ]
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Corolla Cross HEV",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": [
+        "Hybrid Electric"
+      ],
+      "hybrid": {
+        "detected": true,
+        "raw_matches": [
+          "Toyota Corolla Cross Hybrid Electric | Crossover | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list"
+        ]
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 1,
+        "electric": 1,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Innova Zenix HEV",
+      "official_url": "https://www.toyota.com.my/en/models/zenix/zenix-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": [
+        "Hybrid Electric"
+      ],
+      "hybrid": {
+        "detected": true,
+        "raw_matches": [
+          "Toyota Innova Zenix Hybrid Electric | Crossover | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list"
+        ]
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 1,
+        "electric": 1,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Camry HEV",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": [
+        "Hybrid Electric"
+      ],
+      "hybrid": {
+        "detected": true,
+        "raw_matches": [
+          "Toyota Camry Hybrid Electric | Sedan | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.pri"
+        ]
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 1,
+        "electric": 1,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Vellfire HEV",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire/vellfire-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": [
+        "Hybrid Electric"
+      ],
+      "hybrid": {
+        "detected": true,
+        "raw_matches": [
+          "Toyota Vellfire Hybrid Electric | Executive MPV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{"
+        ]
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 1,
+        "electric": 1,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Vios HEV",
+      "official_url": "https://www.toyota.com.my/en/models/vios/vios-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": [
+        "Hybrid Electric"
+      ],
+      "hybrid": {
+        "detected": true,
+        "raw_matches": [
+          "Toyota Vios Hybrid Electric | Sedan | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.pri"
+        ]
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 1,
+        "electric": 1,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Harrier HEV",
+      "official_url": "https://www.toyota.com.my/en/models/harrier-hybrid-electric.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": [
+        "Hybrid Electric"
+      ],
+      "hybrid": {
+        "detected": true,
+        "raw_matches": [
+          "Toyota Harrier Hybrid Electric | SUV | Toyota Malaysia {{navDealer.selectedDealer.address.city}} - {{service}} , {{service.label}} {{number}} !item.hideMlp)\"> {{list.price"
+        ]
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 1,
+        "electric": 1,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "yaris cross",
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross-hybrid-electric/yaris-cross.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "fortuner",
+      "official_url": "https://www.toyota.com.my/en/models/fortuner.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "vios",
+      "official_url": "https://www.toyota.com.my/en/models/vios.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "corolla",
+      "official_url": "https://www.toyota.com.my/en/models/corolla.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "camry",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric/camry.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "yaris",
+      "official_url": "https://www.toyota.com.my/en/models/yaris.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "veloz",
+      "official_url": "https://www.toyota.com.my/en/models/veloz.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "Innova Zenix",
+      "official_url": "https://www.toyota.com.my/en/models/zenix.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "vellfire",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "alphard",
+      "official_url": "https://www.toyota.com.my/en/models/alphard.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "hilux",
+      "official_url": "https://www.toyota.com.my/en/models/hilux.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "hiace slwb",
+      "official_url": "https://www.toyota.com.my/en/models/hiace-slwb.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    },
+    {
+      "model_name": "hiace",
+      "official_url": "https://www.toyota.com.my/en/models/hiace.html",
+      "source": "Toyota Malaysia Official",
+      "verified_source": true,
+      "extracted_at": "2026-09-15 19:33:52",
+      "price": {
+        "starting_price_myr": null,
+        "raw_matches": []
+      },
+      "engine": {
+        "displacement_cc": null,
+        "horsepower_ps": null,
+        "torque_nm": null,
+        "engine_model": null
+      },
+      "transmission": null,
+      "fuel_type": null,
+      "hybrid": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "ev": {
+        "detected": false,
+        "raw_matches": []
+      },
+      "dimensions": {
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "wheelbase_mm": null
+      },
+      "safety": [],
+      "features": [],
+      "colours": [],
+      "raw_keyword_hits": {
+        "RM": 0,
+        "engine": 0,
+        "transmission": 0,
+        "safety": 0,
+        "Toyota Safety Sense": 0,
+        "hybrid": 0,
+        "electric": 0,
+        "wheelbase": 0,
+        "Apple CarPlay": 0,
+        "Android Auto": 0,
+        "warranty": 0,
+        "service": 4
+      }
+    }
+  ]
+}

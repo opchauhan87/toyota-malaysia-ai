@@ -1,0 +1,541 @@
+{
+  "generated_at": "2026-09-15T20:52:51.827443",
+  "resolver_version": "v1",
+  "record_count": 12,
+  "records": [
+    {
+      "family": "Camry",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "candidate_model": "Camry HEV",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Camry 2.5V",
+        "Camry 2.5 HEV"
+      ],
+      "resolved_fields": {
+        "hev_engine_power_ps": {
+          "value": 188,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "hev_engine_torque_nm": {
+          "value": 221,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "motor_power_ps": {
+          "value": 136,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "motor_torque_nm": {
+          "value": 208,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "combined_power_ps": {
+          "value": 230,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "engine_displacement_cc": {
+          "value": 2487,
+          "status": "VERIFIED",
+          "evidence": "2,487 Max. Output kW (PS) / rpm 138 (188) / 6,000 04) / 6,600 Max. Torque Nm / rpm 221"
+        },
+        "petrol_engine_power_ps": {
+          "value": 204,
+          "status": "VERIFIED",
+          "evidence": "204PS) / 246"
+        },
+        "petrol_engine_torque_nm": {
+          "value": 246,
+          "status": "VERIFIED",
+          "evidence": "204PS) / 246"
+        },
+        "hev_transmission": {
+          "value": "E-CVT",
+          "status": "VERIFIED",
+          "evidence": "TRANSMISSION E-CVT"
+        },
+        "petrol_transmission": {
+          "value": "8-speed Automatic",
+          "status": "VERIFIED",
+          "evidence": "8-speed Automatic"
+        }
+      },
+      "resolver_status": "RESOLVED_FIELDS",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Yaris Cross",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "candidate_model": "Yaris Cross HEV",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Yaris Cross 1.5S",
+        "Yaris Cross 1.5S HEV"
+      ],
+      "resolved_fields": {
+        "engine_power_ps": {
+          "value": 91,
+          "status": "VERIFIED",
+          "evidence": "Engine Power kW (PS) / DOHC with Dual-VVT-i Displacement cc spel) Bore x Stroke mm 72.5 x 90.6 Engine Power kW (PS) / rpm 78 (106) / 6,000 67 (91) / 5,500 (Engine) Engine Torque Ware) 138 / 4,200 121"
+        },
+        "engine_torque_nm": {
+          "value": 121,
+          "status": "VERIFIED",
+          "evidence": "Engine Power kW (PS) / DOHC with Dual-VVT-i Displacement cc spel) Bore x Stroke mm 72.5 x 90.6 Engine Power kW (PS) / rpm 78 (106) / 6,000 67 (91) / 5,500 (Engine) Engine Torque Ware) 138 / 4,200 121"
+        },
+        "motor_power_ps": {
+          "value": 80,
+          "status": "VERIFIED",
+          "evidence": "Engine Power kW (PS) / DOHC with Dual-VVT-i Displacement cc spel) Bore x Stroke mm 72.5 x 90.6 Engine Power kW (PS) / rpm 78 (106) / 6,000 67 (91) / 5,500 (Engine) Engine Torque Ware) 138 / 4,200 121 / 4,000 - 4,800 Electric Motor Power kW (PS) - 59 (80) Electric Motor Torque Nm - aca Combined Output — kW (PS) a 82 (111)"
+        },
+        "combined_power_ps": {
+          "value": 111,
+          "status": "VERIFIED",
+          "evidence": "Engine Power kW (PS) / DOHC with Dual-VVT-i Displacement cc spel) Bore x Stroke mm 72.5 x 90.6 Engine Power kW (PS) / rpm 78 (106) / 6,000 67 (91) / 5,500 (Engine) Engine Torque Ware) 138 / 4,200 121 / 4,000 - 4,800 Electric Motor Power kW (PS) - 59 (80) Electric Motor Torque Nm - aca Combined Output — kW (PS) a 82 (111)"
+        }
+      },
+      "resolver_status": "RESOLVED_FIELDS",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Camry",
+      "source_file": "camry-e-brochure.txt",
+      "candidate_model": "Camry HEV",
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "canonical_variants": [
+        "Camry 2.5V",
+        "Camry 2.5 HEV"
+      ],
+      "resolved_fields": {
+        "hev_engine_power_ps": {
+          "value": 188,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "hev_engine_torque_nm": {
+          "value": 221,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "motor_power_ps": {
+          "value": 136,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "motor_torque_nm": {
+          "value": 208,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "combined_power_ps": {
+          "value": 230,
+          "status": "VERIFIED",
+          "evidence": "ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW ( HYBRID ELECTRIC POWERTRAIN* 2.5L DYNAMIC FORCE ENGINE** MAX. OUTPUT MAX. TORQUE MAX. OUTPUT MAX. TORQUE Engine Engine Engine Engine 138kW (188PS) / 6,000rpm 221Nm / 3,600 - 5,200rpm 150kW (204PS) / 246Nm / Motor Motor 6,600rpm 4,200 - 5,000rpm 100kW (136PS) 208Nm Combined Output 169kW (230"
+        },
+        "engine_displacement_cc": {
+          "value": 2487,
+          "status": "VERIFIED",
+          "evidence": "2,487 Max. Output kW (PS) / rpm 138 (188) / 6,000 04) / 6,600 Max. Torque Nm / rpm 221"
+        },
+        "petrol_engine_power_ps": {
+          "value": 204,
+          "status": "VERIFIED",
+          "evidence": "204PS) / 246"
+        },
+        "petrol_engine_torque_nm": {
+          "value": 246,
+          "status": "VERIFIED",
+          "evidence": "204PS) / 246"
+        },
+        "hev_transmission": {
+          "value": "E-CVT",
+          "status": "VERIFIED",
+          "evidence": "TRANSMISSION E-CVT"
+        },
+        "petrol_transmission": {
+          "value": "8-speed Automatic",
+          "status": "VERIFIED",
+          "evidence": "8-speed Automatic"
+        }
+      },
+      "resolver_status": "RESOLVED_FIELDS",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Corolla Cross",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "candidate_model": "Corolla Cross HEV",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Corolla Cross 1.8V",
+        "Corolla Cross HEV",
+        "Corolla Cross HEV GR Sport"
+      ],
+      "resolved_fields": {
+        "petrol_engine_power_ps": {
+          "value": 98,
+          "status": "VERIFIED",
+          "evidence": "72 (98) / 5,200 103 (139) / 6,400 Max. Torque TWA edi) 142 / 3,600 172"
+        },
+        "hev_engine_power_ps": {
+          "value": 139,
+          "status": "VERIFIED",
+          "evidence": "72 (98) / 5,200 103 (139) / 6,400 Max. Torque TWA edi) 142 / 3,600 172"
+        },
+        "petrol_engine_torque_nm": {
+          "value": 142,
+          "status": "VERIFIED",
+          "evidence": "72 (98) / 5,200 103 (139) / 6,400 Max. Torque TWA edi) 142 / 3,600 172"
+        },
+        "hev_engine_torque_nm": {
+          "value": 172,
+          "status": "VERIFIED",
+          "evidence": "72 (98) / 5,200 103 (139) / 6,400 Max. Torque TWA edi) 142 / 3,600 172"
+        },
+        "petrol_transmission": {
+          "value": "7-speed CVT with Sequential Shiftmatic",
+          "status": "VERIFIED",
+          "evidence": "7-speed CVT with Sequential Shiftmatic"
+        }
+      },
+      "resolver_status": "RESOLVED_FIELDS",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Corolla Cross",
+      "source_file": "corolla-cross-hev-gr-sport-e-brochure.txt",
+      "candidate_model": "Corolla Cross HEV GR Sport",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Corolla Cross 1.8V",
+        "Corolla Cross HEV",
+        "Corolla Cross HEV GR Sport"
+      ],
+      "resolved_fields": {},
+      "resolver_status": "REVIEW_REQUIRED",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Hiace",
+      "source_file": "hiace-e-brochure.txt",
+      "candidate_model": "Hiace",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Hiace",
+        "Hiace SLWB"
+      ],
+      "resolved_fields": {},
+      "resolver_status": "REVIEW_REQUIRED",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Hilux",
+      "source_file": "hilux-bev-e-brochure.txt",
+      "candidate_model": "Hilux BEV",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Hilux 2.8 GR Sport",
+        "Hilux 2.8 Rogue",
+        "Hilux 2.4V",
+        "Hilux 2.4E",
+        "Hilux 2.4E MT",
+        "Hilux 2.4 MT",
+        "Hilux BEV"
+      ],
+      "resolved_fields": {},
+      "resolver_status": "REVIEW_REQUIRED",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Hilux",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "candidate_model": "Hilux GR Sport",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Hilux 2.8 GR Sport",
+        "Hilux 2.8 Rogue",
+        "Hilux 2.4V",
+        "Hilux 2.4E",
+        "Hilux 2.4E MT",
+        "Hilux 2.4 MT",
+        "Hilux BEV"
+      ],
+      "resolved_fields": {
+        "2.8_engine_displacement_cc": {
+          "value": 2755,
+          "status": "VERIFIED",
+          "evidence": "2,755 2,393 Max. Output (SAE-Net) PS / rpm 224 / 3,000 204 / 3,400 150 / 3,400 Max. Torque (SAE-Net) Nm / rpm 550"
+        },
+        "2.8_engine_power_ps": {
+          "value": 224,
+          "status": "VERIFIED",
+          "evidence": "2,755 2,393 Max. Output (SAE-Net) PS / rpm 224 / 3,000 204 / 3,400 150 / 3,400 Max. Torque (SAE-Net) Nm / rpm 550"
+        },
+        "2.8_engine_torque_nm": {
+          "value": 550,
+          "status": "VERIFIED",
+          "evidence": "2,755 2,393 Max. Output (SAE-Net) PS / rpm 224 / 3,000 204 / 3,400 150 / 3,400 Max. Torque (SAE-Net) Nm / rpm 550"
+        },
+        "2.4_engine_displacement_cc": {
+          "value": 2393,
+          "status": "VERIFIED",
+          "evidence": "2,393 Max. Output (SAE-Net) PS / rpm 224 / 3,000 204 / 3,400 150 / 3,400 Max. Torque (SAE-Net) Nm / rpm 550 / 1,600 - 2,800 500 / 1,600 - 2,800 400 / 1,600 - 2,000 TRANSMISSION Transmission 6-speed Automatic with 6-speed Automatic with S NE 1GD-FTV • 2.8 L INTERCOOLER VNT ELECTRONIC COMMON-RAIL FUEL INJECTION SYSTEM Max Power * Max Torque* 224 550 3,000 rpm PS 1,600-2,800 rpm Nm Extreme Power with Enhanced Efficiency The heavy-duty turbocharger results in superior performance while the increased common-rail fuel injection pressure contr tough impression that the Hilux is well-known for. HILUX GR SPORT HILUX ROGUE POWER UnRIVALLed Active Traction Control (A-TRC) When a wheel loses traction in 4WD mode, the system brakes that wheel and transfers power to the other wheel on the axle to maintain forward momentum. Paddle Shifters* wheel loses traction in 4WD mode, the system brakes that wheel and transfers power to the other wheel on the axle to maintain forward momentum. Paddle Shifters* Maximise your fun and exert your dominance with the Paddle Shifters! Variable Flow Control (VFC) Downhill-Assist Control (DAC) Power e Paddle Shifters! Variable Flow Control (VFC) Downhill-Assist Control (DAC) Power Steering Controls the brakes automatically and Provides more natural handling that prevents the Hilux from slipping when varies the assistance level to match descending steep slopes. high and low speeds. *Only avail GD-FTV • 2.8 L INTERCOOLER VNT ELECTRONIC COMMON-RAIL FUEL INJECTION "
+        },
+        "2.4_engine_power_ps": {
+          "value": [
+            204,
+            150
+          ],
+          "status": "VERIFIED",
+          "evidence": "2,393 Max. Output (SAE-Net) PS / rpm 224 / 3,000 204 / 3,400 150 / 3,400 Max. Torque (SAE-Net) Nm / rpm 550 / 1,600 - 2,800 500 / 1,600 - 2,800 400 / 1,600 - 2,000 TRANSMISSION Transmission 6-speed Automatic with 6-speed Automatic with S NE 1GD-FTV • 2.8 L INTERCOOLER VNT ELECTRONIC COMMON-RAIL FUEL INJECTION SYSTEM Max Power * Max Torque* 224 550 3,000 rpm PS 1,600-2,800 rpm Nm Extreme Power with Enhanced Efficiency The heavy-duty turbocharger results in superior performance while the increased common-rail fuel injection pressure contr tough impression that the Hilux is well-known for. HILUX GR SPORT HILUX ROGUE POWER UnRIVALLed Active Traction Control (A-TRC) When a wheel loses traction in 4WD mode, the system brakes that wheel and transfers power to the other wheel on the axle to maintain forward momentum. Paddle Shifters* wheel loses traction in 4WD mode, the system brakes that wheel and transfers power to the other wheel on the axle to maintain forward momentum. Paddle Shifters* Maximise your fun and exert your dominance with the Paddle Shifters! Variable Flow Control (VFC) Downhill-Assist Control (DAC) Power e Paddle Shifters! Variable Flow Control (VFC) Downhill-Assist Control (DAC) Power Steering Controls the brakes automatically and Provides more natural handling that prevents the Hilux from slipping when varies the assistance level to match descending steep slopes. high and low speeds. *Only avail GD-FTV • 2.8 L INTERCOOLER VNT ELECTRONIC COMMON-RAIL FUEL INJECTION "
+        },
+        "2.4_engine_torque_nm": {
+          "value": [
+            500,
+            400
+          ],
+          "status": "VERIFIED",
+          "evidence": "2,393 Max. Output (SAE-Net) PS / rpm 224 / 3,000 204 / 3,400 150 / 3,400 Max. Torque (SAE-Net) Nm / rpm 550 / 1,600 - 2,800 500 / 1,600 - 2,800 400 / 1,600 - 2,000 TRANSMISSION Transmission 6-speed Automatic with 6-speed Automatic with S NE 1GD-FTV • 2.8 L INTERCOOLER VNT ELECTRONIC COMMON-RAIL FUEL INJECTION SYSTEM Max Power * Max Torque* 224 550 3,000 rpm PS 1,600-2,800 rpm Nm Extreme Power with Enhanced Efficiency The heavy-duty turbocharger results in superior performance while the increased common-rail fuel injection pressure contr tough impression that the Hilux is well-known for. HILUX GR SPORT HILUX ROGUE POWER UnRIVALLed Active Traction Control (A-TRC) When a wheel loses traction in 4WD mode, the system brakes that wheel and transfers power to the other wheel on the axle to maintain forward momentum. Paddle Shifters* wheel loses traction in 4WD mode, the system brakes that wheel and transfers power to the other wheel on the axle to maintain forward momentum. Paddle Shifters* Maximise your fun and exert your dominance with the Paddle Shifters! Variable Flow Control (VFC) Downhill-Assist Control (DAC) Power e Paddle Shifters! Variable Flow Control (VFC) Downhill-Assist Control (DAC) Power Steering Controls the brakes automatically and Provides more natural handling that prevents the Hilux from slipping when varies the assistance level to match descending steep slopes. high and low speeds. *Only avail GD-FTV • 2.8 L INTERCOOLER VNT ELECTRONIC COMMON-RAIL FUEL INJECTION "
+        },
+        "automatic_transmission": {
+          "value": "6-speed Automatic",
+          "status": "VERIFIED",
+          "evidence": "6-speed Automatic"
+        },
+        "manual_transmission": {
+          "value": "6-speed Manual",
+          "status": "VERIFIED",
+          "evidence": "6-speed Manual"
+        }
+      },
+      "resolver_status": "RESOLVED_FIELDS",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Vios",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "candidate_model": "Vios",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Vios 1.5E",
+        "Vios 1.5G",
+        "Vios 1.5 HEV",
+        "Vios 1.5 HEV GR Sport"
+      ],
+      "resolved_fields": {
+        "engine_displacement_cc": {
+          "value": 1496,
+          "status": "VERIFIED",
+          "evidence": "Displacement cc 1,496 Bore & Stroke mm 72.5 x 90.6 Compression Ratio 11.5 Max. Output KW (PS) / rpm 78 (106) / 6,000 Max. Torque Nm / rpm 138"
+        },
+        "engine_power_ps": {
+          "value": 106,
+          "status": "VERIFIED",
+          "evidence": "Displacement cc 1,496 Bore & Stroke mm 72.5 x 90.6 Compression Ratio 11.5 Max. Output KW (PS) / rpm 78 (106) / 6,000 Max. Torque Nm / rpm 138"
+        },
+        "engine_torque_nm": {
+          "value": 138,
+          "status": "VERIFIED",
+          "evidence": "Displacement cc 1,496 Bore & Stroke mm 72.5 x 90.6 Compression Ratio 11.5 Max. Output KW (PS) / rpm 78 (106) / 6,000 Max. Torque Nm / rpm 138"
+        }
+      },
+      "resolver_status": "RESOLVED_FIELDS",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Vios",
+      "source_file": "toyota-vios-hev-e-brochure.txt",
+      "candidate_model": "Vios HEV",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Vios 1.5E",
+        "Vios 1.5G",
+        "Vios 1.5 HEV",
+        "Vios 1.5 HEV GR Sport"
+      ],
+      "resolved_fields": {
+        "hev_engine_power_ps": {
+          "value": 91,
+          "status": "VERIFIED",
+          "evidence": "Max. Output kW (PS)/rpm | 67 (91) / 5,500 78 (106) / 6,000 esau Nm/rpm___|__121/ 4,000 - 4,800 Eye) Fuel Consumption* L/100km | 3.6 5.2 Drive Wheel | Lacela AA at ss d Transmission | Oval 7-Speed CVT with Sequential Shiftmatic Driv c Drive Mode Power /ECO/Normal/EV Power / ECO / Normal MOTOR GENERATOR Combined Max. Output kw (PS) | 82(111) - Esme Gs) | 59(80) = Max. Torque Ta) aco = HYBRID ELECTRIC BATTERY Type | aaa yeaa oda) - Capacity Nag | cc} a CHASSIS Suspension Front McPherson Strut Reels Torsion Beam ireland Front Ventilated Disc efined GEN and responsible journey. Intelligently combining electric and petrol power for an exceptionally smooth and fuel-efficient drive. Experience TOYOTA HYBRID enhanced acceleration, superior fuel economy, ELECTRIC SYSTEM whisper-quiet operation, and reduced emissions. ages POWERFUL { HIGH-PERFORMAN e vehicle. oa a CH Intelligent Self-Charging Great Handling Stability Optimised power regeneration through Engineered for better stability and ride comfort. regenerative braking and while driving. With a lower centre of gravity through the No plugging in, no waiting, just strategic placement of the hybri ic Vehicle i Ss iy — ae: = with unlimited mileage. (HEV) battery, inverter, and power management control _— fl = — Terms and conditions apply. OU O)o}eColat- ARR aol ot ltt CR LEC Aol old me extended for another 2 years (9% & 10\" year). Terms and conditions apply. ===== PAGE 13 ===== TOYOTA Enjoy an ex A at ss d Transmission | Oval 7-Speed CV"
+        },
+        "hev_engine_torque_nm": {
+          "value": 121,
+          "status": "VERIFIED",
+          "evidence": "Max. Output kW (PS)/rpm | 67 (91) / 5,500 78 (106) / 6,000 esau Nm/rpm___|__121/ 4,000 - 4,800 Eye) Fuel Consumption* L/100km | 3.6 5.2 Drive Wheel | Lacela AA at ss d Transmission | Oval 7-Speed CVT with Sequential Shiftmatic Driv c Drive Mode Power /ECO/Normal/EV Power / ECO / Normal MOTOR GENERATOR Combined Max. Output kw (PS) | 82(111) - Esme Gs) | 59(80) = Max. Torque Ta) aco = HYBRID ELECTRIC BATTERY Type | aaa yeaa oda) - Capacity Nag | cc} a CHASSIS Suspension Front McPherson Strut Reels Torsion Beam ireland Front Ventilated Disc efined GEN and responsible journey. Intelligently combining electric and petrol power for an exceptionally smooth and fuel-efficient drive. Experience TOYOTA HYBRID enhanced acceleration, superior fuel economy, ELECTRIC SYSTEM whisper-quiet operation, and reduced emissions. ages POWERFUL { HIGH-PERFORMAN e vehicle. oa a CH Intelligent Self-Charging Great Handling Stability Optimised power regeneration through Engineered for better stability and ride comfort. regenerative braking and while driving. With a lower centre of gravity through the No plugging in, no waiting, just strategic placement of the hybri ic Vehicle i Ss iy — ae: = with unlimited mileage. (HEV) battery, inverter, and power management control _— fl = — Terms and conditions apply. OU O)o}eColat- ARR aol ot ltt CR LEC Aol old me extended for another 2 years (9% & 10\" year). Terms and conditions apply. ===== PAGE 13 ===== TOYOTA Enjoy an ex A at ss d Transmission | Oval 7-Speed CV"
+        },
+        "combined_power_ps": {
+          "value": 111,
+          "status": "VERIFIED",
+          "evidence": "Combined Max. Output kw (PS) | 82(111)"
+        }
+      },
+      "resolver_status": "RESOLVED_FIELDS",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Vios",
+      "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+      "candidate_model": "Vios HEV GR Sport",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Vios 1.5E",
+        "Vios 1.5G",
+        "Vios 1.5 HEV",
+        "Vios 1.5 HEV GR Sport"
+      ],
+      "resolved_fields": {
+        "hev_engine_power_ps": {
+          "value": 91,
+          "status": "VERIFIED",
+          "evidence": "Max. Output kw (PS) 82(111) Max. Output aN ACs) 59(80) Max. Torque Taal aca ai er3 Lithium lon Capacity rae 43 Suspension Front McPherson Strut (GR Sport Tuned Coils & Shocks) tere) Torsion Beam (GR Sport Tuned Coils & Shocks) Oe Drive Mode Power / ECO / Normal / EV Combined Max. Output kw (PS) 82(111) Max. Output aN ACs) 59(80) Max. Torque Taal aca ai er3 Lithium lon Capacity rae 43 Suspension Front McPherson Strut (GR Sport Tuned Coils & Shocks) tere) Torsion Beam (GR Sport Tuned Coils & Shocks) lel acon a Acree lee Ae Rea re refined and responsible journey. Intelligently combining electric and petrol power for an exceptionally smooth and fuel-efficient drive. Experience enhanced acceleration, superior fuel economy, whisper-quiet operation, and improved response. se? bases co a ZA rs .. t= a ee: A et = (hu . [= ip) Rha 3 = -and-go traffic. Designed to last the life of the vehicle. C=C _ ie, Continuous power regeneration while driving and Engineered for better stability and ride comfort. braking. No plugging, no waiting, just seamless With a lower centre of gravity through the strategic charging as you drive. placement of t re i Y eT Ete) ym) sey th on files FRONT AERODYNAMIC GR SPORT TUNED SUSPENSION POWER STEERING re aS Specially tuned coils and shocks that Recalibrated for dynamic driving. Optimises airflow from front to rear, let you charge into corners with With quicker response that intuitively improving aerodynamics RANTY PTET as) ; eT ee jaa\" FF gp en cea ra 3 —_—_ F"
+        },
+        "hev_engine_torque_nm": {
+          "value": 121,
+          "status": "VERIFIED",
+          "evidence": "Max. Output kw (PS) 82(111) Max. Output aN ACs) 59(80) Max. Torque Taal aca ai er3 Lithium lon Capacity rae 43 Suspension Front McPherson Strut (GR Sport Tuned Coils & Shocks) tere) Torsion Beam (GR Sport Tuned Coils & Shocks) Oe Drive Mode Power / ECO / Normal / EV Combined Max. Output kw (PS) 82(111) Max. Output aN ACs) 59(80) Max. Torque Taal aca ai er3 Lithium lon Capacity rae 43 Suspension Front McPherson Strut (GR Sport Tuned Coils & Shocks) tere) Torsion Beam (GR Sport Tuned Coils & Shocks) lel acon a Acree lee Ae Rea re refined and responsible journey. Intelligently combining electric and petrol power for an exceptionally smooth and fuel-efficient drive. Experience enhanced acceleration, superior fuel economy, whisper-quiet operation, and improved response. se? bases co a ZA rs .. t= a ee: A et = (hu . [= ip) Rha 3 = -and-go traffic. Designed to last the life of the vehicle. C=C _ ie, Continuous power regeneration while driving and Engineered for better stability and ride comfort. braking. No plugging, no waiting, just seamless With a lower centre of gravity through the strategic charging as you drive. placement of t re i Y eT Ete) ym) sey th on files FRONT AERODYNAMIC GR SPORT TUNED SUSPENSION POWER STEERING re aS Specially tuned coils and shocks that Recalibrated for dynamic driving. Optimises airflow from front to rear, let you charge into corners with With quicker response that intuitively improving aerodynamics RANTY PTET as) ; eT ee jaa\" FF gp en cea ra 3 —_—_ F"
+        },
+        "combined_power_ps": {
+          "value": 111,
+          "status": "VERIFIED",
+          "evidence": "Combined Max. Output kw (PS) 82(111)"
+        }
+      },
+      "resolver_status": "RESOLVED_FIELDS",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    },
+    {
+      "family": "Vellfire",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "candidate_model": "Alphard",
+      "source_priority": "CURRENT_PRIMARY",
+      "canonical_variants": [
+        "Vellfire 2.5 HEV",
+        "Vellfire 2.4T"
+      ],
+      "resolved_fields": {
+        "hev_displacement_cc": {
+          "value": 2487,
+          "status": "VERIFIED",
+          "evidence": "2,487 2,494 Max. Output kW (PS) / rpm 138 (187) / 6,000 134 (182) / 6,000 Max. Torque Nm / rpm 233 / 4,300 - 4,500 235 / 4,100 Combine System Output kW (PS) 184 (250) = Fuel System Sequential Fuel Injection (SFI) Drive Mode With (ECO / NOR ble Transmission (E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic Max. Output kW (PS) 134 (182) 7 Max. Torque Nm 270 _ Hybrid Battery Type Nickel-Metal Hydride Battery = Suspension Front / Rear MacPherson Strut with Stabiliser / Double Wishbone with Stablizer Brakes Front / Rear Ventilated Di Lamps With Front & Rear Displacement cc 2,393 LED Fog Lamps | With Front & Rear Max. Output kW (PS) / rpm 205 (278) / 6,000 Rear Combination Lamp | With LED Max. Torque Nm / rpm | 430 / 1,700 - 3,600 Outside Rear View Mirror ' Auto Power Foldable, Memory, Blind Spot Monitoring, Top Speed km/h 180 Heater and Si \\ Ci ——_~_, Petrol engine and electric motor provide a ) ey =i ih Se v/ | Pay — maximum power together with supplemental af an ea VO eS at a ee electrical power from the HEV battery to the motor. i OO ae \\ yo Z r . | y a © Bie, 4 | V3 Braking charges battery Qe Oo At Y a | i 7. BRAKING Rye es hy rm , {a ay The e Our advanced 4th Generation Hybrid System seamlessly blends electric and petrol power, ensuring a responsive and effecient driving experience that keeps you moving forward. mane ra START/LOW SPEED / Le Only the motor powers the whole car with | cD Bj electricity from the Hybrid Electric battery.* pains e ectric battery.* pain"
+        },
+        "hev_engine_power_ps": {
+          "value": 187,
+          "status": "VERIFIED",
+          "evidence": "2,487 2,494 Max. Output kW (PS) / rpm 138 (187) / 6,000 134 (182) / 6,000 Max. Torque Nm / rpm 233 / 4,300 - 4,500 235 / 4,100 Combine System Output kW (PS) 184 (250) = Fuel System Sequential Fuel Injection (SFI) Drive Mode With (ECO / NOR ble Transmission (E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic Max. Output kW (PS) 134 (182) 7 Max. Torque Nm 270 _ Hybrid Battery Type Nickel-Metal Hydride Battery = Suspension Front / Rear MacPherson Strut with Stabiliser / Double Wishbone with Stablizer Brakes Front / Rear Ventilated Di Lamps With Front & Rear Displacement cc 2,393 LED Fog Lamps | With Front & Rear Max. Output kW (PS) / rpm 205 (278) / 6,000 Rear Combination Lamp | With LED Max. Torque Nm / rpm | 430 / 1,700 - 3,600 Outside Rear View Mirror ' Auto Power Foldable, Memory, Blind Spot Monitoring, Top Speed km/h 180 Heater and Si \\ Ci ——_~_, Petrol engine and electric motor provide a ) ey =i ih Se v/ | Pay — maximum power together with supplemental af an ea VO eS at a ee electrical power from the HEV battery to the motor. i OO ae \\ yo Z r . | y a © Bie, 4 | V3 Braking charges battery Qe Oo At Y a | i 7. BRAKING Rye es hy rm , {a ay The e Our advanced 4th Generation Hybrid System seamlessly blends electric and petrol power, ensuring a responsive and effecient driving experience that keeps you moving forward. mane ra START/LOW SPEED / Le Only the motor powers the whole car with | cD Bj electricity from the Hybrid Electric battery.* pains e ectric battery.* pain"
+        },
+        "hev_engine_torque_nm": {
+          "value": 233,
+          "status": "VERIFIED",
+          "evidence": "2,487 2,494 Max. Output kW (PS) / rpm 138 (187) / 6,000 134 (182) / 6,000 Max. Torque Nm / rpm 233 / 4,300 - 4,500 235 / 4,100 Combine System Output kW (PS) 184 (250) = Fuel System Sequential Fuel Injection (SFI) Drive Mode With (ECO / NOR ble Transmission (E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic Max. Output kW (PS) 134 (182) 7 Max. Torque Nm 270 _ Hybrid Battery Type Nickel-Metal Hydride Battery = Suspension Front / Rear MacPherson Strut with Stabiliser / Double Wishbone with Stablizer Brakes Front / Rear Ventilated Di Lamps With Front & Rear Displacement cc 2,393 LED Fog Lamps | With Front & Rear Max. Output kW (PS) / rpm 205 (278) / 6,000 Rear Combination Lamp | With LED Max. Torque Nm / rpm | 430 / 1,700 - 3,600 Outside Rear View Mirror ' Auto Power Foldable, Memory, Blind Spot Monitoring, Top Speed km/h 180 Heater and Si \\ Ci ——_~_, Petrol engine and electric motor provide a ) ey =i ih Se v/ | Pay — maximum power together with supplemental af an ea VO eS at a ee electrical power from the HEV battery to the motor. i OO ae \\ yo Z r . | y a © Bie, 4 | V3 Braking charges battery Qe Oo At Y a | i 7. BRAKING Rye es hy rm , {a ay The e Our advanced 4th Generation Hybrid System seamlessly blends electric and petrol power, ensuring a responsive and effecient driving experience that keeps you moving forward. mane ra START/LOW SPEED / Le Only the motor powers the whole car with | cD Bj electricity from the Hybrid Electric battery.* pains e ectric battery.* pain"
+        },
+        "motor_power_ps": {
+          "value": 182,
+          "status": "VERIFIED",
+          "evidence": "2,487 2,494 Max. Output kW (PS) / rpm 138 (187) / 6,000 134 (182) / 6,000 Max. Torque Nm / rpm 233 / 4,300 - 4,500 235 / 4,100 Combine System Output kW (PS) 184 (250) = Fuel System Sequential Fuel Injection (SFI) Drive Mode With (ECO / NOR ble Transmission (E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic Max. Output kW (PS) 134 (182) 7 Max. Torque Nm 270 _ Hybrid Battery Type Nickel-Metal Hydride Battery = Suspension Front / Rear MacPherson Strut with Stabiliser / Double Wishbone with Stablizer Brakes Front / Rear Ventilated Di Lamps With Front & Rear Displacement cc 2,393 LED Fog Lamps | With Front & Rear Max. Output kW (PS) / rpm 205 (278) / 6,000 Rear Combination Lamp | With LED Max. Torque Nm / rpm | 430 / 1,700 - 3,600 Outside Rear View Mirror ' Auto Power Foldable, Memory, Blind Spot Monitoring, Top Speed km/h 180 Heater and Si \\ Ci ——_~_, Petrol engine and electric motor provide a ) ey =i ih Se v/ | Pay — maximum power together with supplemental af an ea VO eS at a ee electrical power from the HEV battery to the motor. i OO ae \\ yo Z r . | y a © Bie, 4 | V3 Braking charges battery Qe Oo At Y a | i 7. BRAKING Rye es hy rm , {a ay The e Our advanced 4th Generation Hybrid System seamlessly blends electric and petrol power, ensuring a responsive and effecient driving experience that keeps you moving forward. mane ra START/LOW SPEED / Le Only the motor powers the whole car with | cD Bj electricity from the Hybrid Electric battery.* pains e ectric battery.* pain"
+        },
+        "motor_torque_nm": {
+          "value": 270,
+          "status": "VERIFIED",
+          "evidence": "Max. Torque Nm 270"
+        },
+        "combined_power_ps": {
+          "value": 250,
+          "status": "VERIFIED",
+          "evidence": "2,487 2,494 Max. Output kW (PS) / rpm 138 (187) / 6,000 134 (182) / 6,000 Max. Torque Nm / rpm 233 / 4,300 - 4,500 235 / 4,100 Combine System Output kW (PS) 184 (250) = Fuel System Sequential Fuel Injection (SFI) Drive Mode With (ECO / NOR ble Transmission (E-CVT) 7-speed Super CVT-i with Sports Sequential Shiftmatic Max. Output kW (PS) 134 (182) 7 Max. Torque Nm 270 _ Hybrid Battery Type Nickel-Metal Hydride Battery = Suspension Front / Rear MacPherson Strut with Stabiliser / Double Wishbone with Stablizer Brakes Front / Rear Ventilated Di Lamps With Front & Rear Displacement cc 2,393 LED Fog Lamps | With Front & Rear Max. Output kW (PS) / rpm 205 (278) / 6,000 Rear Combination Lamp | With LED Max. Torque Nm / rpm | 430 / 1,700 - 3,600 Outside Rear View Mirror ' Auto Power Foldable, Memory, Blind Spot Monitoring, Top Speed km/h 180 Heater and Si \\ Ci ——_~_, Petrol engine and electric motor provide a ) ey =i ih Se v/ | Pay — maximum power together with supplemental af an ea VO eS at a ee electrical power from the HEV battery to the motor. i OO ae \\ yo Z r . | y a © Bie, 4 | V3 Braking charges battery Qe Oo At Y a | i 7. BRAKING Rye es hy rm , {a ay The e Our advanced 4th Generation Hybrid System seamlessly blends electric and petrol power, ensuring a responsive and effecient driving experience that keeps you moving forward. mane ra START/LOW SPEED / Le Only the motor powers the whole car with | cD Bj electricity from the Hybrid Electric battery.* pains e ectric battery.* pain"
+        },
+        "turbo_displacement_cc": {
+          "value": 2393,
+          "status": "VERIFIED",
+          "evidence": "2,393 LED Fog Lamps | With Front & Rear Max. Output kW (PS) / rpm 205 (278) / 6,000 Rear Combination Lamp | With LED Max. Torque Nm / rpm | 430"
+        },
+        "turbo_engine_power_ps": {
+          "value": 278,
+          "status": "VERIFIED",
+          "evidence": "2,393 LED Fog Lamps | With Front & Rear Max. Output kW (PS) / rpm 205 (278) / 6,000 Rear Combination Lamp | With LED Max. Torque Nm / rpm | 430"
+        },
+        "turbo_engine_torque_nm": {
+          "value": 430,
+          "status": "VERIFIED",
+          "evidence": "2,393 LED Fog Lamps | With Front & Rear Max. Output kW (PS) / rpm 205 (278) / 6,000 Rear Combination Lamp | With LED Max. Torque Nm / rpm | 430"
+        },
+        "hev_transmission": {
+          "value": "E-CVT",
+          "status": "VERIFIED",
+          "evidence": "E-CVT"
+        },
+        "turbo_transmission": {
+          "value": "7-speed Super CVT-i with Sports Sequential Shiftmatic",
+          "status": "VERIFIED",
+          "evidence": "7-speed Super CVT-i with Sports Sequential Shiftmatic"
+        }
+      },
+      "resolver_status": "RESOLVED_FIELDS",
+      "policy": {
+        "master_ready": false,
+        "automatic_master_import": false,
+        "unknown_fields_must_remain_unknown": true,
+        "variant_binding_required": true
+      }
+    }
+  ]
+}

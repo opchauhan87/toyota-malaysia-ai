@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-09-15T20:36:30.167098",
+  "policy": {
+    "primary_source": "Toyota Malaysia Official",
+    "shared_source_allowed": true,
+    "shared_source_requires_evidence": true,
+    "do_not_copy_variant_specs": true,
+    "do_not_copy_prices": true,
+    "unknown_remains_unknown": true,
+    "master_modified": false
+  },
+  "records": [
+    {
+      "model_name": "Vios",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Vios",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "Yaris",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Yaris",
+      "source_file": "yaris-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "Yaris Cross",
+      "coverage_type": "SHARED_SOURCE",
+      "source_model": "Yaris Cross HEV",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "status": "SHARED_SOURCE_CONFIRMED",
+      "reason": "Current official brochure contains both 1.5L 2NR-VEX HEV and 1.5L 2NR-VE petrol engine sections."
+    },
+    {
+      "model_name": "Yaris Cross HEV",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Yaris Cross HEV",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 85
+    },
+    {
+      "model_name": "Corolla",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Corolla",
+      "source_file": "corolla-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 75
+    },
+    {
+      "model_name": "Corolla GR Sport",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Corolla GR Sport",
+      "source_file": "Corolla-GR-Sport-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 85
+    },
+    {
+      "model_name": "Corolla Cross",
+      "coverage_type": "OFFICIAL_WEB_PRIMARY",
+      "source_model": "Corolla Cross HEV",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "status": "PRIMARY_COVERED",
+      "reason": "Official Toyota Malaysia page explicitly lists Corolla Cross 1.8V Petrol, Corolla Cross Hybrid Electric and HEV GR Sport.",
+      "source_type": "Toyota Malaysia Official Model Page",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric.html"
+    },
+    {
+      "model_name": "Corolla Cross HEV",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Corolla Cross HEV",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "Corolla Cross HEV GR Sport",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Corolla Cross HEV GR Sport",
+      "source_file": "corolla-cross-hev-gr-sport-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 80
+    },
+    {
+      "model_name": "Camry",
+      "coverage_type": "OFFICIAL_WEB_PRIMARY",
+      "source_model": "Camry HEV",
+      "source_file": "camry-e-brochure.txt",
+      "status": "PRIMARY_COVERED",
+      "reason": "Official Toyota Malaysia page explicitly lists Camry 2.5 HEV and Camry 2.5V A/T.",
+      "source_type": "Toyota Malaysia Official Model Page",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric.html"
+    },
+    {
+      "model_name": "Camry HEV",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Camry HEV",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "Veloz",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Veloz",
+      "source_file": "veloz-e-brochure-3.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 75
+    },
+    {
+      "model_name": "Innova Zenix",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Innova Zenix",
+      "source_file": "Innova-Zenix-e-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 85
+    },
+    {
+      "model_name": "Fortuner",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Fortuner",
+      "source_file": "fortuner-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "Harrier HEV",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Harrier HEV",
+      "source_file": "harrier-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "Hilux",
+      "coverage_type": "SHARED_SOURCE",
+      "source_model": "Hilux GR Sport",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "status": "SHARED_SOURCE_CONFIRMED",
+      "reason": "Current official brochure explicitly contains 2.8 GR-S, 2.8 Rogue, 2.4V, 2.4E AT, 2.4E MT and 2.4 MT variants."
+    },
+    {
+      "model_name": "Hilux GR Sport",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Hilux GR Sport",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "Hilux BEV",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Hilux BEV",
+      "source_file": "hilux-bev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 70
+    },
+    {
+      "model_name": "Hiace",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Hiace",
+      "source_file": "hiace-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 70
+    },
+    {
+      "model_name": "Hiace SLWB",
+      "coverage_type": "OFFICIAL_WEB_PRIMARY",
+      "source_model": "Hiace",
+      "source_file": "hiace-e-brochure.txt",
+      "status": "PRIMARY_COVERED",
+      "reason": "Official configuration page identifies HIACE SLWB and maps it to the official Hiace brochure; official price list identifies the SLWB 2.8D AT Window Van.",
+      "source_type": "Toyota Malaysia Official Configuration + Price List + Brochure",
+      "official_url": "https://www.toyota.com.my/en/models/hiace-slwb.html",
+      "brochure_file": "Hiace-eBrochure.txt"
+    },
+    {
+      "model_name": "bZ4X",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "bZ4X",
+      "source_file": "bz4x-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 70
+    },
+    {
+      "model_name": "Urban Cruiser BEV",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Urban Cruiser BEV",
+      "source_file": "urban-cruiser-bev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 70
+    },
+    {
+      "model_name": "Alphard",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "Alphard",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "Vellfire",
+      "coverage_type": "SHARED_SOURCE",
+      "source_model": "Alphard",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "status": "SHARED_SOURCE_CONFIRMED",
+      "reason": "Current official brochure explicitly contains separate Vellfire and Alphard sections."
+    },
+    {
+      "model_name": "Vellfire HEV",
+      "coverage_type": "OFFICIAL_WEB_PRIMARY",
+      "source_model": "Alphard",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "status": "PRIMARY_COVERED",
+      "reason": "Official Vellfire HEV page provides exact HEV specifications; combined brochure separately identifies Vellfire and its 4th Generation Toyota Hybrid System.",
+      "source_type": "Toyota Malaysia Official Model Page + Shared Brochure",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire/vellfire-hybrid-electric.html",
+      "brochure_file": "vellfire-alphard-e-brochure.txt"
+    },
+    {
+      "model_name": "GR Yaris",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "GR Yaris",
+      "source_file": "gr-yaris-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "GR Corolla",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "GR Corolla",
+      "source_file": "GR-Corolla-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    },
+    {
+      "model_name": "GR86",
+      "coverage_type": "DIRECT_PRIMARY",
+      "status": "PRIMARY_COVERED",
+      "source_model": "GR86",
+      "source_file": "gr86-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "candidate_score": 95
+    }
+  ]
+}

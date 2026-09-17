@@ -1,0 +1,874 @@
+{
+  "country": "Malaysia",
+  "currency": "MYR",
+  "source_policy": {
+    "primary": "Toyota Malaysia Official",
+    "document_type": "Official Model Brochure",
+    "values_are_candidates_until_validated": true
+  },
+  "generated_at": "2026-09-15T19:40:44.194053",
+  "total_pdfs": 29,
+  "successful": 29,
+  "failed": 0,
+  "records": [
+    {
+      "source_file": "Camry-HEV-Brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/Camry-HEV-Brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:41.212865",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "Corolla-Cross-GR-Sport-2023-Brochure-4.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/Corolla-Cross-GR-Sport-2023-Brochure-4.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:41.252051",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "Corolla-GR-Sport-Brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/Corolla-GR-Sport-Brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:41.481390",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "Corolla-GR-Sport-eBrochure-2023.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/Corolla-GR-Sport-eBrochure-2023.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:41.665971",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "GR-Corolla-2023-Brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/GR-Corolla-2023-Brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:41.808254",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "GR-Corolla-Brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/GR-Corolla-Brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:41.898788",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "GR86-2023-Brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/GR86-2023-Brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.051590",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "Hiace-eBrochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/Hiace-eBrochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.152821",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "Innova-Zenix-e-Brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/Innova-Zenix-e-Brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.241626",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "all-new-yaris-cross-hev-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/all-new-yaris-cross-hev-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.368341",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "bz4x-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/bz4x-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.379822",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "camry-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/camry-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.484303",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "corolla-cross-hev-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/corolla-cross-hev-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.497114",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "corolla-cross-hev-gr-sport-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/corolla-cross-hev-gr-sport-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.508738",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "corolla-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/corolla-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.520282",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "fortuner-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/fortuner-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.713502",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "gr-yaris-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/gr-yaris-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:42.886907",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "gr86-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/gr86-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.002449",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "harrier-hev-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/harrier-hev-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.168559",
+      "status": "OK",
+      "model_name": "HARRIER",
+      "raw_text_length": 16721,
+      "technical": {
+        "power_candidates": [
+          "178",
+          "217",
+          "88"
+        ],
+        "torque_candidates": [
+          "202",
+          "221"
+        ]
+      },
+      "dimensions": {},
+      "safety": {
+        "keywords_found": [
+          "ABS",
+          "Anti-lock Braking System",
+          "BA",
+          "BSM",
+          "Blind Spot Monitor",
+          "Brake Assist",
+          "Dynamic Radar Cruise Control",
+          "EBD",
+          "Electronic Brake-force Distribution",
+          "HAC",
+          "Hill-start Assist",
+          "ISOFIX",
+          "LDA",
+          "LTA",
+          "Lane Departure Alert",
+          "Lane Tracing Assist",
+          "PCS",
+          "Pre-Collision System",
+          "RCTA",
+          "Rear Cross Traffic Alert",
+          "TRC",
+          "Traction Control",
+          "VSC",
+          "Vehicle Stability Control",
+          "airbag"
+        ]
+      },
+      "features": {
+        "keywords_found": [
+          "360",
+          "Android Auto",
+          "Apple CarPlay",
+          "Bluetooth",
+          "Dual Zone",
+          "Head-Up Display",
+          "LED",
+          "Leather",
+          "Panoramic View Monitor",
+          "Smart Entry",
+          "USB",
+          "Wireless Charger"
+        ]
+      },
+      "warranty": {
+        "text_candidates": [
+          "5-year warranty with unlimited",
+          "8-year warranty from the date of first",
+          "control ECU. Warranty can be extended for"
+        ]
+      },
+      "colours": {
+        "keyword_candidates": [
+          "Black",
+          "Grey",
+          "White"
+        ]
+      },
+      "raw_text": "THE NEW HARRIER\n TIMELESS PRESENCE\n\nBEYOND ZERO QUALIT Y | DURABILIT Y | RE L IA BIL IT Y\n\f POWER WITH PURPOSE\n Powered by the 4th Gen Toyota Hybrid System (THS), the Harrier responds instantly\n and seamlessly to your every input. A drive that feels perfectly in sync with you.\n\n 2.5L HYBRID ELECTRIC POWERTRAIN\n Fuel Consumption\n\n 4.7L*/100KM\n *Based on NEDC Combined\n\n MAX. OUTPUT MAX. TORQUE\n\n Engine Engine\n\n 178 PS\n 5,700rpm\n 221Nm\n 3,600-5,200rpm\n\n Motor Motor\n\n 88 kW 202 Nm\n Combined Output\n\n 217PS\n\n BATTERY POWERS CAR BATTERY IS CHARGED DUAL POWER FOR QUICKER\n Start / Low Speed Normal Driving ACCELERATION\n Only the motor powers the whole car with The engine and motor powers Hard Acceleration\n electricity from the Hybrid Electric battery.** the car together while the Hybrid Petrol engine and electric motor\n Electric battery is charged. provide maximum power together\n with supplemental electrical power\n from the HEV battery to the motor.\n\n BRAKING CHARGES BATTERY ENGINE AUTO OFF\n Braking Stopped\n The energy that is generated from The engine goes off to avoid\n braking charges the battery. wasting fuel.\n\n**Toyota Hybrid Electric System will charge the Hybrid Electric battery automatically depending on the driving condition, weather and Hybrid Electric battery state of charge.\n\f PLATFORM WITH DOUBLE\n WISHBONE REAR SUSPENSION\n The optimal weight balance, double wishbone rear\n suspension and stronger vehicle body provide the stability,\n agility and security you need for better driving performance.\n\n SAFETY STABILITY AGILITY\n New TNGA bonding methods for We lowered the front of the car TNGA is also designed for enjoyment\n more secured body. With advanced for better viewing. The new TNGA as the suspension has been tuned for\n materials to spread out impact design also features a lower body improved and steady performance.\n force, you can drive easy knowing and better weight distribution. Lighter parts also allow for more power\n the Toyota design has been tested More speed. More control. with less fuel use. Get the best drive\n for maximum safety. out of your TNGA designed vehicle.\n\n 18”\n ALLOY WHEEL\n Sporty presence meets refined elegance,\n delivering a smoother, more comfortable\n drive every time you hit the road.\n\n ELECTRONIC CONTINUOUSLY EV MODE & DRIVE MODE SWITCH\n VARIABLE TRANSMISSION (E-CVT) EV Mode allows for almost complete silence with\n The E-CVT blends engine and electric power reduced emissions. The Drive Mode Switch allows you\n for smooth acceleration, better efficiency to select ECO Mode for increased fuel efficiency or\n and a refined driving experience. SPORT Mode for an even more responsive performance.\n\nSpecifications shown in this brochure differ depending on region. Please refer to your local dealer for info on available features.\n\f PRESENCE PERFECTED\n The Harrier balances assertive presence with quiet sophistication,\n leaving a lasting impression wherever it arrives.\n\n Bi-LED HEADLAMP\n Look sharp and leave a lasting\n impression with the striking\n Daytime Running Lights\n coupled with the smart\n Adaptive High-beam System.\n\n AUTO RETRACTABLE\n WING MIRROR WITH\n LED SIGNAL LAMP &\n WELCOME LIGHT\n Be greeted with style every\n time you enter and exit.\n\nActual vehicle may vary from image shown.\n\f REAR LED\n COMBINATION LAMPS\n A distinctive look with rear combination\n lamps, all integrated into the bumper.\n\n DUAL OVAL MUFFLER\n Every drive becomes a joy ride with\n reduced exhaust resistance and noise.\n\n KICK-SENSOR POWER BACK DOOR\n Kick it up a notch and load up your Harrier, hands-free.\n\nActual vehicle may vary from image shown.\n\f CRAFTED FOR THE SENSES\n The Harrier’s cabin invites you into a world of comfort and refinement,\n where beauty is felt in every touch and no detail is left to chance.\n\n SMART ENTRY\n & START SYSTEM\n Unlock and start your vehicle effortlessly\n with the Smart Entry & Start System,\n allowing seamless access and ignition\n while the key remains in your pocket.\n\n 12.3” COLOUR MULTI DIGITAL REAR-VIEW MIRROR STEER WITH CONFIDENCE\n INFORMATION DISPLAY Easily switches to digital mode for Stay in control without compromising\n Purposefully designed to display greater clarity and field of vision, comfort by adjusting the steering wheel\n essential vehicle information, the even at night. to your preferred position and saving it\n system works seamlessly with the as a personalised preset.\n Head-Up Display, projecting key\n data into the driver’s line of sight\n for uninterrupted road visibility.\n\nActual vehicle may vary from image shown.\n\f FIXED PANORAMIC MOON ROOF\n At the push of a button, experience the world\n the way you want to, completely opened or\n pleasantly dimmed.\n\n FRONT & REAR USB-C PORTS WIRELESS CHARGER\n Multiple USB-C ports for Keep your phone battery juiced up\n convenient charging of several with the wireless charger that works\n devices simultaneously. for Qi* standard-compliant devices.\n *International standard for wireless charging\n developed by Wireless Power Consortium\n\n DUAL ZONE AUTOMATIC SEAT VENTILATION LUGGAGE SPACE\n CLIMATE CONTROL Front passengers can personalise Leave nothing behind when you go\n Both driver and passenger can their comfort on warm days or on the road, they can all fit in the\n enjoy the perfect temperature. extended journeys with ventilated Harrier’s extra-large storage.\n No compromises needed.Comes seats that circulate air to reduce\n with nanoe™ X Technology & heat and moisture.\n S-FLOW Control for your comfort\n and fuel efficiency.\n\nActual vehicle may vary from image shown.\n\f Cruise safely on the road with the Harrier’s\n cutting edge safety features. Because the most\n precious thing in every Toyota is the people inside.\n\n PRE-COLLISION SYSTEM (PCS)* LANE DEPARTURE ALERT (LDA)\n Avoids or mitigates frontal collisions by alerting the WITH STEERING ASSIST*\n driver and automatically applying the brakes when there Alerts driver when vehicle is out of lane and detects any\n is a risk of collision. Now applies to pedestrians, bicyclists Road Edge Detection such as curb and grass. Steering assist\n and motorcycles. also provides additional steering pressure to correct any\n lane deviation.\n\n LANE TRACING ASSIST (LTA)* DYNAMIC RADAR CRUISE CONTROL (DRCC)\n Keep the vehicle centered either by detecting the FOR ALL SPEEDS*\n lane or preceding vehicle. Maintains a safe distance from the preceding vehicle,\n braking automatically when the vehicle ahead stops and\n able to control the speed during a curve turn.\n\n ADAPTIVE HIGH-BEAM SYSTEM (AHS)* ROAD SIGN ASSIST (RSA)*\n Uses multiple independently controlled LEDs arranged in a Stay informed at all times with Road Sign Assist, which scans\n single row, giving a wider range of illumination than earlier traffic signs and displays the current speed limit clearly on the\n systems without dazzling the drivers of preceding and Multi-Information Display (MID) and Head-Up Display (HUD).\n oncoming vehicles.\n\nSpecifications shown in this brochure differ depending on region. Please refer to your local dealer for info on available features.\n*Driver remains solely responsible at all times for safe driving.\n\f 360-T ADVANCED\n It’s all about the Trust & Technology by Toyota.\n\n SAFE-T\n Trust for smoother journeys ahead.\n\n 240 kPa\n\n 240 kPa\n\n 240 kPa\n\n 0 kPa\n\n TYRE PRESSURE MONITORING BLIND SPOT MONITOR (BSM) WITH\n SYSTEM (TPMS) REAR CROSS TRAFFIC ALERT (RCTA)\n Display real-time tyre pressure information via The Blind Spot Monitor alerts you of vehicles\n Multi-Information Display (MID). Alerts driver in your blind spot area, so you can switch lanes\n when tyre pressure is below ideal level. safely and confidently.\n\n ELECTRIC PARKING BRAKE (EPB) PANORAMIC VIEW MONITOR (PVM)\n + AUTO BRAKE HOLD Get a detailed 360° view of your vehicle\n Keeps the vehicle stationary on flat roads with a simple for manoeuvring in tight spaces.\n button. Automatically releases during acceleration.\n\n FRONT & REAR DIGITAL HILL-START ASSIST CONTROL (HAC)\n VIDEO RECORDER (DVR) The Hill-Start Assist Control keeps the Harrier\n Record your journeys from the front and back for from rolling backwards on a steep slope.\n your protection, in case of emergencies or accidents.\n\nSpecifications shown in this brochure differ depending on region. Please refer to your local dealer for info on available features.\n\f VEHICLE STABILITY CONTROL (VSC) EMERGENCY STOP SIGNAL (ESS)\n & TRACTION CONTROL (TRC) WITH BRAKE ASSIST (BA)\n Always be in control of the Harrier even on slippery Sudden braking will cause the emergency signals\n surfaces, thanks to Traction Control that improves of the Harrier to flash, to warn vehicles behind it,\n traction, as well as Vehicle Stability Control that while Brake Assist ensures that maximum braking\n applies braking to individual wheels. force is applied when an emergency is detected.\n\n PARKING SUPPORT BRAKE (PKSB) TOYOTA PREMIUM SECURITY\n Parking Support Brake utilises radar, ultrasonic & SOLAR FILM\n sensors and cameras to detect obstacles ahead, Security meets comfort. Prevent class from break-ins\n as well as rear cross-traffic and pedestrians. It alerts and reflect harmful rays to keep the cabin cool.\n the driver and, when necessary, reduces engine\n output and applies the brakes to help mitigate or\n avoid collisions during low-speed manoeuvres.\n\n ANTI-LOCK BRAKING SYSTEM (ABS) 7 AIRBAGS\n WITH ELECTRONIC BRAKE-FORCE Experience safer journeys in the Harrier, equipped with\n DISTRIBUTION (EBD) 7 SRS airbags that protect you and your passengers.\n Prevents tyres from locking during braking, for more\n stable stops especially on slippery road surfaces.\n\nSpecifications shown in this brochure differ depending on region. Please refer to your local dealer for info on available features.\n\f CONNECTIVI-T\n Technology at your command.\n\n VEHICLE TELEMATICS SYSTEM (VTS) APPLE CARPLAY & ANDROID\n An integrated system that monitors and AUTO-READY CONNECTIVITY (AACP)*\n shares your vehicle’s real-time location through 8-inch touchscreen display with reverse camera.\n a mobile app. USB, AUX, and Bluetooth compatible.\n\n GUARAN-T\n Total peace of mind.\n\n 5-year warranty with unlimited\n mileage from date of the first registration.\n\n Terms and Conditions apply.\n\n 8-year warranty from the date of first\n registration with unlimited mileage\n covering the Hybrid Electric Vehicle (HEV)\n battery, inverter and power management\n control ECU. Warranty can be extended for\n another 2 years.\n\n Terms and Conditions apply.\n\nSpecifications shown in this brochure differ depending on region. Please refer to your local dealer for info on available features.\n\fTOYOTA EXTRA MILE\nToyota prides itself in keeping its cars longer on the road. But beyond its legendary legacy\nof durability and reliability is the commitment to go the extra mile for every customer.\n\nFrom holistic car maintenance assistance services, simpler ownership cost management,\nand much more, our comprehensive network of services and facilities across\nMalaysia makes every Toyota ownership more convenient than ever.\n\nWe are more than just an automobile company.\nWe are a mobility company committed to ‘Move Your World’.\n\nConveniently located for easy accessibility Rewards you for every transaction you make\nto quality service and genuine parts. at Toyota. Redeem service vouchers and\n other exclusive merchandise.\n\nSelection of financing choices to fit your All inclusive and comprehensive periodic\nneeds and lifestyle. maintenance checks and schedules.\n\nSpecially tailored to Toyota owners with Dedicated roadside assistance, 24 hours\nexclusive benefits and privileges. a day, seven days a week. With FREE\n minor on-the-spot repairs and towing.\n\nMakes keeping your new Toyota running at Made to Toyota’s exacting standards for\nits best easy and even more affordable. guaranteed quality, reliability, and durability,\nChoose from 2, 3 or 5 year service packages. that's readily available nationwide.\n\f COLOUR OPTIONS\n\n PLATINUM WHITE PEARL\n 089\n\n GREY METALLIC\n 1G3\n\n PRECIOUS BLACK\n 219\n\nActual vehicle may vary from image shown.\n\fSPECIFICATIONS\n VARIANT 2.5 HEV\n ENGINE\n Model A25A-FXS\n Type Dynamic Force, 4-cylinder, In-line 16-Valve DOHC; VVT-iE(Intake) & VVT-i(Exhaust)\n Displacement cc 2,487\n Max. Output PS / rpm 178 / 5,700\n Max. Torque Nm / rpm 221 / 3,600 - 5,200\n Top Speed km/h 180\n Fuel Consumption L/100km 4.7*\n TRANSMISSION\n Type E-CVT\n HYBRID SYSTEM BATTERY & MOTOR\n Hybrid Battery Type Lithium-ion\n Max Motor Output kW 88\n Max Motor Torque Nm 202\n Hybrid System Total Output PS 217\n CHASSIS\n Suspension Front / Rear MacPherson Strut with Stabiliser / Trailing Wishbone with Stabiliser\n Brakes Front / Rear Ventilated Disc / Solid Disc\n Tyres & Rims 225/60R18, Alloy\n Spare Tyre Temporary Tyre\n Steering Electric Power Steering\n MEASUREMENTS\n Overall Length / Width / Height (mm) 4,740 / 1,855 / 1,660\n Wheelbase (mm) 2,690\n Tread Front / Rear (mm) 1,610 / 1,640\n Overhang Front / Rear (mm) 1,035 / 1,015\n Kerb Weight (kg) 1,695\n Min. Turning Radius (m) 5.5\n Fuel Capacity (Litre) 55\n EXTERIOR FEATURES\n Headlamps Type Automatic Bi-LED Projector with LED Turn Signals\n Daytime Running Lights With (LED)\n Fog Lamps Front / Rear With (LED)\n Rear Combination Lamps With (LED)\n Welcome Lights With\n Wing Mirrors Auto Retractable with Turn Signal Lamp & Puddle Lamp\n Panoramic Roof With (Fixed)\n Power Back Door With (Kick Sensor)\n Wipers Front / Rear Automatic with Rain Sensor / Intermittent\n Exhaust System Dual Muffler\n RFID With\n INTERIOR FEATURES\n 8” Display Audio with Wireless Apple CarPlay &\n Type\n Audio System Wired Android Auto-ready Connectivity** & Bluetooth®\n Speakers 6\n Door Trim Leather with Black Trim\n Air Conditioning Dual Zone, Automatic Climate Control with Rear Vents\n NanoeTM X With\n Drive Mode ECO / NORMAL / SPORT / EV\n Multi-Information Display (MID) 12.3” Colour TFT\n Material / Colour Combination Leather / Black with Black Stitching\n Driver 12-way Power Adjustable with 2-position Memory\n Front Seat Passenger 4-way Power Adjustable\n Seats\n Ventilation & Heater With\n Rear Seat 60:40 Split Fold & Recline\n Rear Armrest With Cupholders\n Smart Entry & Start System With\n Colour Heads-up Display With 10.5”\n Wireless Charger With\n 5-Ports\n USB Charging Ports\n Front: USB C (Data) + Dual USB C (Charging) | Rear : Dual USB C (Charging)\n Inside Rear View Mirror Digital Mirror\n\n *Based on NEDC Combined.\n **Functions availability may vary depending on smartphones. For details, please contact your nearest Toyota showroom.\n\f SPECIFICATIONS\n VARIANT 2.5 HEV\n INTERIOR FEATURES\n Power Adjustment With (4-way)\n Auto Tilt Away With\n Steering Wheel Material Leather\n Heater With\n Steering Switches With\n Interior Lighting LED (Dome, Map, Glove Box, Footwell, Door Handle, Door Courtesy, Vanity & Scuff Plate)\n Tonneau Cover With\n SAFETY\n Pre-Collision System (PCS) With\n Lane Departure Alert (LDA) With\n Lane Tracing Assist (LTA) With\n Toyota\n Dynamic Radar Cruise Control\n Safety With (All Speeds)\n (DRCC)\n Sense\n Adaptive High-beam System\n With\n (AHS)\n Road Sign Assist (RSA) With\n Vehicle Stability Control (VSC) With Traction Control (TRC) & Hill-start Assist Control (HAC)\n Anti-lock Braking System (ABS) With Electronic Brake-Force Distribution (EBD) & Brake Assist (BA)\n Panoramic View Monitor (PVM) With\n Emergency Stop Signal (ESS) With\n Electric Parking Brake With Automatic Brake Hold\n Intelligent Clearance Sonar (ICS) With (Front and Rear)\n Blind Spot Monitor (BSM) With Rear Cross Traffic Alert (RCTA)\n Parking Support Brake (PKSB) With Front & Rear Auto Brake\n Vehicle Approach Notice With\n Tyre Pressure Monitoring System (TPMS) With (With Individual Tyre Readout)\n SRS Airbags 7 (Driver, Front Passenger, Side, Curtain & Driver Knee)\n Front 3-point ELR x 2 with Pretensioner & Force Limiter\n Seatbelts\n Rear 3-point ELR x 2 with Pretensioner & Force Limiter + 3-point ELR x 1\n ISOFIX With (Outboard Rear Seats)\n SECURITY\n Security System 2 Remote Control Keys, Immobiliser\n Vehicle Telematics System (VTS) With\n Digital Video Recorder (DVR) With (Front & Rear)\n Toyota Premium Security & Solar Film With\n\n DIMENSIONS\n 1,660mm\n\n 1,035mm 2,690mm 1,015mm 1,640mm\n 1,610mm\n 1,855mm 4,740mm\n\n• UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice.\n• Details of specifications and equipment are also subject to change to suit local conditions and requirements.\n• Vehicle and specifications in this catalogue may vary from models available locally.\n• Vehicle body and accessory colours might differ from the printed photos in this catalogue.\n• All images used are for illustrative purposes.\n\nUMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am – 5:30pm,\n Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my"
+    },
+    {
+      "source_file": "hiace-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/hiace-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.290352",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 716,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": [
+          "ABS",
+          "Anti-lock Braking System",
+          "BA",
+          "airbag"
+        ]
+      },
+      "features": {
+        "keywords_found": [
+          "USB"
+        ]
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": "INTERIOR\n 2-DIN Head Unit CD Player with Tuner,\nAudio System\n MP3, Aux Jack, USB\n Material Fabric\nSeat\n Seating Capacity 2\nSAFETY\nACTIVE\nAnti-lock Braking System (ABS) With\nLoad Sensing Proportioning &\n With\nBypass Valve (LSP & BV)\nHigh Mount Stop Lamp With\nReverse Sensors With\nPASSIVE\nGOA Body With\nSafe Brake Pedal With\nSRS Airbags 2 (Driver and Front Passenger)\nSeat Belts 3-point ELR with Pretensioner x 2\nSECURITY\nSecurity System 2 Remote Control Keys, Siren and Auto Door Lock\nOPTIONAL\nAudio System 7” Touchscreen Display Audio with Reverse Camera\nDigital Video Recorder (DVR) With (4K Front & 1080p Rear)\nVehicle Telematics System (VTS) With (including 3 years Free Data Subscription)\nPortable Tyre Pump With"
+    },
+    {
+      "source_file": "hilux-bev-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/hilux-bev-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.354743",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "hilux-gr-s-rogue-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/hilux-gr-s-rogue-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.489213",
+      "status": "OK",
+      "model_name": "HILUX",
+      "raw_text_length": 17286,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": [
+          "ABS",
+          "Adaptive Cruise Control",
+          "Anti-lock Braking System",
+          "BA",
+          "BSM",
+          "Blind Spot Monitor",
+          "Brake Assist",
+          "Dynamic Radar Cruise Control",
+          "EBD",
+          "Electronic Brake-force Distribution",
+          "HAC",
+          "Hill-start Assist",
+          "ISOFIX",
+          "LDA",
+          "Lane Departure Alert",
+          "PCS",
+          "Pre-Collision System",
+          "RCTA",
+          "Rear Cross Traffic Alert",
+          "TRC",
+          "Toyota Safety Sense",
+          "Traction Control",
+          "VSC",
+          "Vehicle Stability Control",
+          "airbag"
+        ]
+      },
+      "features": {
+        "keywords_found": [
+          "360",
+          "Android Auto",
+          "Apple CarPlay",
+          "Bluetooth",
+          "LED",
+          "Leather",
+          "Panoramic View Monitor",
+          "Push Start",
+          "Smart Entry",
+          "USB",
+          "Wireless Charger"
+        ]
+      },
+      "warranty": {
+        "text_candidates": [
+          "5 years warranty from the date of first registration or 150,000 km travelled,",
+          "6m 5 years warranty from the date of first Hilux has been awarded a 5-star"
+        ]
+      },
+      "colours": {
+        "keyword_candidates": [
+          "Black",
+          "Blue",
+          "Bronze",
+          "Brown",
+          "Grey",
+          "Red",
+          "Silver",
+          "White"
+        ]
+      },
+      "raw_text": "HILUX GR SPORT\n\nHILUX ROGUE\n\f X\nTOUGH\n SPORTY\nThe Gazoo Racing spirit now manifests in the Hilux line up. With the\nHilux Rogue standing for total toughness, the Hilux GR Sport emerges\nto deliver a sense of uncompromised fun.\n\f HILUX GR SPORT\n\n STYLE\n Un DISPUTe d\n\n New Front Design\n Distinctively stands out with a\n bumper design that expresses\n sporty toughness, a GR Sport\n logo and the TOYOTA emblem\n boldly emblazoned in the centre.\n\nNew 18” Alloy Rims\nExudes sportiness with a unique spoke\ndesign. The brake callipers come branded\nwith a GR emblem and are coloured red\nto contrast with the black rim spokes.\nComes with Highway Terrain Tyres. New Rear Design\n Adds a sporty twist with a signature red and black decal\n that symbolises Gazoo Racing.\n\n Spacious Deck\n On top of having sporty designs on the exterior, it provides\n the space you need for your extreme activities.\n\f HILUX ROGUE\n\n Deck Light*\n Provides convenience to find\n items in the cargo bed at\n night or in dark places.\n\n Front Grille and Bumper Design\n The three-dimensional grille folds into\n the engine hood and bumper guard,\n creating a strong powerful look.\n\n LED Fog Lamps Stylish 18\" Alloy Rims\n Positioned at the lower bumper Stylish 18\" Alloy Rims with\n corners to emphasise the wide Highway Terrain Tyres provide\n and low appearance. excellent road holding and\n highway cruising comfort.\n\n*Optional accessory.\nImage(s) shown may vary for different variants.\nSpecifications may vary depending on Hilux variant.\n\fLED Rear Combination Lamps\nHave a characteristic design that\nothers will admire.\n\n Bi-LED Headlamps\n Lends the Hilux Rogue a little sophistication while maintaining\n the tough impression that the Hilux is well-known for.\n\fHILUX GR SPORT HILUX ROGUE\n\nPOWER\nUnRIVALLed\n Active Traction Control (A-TRC)\n When a wheel loses traction in 4WD mode,\n the system brakes that wheel and transfers\n power to the other wheel on the axle to\n maintain forward momentum.\n\n Paddle Shifters*\n Maximise your fun and exert your dominance\n with the Paddle Shifters!\n\n Variable Flow Control (VFC) Downhill-Assist Control (DAC)\n Power Steering Controls the brakes automatically and\n Provides more natural handling that prevents the Hilux from slipping when\n varies the assistance level to match descending steep slopes.\n high and low speeds.\n\n*Only available for the Hilux GR Sport.\nImage(s) shown may vary for different variants.\nSpecifications may vary depending on Hilux variant.\n\f2.8 LITRE ENGINE\n1GD-FTV • 2.8 L INTERCOOLER VNT\nELECTRONIC COMMON-RAIL FUEL INJECTION SYSTEM\nMax Power * Max Torque*\n\n224 550\n3,000 rpm\n PS\n 1,600-2,800 rpm\n Nm\n\nExtreme Power with Enhanced Efficiency\nThe heavy-duty turbocharger results in superior performance while the\nincreased common-rail fuel injection pressure contributes to increased\nfuel efficiency. The powertrain is completed by a 6-speed automatic\ntransmission for the optimal driving experience.\n\n ECO / Power Drive Mode Selector\n ECO mode enhances the Hilux’s fuel economy.\n Power mode maximises performance.\n\nNew Monotube Damper Suspension* Auto Limited-slip Differential (LSD)\nThe sports-tuned suspension offers greater While activated, it maximises the traction without\nconfidence on the road, especially when limiting engine power when one of the rear wheels\ntaking a corner. has slipped.\n\n *Only applicable to the GR Sport variant.\n\fHILUX GR SPORT\n\nSporty Interior Design\nRed stitching throughout the interior\nestablishes a sporty atmosphere within\nthe New Hilux GR Sport.\n\n Aluminium Sports Pedal\n Prevents your foot from slipping off the\n pedal, even during exhilarating driving.\n\n New Optitron Meter Design\nFeel the adrenaline with the new GR-themed\n optitron meter that welcomes you with the\n GR animation before every drive.\n\nGR Front Sport Seats GR Push Start Button and Smart Key\nEnjoy maximum comfort and support in the front Convenience is key with the New Hilux GR Sport.\nseats made with premium suede leather, The push start button is now styled with the\nadorned with the GR emblem on the headrest. exclusive GR emblem.\n\fConVEN IENCE\nOPTIM ISED\nOptitron Meter Design & MID with Additional Information\nFeatures a blue illumination that adds a premium feel to the display.\nComes with an opening animation.\n\n Front Digital Video Recorder (DVR)\n Records your journeys for your protection should\n evidence be necessary.\n\n HILUX ROGUE\n\f Pre-collision System (PCS)*\n Avoids or mitigates frontal collisions by\n alerting the driver and automatically\n applying the brakes when there is a risk\n of collision.\n\nCon fi de nce\nUnchallenged\n\nHILUX GR SPORT HILUX ROGUE\n *Driver remains solely responsible at all times for safe driving.\n Image(s) shown may vary for different variants.\n Specifications may vary depending on Hilux variant.\n\f Lane Departure Alert (LDA) with Yaw Assist*\n Alerts when you are out of the lane unintentionally and\n applies additional brake force to the inner wheels to\n correct your Hilux’s direction. Less swaying, safer driving.\n\n Dynamic Radar Cruise Control (DRCC)*\n At speeds above 30 km/h, it maintains a safe\n distance with the preceding vehicle and brakes\n automatically when the car ahead slows down.\n\n*Driver remains solely responsible at all times for safe driving.\nImage(s) shown may vary for different variants.\nSpecifications may vary depending on Hilux variant.\n\f ADVANCE IT’S ALL ABOUT TRUST & TECHNOLOGY BY TOYOTA\n\nTrust for smoother journeys ahead\n\n Panoramic View Security System\n Monitor (PVM)* Comprises a full range\n The 360° PVM allows of security features such\n you to be aware of the as an immobiliser, siren\n hazards surrounding with back-up battery, an\n your Hilux. Useful intrusion sensor, double\n when parking, locking and speed auto\n especially in narrow door lock.\n and tight spaces.\n\n Blind Spot Monitor Hill-start Assist Control\n (BSM)* with Rear Cross (HAC)\n Traffic Alert (RCTA)* Prevents the Hilux from\n Detects vehicles that rolling back when\n may not be visible to moving off up a steep\n you when changing slope, ensuring greater\n lanes or reversing, and driving safety.\n alerts you.\n\n Seat Belt Reminder Trailer Sway Control\n Reminds all (TSC)\n passengers to wear When crosswinds,\n their seat belts. irregular road surfaces\n or sudden steering affects\n a towed trailer, the\n movement of the trailer\n is lessened so that it\n doesn’t go out of control.\n\n 7 SRS Airbags* Emergency Stop Signal\n Driver, front passenger, (ESS) and Brake Assist\n side, curtain shield and (BA)\n driver’s knee airbags Sudden braking will cause\n provide complete the emergency signals of\n protection for the driver the Hilux to flash, to warn\n and passengers in the vehicles behind it, while\n event of a collision. BA ensures that maximum\n braking force is applied\n when an emergency\n is detected.\n\n Vehicle Stability Control (VSC) with Traction Control (TRC)\n VSC prevents the Hilux from spinning when sudden\n manoeuvres are needed, while TRC improves traction\n when moving off/accelerating on slippery surfaces.\n\n Anti-lock Braking System (ABS) with Electronic Brake Force\n Distribution (EBD)\n ABS prevents wheel lock-up during braking while EBD\n optimally distributes braking power to each wheel\n according to the current load and weight.\n\n *Availability of feature depends on Hilux variant. Please refer to the full spec sheet at the back of the brochure.\n\f Technology at your command\n\n9” Display Audio with Wireless Apple Vehicle Telematics System (VTS) Remote Engine Start (RES)*\nCarPlay & Android Auto™ Connectivity An integrated system that monitors With the Toyota MY App, drivers can\nAccess navigation and music options and shares your Hilux’s real-time remotely start their vehicles anywhere\nwirelessly using your phone. location through a mobile app. to enjoy a pleasant cabin temperature\n *Remote Engine Start (RES) requires internet by the time they get in.\n connectivity through the vehicle's Vehicle\n *Availability of feature depends on Hilux variant.\n Telematics System (VTS) data package.\n Please refer to the full spec sheet at the back of\n the brochure.\n\n 5 years warranty from the date of first registration or 150,000 km travelled,\n whichever occurs first. Terms and conditions apply.\n\nOPTIONAL ACCESSORIES\n\nSport Bar Rear Digital Video Recorder (DVR)\nAdds even more rugged appeal to Automatically turns on and starts recording on\nthe already tough appearance of driving mode when the car engine is started.\nthe Hilux. Has a wide view angle and records in full HD.\n\n HILUX GR SPORT Crimson Spark Red Metallic (3T6)\n\n Super White II (040) Attitude Black Mica (218)\n\n COLOUR SELECTION\n\n Bronze Mica Metallic (4T3) Super White II (040)\n\n Phantom Brown Metallic (4W9) Medium Silver Metallic (1F8)\n\n Crimson Spark Red Metallic (3T6) Silver Metallic (1D4)\n\n Attitude Black Mica (218) Solid White (058)*\n *\n Single Cab only.\n\n Image(s) shown may vary for different variants. Specifications may vary depending on Hilux variant.\n\fSPECIFICATIONS\nVARIANT Double Cab Double Cab Double Cab Double Cab Double Cab Single Cab\n 2.8 GR-S (AT) 4x4 2.8 Rogue (AT) 4x4 2.4V (AT) 4x4 2.4E (AT) 4x4 2.4E (MT) 4x4 2.4 (MT) 4x4\nENGINE\nModel 1GD-FTV 2GD-FTV\nType 4-cylinder, In-line, 16V, DOHC Intercooler VNT Diesel\nDisplacement cc 2,755 2,393\nMax. Output (SAE-Net) PS / rpm 224 / 3,000 204 / 3,400 150 / 3,400\nMax. Torque (SAE-Net) Nm / rpm 550 / 1,600 - 2,800 500 / 1,600 - 2,800 400 / 1,600 - 2,000\nTRANSMISSION\nTransmission 6-speed Automatic with 6-speed Automatic with Super ECT & Sequential Shifter 6-speed Manual\n Sequential & Paddle Shift\nCHASSIS\nSuspension Type GR Sport Monotube Without\nSuspension Front / Rear Independent Double Wishbone with Coil Spring & Stabiliser / Leaf Spring, Rigid Axle\nBrakes Front / Rear Ventilated Disc with 4-piston Fixed Caliper / Leading-trailing Drum\nDrivetrain Part-time 4WD with Automatic Disconnecting Differential (ADD)\nAuto Limited-slip Differential (LSD) With Without\nRear Differential Lock With\nSteering Type Rack & Pinion with Hydraulic Power Assist\n Variable Flow Control (VFC) With\nTyres & Rims 265/60R18, Alloy (GR Sport) & 265/60R18, Alloy (Rogue) & 265/60R18, Alloy & 225/70R17C, Steel &\n 265/65R17, Alloy & All-terrain Tyres\n Highway Terrain Tyres Highway Terrain Tyres Highway Terrain Tyres All-terrain Tyres\nSpare Tyre & Rim 265/60R18, Alloy (GR Sport) 265/60R18, Alloy (Rogue) 265/60R18, Alloy 265/65R17, Steel 225/70R17C, Steel\nMin. Turning Radius m 6.4 6.1\nMEASUREMENTS\nWeight Kerb / Gross kg 2,120 / 2,910 2,080 / 2,910 2,065 / 2,910 1,975 / 2,870\nFuel Capacity litre 80\nEXTERIOR FEATURES\nHeadlamps Type Automatic Bi-LED Projector (with Follow-me-home Function) Automatic Halogen Multi-reflector (with Follow-me-home Function)\n Levelling Automatic Manual\nDaytime Running Lights With (LED) With (Bulb)\nFog Lamps Front / Rear With (LED) / With (LED) Without / With\nRadiator Grille Black Dark Grey & Black Paint Chrome Dark Grey Paint Black\nBumper Front / Rear Body Colour / Black Dark Grey & Black Paint / Grey Body Colour / Chrome Body Colour / Grey Black / Grey\nOver Fender With Without\nWing Mirrors Black, Power Adjustable & Dark Grey, Power Adjustable & Chrome, Power Adjustable & Black, Power Adjustable with Turn Signal Lamp Black, Power Adjustable\n Retractable with Turn Signal Lamp Retractable with Turn Signal Lamp Retractable with Turn Signal Lamp\nBedliner With Optional\nAntenna Sharkfin Short Pole\nINTERIOR FEATURES\nMeter Panel Type Optitron with Illumination Control Back Light\n Multi-Information Display (MID) With (4.2\" Colour TFT) Without\nAudio System Type 9\" Display Audio with Wireless Apple CarPlay & Android Auto™ Ready Connectivity*, USB & Bluetooth® CD Player with Tuner, MP3, AUX-Jack, USB & Bluetooth®\n Speakers 6 2\nAir-conditioning Dual-zone Automatic Climate Control with Rear Vents Manual\nUSB Charging Ports With (Fast Charging) Without\nDigital Video Recorder Front With Optional Without\n Rear Optional Without\nSteering Wheel Type 4-spoke Leather Wrapped 4-spoke Leather Wrapped 4-spoke Urethane\n with Paddle Shift\n Adjustment Tilt & Telescopic Tilt Only\n Switches Audio, MID, Bluetooth® Hands-free, Adaptive Cruise Control Audio, MID & Bluetooth® Hands-free Audio & Bluetooth® Hands-free Without\n & Lane Departure Alert (LDA)\nKeyless Entry System With (Smart Entry) With\nPower Windows With (Auto Up / Down with Jam Protection for All Windows) With (Auto Down for Driver Only)\nPower Door Lock With\nDrive Mode With (Normal, ECO & Power Mode) Without\n4WD Transfer Dial With (Electronic)\nSeats Material GR Sport Combination Leather Perforated Combination Leather Combination Leather (Black) Fabric (Black) PVC (Black)\n & Suede (Black & Grey)\n Front Driver 8-way Power Adjustable 4-way Manual Adjustable\n Passenger 4-way Manual Adjustable 2-way Manual Adjustable\n Rear Type Bench Type with 60:40 Tip Up Bench Type with Tip Up Without\nIlluminated Entry System With (Push Start, Room,\n With (Push Start, Room & Footwell) With (Push Start, Room & Footwell) With (Ignition & Room)\n Footwell & Door Trim)\nRFID Tag With\nTailgate Assist With Optional Without\nRemote Engine Start (RES) With Without\nWireless Charger With Optional Without\nSAFETY\nToyota Safety Sense (TSS)\n Pre-collision System (PCS) With Without\n Lane Departure Alert (LDA) With Without\n Dynamic Radar Cruise Control (DRCC) With Without\nBlind Spot Monitor with Rear Cross Traffic Alert With Optional Without\nDownhill-Assist Control (DAC) With Without\nActive Traction Control (A-TRC) With\nVehicle Stability Control (VSC) With\nAnti-lock Braking System (ABS) With Electronic Brake-force Distribution (EBD) & Brake Assist (BA)\nReverse Sensor With Without\nReverse Camera With Optional Without\nPanoramic View Monitor (PVM) With Optional Without\nSRS Airbags 7 (Driver, Front Passenger, Side, Curtain & Driver Knee) 3 (Driver, Front Passenger & Driver Knee)\nSeatbelts Front 3-point ELR x 2 with Pretensioner & Force Limiter\n Rear 3-point ELR x 3 Without\n Reminder All Seats Driver and Front Passenger\nISOFIX With (Outboard Rear Seats) Without\nSECURITY\nAlarm Immobiliser, Double Locking &\n Immobiliser, Siren with Backup Battery, Cabin Sensor, Double Locking & Speed Auto Door Lock\n Speed Auto Door Lock Only\nSpare Wheel Lock With\nToyota Premium Security & Solar Film With Optional\nVehicle Telematics System (VTS) With Optional\n* Android Auto™ will be available when the service is officially launched in Malaysia. For details, please contact your nearest Toyota showroom.\n\nDIMENSIONS\n 1,525mm\n 1,5\n 40m Double Cab\n 480mm m\n • 2.8 GR-S (AT) 4x4\n 1,540mm • 2.8 Rogue (AT) 4x4\n m • 2.4V (AT) 4x4\n 15m\n 1,8 m\n 85m • 2.4E (AT) 4x4\n 1,8 1,5 3,0 mm\n 1,9 55m 50 25 • 2.4E (MT) 4x4\n 00 m\n mm (2\n mm m 5,3\n 6m 5 years warranty from the date of first Hilux has been awarded a 5-star\n (2. .4 L v 28 registration or 150,000 km travelled,\n 8 L ari rating in the Adult Occupant\n va ant whichever occurs first.\n ria s)\n nts / Protection category. Only for\n ) Terms and conditions apply.\n Double Cab variants.\n 2,315mm\n 1,5 Single Cab\n 00m\n 480mm m\n • 2.4 (MT) 4x4\n • UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice.\n 1,575mm\n m • Details of specifications and equipment are also subject to change to suit local conditions and requirements.\n 9 5m\n 1,7 • Vehicle and specifications in this catalogue may vary from models available locally. Vehicle body and accessory\n mm\n 85 colours might dif fer slightly from the printed photos in this catalogue.\n 1,5\n 10m 3,0 5 mm\n 1,8 m m 5,32 • Optional accessories are available at extra cost.\n 15 9m\n mm 26\n • All images used are for illustrative purposes.\n\n UMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am – 5:30pm, Monday to Friday. TOYOTA E-MAIL: customersupport@toyota.com.my\n The colour, accessories and/or specifications of available models may differ from the vehicle(s) shown here.\n\fToyota prides itself in keeping its cars on the road longer. But beyond its legendary legacy of durability\nand reliability is the commitment to go the extra mile for every customer. With a comprehensive\nnetwork of services and facilities across Malaysia to make every Toyota ownership more convenient\nthan ever.\n\nFrom delivery to your doorstep, holistic car maintenance assistance services, simpler ownership\ncost management, and much more.\n\nWe are more than just an automobile company, we are a mobility company committed to\n‘Move Your World’.\n\nA Total of 96 Service Centres Nationwide\nConveniently located for easy accessibility to quality service and genuine parts.\n\nToyota Quality Service goes the Toyota Insurance Package goes\nExtra Mile with all the facilities the Extra Mile to ensure you’re\nyou need to keep your car running covered, whatever the situation.\nat its best.\n\nToyota Genuine Parts go the Extra Mile With the Toyota Service Savers, we go the\nfor quality, reliability, and higher resale Extra Mile so it’s easy and more rewarding\nvalue to bring you peace of mind. to keep your new Toyota running at its best.\n\nWith Toyota 24Seven Road Assist, With Toyota Financial Packages,\nwe go the Extra Mile to keep you we go the Extra Mile to bring you\nsafe, back on the road, and moving more financing choices to fit your\nwith Toyota. needs and lifestyle.\n\nWith Loyal-T, we go the Extra Mile to\nget you more rewarded for enjoying\nthe thrill of the drive with your Toyota."
+    },
+    {
+      "source_file": "toyota-vios-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/toyota-vios-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.539785",
+      "status": "OK",
+      "model_name": "Vios",
+      "raw_text_length": 12793,
+      "technical": {
+        "power_candidates": [
+          "106"
+        ],
+        "torque_candidates": [
+          "138"
+        ]
+      },
+      "dimensions": {},
+      "safety": {
+        "keywords_found": [
+          "ABS",
+          "AHB",
+          "Adaptive Cruise Control",
+          "Anti-lock Braking System",
+          "BA",
+          "BSM",
+          "Blind Spot Monitor",
+          "Brake Assist",
+          "EBD",
+          "Electronic Brake-force Distribution",
+          "Hill-start Assist",
+          "ISOFIX",
+          "PCS",
+          "Pre-Collision System",
+          "RCTA",
+          "TRC",
+          "Toyota Safety Sense",
+          "Traction Control",
+          "VSC",
+          "Vehicle Stability Control",
+          "airbag"
+        ]
+      },
+      "features": {
+        "keywords_found": [
+          "360",
+          "Android Auto",
+          "Apple CarPlay",
+          "Bluetooth",
+          "Electronic Parking Brake",
+          "LED",
+          "Leather",
+          "Multi Information Display",
+          "Panoramic View Monitor",
+          "Push Start",
+          "Smart Entry",
+          "USB",
+          "Wireless Charger"
+        ]
+      },
+      "warranty": {
+        "text_candidates": [
+          "5 years vehicle warranty from"
+        ]
+      },
+      "colours": {
+        "keyword_candidates": [
+          "Black",
+          "Blue",
+          "Brown",
+          "Silver",
+          "White"
+        ]
+      },
+      "raw_text": "DEFY\nEXPECTATIONS\n\f DEFY WITH A\nBOLD NEW PRESENCE\n\n Defy perceptions. Defy labels.\n Defy stereotypes. Defy the limits\n of where your journey starts and\n ends. Defy the norm and set a\n new course with the Vios.\n\f ALL-NEW\n FASTBACK\n\nFeaturing an imposing front end\nyet rear biased cabin. With a\nsporty lowered body yet reﬁned\nfor comfort. It's not the Vios you\nknow yet it's unmistakably Vios.\nLook ahead, not behind. Defy.\n\fMore than just illuminating\nyour journey, the Vios projects\na distinct presence, on and oﬀ\nthe road. From a stately\nimpression at a standstill to a\nbold appearance in motion.\n\fLED Headlamps with Auto High Beam\nNew sleek design that delivers an unmistakable\nbrightness and improved driving visibility.\n\n Front Aerodynamic Air Vents\n Improves brake cooling\n performance and reduces drag for\n better handling and stability.\n\n17\" Alloy Rims\n10 spoke design that radiates out from\nthe centre hub to the outer edge of the\nwheel.\n\n Rear Sequential Turn Signal\n The sequential signal light provides\n advanced and premium feel with\n distinctive illumination.\n\nRear Diﬀuser & Air Canards\nDirects airﬂow to maintain a low\ncentre of gravity and better\ntraction.\n\f DEFY\n IN STYLE\n\n COLOUR\n OPTIONS\nSilver Metallic Nebula Blue Spicy Scarlet SE Attitude Black Platinum White\n(1D4) Metallic (8X2) (R77) (218) Pearl (089)\n\f DEFY WITH\n FULL CONTROL\n Paddle Shifters 3 Drive Modes\n Tuned for a more engaging Power I Eco I Normal\n driving experience. With Switch between a relaxing\n faster and more precise and an exhilarating drive.\n gear changes.\n\n New 7-speed CVT with\n Sequential Shiftmatic\n Designed for a more dynamic driving experience\n in both auto and manual modes. With improved\n acceleration from more responsive gear changes\n at every ratio.\n\n Toyota DOHC + Dual VVT-i\n 106 PS | 138 Nm\n The engine delivers both\n improved fuel eﬃciency and throttle\n response. Compact and reliable for\n a spirited drive every day.\n\nEnhanced Suspension System\nTuned for nimble handling and\nexcellent straight-line stability.\nWith better ride comfort while\nreducing body roll.\n\f ALL-NEW\n PLATFORM\n\nToyota's latest and most advanced platform.\nWith higher structural rigidity and stability.\nAll while remaining lightweight and compact.\n\nIt not only improves the overall handling and\nstability but also provides better collision safety.\nWith various reinforcements in key areas\nto protect passengers in the event of an accident.\n\fDEFY WITH\n CONFIDENCE\n Now equipped with a 360º\n suite of advanced safety\n technologies for a safer drive\n for everyone in the Vios.\n\fTrust & Technology From Toyota\n\nThe Toyota Safety Sense (TSS) is packed with active\nsafety features that are designed to protect and\nprevent through various autonomous measures.\n\n PRE-COLLISION SYSTEM (PCS)\n\n Uses Stereo Camera to detect potential\n collisions with other vehicles or pedestrians.\n Automatically apply the brakes to reduce\n the severity of a crash or prevent it.\n\n WARNING AUTO BRAKE\n\n ADAPTIVE CRUISE CONTROL (ACC)\n\n Detects speed and distance of vehicles in\n front to automatically adjust and maintain\n speed from a safe following distance.\n\n FRONT DEPARTURE ALERT (FDA)\n\n Automatic notiﬁcation when the vehicle in\n front has departed. Alerts the driver via the\n display and audio buzz.\n\n WARNING\n\n AUTO HIGH BEAM (AHB)\n\n Detects headlights of oncoming vehicles and\n proximity of taillights and switches automatically\n between low and high beam.\n\n LANE DEPARTURE WARNING (LDW)\n Detects when a vehicle is drifting out of its lane.\n Alerts the driver via the display and audio buzz.\n\n WARNING\n\n LANE DEPARTURE PREVENTION (LDP)\n Automatically makes corrective steering to help\n driver keep the vehicle in its lane. Alerts the driver\n via the display and audio buzz.\n STEERING ASSIST\n\n LANE KEEPING CONTROL (LKC)\n Constantly keeps the vehicle centred in its lane\n by actively applying slight corrective steering.\n\n STEERING CONTROL\n\n WATCH HOW THE TOYOTA\n SAFETY SENSE WORKS.\n\n Scan code or CLICK HERE\n\n*Driver remains solely responsible at all times for safe driving.\n\fTrust For Smoother Journeys\n\n 6 Parking Alert Sensors\n Ultrasonic sensors on the front\n and rear that detects and alerts\n on the proximity of the obstacle.\n\n Front: 2 sensors Rear: 4 sensors\n\n Blind Spot Monitor (BSM) with\n Rear Cross Traﬃc Alert (RCTA)\n Detects and alerts of vehicles within the driver's\n blindspot. Alerts driver of oncoming vehicles\n from the rear when the reverse gear is activated.\n\n 3D Panoramic View\n 6 SRS Airbags Monitor (PVM)\n Maximum protection in an 360º view of the vehicle with\n event of a collision. customised display angles for\n easy manoeuvring or parking in\n tight spaces.\n\n Pedal Misoperation Control (PMC)\n Avoids frontal collision from a stationary position.\n Suppress engine output and automatically applies\n the brake when the system judges accelerator has\n been mistakenly applied & front obstacle is detected.\n\n Auto Rain Sensor\n Automatically activates the wipers and\n adjust the wiper speed when rain is detected.\n\f 9” Display Audio\n Wireless Apple CarPlay and\n Android Auto™️\n\nTechnology at your command\n\n Front & Rear Digital\n Video Recorder (DVR)\n Convenient access and\n monitoring via Toyota\n DVR app.\n *Rear DVR is an optional accessory\n\n Wireless Charger\n Convenient charging for\n 'Qi' compliant devices.\n\n Fast Charging Rear\n USB Ports\n\n Vehicle Telematics System (VTS)\n\n Track and monitor your car’s location in real\n time via a Toyota 24SEVEN mobile app.\n\nTotal peace of mind\n\n 5 years vehicle warranty from\n the date of ﬁrst registration with\n unlimited mileage.\n\n Terms and conditions apply\n\fDEFY IN\n PURE COMFORT\n 64-colour Ambient Light\n Enhance your drive with a touch of\n elegance. Choose from 64 colours\n to create a warm and inviting cabin.\n\fFINGERTIP\n CONVENIENCE\n\n 7\" TFT Multi-information Display Digital Meter\n Customise your view to match your drive.\n Switch between 4 types of visual displays from steering wheel.\n\n Multi-function Leather\n Steering Wheel\n\n Electronic Parking Brake (EPB) with\n Auto Brake Hold (ABH)\n No more putting the car in brake when parking\n or holding down the brake in congested traﬃc.\n\n 64-colour Ambient Auto Air-cond\n Light Switch Automatically adjusts the cooling\n Change your mood with and ventilation by detecting the\n a ﬂick of a button. temperature and humidity inside\n the cabin.\n\f Cabin Quietness\n The all-new Toyota platform greatly suppresses\n ALL-ROUND\n external noise and vibration. With foam ﬁlled\n cavities and less holes in the body, the result is COMFORT\n superior quietness that deﬁes the category.\n\n Ergonomic Seats\n Designed to give the right ergonomics for long drives\n complemented with premium materials. Optimised not\n just for maximum support but also maximum headroom\n as well as the ease of getting in and out of the Vios.\n\n Rear Air-cond Vent\n Comfort is enhanced for all\n passengers with optimum\n cooling for the rear passengers.\n\nPadded Centre Front\nConsole Armrest Cupholders Sunglass Holder Glove Box\n\n Wide & Deep Boot Space\n\f TOYOTA\n EXTRA MILE\n Toyota prides itself in keeping its cars longer on the road.\n But beyond its legendary legacy of durability and reliability\n is the commitment to go the extra mile for every customer.\n With a comprehensive network of services and facilities\n across Malaysia to make every Toyota ownership more\n convenient than ever.\n\n From delivery to your doorstep to holistic car maintenance\n assistance services, simpler ownership cost management,\n and much more.\n\n We’re more than just an automobile company, we’re a\n mobility company committed to 'Move Your World'.\n\n Conveniently located for Rewards you for every\n easy accessibility to transaction you make at\nEXT E NSIVE SALE S & Toyota. Redeem service\nS ERVICE NET WOR K quality service and\n vouchers and other\nN ATIONWIDE genuine parts.\n exclusive merchandise.\n\n Selection of ﬁnancing All inclusive and\n choices to ﬁt your needs comprehensive periodic\n and lifestyle. maintenance checks and\n schedules.\n\n Specially tailored to Makes keeping your new\n Toyota owners with Toyota running at its best easy\n exclusive beneﬁts and and even more aﬀordable.\n privileges. Choose from 2, 3 or 5 year\n service packages.\n\n Dedicated roadside Made to Toyota’s exacting\n assistance, 24 hours a day, standards for guaranteed\n seven days a week. With quality, reliability, and\n FREE minor on-the-spot durability, that's readily\n repairs and towing. available nationwide.\n M02/26\n\fSPECIFICATIONS 1.5G 1.5E\n ENGINE\n Model 2NR-VE\n\n Type 4-cylinder, In-line, 16-valve DOHC with Dual VVT-i\n\n Displacement cc 1,496\n\n Bore & Stroke mm 72.5 x 90.6\n\n Compression Ratio 11.5\n\n Max. Output KW (PS) / rpm 78 (106) / 6,000\n\n Max. Torque Nm / rpm 138 / 4,200\n\n Top Speed km/h 180\n\n Drive Wheel Front Wheel Drive\n\n CHASSIS\n Transmission 7-Speed CVT with Sequential Shiftmatic\n\n Drive Mode Power / ECO / Normal\n\n Suspension Front McPherson Strut\n\n Rear Torsion Beam\n Brakes Front Ventilated Disc\n\n Rear Solid Disc Drum\n Stabilizer Bar Front With\n\n Rear With\n Steering Gear Type Rack & Pinion\n\n Power Steering Type Electric Power Steering (EPS)\n\n DIMENSIONS & WEIGHT\n Overall Length mm 4,425\n\n Width mm 1,740\n\n Height mm 1,480\n Wheelbase mm 2,620\n Kerb Weight kg 1,035 1,015\n\n Gross Vehicle Weight kg 1,460\n Fuel Tank Capacity Litre 40\n\n Boot Capacity Litre 475\n Min. Turning Radius Meter 5.2 4.8\n\n EXTERIOR\n Headlamps Type Auto LED with Extended Headlight Lighting\n\n Leveling Manual\n\n LED Daytime Running Light With\n\n Rear Combination Lamp LED with Sequential Turn Signal LED Combination\n\n Windshield Wiper Rain Sensing Type Intermittent Only\n\n Outside Rear View Mirror Power-adjustable, Auto Fold, Signal Lamps & Blind Spot Monitor\n\n Remote Trunk Release With\n\n Outside Door Handle Body Colour\n Tyres & Rims (including Spare Tyre) 205/50/R17, Alloy 195/60/R16, Alloy\n\n Front Grille Piano Black Black\n Antenna Shark Fin\n Aerokits With\n\n RFID With\n\n Lower Back & Back Door Garnish Black\n\n Quarter Window Moulding Chrome Black\n\n Door Belt Moulding Chrome Black\n Acoustic Windshield Glass With\n\n INTERIOR\n Interior Colour Black & Dark Brown\n Steering Type Leather Urethane\n Tilt and Telescopic With Tilt Only\n Multi - Function Audio, MID, Bluetooth, ACC, Drive Mode & LKA Audio, MID, Bluetooth & Drive Mode\n Paddle Shifter With Without\n Meter Combination Illumination Digital Optitron\n Multi Information Display (MID) 7'' TFT 4.2'' TFT\n Illumination Entry System With 64-Colour Ambient Light With\n Air-Conditioner Front Auto A/C Manual\n Rear Air Vent With\n Lamps Front Personal Lamp LED With\n Room Lamp LED With\n Luggage Room Lamp With\n Door Courtesy Lamp With\n\fSmart Entry & Push Start System With\nInside Rear View Mirror Day & Night\nWireless Charger With\nIlluminated Scuﬀ Plate With\nFront Foot Illumination With\nSun Visor Driver With Mirror\n Front Passenger With\nDoor Arm Rest Soft Pad Pigmentation\nParking Brake Electronic Parking Brake with Auto Brake Hold Handbrake\nPower Window Driver With Auto Up/Down & Jam Protection\n Front Passenger With\n Rear With\nCarpet Mat With\nAudio System Type 9'' Display Audio with Wireless Apple CarPlay & Android Auto™\n Speaker 6 4\n\nUSB Charging Port 3\nShift Lever/Knob Leather Urethane\nSeat Material Leather Fabric\nStorage Glove Compartment With\n Coin Pocket With\n Cup & Bottle Holders 6\n Folder Holder With\n Centre Console Box Soft Pad Pigmentation\n Sunglass Holder With\nFoot Rest With\nLuggage Tray With\nAssist Grip 3\n SAFETY\n(Active)\nToyota Safety Pre-Collision System (PCS) With\nSense (TSS)\n Lane Departure Warning (LDW) With\n Lane Departure Prevention (LDP) With\n Front Departure Alert (FDA) With\n Lane Keeping Control (LKC) With Without\n Auto High Beam (AHB) With Without\n Adaptive Cruise Control (ACC) With Without\nPedal Misoperation Control (PMC) With\n3D Panoramic View Monitor (3D PVM) With\nBlind Spot Monitor (BSM) with Rear Cross Traﬃc Alert (RCTA) With\nFront Digital Video Recorder (DVR) With Smartphone Connectivity\nEmergency Stop Signal (ESS) With\nAnti-Lock Braking System (ABS) With\nBrake Assist (BA) With\nVehicle Stability Control System (VSC) With\nTraction Control (TRC) With\nElectronic Brake-force Distribution (EBD) With\nHill-Start Assist (HSA) With\nAuto Door Lock With\n\nParking Clearance Sonar With (2 Front, 4 Rear)\n(Passive)\n\nSRS Airbags 6\nSeatbelts Driver 3-Point ELR with Pretensioner & Force Limiter\n\n Front Passenger 3-Point ELR with Pretensioner & Force Limiter\n\n Rear 3-Point ELR (3 Pax)\n Warning Reminder Driver, Front Passenger & Rear Passengers\nChild Seat ISOFIX With\n SECURITY\n\nSecurity System Horn Alarm with Immobiliser\n\nPremium Security & Solar Film With\n\nVehicle Telematics System (VTS) With 3-year Free Subscription\n\n OPTIONAL\n\nRear Digital Video Recorder (DVR) Optional\n\nDIMENSIONS\n 1,480mm\n\n 1,510mm 860mm 2,620mm 945mm 1,500mm\n 1,740mm 4,425mm 1,740mm\n Dimensions apply to the 1.5G variant only."
+    },
+    {
+      "source_file": "toyota-vios-hev-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/toyota-vios-hev-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.704601",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "toyota-vios-hev-gr-sport-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/toyota-vios-hev-gr-sport-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.717328",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "urban-cruiser-bev-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/urban-cruiser-bev-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.730116",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "vellfire-alphard-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/vellfire-alphard-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.873445",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "veloz-e-brochure-3.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/veloz-e-brochure-3.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:43.888235",
+      "status": "OK",
+      "model_name": null,
+      "raw_text_length": 0,
+      "technical": {},
+      "dimensions": {},
+      "safety": {
+        "keywords_found": []
+      },
+      "features": {
+        "keywords_found": []
+      },
+      "warranty": {},
+      "colours": {
+        "keyword_candidates": []
+      },
+      "raw_text": ""
+    },
+    {
+      "source_file": "yaris-e-brochure.pdf",
+      "source_path": "/opt/toyota-malaysia-ai/data/brochures/yaris-e-brochure.pdf",
+      "source_type": "Toyota Malaysia Official Brochure",
+      "extracted_at": "2026-09-15T19:40:44.104567",
+      "status": "OK",
+      "model_name": "Yaris",
+      "raw_text_length": 10890,
+      "technical": {
+        "power_candidates": [
+          "107",
+          "2"
+        ],
+        "torque_candidates": [
+          "140"
+        ]
+      },
+      "dimensions": {},
+      "safety": {
+        "keywords_found": [
+          "ABS",
+          "Anti-lock Braking System",
+          "BA",
+          "BSM",
+          "Blind Spot Monitor",
+          "EBD",
+          "HAC",
+          "Hill-start Assist",
+          "LDA",
+          "Lane Departure Alert",
+          "PCS",
+          "Pre-Collision System",
+          "RCTA",
+          "Rear Cross Traffic Alert",
+          "TRC",
+          "Traction Control",
+          "VSC",
+          "Vehicle Stability Control",
+          "airbag"
+        ]
+      },
+      "features": {
+        "keywords_found": [
+          "360",
+          "Android Auto",
+          "Apple CarPlay",
+          "Bluetooth",
+          "LED",
+          "Leather",
+          "Panoramic View Monitor",
+          "Parking Sensor",
+          "Push Start",
+          "Smart Entry",
+          "USB",
+          "Wireless Charger"
+        ]
+      },
+      "warranty": {
+        "text_candidates": [
+          "5 years warranty from the ASEAN NCAP Toyota Malaysia"
+        ]
+      },
+      "colours": {
+        "keyword_candidates": [
+          "Black",
+          "Red",
+          "Silver",
+          "White"
+        ]
+      },
+      "raw_text": "NEW\n\fDARE\nTO LIVE\n AMP UP\n YOUR VIBE\n\n LIFE IS MORE THAN\n JUST EXISTING.\n Pursue passions that get\n your heart pumping.\n Express your vision in a way\n that is uniquely you. And\n infuse the world with the\n joy of your imagination.\n\n So, buckle up and get ready\n to amp up your vibe. Dare\n To Live with the New Yaris.\n\n1 INTRO\n\f EXTERIOR\n MAKE ‘EM GO\n “WOW”!\n Whether you’re out and\n about or in your ride, you\n always gotta look fire!\n From the eye-catching\n2-tone Black Roof, Front LED Headlamps,\nOuter Wing Mirror and Daytime Running Lights details to the blatant\nRear Spoiler (DRL) & Fog Lamps sportiness, the New Yaris\n will get you turning heads.\nPitch-black aesthetics around the The LED headlamps are\nNew Yaris enhance its mystique, accentuated by the Daytime\ncreating a striking first Running Lights (DRL) which help\nimpression. brighten up your drive.\n\n2 EXTERIOR\n\f New Aerokit Styling\n Expresses enhanced sportiness\n to amaze all who lay eyes on the\n New Yaris. Optional accessory.\n\n Stylish 16\" Alloy Rims\n Your ride just got a whole lot\n sportier with stepped spokes and\n machined-detail rims for a\n dynamic, cutting-edge look.\n\n3 EXTERIOR\n\f WHAT’S ON THE\n\n INTERIOR\n INSIDE MATTERS\n Everything great that you put out into the\n world starts from what’s inside you. The New\n Yaris has an interior that caters to your comfort\n so you’ll always have an awesome day!\n\n New Steering Wheel New 4.2\" Multi-information\n Designed with soft leather Display (MID)\n which provides increased Displays crucial driving information\n elegance and grip comfort. clearly. Speedometer comes with a\n new Optitron Meter design.\n\n4 INTERIOR\n\fElectrochromic New Fabric Auto Air-conditioning\nRear View Mirror Seat Covers Cool off from the blazing heat\nGlaring headlights catching up The new seats come with seat with the auto air-conditioning\nbehind you? The electrochromic covers that are not only system that controls the\nrear view mirror helps dim and intricately designed, but temperature and volume of\nabsorb excessive light to improve durable as well. airflow for your comfort.\nnight time driving.\n\n5 INTERIOR\n\f SAFETY\n 0% WORRIES, 100%\n CONFIDENCE!\n Ain’t nobody got time for\n worrying about safety. The\n New Yaris gives you a\n confidence boost so your\nPre-collision System (PCS)* Lane Departure Alert (LDA)* focus can be on the fun of\nAvoids or mitigates frontal Alerts when you are out of the lane your journey.\ncollisions by alerting the driver unintentionally. Less swaying,\nand automatically applying the smoother driving.\nbrakes to reduce vehicle speed\nwhen there is a risk of collision.\n\n6 SAFETY\n * Driver remains solely responsible at all times for safe driving.\n All images used are for illustrative purposes.\n\f 360-T It's all about Trust &\n Technology by Toyota.\n\n SAFE-T\n Technology at your command\n 7 SRS Airbags\n Driver, front passenger, side,\n curtain shield and driver's knee\n airbags provide complete\n protection for the driver and\n passengers in the event of collision.\n\n Front & Rear Parking Sensors\n Some extra assurance never\n hurts. Helps you detect objects\n you may not be able to see in\n front of or behind you when\n parking your vehicle.\n\n Blind Spot Monitor (BSM)\n with Rear Cross Traffic\n Alert (RCTA)\n Detects vehicles that may not be\n visible to you when changing\n lanes or reversing, and alerts you.\n\n 3D Panoramic View Hill-start Assist Control (HAC)\n Monitor (PVM) Sustains brake pressure to prevent\n Get a detailed 360° view of the vehicle from rolling backwards\n your vehicle for manoeuvring on an incline. Also active when the\n in tight spaces. vehicle is in reverse gear.\n\n7 360-T\n\f It's all about Trust &\n Technology by Toyota.\n\n CONNECTIVI-T\n Technology at your command\n\n 9\" Display Audio with\n Wireless Apple CarPlay®\n & Android Auto™\n Connect your smartphone to\n the vehicle’s 9\" display system\n to select navigation and music\n options with ease.\n\n Vehicle Telematics\n System (VTS)\n An integrated system with\n multiple functions including\n monitoring your vehicle’s\n real-time location and keeping\n track of battery health through\n a mobile app.\n\n Wireless Charger\n Conveniently charge your Qi*\n standard-compliant devices\n without the use of a cable.\n * International standard for wireless charging\n developed by Wireless Power Consortium.\n\n8 360-T\n\f It's all about Trust & YARIS\n YARI\n YA RIIS 2023\n 2 23\n 20 3\n Technology by Toyota.\n\nCONNECTIVI-T\nTechnology at your command\n\n RFID Tag\n The New Yaris comes\n installed with an RFID tag for\n your convenience when\n going through tolls.\n\n New Type-C USB Front Digital Video Rear Digital Video Recorder\n Charging Ports Recorder (DVR) with (DVR) with Smartphone\n Your rear passengers get fast Smartphone Connectivity Connectivity\n charging with 2 new USB-C Records what’s in front of you Has your back covered by recording\n ports conveniently placed at should a recording prove helpful. the view from the rear of the car,\n the centre console box. Recordings can be easily which can then be downloaded to\n downloaded to your smartphone. your smartphone. Optional accessory.\n\n9 360-T\n\fPERFORMANCE ALL ABOUT THE\n SMOOTH MOVES\n No matter where your next adventure\n takes you, you know you’ll get there with\n pure driving fun. The New Yaris lets you\n move the way you want to - freely.\n\n10 PERFORMANCE\n\f Dual VVT-i Engine\n MAX. OUTPUT MAX. TORQUE\n\n 107PS 140Nm\n The 2NR-FE engine offers smooth accelerations,\n fuel efficiency and effective delivery of power and torque.\n\n Continuously Variable Paddle Shifters Drive Mode Switch\n Transmission (CVT) with Lets you move your way by Switch it up any way you like it!\n 7-speed Sport Sequential shifting gears up or down with Choose between SPORT and\n Shiftmatic your hands on the steering ECO mode based on your\n The gears shift smoothly to wheel. Awesome for overtaking. driving preference.\n increase your driving pleasure.\n\n11 PERFORMANCE\n\f SIMPLICITY IS\n\n CONVENIENC\n SUPERIOR\n Convenience is a priority in\n the New Yaris. Enjoy having a\n place for everything and\n everything in its place.\n\n Glovebox Cup Holder 60:40 Folding Seats\n Keep all your personal Place your beverages in Get more versatility in space\n belongings, everyday conveniently located cup for extra cargo or longer items\n essentials and more, all in holders within your reach. while still giving ample room\n one safe spot. for backseat passengers.\n\n12 CONVENIENCE\n\f COLOUR OPTIONS\n Red Mica\n Metallic (3R3)\n\n 2-tone Red Mica\n Metallic (2QL)\n\n Silver Metallic\n (1D4)\n\n 2-tone Platinum\n White Pearl (2PS)\n\n Platinum White\n Pearl (089)\n\n13 COLOUR OPTIONS\n\fSPECIFICATIONS\n 1.5G 1.5E\nENGINE\nModel 2NR-FE\nType 4-cylinder, In-line, 16-valve, DOHC with Dual VVT-i\nDisplacement cc (mm) 1,496\nMax. output PS / rpm 107 / 6,000\nMax. torque Nm / rpm 140 / 4,200\n\nTRANSMISSION\nType Continuously Variable Transmission (CVT) with\n 7-speed Sport Sequential Shiftmatic mode\n\nCHASSIS\nSuspension Type Front / Rear MacPherson Strut with Stabiliser / Torsion Beam with Stabiliser\nBrakes Front / Rear Ventilated Disc / Ventilated Disc /\n Solid Disc Drum\nTyres & Rims 195/50R16, Alloy\nSpare Tyre & Rim 195/50R16, Alloy\nSteering Electric Power Steering (EPS)\n\nMEASUREMENTS\nKerb Weight kg 1,140 1,115\nFuel Tank Capacity litre 42\nMinimum Turning Radius m 5.1\n\nEXTERIOR\nHeadlamps Type LED\nRear Combi Lamps Levelling LED\nRear Combi\nDaytime LampsLights (DRL)\n Running LED\nDaytime Running\nDoor Outer Lights (DRL)\n Handle Chrome Plated LED Body Colour\nDoor Outer Glass\nWindshield Handle Chrome Plated Acoustic Body Colour\nWindshield\nFront Grille Glass Acoustic\n Colour with Plating\nFrontLamps\nFog Grille Front / Rear Colour\n LEDwith Plating\n / With\nFog Lamps\nWing Mirrors Front / Rear LED / With\n Power-adjustable & Retractable\nWing Mirrors with Turn Indicators and\n Power-adjustable & Retractable\n Auto Fold Function\n with Turn Indicators and\nRFID Auto Fold Function\n With\n\nDIMENSIONS\nRFID With\n\nDIMENSIONS\n\n 1,475mm\n\n 1,460mm 2,550mm 1,445mm\n 1,730mm 4,140mm 1,730mm\n\f 1.5G 1.5E\nINTERIOR\nSeats Material Fabric\n Rear Seats 60:40 Split Foldable\nSmart Entry & Push Start With\nMeter Panel Type New Optitron\nMulti-information Display (MID) With 4.2\" (Colour)\nDrive Mode Switch With (Sport Mode & ECO Mode)\nSteering Type 3-spoke Soft Leather & 3-spoke Urethane\n Tilt Adjustable & Tilt Adjustable\n Switches With Audio, MID & Bluetooth\nShift Lever Knob Material Leather Urethane\nAir-conditioning Auto Manual\nAudio Type 9'' Display Audio with\n Wireless Apple CarPlay® & Android Auto™\n Speakers 6 4\nRear View Mirror Electrochromic Mirror Day & Night\nWindshield Wiper Intermittent and Mist, Time Adjustable\nPower Windows Front & Rear, with Auto Up/Down & Jam Protection (Driver Only)\nScuff Plates With (Illuminated Type)\nPaddles Shifters With Without\nWireless Charger With\nUSB Charging Ports Front (1 x Type A) & Rear (2 x Type C)\n\nSAFETY\nActive\nToyota Pre-collision\n System (PCS) With\nSafety Sense\n(TSS)\n Lane Departure\n With\n Alert (LDA)\n3D Panoramic View Monitor (PVM) With\nBlind Spot Monitor (BSM) with\n With\nRear Cross Traffic Alert (RCTA)\nAnti-lock Braking System (ABS)\n With\nwith EBD & BA\nVehicle Stability Control (VSC)\n With\n& Traction Control (TRC)\nHill-start Assist Control (HAC) With\nFront Digital Video Recorder (DVR) With Smartphone Connectivity\nEmergency Stop Signal (ESS) With\nParking Sensor With (Front & Rear) With (Rear Only)\nAuto Door Lock With (Speed-linked)\nPassive\nSRS Airbags 7 (Dual Front, Driver's Knee, Front Side and Curtain Shield)\nSeatbelt Front / Rear 3-point ELR x 2 with Pretensioner and Force Limiter\n (Driver & Passenger) / 3-point ELR x 3\nSeatbelt Warning Driver, Front Passenger & Rear Passenger\n\f 1.5G 1.5E\n SECURITY\n Alarm System Immobiliser, Siren with Backup Battery, Cabin Sensor & Tilt Sensor\n Vehicle Telematics System (VTS) With\n Premium Security Solar Film With\n\n OPTIONAL\n New Aerokit Styling Optional\n 2-tone Exterior Colour Optional\n Rear Digital Video Recorder (DVR) Optional\n\n • UMW Toyota Motor reserves the right to alter any details of specifications and equipment without notice.\n • Details of specifications and equipment are also subject to change to suit local conditions and requirements.\n • Vehicle and specifications in this catalogue may vary from models available locally.\n • Vehicle body and accessory colours might differ from the photos in this catalogue.\n • Optional accessories are available at extra cost.\n • All images used are for illustrative purposes.\n\n The Yaris has been Follow us!\n awarded a 5-star\n5 years warranty from the ASEAN NCAP Toyota Malaysia\ndate of first registration\n safety rating.\nwith unlimited mileage. Energy Ef f icient toyotamy\nTerms and conditions apply. Vehicle\n\nUMW Toyota Motor Sdn. Bhd. (60576-K) TOYOTA FREEPHONE: 1800-8-TOYOTA (1800-8-869682) from 8:00am – 5:30pm, Monday to Friday.\n TOYOTA E-MAIL: customersupport@toyota.com.my\n The colour, accessories and/or specifications of available models may differ from the vehicle(s) shown here."
+    }
+  ]
+}

@@ -1,0 +1,1046 @@
+{
+  "generated_at": "2026-09-15T20:40:31.598880",
+  "records": [
+    {
+      "model_name": "Camry HEV",
+      "source_file": "Camry-HEV-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          136.0,
+          188.0,
+          204.0,
+          230.0
+        ],
+        "torque_nm_valid": [
+          208.0,
+          221.0,
+          246.0
+        ],
+        "displacement_cc_valid": [
+          2500,
+          4000
+        ],
+        "transmission_valid": [
+          "E-CVT",
+          "CVT",
+          "8-speed Automatic",
+          "Automatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Corolla Cross HEV GR Sport",
+      "source_file": "Corolla-Cross-GR-Sport-2023-Brochure-4.txt",
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [
+          1798,
+          1800
+        ],
+        "transmission_valid": [
+          "E-CVT",
+          "CVT",
+          "7-speed CVT with Sequential Shiftmatic",
+          "Automatic",
+          "Manual"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [
+          {
+            "value": "2",
+            "reason": "POWER_OUT_OF_RANGE"
+          }
+        ],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Corolla GR Sport",
+      "source_file": "Corolla-GR-Sport-Brochure.txt",
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [
+          1800
+        ],
+        "transmission_valid": [
+          "CVT",
+          "10-SPEED SPORT SEQUENTIAL SHIFTMATIC",
+          "10-speed CVT, delivering shorter response times between gear shifts and",
+          "10-speed Sport Sequential Shiftmatic CVT"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [
+          {
+            "value": "2",
+            "reason": "POWER_OUT_OF_RANGE"
+          }
+        ],
+        "torque": [],
+        "displacement": [],
+        "transmission": [
+          {
+            "value": "7-speed to a finely-tuned",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          }
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Corolla GR Sport",
+      "source_file": "Corolla-GR-Sport-eBrochure-2023.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [
+          1800
+        ],
+        "transmission_valid": [
+          "CVT",
+          "7-speed Sequential Shiftmatic CVT"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": [
+          {
+            "value": "7-speed Continuously",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          }
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "GR Corolla",
+      "source_file": "GR-Corolla-2023-Brochure.txt",
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          300.0
+        ],
+        "torque_nm_valid": [
+          370.0
+        ],
+        "displacement_cc_valid": [
+          1600,
+          1618
+        ],
+        "transmission_valid": [
+          "6-speed Manual",
+          "6-speed Manual with intelligent Manual Transmission [iMT]",
+          "6-speed short-shift intelligent Manual",
+          "Manual",
+          "6-speed Manual with iMT",
+          "Automatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "GR Corolla",
+      "source_file": "GR-Corolla-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          300.0
+        ],
+        "torque_nm_valid": [
+          370.0,
+          400.0
+        ],
+        "displacement_cc_valid": [
+          1600,
+          1618
+        ],
+        "transmission_valid": [
+          "Automatic Transmission",
+          "6-speed Manual",
+          "8-Speed Gazoo Racing Direct Automatic Transmission",
+          "6-speed Manual with intelligen",
+          "Manual",
+          "Automatic",
+          "6-speed Manual with intelligent Manual Transmission [iMT]",
+          "6-speed short-shift intelligent Manual Transmission (iMT) delivers",
+          "6-speed Manual with iMT"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "GR86",
+      "source_file": "GR86-2023-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          237.0
+        ],
+        "torque_nm_valid": [
+          250.0
+        ],
+        "displacement_cc_valid": [
+          2400
+        ],
+        "transmission_valid": [
+          "Automatic Transmission",
+          "6-speed Automatic",
+          "6-speed Manual",
+          "6-speed Manual or Automatic Transmission",
+          "Manual",
+          "Automatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": [
+          {
+            "value": "6-speed close-ratio",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          },
+          {
+            "value": "6-speed auto, GR86 will always be a ride of thrill",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          }
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Hiace",
+      "source_file": "Hiace-eBrochure.txt",
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [],
+        "transmission_valid": [
+          "6-speed Automatic",
+          "6-speed automatic ee) —$~q",
+          "automatic",
+          "6-speed Automatic with Sequential Shift Seat Material Fabric"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Innova Zenix",
+      "source_file": "Innova-Zenix-e-Brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [
+          188.0
+        ],
+        "displacement_cc_valid": [
+          2000
+        ],
+        "transmission_valid": [
+          "Automatic",
+          "Manual"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Yaris Cross HEV",
+      "source_file": "all-new-yaris-cross-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [
+          138.0
+        ],
+        "displacement_cc_valid": [
+          1500,
+          3600
+        ],
+        "transmission_valid": [
+          "e-CVT",
+          "CVT",
+          "7-speed CVT with Sequential Shiftmatic e-CVT",
+          "Automatic",
+          "Manual"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "bZ4X",
+      "source_file": "bz4x-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [
+          269.0
+        ],
+        "displacement_cc_valid": [],
+        "transmission_valid": []
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Camry HEV",
+      "source_file": "camry-e-brochure.txt",
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          136.0,
+          188.0,
+          204.0,
+          230.0
+        ],
+        "torque_nm_valid": [
+          208.0,
+          221.0,
+          246.0
+        ],
+        "displacement_cc_valid": [
+          2500,
+          4000
+        ],
+        "transmission_valid": [
+          "E-CVT",
+          "CVT",
+          "8-speed Automatic",
+          "Automatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Corolla Cross HEV",
+      "source_file": "corolla-cross-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          139.0
+        ],
+        "torque_nm_valid": [
+          142.0,
+          172.0
+        ],
+        "displacement_cc_valid": [
+          1800
+        ],
+        "transmission_valid": [
+          "CVT",
+          "7-speed CVT with Sequential Shiftmatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Corolla Cross HEV GR Sport",
+      "source_file": "corolla-cross-hev-gr-sport-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [
+          1800
+        ],
+        "transmission_valid": []
+      },
+      "rejected_candidates": {
+        "power": [
+          {
+            "value": "2",
+            "reason": "POWER_OUT_OF_RANGE"
+          }
+        ],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Corolla",
+      "source_file": "corolla-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [
+          1800
+        ],
+        "transmission_valid": [
+          "CVT",
+          "Automatic transmission",
+          "7-speed Sequential Shiftmatic CVT",
+          "manual",
+          "Automatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": [
+          {
+            "value": "7-speed Continuously Variable",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          },
+          {
+            "value": "7-speed gear shifts.",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          },
+          {
+            "value": "7-speed gear shifts",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          }
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Fortuner",
+      "source_file": "fortuner-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          150.0,
+          166.0,
+          204.0
+        ],
+        "torque_nm_valid": [
+          245.0,
+          400.0,
+          500.0
+        ],
+        "displacement_cc_valid": [
+          2400,
+          2700
+        ],
+        "transmission_valid": [
+          "6-speed Automatic",
+          "6-speed Automatic with Sequential Shifter",
+          "Automatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": [
+          {
+            "value": "6-speed AT Transmission",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          }
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "GR Yaris",
+      "source_file": "gr-yaris-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          300.0
+        ],
+        "torque_nm_valid": [
+          400.0
+        ],
+        "displacement_cc_valid": [
+          1600,
+          1618
+        ],
+        "transmission_valid": [
+          "Automatic Transmission",
+          "6-Speed Manual",
+          "8-Speed Gazoo Racing Direct Automatic Transmission",
+          "manual",
+          "Automatic",
+          "6-Speed Manual with ae"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": [
+          {
+            "value": "6-Speed Intelligent",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          }
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "GR86",
+      "source_file": "gr86-brochure.txt",
+      "source_priority": "HISTORICAL_OR_SECONDARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          237.0
+        ],
+        "torque_nm_valid": [
+          250.0
+        ],
+        "displacement_cc_valid": [
+          2387,
+          2400
+        ],
+        "transmission_valid": [
+          "Automatic Transmission",
+          "6-speed Automatic",
+          "6-speed Manual",
+          "6-speed Manual or Automatic Transmission",
+          "Manual",
+          "Automatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": [
+          {
+            "value": "6-speed close-ratio",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          },
+          {
+            "value": "6-speed auto, GR86 will always be a ride of thrill",
+            "reason": "NO_TRANSMISSION_KEYWORD"
+          }
+        ]
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Harrier HEV",
+      "source_file": "harrier-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          178.0,
+          217.0
+        ],
+        "torque_nm_valid": [
+          202.0,
+          221.0
+        ],
+        "displacement_cc_valid": [
+          2487,
+          2500,
+          4700
+        ],
+        "transmission_valid": [
+          "E-CVT",
+          "CVT",
+          "Automatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Hiace",
+      "source_file": "hiace-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [
+          3000
+        ],
+        "transmission_valid": []
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Hilux BEV",
+      "source_file": "hilux-bev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          196.0
+        ],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [],
+        "transmission_valid": []
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Hilux GR Sport",
+      "source_file": "hilux-gr-s-rogue-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          224.0
+        ],
+        "torque_nm_valid": [
+          550.0
+        ],
+        "displacement_cc_valid": [
+          2755,
+          2800
+        ],
+        "transmission_valid": [
+          "6-speed automatic",
+          "6-speed Manual",
+          "automatic",
+          "6-speed Automatic with 6-speed Automatic with Super ECT & Sequential Shifter 6-speed Manual",
+          "Manual"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Vios",
+      "source_file": "toyota-vios-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          106.0
+        ],
+        "torque_nm_valid": [
+          138.0
+        ],
+        "displacement_cc_valid": [
+          1496
+        ],
+        "transmission_valid": [
+          "CVT",
+          "7-speed CVT with",
+          "7-Speed CVT with Sequential Shiftmatic",
+          "Manual"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Vios HEV",
+      "source_file": "toyota-vios-hev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": null,
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [],
+        "transmission_valid": [
+          "CVT",
+          "7-Speed CVT with Sequential Shiftmatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Vios HEV GR Sport",
+      "source_file": "toyota-vios-hev-gr-sport-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": null,
+      "validation_status": "REVIEW_REQUIRED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [],
+        "transmission_valid": []
+      },
+      "rejected_candidates": {
+        "power": [
+          {
+            "value": "2",
+            "reason": "POWER_OUT_OF_RANGE"
+          }
+        ],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Urban Cruiser BEV",
+      "source_file": "urban-cruiser-bev-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [
+          193.0
+        ],
+        "displacement_cc_valid": [],
+        "transmission_valid": []
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Alphard",
+      "source_file": "vellfire-alphard-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          182.0,
+          278.0
+        ],
+        "torque_nm_valid": [
+          233.0,
+          235.0,
+          430.0
+        ],
+        "displacement_cc_valid": [
+          2393,
+          2400,
+          2487,
+          2500
+        ],
+        "transmission_valid": [
+          "E-CVT",
+          "CVT",
+          "8-speed Automatic",
+          "7-speed Super CVT-i with Sports Sequential Shiftmatic",
+          "Automatic"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Veloz",
+      "source_file": "veloz-e-brochure-3.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [],
+        "torque_nm_valid": [],
+        "displacement_cc_valid": [
+          1500
+        ],
+        "transmission_valid": [
+          "CVT",
+          "7-Speed CVT >",
+          "7-speed CVT"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    },
+    {
+      "model_name": "Yaris",
+      "source_file": "yaris-e-brochure.txt",
+      "source_priority": "CURRENT_PRIMARY",
+      "coverage_type": "DIRECT_PRIMARY",
+      "validation_status": "CANDIDATES_VALIDATED",
+      "technical": {
+        "power_ps_valid": [
+          107.0
+        ],
+        "torque_nm_valid": [
+          140.0
+        ],
+        "displacement_cc_valid": [
+          1496
+        ],
+        "transmission_valid": [
+          "CVT",
+          "7-speed Sport Sequential shifting gears up or down with Choose between SPORT and",
+          "7-speed Sport Sequential Shiftmatic mode"
+        ]
+      },
+      "rejected_candidates": {
+        "power": [
+          {
+            "value": "2",
+            "reason": "POWER_OUT_OF_RANGE"
+          }
+        ],
+        "torque": [],
+        "displacement": [],
+        "transmission": []
+      },
+      "policy": {
+        "candidate_only": true,
+        "context_required_for_shared_source": false,
+        "master_import_allowed": false
+      }
+    }
+  ]
+}

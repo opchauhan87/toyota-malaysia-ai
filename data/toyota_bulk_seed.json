@@ -1,0 +1,203 @@
+{
+  "source": "Toyota Malaysia Official",
+  "market": "Malaysia",
+  "currency": "MYR",
+  "models": [
+
+    {
+      "model_name": "Vios",
+      "body_type": "Sedan",
+      "official_url": "https://www.toyota.com.my/en/models/vios.html",
+      "price_starting_myr": 90600
+    },
+
+    {
+      "model_name": "Yaris",
+      "body_type": "Hatchback",
+      "official_url": "https://www.toyota.com.my/en/models/yaris.html",
+      "price_starting_myr": 88000
+    },
+
+    {
+      "model_name": "Yaris Cross",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross-hybrid-electric/yaris-cross.html",
+      "price_starting_myr": 99900
+    },
+
+    {
+      "model_name": "Yaris Cross HEV",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/yaris-cross-hybrid-electric.html",
+      "price_starting_myr": 109900
+    },
+
+    {
+      "model_name": "Corolla",
+      "body_type": "Sedan",
+      "official_url": "https://www.toyota.com.my/en/models/corolla.html",
+      "price_starting_myr": 144800
+    },
+
+    {
+      "model_name": "Corolla GR Sport",
+      "body_type": "Sedan",
+      "official_url": "https://www.toyota.com.my/en/models/corolla/corolla-gr-sport.html",
+      "price_starting_myr": 149800
+    },
+
+    {
+      "model_name": "Corolla Cross",
+      "body_type": "Crossover",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross.html"
+    },
+
+    {
+      "model_name": "Corolla Cross HEV",
+      "body_type": "Crossover",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric.html",
+      "price_starting_myr": 140800
+    },
+
+    {
+      "model_name": "Corolla Cross HEV GR Sport",
+      "body_type": "Crossover",
+      "official_url": "https://www.toyota.com.my/en/models/corolla-cross-hybrid-electric/corolla-cross-hev-gr-sport.html",
+      "price_starting_myr": 148800
+    },
+
+    {
+      "model_name": "Camry",
+      "body_type": "Sedan",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric/camry.html",
+      "price_starting_myr": 221800
+    },
+
+    {
+      "model_name": "Camry HEV",
+      "body_type": "Sedan",
+      "official_url": "https://www.toyota.com.my/en/models/camry-hybrid-electric.html",
+      "price_starting_myr": 248800
+    },
+
+    {
+      "model_name": "Veloz",
+      "body_type": "MPV",
+      "official_url": "https://www.toyota.com.my/en/models/veloz.html",
+      "price_starting_myr": 95000
+    },
+
+    {
+      "model_name": "Innova Zenix",
+      "body_type": "Crossover / MPV",
+      "official_url": "https://www.toyota.com.my/en/models/zenix.html",
+      "price_starting_myr": 165000
+    },
+
+    {
+      "model_name": "Fortuner",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/fortuner.html",
+      "price_starting_myr": 195880
+    },
+
+    {
+      "model_name": "Harrier HEV",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/harrier-hybrid-electric.html",
+      "price_starting_myr": 289000
+    },
+
+    {
+      "model_name": "Hilux",
+      "body_type": "Pickup",
+      "official_url": "https://www.toyota.com.my/en/models/hilux.html",
+      "price_starting_myr": 103880
+    },
+
+    {
+      "model_name": "Hilux GR Sport",
+      "body_type": "Pickup",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-gr-sport.html",
+      "price_starting_myr": 169080
+    },
+
+    {
+      "model_name": "Hilux BEV",
+      "body_type": "Pickup",
+      "official_url": "https://www.toyota.com.my/en/models/hilux/hilux-bev.html",
+      "price_starting_myr": 226300
+    },
+
+    {
+      "model_name": "Hiace",
+      "body_type": "Van",
+      "official_url": "https://www.toyota.com.my/en/models/hiace.html",
+      "price_starting_myr": 127800
+    },
+
+    {
+      "model_name": "Hiace SLWB",
+      "body_type": "Van",
+      "official_url": "https://www.toyota.com.my/en/models/hiace-slwb.html",
+      "price_starting_myr": 172000
+    },
+
+    {
+      "model_name": "bZ4X",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/bz4x.html",
+      "price_starting_myr": 220000
+    },
+
+    {
+      "model_name": "Urban Cruiser BEV",
+      "body_type": "SUV",
+      "official_url": "https://www.toyota.com.my/en/models/urban-cruiser.html",
+      "price_starting_myr": 198000
+    },
+
+    {
+      "model_name": "Alphard",
+      "body_type": "MPV",
+      "official_url": "https://www.toyota.com.my/en/models/alphard.html",
+      "price_starting_myr": 538000
+    },
+
+    {
+      "model_name": "Vellfire",
+      "body_type": "MPV",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire.html",
+      "price_starting_myr": 438000
+    },
+
+    {
+      "model_name": "Vellfire HEV",
+      "body_type": "MPV",
+      "official_url": "https://www.toyota.com.my/en/models/vellfire/vellfire-hybrid-electric.html",
+      "price_starting_myr": 549900
+    },
+
+    {
+      "model_name": "GR Yaris",
+      "body_type": "Hatchback",
+      "official_url": "https://www.toyota.com.my/en/models/gr-yaris.html",
+      "price_starting_myr": 315600
+    },
+
+    {
+      "model_name": "GR Corolla",
+      "body_type": "Hatchback",
+      "official_url": "https://www.toyota.com.my/en/models/gr-corolla.html",
+      "price_starting_myr": 368950
+    },
+
+    {
+      "model_name": "GR86",
+      "body_type": "Coupe",
+      "official_url": "https://www.toyota.com.my/en/models/gr86.html",
+      "price_starting_myr": 296000
+    }
+
+  ]
+}

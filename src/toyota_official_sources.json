@@ -1,0 +1,43 @@
+{
+  "source_policy": {
+    "primary": "Toyota Malaysia Official",
+    "official_catalogue": "https://www.toyota.com.my/en/online-showroom/explore-config.html",
+    "price_must_be_verified": true,
+    "specifications_must_be_verified": true,
+    "do_not_guess": true
+  },
+
+  "source_fields": [
+    "model_name",
+    "official_url",
+    "brochure_url",
+    "price_starting_myr",
+    "body_type",
+    "engine",
+    "horsepower",
+    "torque",
+    "transmission",
+    "fuel_type",
+    "hybrid_system",
+    "battery",
+    "safety",
+    "features",
+    "colours",
+    "warranty",
+    "service_savers"
+  ],
+
+  "validation_rules": {
+    "model_name_required": true,
+    "official_url_required": true,
+    "price_source_required": true,
+    "price_date_required": true,
+    "unknown_values": "NULL",
+    "hallucination_policy": "REJECT",
+    "source_priority": [
+      "Toyota Malaysia Official Model Page",
+      "Toyota Malaysia Official Brochure",
+      "Toyota Malaysia Official Price List"
+    ]
+  }
+}
