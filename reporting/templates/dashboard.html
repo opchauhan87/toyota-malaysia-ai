@@ -17,7 +17,15 @@ body{background:var(--bg);color:var(--text);font-family:Inter,-apple-system,Blin
 .cardx{background:#fff;border:1px solid #e5ece8;border-radius:16px;box-shadow:0 5px 18px #123d2810;overflow:hidden}.head{padding:17px 20px;border-bottom:1px solid #edf1ef}.title{font-size:16px;font-weight:800}.caption{font-size:12px;color:var(--muted);margin-top:3px}
 .filter{background:#fff;border:1px solid #e5ece8;border-radius:14px;padding:13px;box-shadow:0 4px 15px #123d2808}
 .form-control,.form-select{border-color:#dbe5df;border-radius:10px}.form-control:focus,.form-select:focus{border-color:#5b9c78;box-shadow:0 0 0 .2rem #176b4512}
-.live-card{border:1px solid #e2ebe6;border-radius:13px;padding:15px;background:#fff;cursor:pointer;transition:.15s}.live-card:hover{border-color:#75a98c;box-shadow:0 6px 20px #123d2812}.active{font-size:11px;font-weight:800;color:#16834a}.duration{font-size:19px;font-weight:800}
+.live-table-wrap{overflow-x:auto}
+.live-table{width:100%;table-layout:fixed;margin:0}
+.live-table th{white-space:nowrap}
+.live-table td{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.live-phone{font-weight:700}
+.live-name{font-weight:700}
+.live-status{font-size:11px;font-weight:800;color:#16834a}
+.live-duration{font-size:17px;font-weight:800;font-variant-numeric:tabular-nums}
+.logout-btn{font-size:12px}
 .empty{padding:42px;text-align:center;color:#839088}.empty-icon{font-size:35px;margin-bottom:8px}
 .table thead th{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#748078;background:#f8faf9;padding:13px;border-bottom:1px solid #e7eeea}.table td{padding:13px;vertical-align:middle;font-size:12px}.rowclick{cursor:pointer}.rowclick:hover{background:#f5faf7}
 .badge-soft{display:inline-flex;align-items:center;gap:5px;padding:6px 9px;border-radius:20px;font-size:10px;font-weight:800}.bgreen{background:#dcfce7;color:#166534}.bblue{background:#e0f2fe;color:#075985}.byellow{background:#fef3c7;color:#92400e}.bred{background:#fee2e2;color:#991b1b}.bgray{background:#f1f5f9;color:#475569}
@@ -25,13 +33,191 @@ body{background:var(--bg);color:var(--text);font-family:Inter,-apple-system,Blin
 .refresh{font-size:11px;color:#dcece3}.btn-green{background:var(--green);color:#fff;border:0}.btn-green:hover{background:#125a39;color:#fff}
 @media(max-width:700px){.system{margin-top:12px}.topbar .d-flex{flex-direction:column;align-items:flex-start!important}}
 </style>
+
+
+
+<style id="toyota-filter-layout-final">
+/* Prevent the dashboard from creating horizontal page overflow */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Main filter layout */
+.toyota-filter-grid {
+    display: grid;
+    grid-template-columns:
+        minmax(180px, 1.05fr)
+        minmax(180px, 1.05fr)
+        minmax(260px, 1.55fr)
+        minmax(170px, 1fr)
+        minmax(390px, 2.2fr);
+    gap: 12px;
+    align-items: end;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.toyota-filter-field {
+    min-width: 0;
+}
+
+.toyota-filter-field label {
+    display: block;
+}
+
+.toyota-filter-field input,
+.toyota-filter-field select {
+    width: 100%;
+    min-width: 0;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+.toyota-filter-actions {
+    display: grid;
+    grid-template-columns:
+        minmax(90px, 1fr)
+        minmax(70px, .75fr)
+        minmax(105px, 1.1fr)
+        minmax(115px, 1.2fr);
+    gap: 8px;
+    min-width: 0;
+}
+
+.toyota-filter-actions .btn {
+    height: 42px;
+    min-width: 0;
+    padding: 0 10px !important;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.toyota-filter-info {
+    grid-column: 1 / -1;
+    text-align: right;
+    min-height: 18px;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+/* Large desktop */
+@media (max-width: 1399px) {
+    .toyota-filter-grid {
+        grid-template-columns:
+            minmax(170px, 1fr)
+            minmax(170px, 1fr)
+            minmax(240px, 1.4fr)
+            minmax(160px, 1fr);
+    }
+
+    .toyota-filter-actions {
+        grid-column: 1 / -1;
+
+        display: flex;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .toyota-filter-actions .btn {
+        flex: 0 0 auto;
+    }
+
+    .toyota-filter-info {
+        grid-column: 1 / -1;
+        text-align: right;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .toyota-filter-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .phone-field {
+        grid-column: 1 / -1;
+    }
+
+    .refresh-field {
+        grid-column: 1 / -1;
+    }
+
+    .toyota-filter-actions {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .toyota-filter-actions .btn {
+        width: 100%;
+    }
+
+    .toyota-filter-info {
+        grid-column: 1 / -1;
+        text-align: left;
+    }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+    .toyota-filter-grid {
+        grid-template-columns: 1fr;
+        gap: 9px;
+    }
+
+    .phone-field,
+    .refresh-field {
+        grid-column: auto;
+    }
+
+    .toyota-filter-actions {
+        grid-column: auto;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .toyota-filter-actions .btn {
+        font-size: 12px;
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+
+    .toyota-filter-info {
+        grid-column: auto;
+        text-align: left;
+    }
+}
+
+/* Keep the history table scrollable without moving the whole page */
+#historySection .table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+#calls {
+    min-width: 980px;
+}
+</style>
+
 </head>
 <body>
 <header class="topbar">
 <div class="container-fluid px-4">
 <div class="d-flex justify-content-between align-items-center">
 <div><div class="brand">Toyota Malaysia AI</div><div class="sub">Voice AI · Call Intelligence & Operations</div></div>
-<div class="text-end"><div class="system"><span class="dot"></span>SYSTEM LIVE <span id="lastRefresh" class="refresh"></span></div></div>
+<div class="text-end d-flex align-items-center gap-2">
+<div class="system"><span class="dot"></span>SYSTEM LIVE <span id="lastRefresh" class="refresh"></span></div>
+<a href="/toyota-reports/logout" class="btn btn-sm btn-light logout-btn">Logout</a>
+</div>
 </div>
 </div>
 </header>
@@ -45,13 +231,56 @@ body{background:var(--bg);color:var(--text);font-family:Inter,-apple-system,Blin
 </div>
 
 <div class="filter mb-4">
-<div class="row g-2 align-items-end">
-<div class="col-lg-2 col-md-4"><label class="small text-muted mb-1">Date From</label><input id="dateFrom" type="date" class="form-control form-control-sm"></div>
-<div class="col-lg-2 col-md-4"><label class="small text-muted mb-1">Date To</label><input id="dateTo" type="date" class="form-control form-control-sm"></div>
-<div class="col-lg-3 col-md-4"><label class="small text-muted mb-1">Phone Number</label><input id="phone" class="form-control form-control-sm" placeholder="Search phone number"></div>
-<div class="col-lg-2 col-md-4"><label class="small text-muted mb-1">Auto Refresh</label><select id="refreshRate" class="form-select form-select-sm"><option value="5">5 seconds</option><option value="10">10 seconds</option><option value="15">15 seconds</option><option value="30">30 seconds</option><option value="0">Off</option></select></div>
-<div class="col-lg-3 col-md-8 d-flex gap-2"><button class="btn btn-green btn-sm px-3" onclick="applyFilters()">Apply Filters</button><button class="btn btn-outline-secondary btn-sm px-3" onclick="resetFilters()">Reset</button>
-<button class="btn btn-outline-success btn-sm px-3" onclick="exportExcel()">📊 Export Excel</button><span class="ms-auto small text-muted align-self-center" id="filterInfo"></span></div>
+<div class="toyota-filter-grid">
+
+<div class="toyota-filter-field">
+<label class="small text-muted mb-1">Date From</label>
+<input id="dateFrom" type="date" class="form-control form-control-sm">
+</div>
+
+<div class="toyota-filter-field">
+<label class="small text-muted mb-1">Date To</label>
+<input id="dateTo" type="date" class="form-control form-control-sm">
+</div>
+
+<div class="toyota-filter-field phone-field">
+<label class="small text-muted mb-1">Phone Number</label>
+<input id="phone" class="form-control form-control-sm" placeholder="Search phone number">
+</div>
+
+<div class="toyota-filter-field refresh-field">
+<label class="small text-muted mb-1">Auto Refresh</label>
+<select id="refreshRate" class="form-select form-select-sm">
+<option value="5">5 seconds</option>
+<option value="10">10 seconds</option>
+<option value="15">15 seconds</option>
+<option value="30">30 seconds</option>
+<option value="0">Off</option>
+</select>
+</div>
+
+<div class="toyota-filter-actions">
+
+<button class="btn btn-green btn-sm" onclick="applyFilters()">
+Apply Filters
+</button>
+
+<button class="btn btn-outline-secondary btn-sm" onclick="resetFilters()">
+Reset
+</button>
+
+<button class="btn btn-outline-success btn-sm" onclick="exportExcel()">
+📊 Export Excel
+</button>
+
+<button class="btn btn-outline-primary btn-sm" onclick="downloadCallReports()">
+📄 Call Reports
+</button>
+
+</div>
+
+<div class="toyota-filter-info small text-muted" id="filterInfo"></div>
+
 </div>
 </div>
 
@@ -60,7 +289,29 @@ body{background:var(--bg);color:var(--text);font-family:Inter,-apple-system,Blin
 <div><div class="title">🟢 Active Calls <span id="liveCount" class="badge rounded-pill text-bg-success">0</span></div><div class="caption">Only currently connected AI calls are shown here</div></div>
 <div class="small text-success fw-bold">LIVE</div>
 </div>
-<div class="p-3"><div id="liveCalls" class="row g-3"><div class="col-12"><div class="empty"><div class="empty-icon">☎️</div><div class="fw-bold">No active calls</div><div class="small">Live monitor is running.</div></div></div></div></div>
+<div class="table-responsive live-table-wrap">
+<table class="table table-hover live-table mb-0">
+<thead>
+<tr>
+<th style="width:30%">Phone Number</th>
+<th style="width:30%">Customer Name</th>
+<th style="width:25%">Call Status</th>
+<th style="width:15%" class="text-end">Call Duration</th>
+</tr>
+</thead>
+<tbody id="liveCalls">
+<tr>
+<td colspan="4">
+<div class="empty">
+<div class="empty-icon">☎️</div>
+<div class="fw-bold">No active calls</div>
+<div class="small">Live monitor is running.</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 
 <section id="historySection" class="cardx">
@@ -68,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:Inter,-apple-system,Blin
 <div><div class="title">Call History & Leads</div><div class="caption">Click a call to open details, conversation and recording</div></div>
 <div class="small text-muted" id="historyLabel">All calls</div>
 </div>
-<div class="table-responsive"><table class="table table-hover mb-0" id="calls">
+<div class="table-responsive"><table class="table table-hover mb-0" id="calls" style="min-width:980px">
 <thead><tr><th>Date / Time</th><th>Lead</th><th>Customer</th><th>Phone</th><th>Model</th><th>Duration</th><th>Conversation</th><th>Lead Type</th><th>Disposition</th></tr></thead>
 <tbody id="reportBody"></tbody>
 </table></div>
@@ -120,6 +371,15 @@ function exportExcel(){
  if(phone.value.trim())p.set('phone',phone.value.trim());
 
  window.location.href='/toyota-reports/api/export/excel?'+p.toString();
+}
+
+function downloadCallReports(){
+ let p=new URLSearchParams();
+ if(dateFrom.value)p.set('date_from',dateFrom.value);
+ if(dateTo.value)p.set('date_to',dateTo.value);
+ if(phone.value.trim())p.set('phone',phone.value.trim());
+
+ window.location.href='/toyota-reports/api/download/call-reports?'+p.toString();
 }
 
 function showHistory(type){currentLeadFilter=type;document.getElementById('historySection').scrollIntoView({behavior:'smooth',block:'start'});renderReports()}
@@ -178,13 +438,32 @@ async function loadLiveCalls(){
  }catch(e){console.log(e)}
 }
 function renderLive(calls){
- if(!calls.length){liveCalls.innerHTML=`<div class="col-12"><div class="empty"><div class="empty-icon">☎️</div><div class="fw-bold">No active calls</div><div class="small">Realtime monitor is running.</div></div></div>`;return}
+ if(!calls.length){
+   liveCalls.innerHTML=`<tr><td colspan="4"><div class="empty">
+   <div class="empty-icon">☎️</div>
+   <div class="fw-bold">No active calls</div>
+   <div class="small">Realtime monitor is running.</div>
+   </div></td></tr>`;
+   window.liveCallsData=[];
+   return;
+ }
+
  liveCalls.innerHTML=calls.map(c=>{
-  let speaker=c.last_speaker==='customer'?'👤 Customer speaking':c.last_speaker==='ai'?'🤖 AI speaking':'Connected';
-  return `<div class="col-xl-4 col-lg-6"><div class="live-card" onclick="openLive('${esc(c.call_id||'')}')">
-  <div class="d-flex justify-content-between"><div><div class="active">● ACTIVE CALL</div><div class="fw-bold mt-1">${esc(c.first_name||'Customer')}</div><div class="small text-muted">${esc(c.phone_number||'-')}</div></div>
-  <div class="duration">${duration(c.live_duration_seconds)}</div></div><hr class="my-3"><div class="small text-muted">${speaker}</div><div class="small text-truncate">${esc(c.last_message||'')}</div></div></div>`
+   let status =
+     c.last_speaker==='customer'
+       ? '👤 Customer Speaking'
+       : c.last_speaker==='ai'
+         ? '🤖 AI Speaking'
+         : '🟢 Connected';
+
+   return `<tr onclick="openLive('${esc(c.call_id||'')}')" style="cursor:pointer">
+     <td class="live-phone">${esc(c.phone_number||'-')}</td>
+     <td class="live-name">${esc(c.first_name||'Customer')}</td>
+     <td><span class="live-status">${status}</span></td>
+     <td class="live-duration text-end">${duration(c.live_duration_seconds)}</td>
+   </tr>`;
  }).join('');
+
  window.liveCallsData=calls;
 }
 function openLive(id){let c=(window.liveCallsData||[]).find(x=>x.call_id===id);if(c)openReportObject(c)}
@@ -209,6 +488,15 @@ function playChannel(ch){
  let f=selectedReport.recording.split('/').pop();modalAudio.src='/toyota-reports/recordings/channel/'+ch+'/'+encodeURIComponent(f);modalAudio.load();modalAudio.play().catch(()=>{});
 }
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollLeft = 0;
+    document.body.scrollLeft = 0;
+});
+</script>
+
 </body>
 </html>
 

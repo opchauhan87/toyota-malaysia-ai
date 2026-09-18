@@ -258,7 +258,7 @@ def piper_speak(text):
 
     model = os.environ.get(
         "PIPER_MODEL",
-        "/opt/piper/piper/en_US-lessac-high.onnx"
+        "/opt/voice-ai/models/piper/en_US-hfc_female-medium.onnx"
     )
 
     if not model:
@@ -280,7 +280,7 @@ def piper_speak(text):
             "/usr/local/bin/piper",
             "--model", model,
             "--output_file", raw_wav,
-            "--length_scale", "1.20",
+            "--length_scale", "1.08",
         ]
 
         subprocess.run(
@@ -1447,48 +1447,77 @@ def save_call_report(state, call_id, recording_file=None):
         except Exception:
             duration = None
 
+    contact_preference = (
+        state.get("final_contact")
+        or state.get("contact_preference")
+    )
+
+    # Customer requirement data only.
+    # These values come from what the customer said during the call.
+    # Toyota KB answers are intentionally NOT stored here.
     report = {
         "call_id": call_id,
         "lead_id": state.get("lead_id"),
         "phone_number": state.get("phone_number"),
         "first_name": state.get("first_name"),
-        "lead_source": state.get("lead_source"),
         "start_time": start_time,
         "end_time": end_time.isoformat(),
         "duration_seconds": duration,
 
+        "conversation_status": state.get(
+            "conversation_status",
+            "Customer Hang Up"
+            if state.get("_customer_hung_up")
+            else "Completed"
+            if state.get("stage") == "completed"
+            else "Conversation Not Done"
+        ),
+
         "intent": state.get("intent"),
         "disposition": disposition,
 
-        "conversation": state.get("conversation", []),
-
-        "preferred_model": state.get("preferred_model"),
-        "car_type": state.get("car_type"),
-        "budget": state.get("budget"),
-        "callback_time": state.get("callback_time"),
-        "contact_preference": (
-            state.get("final_contact")
-            or state.get("contact_preference")
+        "customer_captured_model": state.get(
+            "customer_captured_model"
         ),
+        "car_type": state.get("car_type"),
+        "purchase_type": state.get("purchase_type"),
+        "current_car": state.get("current_car"),
+        "interested_model": (
+            state.get("interested_model")
+            or state.get("preferred_model")
+        ),
+        "budget": state.get("budget"),
+        "monthly_payment": state.get("monthly_payment"),
+        "purchase_timeline": state.get("purchase_timeline"),
+        "callback_time": state.get("callback_time"),
+        "contact_preference": contact_preference,
+        "customer_language": state.get("customer_language"),
 
-        "conversation": state.get("conversation", []),
+        # Full conversation timeline is retained in the JSON report
+        # for the Call Details modal. It is NOT exported to Excel.
+        "conversation": state.get("conversation") or [],
 
+        # Internal call data retained in JSON only.
         "recording": recording_file,
-
         "vicidial_status": state.get("vicidial_status"),
         "vicidial_update": state.get("vicidial_update"),
     }
 
     # ---------------------------------------------------------
-    # BUILD AI COMMENT FOR VICIDIAL
+    # BUILD CUSTOMER REQUIREMENT COMMENT FOR VICIDIAL
     # ---------------------------------------------------------
     comment_parts = [
         f"AI: {disposition}"
     ]
 
-    if state.get("preferred_model"):
+    if state.get("customer_captured_model"):
         comment_parts.append(
-            f"Model: {state['preferred_model']}"
+            f"Customer Model: {state['customer_captured_model']}"
+        )
+
+    if state.get("interested_model"):
+        comment_parts.append(
+            f"Interested Model: {state['interested_model']}"
         )
 
     if state.get("car_type"):
@@ -1496,9 +1525,29 @@ def save_call_report(state, call_id, recording_file=None):
             f"Car Type: {state['car_type']}"
         )
 
+    if state.get("purchase_type"):
+        comment_parts.append(
+            f"Purchase Type: {state['purchase_type']}"
+        )
+
+    if state.get("current_car"):
+        comment_parts.append(
+            f"Current Car: {state['current_car']}"
+        )
+
     if state.get("budget"):
         comment_parts.append(
             f"Budget: {state['budget']}"
+        )
+
+    if state.get("monthly_payment"):
+        comment_parts.append(
+            f"Monthly Payment: {state['monthly_payment']}"
+        )
+
+    if state.get("purchase_timeline"):
+        comment_parts.append(
+            f"Purchase Timeline: {state['purchase_timeline']}"
         )
 
     if state.get("callback_time"):
@@ -1594,15 +1643,15 @@ def save_call_report(state, call_id, recording_file=None):
 
 def conversation_answer(state, text):
     """
-    Deterministic Fellow-style lead conversation.
+    Deterministic customer requirement capture.
 
-    Returns:
-        (answer, new_state)
+    Customer-facing language remains English.
+    Customer requirements are captured from what the customer says.
+    Toyota KB is NOT used to populate customer requirement fields.
     """
 
     t = text.strip()
     lower = t.lower()
-
     stage = state.get("stage", "permission")
 
     # --------------------------------------------------------
@@ -1610,7 +1659,6 @@ def conversation_answer(state, text):
     # --------------------------------------------------------
     if stage == "permission":
 
-        # Clear positive responses.
         if is_yes(t):
             return (
                 "Great. Would you prefer our agent to call you back, "
@@ -1618,19 +1666,6 @@ def conversation_answer(state, text):
                 "contact_preference",
             )
 
-        # Human customers do not always answer with an exact
-        # yes/no keyword. Examples:
-        #   "tell me about it"
-        #   "what promotion?"
-        #   "okay, go ahead"
-        #   "sure, tell me"
-        #   "I want to know more"
-        #
-        # Clear negative / DNC / wrong-number / callback responses
-        # are already handled by detect_disposition_signal().
-        #
-        # Therefore an otherwise meaningful response should NOT
-        # immediately terminate the call.
         if t:
             state["intent"] = "Interested"
 
@@ -1640,7 +1675,6 @@ def conversation_answer(state, text):
                 "contact_preference",
             )
 
-        # Truly empty response.
         return (
             "Sorry, I didn't quite catch that. Would you like me "
             "to share the promotion?",
@@ -1648,7 +1682,7 @@ def conversation_answer(state, text):
         )
 
     # --------------------------------------------------------
-    # CALL BACK / WHATSAPP
+    # INITIAL CONTACT PREFERENCE
     # --------------------------------------------------------
     if stage == "contact_preference":
 
@@ -1656,7 +1690,6 @@ def conversation_answer(state, text):
 
         if preference:
             state["contact_preference"] = preference
-
             return (
                 "Sure. Which Toyota model are you interested in?",
                 "model",
@@ -1672,18 +1705,56 @@ def conversation_answer(state, text):
     # --------------------------------------------------------
     if stage == "model":
 
+        state["customer_captured_model"] = t
         state["preferred_model"] = t
+        state["interested_model"] = t
+
+        return (
+            "What type of car are you looking for, such as a sedan, "
+            "SUV or MPV?",
+            "car_type",
+        )
+
+    # --------------------------------------------------------
+    # CAR TYPE
+    # --------------------------------------------------------
+    if stage == "car_type":
+
+        car_type = None
+
+        car_types = [
+            ("suv", "SUV"),
+            ("sedan", "Sedan"),
+            ("mpv", "MPV"),
+            ("hatchback", "Hatchback"),
+            ("pickup", "Pickup"),
+            ("pick-up", "Pickup"),
+            ("4x4", "4x4"),
+            ("van", "Van"),
+            ("commercial", "Commercial"),
+        ]
+
+        for keyword, value in car_types:
+            if keyword in lower:
+                car_type = value
+                break
+
+        if car_type:
+            state["car_type"] = car_type
+        else:
+            # Capture exactly what customer said rather than guessing.
+            state["car_type"] = t
 
         return (
             "Are you looking for a new car, or are you replacing "
             "your current car?",
-            "car_type",
+            "purchase_type",
         )
 
     # --------------------------------------------------------
     # NEW / REPLACEMENT
     # --------------------------------------------------------
-    if stage == "car_type":
+    if stage == "purchase_type":
 
         if any(x in lower for x in [
             "replace",
@@ -1691,19 +1762,47 @@ def conversation_answer(state, text):
             "old car",
             "current car",
             "existing car",
+            "upgrade",
+            "upgrading",
+            "trade in",
+            "trade-in",
         ]):
-            state["car_type"] = "Replacement"
-        elif any(x in lower for x in [
+            state["purchase_type"] = "Replacement"
+
+            return (
+                "What car are you currently driving?",
+                "current_car",
+            )
+
+        if any(x in lower for x in [
             "new",
             "first car",
             "new vehicle",
+            "first vehicle",
         ]):
-            state["car_type"] = "New"
-        else:
-            state["car_type"] = t
+            state["purchase_type"] = "New"
+
+            return (
+                "What is your preferred budget?",
+                "budget",
+            )
+
+        state["purchase_type"] = t
 
         return (
-            "What is your preferred budget or monthly payment?",
+            "What car are you currently driving?",
+            "current_car",
+        )
+
+    # --------------------------------------------------------
+    # CURRENT CAR
+    # --------------------------------------------------------
+    if stage == "current_car":
+
+        state["current_car"] = t
+
+        return (
+            "What is your preferred budget?",
             "budget",
         )
 
@@ -1713,6 +1812,30 @@ def conversation_answer(state, text):
     if stage == "budget":
 
         state["budget"] = t
+
+        return (
+            "Do you have a preferred monthly payment?",
+            "monthly_payment",
+        )
+
+    # --------------------------------------------------------
+    # MONTHLY PAYMENT
+    # --------------------------------------------------------
+    if stage == "monthly_payment":
+
+        state["monthly_payment"] = t
+
+        return (
+            "When are you planning to purchase the car?",
+            "purchase_timeline",
+        )
+
+    # --------------------------------------------------------
+    # PURCHASE TIMELINE
+    # --------------------------------------------------------
+    if stage == "purchase_timeline":
+
+        state["purchase_timeline"] = t
 
         return (
             "What time would be convenient for our agent to call you?",
@@ -1740,10 +1863,13 @@ def conversation_answer(state, text):
 
         if preference:
             state["final_contact"] = preference
+            state["contact_preference"] = preference
         else:
             state["final_contact"] = t
+            state["contact_preference"] = t
 
         state["intent"] = "Interested"
+        state["conversation_status"] = "Completed"
 
         return (
             "Thank you. With your permission, our Toyota agent will "
@@ -1762,141 +1888,81 @@ def conversation_answer(state, text):
             "completed",
         )
 
-    # Fallback
-    return None, stage
+    return (
+        "Could you please tell me a little more about what you are "
+        "looking for?",
+        stage,
+    )
 
 
 
-def update_realtime_call_report(state, call_id, customer_text="", english_text=""):
+def update_realtime_call_report(
+    state,
+    call_id,
+    customer_text=None,
+    english_text=None,
+):
     """
-    Continuously update the live call report.
+    Add the customer's latest speech to the in-memory conversation
+    timeline and refresh the realtime active-call record.
 
-    English report text is only populated when we have a verified
-    English rendering. We never invent a translation.
+    This is realtime call state only. The completed JSON report is
+    written later by save_call_report().
     """
-    from pathlib import Path
-    from datetime import datetime
+    try:
+        conversation = state.setdefault("conversation", [])
 
-    report_dir = Path("/opt/toyota-malaysia-ai/reports/calls")
-    report_dir.mkdir(parents=True, exist_ok=True)
+        if customer_text:
+            conversation.append({
+                "speaker": "customer",
+                "original_text": customer_text,
+                "english_text": english_text or customer_text,
+                "timestamp": datetime.now().astimezone().isoformat(),
+            })
 
-    report_file = report_dir / f"{call_id}.json"
+        # Keep the realtime dashboard synchronized with the latest
+        # customer information and conversation state.
+        write_active_call(call_id, state)
 
-    if "conversation" not in state:
-        state["conversation"] = []
-
-    entry = {
-        "timestamp": datetime.now().astimezone().isoformat(),
-        "speaker": "customer",
-        "original_text": customer_text or "",
-        "english_text": english_text or "",
-    }
-
-    state["conversation"].append(entry)
-
-    report = {
-        "call_id": call_id,
-        "lead_id": state.get("lead_id"),
-        "phone_number": state.get("phone_number"),
-        "first_name": state.get("first_name"),
-        "lead_source": state.get("lead_source"),
-        "start_time": state.get("start_time"),
-        "preferred_model": state.get("preferred_model"),
-        "car_type": state.get("car_type"),
-        "budget": state.get("budget"),
-        "callback_time": state.get("callback_time"),
-        "contact_preference": (
-            state.get("final_contact")
-            or state.get("contact_preference")
-        ),
-        "intent": state.get("intent"),
-        "disposition": state.get("disposition"),
-        "vicidial_status": state.get("vicidial_status"),
-        "conversation": state["conversation"],
-        "recording": state.get("recording_file"),
-        "last_updated": datetime.now().astimezone().isoformat(),
-    }
-
-    import json
-
-    tmp_file = report_file.with_suffix(".json.tmp")
-
-    with open(tmp_file, "w", encoding="utf-8") as f:
-        json.dump(
-            report,
-            f,
-            ensure_ascii=False,
-            indent=2,
+    except Exception as exc:
+        # Reporting must never break the live voice conversation.
+        print(
+            "REALTIME CUSTOMER REPORT ERROR:",
+            repr(exc)
         )
 
-    tmp_file.replace(report_file)
 
-    print("REALTIME REPORT:", report_file)
-
-    return str(report_file)
-
-
-def append_ai_response_to_report(state, call_id, answer):
+def append_ai_response_to_report(
+    state,
+    call_id,
+    answer,
+):
     """
-    Append the AI response to the same realtime conversation report.
-    Customer-facing response remains exactly as generated by the
-    existing Toyota conversation / KB logic.
+    Add the AI response to the same conversation timeline and
+    refresh the realtime active-call record.
+
+    This does not create the final JSON report.
     """
-    from pathlib import Path
-    from datetime import datetime
-    import json
+    try:
+        conversation = state.setdefault("conversation", [])
 
-    if not answer:
-        return
+        if answer:
+            conversation.append({
+                "speaker": "ai",
+                "original_text": answer,
+                "english_text": answer,
+                "timestamp": datetime.now().astimezone().isoformat(),
+            })
 
-    if "conversation" not in state:
-        state["conversation"] = []
+        # Keep the realtime dashboard synchronized after AI response.
+        write_active_call(call_id, state)
 
-    state["conversation"].append({
-        "timestamp": datetime.now().astimezone().isoformat(),
-        "speaker": "ai",
-        "original_text": answer,
-        "english_text": answer,
-        "ai_response": answer,
-    })
-
-    report_dir = Path("/opt/toyota-malaysia-ai/reports/calls")
-    report_dir.mkdir(parents=True, exist_ok=True)
-
-    report_file = report_dir / f"{call_id}.json"
-
-    report = {
-        "call_id": call_id,
-        "lead_id": state.get("lead_id"),
-        "phone_number": state.get("phone_number"),
-        "first_name": state.get("first_name"),
-        "lead_source": state.get("lead_source"),
-        "start_time": state.get("start_time"),
-        "end_time": state.get("end_time"),
-        "preferred_model": state.get("preferred_model"),
-        "car_type": state.get("car_type"),
-        "budget": state.get("budget"),
-        "callback_time": state.get("callback_time"),
-        "contact_preference": (
-            state.get("final_contact")
-            or state.get("contact_preference")
-        ),
-        "intent": state.get("intent"),
-        "disposition": state.get("disposition"),
-        "vicidial_status": state.get("vicidial_status"),
-        "conversation": state["conversation"],
-        "recording": state.get("recording_file"),
-        "last_updated": datetime.now().astimezone().isoformat(),
-    }
-
-    tmp_file = report_file.with_suffix(".json.tmp")
-
-    with open(tmp_file, "w", encoding="utf-8") as f:
-        json.dump(report, f, ensure_ascii=False, indent=2)
-
-    tmp_file.replace(report_file)
-
-    print("AI RESPONSE SAVED TO REPORT:", report_file)
+    except Exception as exc:
+        # Reporting must never break the live voice conversation.
+        print(
+            "REALTIME AI REPORT ERROR:",
+            repr(exc)
+        )
 
 
 def process_turn(conn, pcm, state, call_id, customer_recording=None):
@@ -2533,11 +2599,22 @@ def handle_connection(conn, addr):
         "do_not_contact": False,
         "callback_later": False,
         "contact_preference": None,
+
+        # Customer requirement capture
+        "customer_captured_model": None,
         "preferred_model": None,
+        "interested_model": None,
         "car_type": None,
+        "purchase_type": None,
+        "current_car": None,
         "budget": None,
+        "monthly_payment": None,
+        "purchase_timeline": None,
         "callback_time": None,
         "final_contact": None,
+        "customer_language": None,
+        "conversation_status": None,
+        "conversation": [],
     }
 
     # --------------------------------------------------------------

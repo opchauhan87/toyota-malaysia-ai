@@ -1,6 +1,14 @@
-from flask import Flask, render_template, jsonify, send_file, abort, request
+from flask import Flask, render_template, jsonify, send_file, abort, request, session, redirect
+from functools import wraps
+import os
+import re
+import hmac
+import secrets
+import subprocess
+import zipfile
+
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import wave
 import io
@@ -14,6 +22,279 @@ RECORDING_DIR = BASE_DIR / "recordings"
 ACTIVE_FILE = Path("/run/toyota-ai/active-calls.json")
 
 app = Flask(__name__)
+
+SESSION_SECRET_FILE = BASE_DIR / "secrets" / "dashboard.secret"
+SESSION_SECRET_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+if SESSION_SECRET_FILE.exists():
+    _session_secret = SESSION_SECRET_FILE.read_text().strip()
+else:
+    _session_secret = secrets.token_hex(32)
+    SESSION_SECRET_FILE.write_text(_session_secret)
+    try:
+        SESSION_SECRET_FILE.chmod(0o600)
+    except Exception:
+        pass
+
+app.secret_key = _session_secret
+app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(hours=8)
+app.config["SESSION_COOKIE_HTTPONLY"] = True
+app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
+
+TOYOTA_REPORT_PREFIX = "/toyota-reports"
+
+
+
+
+# ===== TOYOTA VICIDIAL AUTH =====
+
+def _read_vicidial_config():
+    """
+    Read VICIdial DB settings from /etc/astguiclient.conf.
+    Supports '=' and '=>'.
+    Values are never returned to the browser.
+    """
+    config_file = Path("/etc/astguiclient.conf")
+    values = {}
+
+    if not config_file.exists():
+        raise RuntimeError("VICIdial configuration file not found")
+
+    text = config_file.read_text(errors="ignore")
+
+    for key in (
+        "VARDB_server",
+        "VARDB_database",
+        "VARDB_user",
+        "VARDB_pass",
+        "VARDB_port",
+    ):
+        pattern = rf"^\s*{re.escape(key)}\s*(?:=>|=)\s*[\"']?([^\"'\s;]+)"
+        match = re.search(pattern, text, re.MULTILINE)
+        if match:
+            values[key] = match.group(1)
+
+    # Fallback defaults used by VICIdial.
+    values.setdefault("VARDB_server", "localhost")
+    values.setdefault("VARDB_database", "asterisk")
+    values.setdefault("VARDB_user", "cron")
+    values.setdefault("VARDB_port", "3306")
+
+    if not values.get("VARDB_pass"):
+        raise RuntimeError("VICIdial DB password not found")
+
+    return values
+
+
+def _vicidial_auth(username, password):
+    """
+    Authenticate against the same VICIdial credentials.
+
+    Dashboard policy:
+      active = Y
+      user_level = 9 ONLY
+
+    Password verification follows VICIdial's pass_hash_enabled
+    setting and bp.pl hashing mechanism.
+    """
+    username = str(username or "").strip()
+    password = str(password or "")
+
+    if not username or not password:
+        return False
+
+    # Prevent SQL/user-name abuse before querying.
+    if not re.fullmatch(r"[A-Za-z0-9_.@-]{1,50}", username):
+        return False
+
+    try:
+        import pymysql
+        from pymysql.cursors import DictCursor
+
+        cfg = _read_vicidial_config()
+
+        conn = pymysql.connect(
+            host=cfg["VARDB_server"],
+            port=int(cfg.get("VARDB_port") or 3306),
+            user=cfg["VARDB_user"],
+            password=cfg["VARDB_pass"],
+            database=cfg["VARDB_database"],
+            cursorclass=DictCursor,
+            connect_timeout=5,
+            read_timeout=5,
+            write_timeout=5,
+            charset="utf8mb4",
+        )
+
+        try:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT
+                        user,
+                        pass,
+                        pass_hash,
+                        user_level,
+                        active,
+                        failed_login_count,
+                        last_login_date
+                    FROM vicidial_users
+                    WHERE user=%s
+                    LIMIT 1
+                    """,
+                    (username,),
+                )
+                user = cur.fetchone()
+
+                if not user:
+                    return False
+
+                # STRICT Toyota dashboard policy.
+                if str(user.get("active") or "").upper() != "Y":
+                    return False
+
+                if int(user.get("user_level") or 0) != 9:
+                    return False
+
+                cur.execute(
+                    """
+                    SELECT pass_hash_enabled
+                    FROM system_settings
+                    LIMIT 1
+                    """
+                )
+                settings = cur.fetchone() or {}
+
+                pass_hash_enabled = int(
+                    settings.get("pass_hash_enabled") or 0
+                )
+
+                if pass_hash_enabled > 0:
+                    bp = Path("/var/www/html/agc/bp.pl")
+
+                    if not bp.exists():
+                        return False
+
+                    # This follows VICIdial's own authentication mechanism.
+                    proc = subprocess.run(
+                        [
+                            str(bp),
+                            "--pass=" + password,
+                        ],
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.DEVNULL,
+                        text=True,
+                        timeout=5,
+                    )
+
+                    generated_hash = re.sub(
+                        r"PHASH:|\s+",
+                        "",
+                        proc.stdout or "",
+                    )
+
+                    stored_hash = str(
+                        user.get("pass_hash") or ""
+                    ).strip()
+
+                    if not generated_hash or not stored_hash:
+                        return False
+
+                    valid = hmac.compare_digest(
+                        generated_hash,
+                        stored_hash,
+                    )
+                else:
+                    stored_password = str(
+                        user.get("pass") or ""
+                    )
+
+                    valid = hmac.compare_digest(
+                        password,
+                        stored_password,
+                    )
+
+                if not valid:
+                    return False
+
+                # Successful login: reset VICIdial failed counter
+                # and update login time, same general behavior as VICIdial.
+                try:
+                    cur.execute(
+                        """
+                        UPDATE vicidial_users
+                        SET
+                            last_login_date=NOW(),
+                            last_ip=%s,
+                            failed_login_count=0
+                        WHERE user=%s
+                        """,
+                        (
+                            request.remote_addr or "",
+                            username,
+                        ),
+                    )
+                    conn.commit()
+                except Exception:
+                    conn.rollback()
+
+                return True
+
+        finally:
+            conn.close()
+
+    except Exception:
+        return False
+
+
+def _login_required(view):
+    @wraps(view)
+    def wrapped(*args, **kwargs):
+        if not session.get("vicidial_admin_authenticated"):
+            if request.path.startswith("/api/"):
+                return jsonify({
+                    "error": "authentication_required"
+                }), 401
+
+            return redirect(
+                TOYOTA_REPORT_PREFIX + "/login"
+            )
+
+        return view(*args, **kwargs)
+
+    return wrapped
+
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "GET":
+        if session.get("vicidial_admin_authenticated"):
+            return redirect(TOYOTA_REPORT_PREFIX + "/")
+
+        return render_template("login.html")
+
+    username = request.form.get("username", "").strip()
+    password = request.form.get("password", "")
+
+    if _vicidial_auth(username, password):
+        session.clear()
+        session.permanent = True
+        session["vicidial_admin_authenticated"] = True
+        session["vicidial_username"] = username
+
+        return redirect(TOYOTA_REPORT_PREFIX + "/")
+
+    return render_template(
+        "login.html",
+        error="Invalid VICIdial username or password."
+    ), 401
+
+
+@app.route("/logout")
+def logout():
+    session.clear()
+    return redirect(TOYOTA_REPORT_PREFIX + "/login")
+
 
 
 def safe_recording_path(filename):
@@ -176,21 +457,6 @@ EXCEL_HEADERS = [
     "Callback_Time",
     "Contact_Preference",
     "Customer_Language",
-    "Customer_Transcript",
-    "AI_Response",
-    "KB_Question",
-    "KB_Answer",
-    "KB_Model",
-    "KB_Variant",
-    "KB_Source",
-    "KB_Source_Date",
-    "KB_Market",
-    "KB_Price_Type",
-    "Agent_Callback_Required",
-    "WhatsApp_Required",
-    "Recording_File",
-    "Conversation_Notes",
-    "Created_At",
 ]
 
 
@@ -301,19 +567,9 @@ def _report_excel_row(report):
         or (
             "Customer Hang Up"
             if disposition.lower() == "customer hang up"
-            else ("Completed" if end else "")
+            else ("Completed" if end else "Conversation Not Done")
         )
     )
-
-    (
-        customer_text,
-        ai_text,
-        language,
-        kb_question,
-        kb_answer,
-        kb_model,
-        kb_variant,
-    ) = _conversation_parts(report)
 
     return [
         report.get("call_id"),
@@ -327,63 +583,32 @@ def _report_excel_row(report):
         status,
         disposition,
 
-        # Customer captured information
-        report.get("preferred_model"),
+        report.get("customer_captured_model"),
         report.get("car_type"),
         report.get("purchase_type"),
         report.get("current_car"),
-        report.get("interested_model")
-        or report.get("preferred_model"),
+
+        (
+            report.get("interested_model")
+            or report.get("preferred_model")
+        ),
+
         report.get("budget"),
         report.get("monthly_payment"),
         report.get("purchase_timeline"),
         report.get("callback_time"),
-        report.get("contact_preference"),
 
-        language,
-        customer_text,
-        ai_text,
-
-        # Verified KB information
-        kb_question,
-        kb_answer,
-        kb_model,
-        kb_variant,
-        "Toyota Malaysia official website" if kb_question else "",
-        call_date if kb_question else "",
-        "Malaysia" if kb_question else "",
         (
-            "Price"
-            if kb_question
-            and "price" in kb_question.lower()
-            else ""
+            report.get("contact_preference")
+            or report.get("final_contact")
         ),
 
-        "Yes"
-        if disposition in (
-            "Interested – Agent Call",
-            "Interested – Specific Model",
-            "Call Back Later",
-        )
-        else "No",
-
-        "Yes"
-        if disposition == "Interested – WhatsApp"
-        else "No",
-
-        report.get("recording"),
-
-        report.get("ai_comments")
-        or report.get("conversation_notes")
-        or "",
-
-        report.get("created_at")
-        or end
-        or start,
+        report.get("customer_language"),
     ]
 
 
 @app.route("/api/export/excel")
+@_login_required
 def api_export_excel():
     reports = load_reports()
 
@@ -441,10 +666,8 @@ def api_export_excel():
 
     widths = [
         38, 12, 24, 24, 16, 12, 18, 20,
-        20, 28, 24, 16, 18, 20, 24, 16,
-        20, 20, 20, 22, 16, 50, 50, 45,
-        60, 22, 22, 38, 16, 14, 16, 20,
-        18, 40, 60, 24,
+        22, 24, 24, 16, 18, 24, 24, 20,
+        20, 22, 22, 22, 18,
     ]
 
     # ---------------------------------------------------------
@@ -602,11 +825,13 @@ def report_matches_filters(report, date_from=None, date_to=None, phone=None):
 
 
 @app.route("/")
+@_login_required
 def dashboard():
     return render_template("dashboard.html")
 
 
 @app.route("/api/reports")
+@_login_required
 def api_reports():
     reports = load_reports()
 
@@ -628,6 +853,7 @@ def api_reports():
 
 
 @app.route("/api/live-calls")
+@_login_required
 def api_live_calls():
     live_calls = get_live_calls()
     result = []
@@ -665,12 +891,14 @@ def api_live_calls():
 
 
 @app.route("/recordings/<path:filename>")
+@_login_required
 def recording(filename):
     requested = safe_recording_path(filename)
     return send_file(requested, mimetype="audio/wav", conditional=True)
 
 
 @app.route("/recordings/channel/<channel>/<path:filename>")
+@_login_required
 def recording_channel(channel, filename):
     if channel not in ("customer", "ai", "both"):
         abort(400)
@@ -724,6 +952,76 @@ def recording_channel(channel, filename):
     except Exception:
         abort(500)
 
+
+
+
+# ===== TOYOTA CALL REPORT DOWNLOAD =====
+
+@app.route("/api/download/call-reports")
+@_login_required
+def api_download_call_reports():
+    reports = load_reports()
+
+    date_from = request.args.get("date_from", "").strip()
+    date_to = request.args.get("date_to", "").strip()
+    phone = request.args.get("phone", "").strip()
+
+    try:
+        df = datetime.fromisoformat(date_from).date() if date_from else None
+        dt = datetime.fromisoformat(date_to).date() if date_to else None
+    except ValueError:
+        return jsonify({"error": "Invalid date filter"}), 400
+
+    filtered = [
+        r for r in reports
+        if report_matches_filters(r, df, dt, phone)
+    ]
+
+    output = io.BytesIO()
+
+    with zipfile.ZipFile(
+        output,
+        "w",
+        compression=zipfile.ZIP_DEFLATED,
+    ) as archive:
+
+        for index, report in enumerate(filtered, start=1):
+            filename = str(
+                report.get("_report_file")
+                or report.get("call_id")
+                or f"call_{index}"
+            )
+
+            filename = re.sub(
+                r"[^A-Za-z0-9_.-]+",
+                "_",
+                filename,
+            )
+
+            if not filename.endswith(".json"):
+                filename += ".json"
+
+            clean_report = dict(report)
+            clean_report.pop("_report_file", None)
+            clean_report.pop("recording_duration_seconds", None)
+
+            archive.writestr(
+                filename,
+                json.dumps(
+                    clean_report,
+                    ensure_ascii=False,
+                    indent=2,
+                ),
+            )
+
+    output.seek(0)
+
+    return send_file(
+        output,
+        mimetype="application/zip",
+        as_attachment=True,
+        download_name="toyota_call_reports.zip",
+    )
 
 @app.route("/health")
 def health():
