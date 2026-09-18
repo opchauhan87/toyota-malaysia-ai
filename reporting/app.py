@@ -5,6 +5,8 @@ import json
 import wave
 import io
 import time
+from openpyxl import Workbook
+from openpyxl.utils import get_column_letter
 
 BASE_DIR = Path("/opt/toyota-malaysia-ai")
 REPORT_DIR = BASE_DIR / "reports" / "calls"
@@ -149,6 +151,432 @@ def get_live_calls():
         return live
     except Exception:
         return []
+
+
+
+EXCEL_HEADERS = [
+    "Call_ID",
+    "Call_Date",
+    "Call_Start_Time",
+    "Call_End_Time",
+    "Call_Duration_Sec",
+    "Lead_ID",
+    "Phone_Number",
+    "Customer_Name",
+    "Conversation_Status",
+    "Disposition",
+    "Customer_Captured_Model",
+    "Car_Type",
+    "Purchase_Type",
+    "Current_Car",
+    "Interested_Model",
+    "Budget",
+    "Monthly_Payment",
+    "Purchase_Timeline",
+    "Callback_Time",
+    "Contact_Preference",
+    "Customer_Language",
+    "Customer_Transcript",
+    "AI_Response",
+    "KB_Question",
+    "KB_Answer",
+    "KB_Model",
+    "KB_Variant",
+    "KB_Source",
+    "KB_Source_Date",
+    "KB_Market",
+    "KB_Price_Type",
+    "Agent_Callback_Required",
+    "WhatsApp_Required",
+    "Recording_File",
+    "Conversation_Notes",
+    "Created_At",
+]
+
+
+def _conversation_parts(report):
+    conversation = report.get("conversation") or []
+
+    customer = []
+    ai = []
+    languages = []
+
+    for item in conversation:
+        if not isinstance(item, dict):
+            continue
+
+        speaker = str(item.get("speaker") or "").lower()
+
+        value = (
+            item.get("english_text")
+            or item.get("original_text")
+            or item.get("text")
+            or ""
+        ).strip()
+
+        if speaker == "customer":
+            if value:
+                customer.append(value)
+
+            if item.get("language"):
+                languages.append(str(item["language"]))
+
+        elif speaker == "ai":
+            if value:
+                ai.append(value)
+
+    kb_questions = []
+    kb_answers = []
+    kb_models = []
+    kb_variants = []
+
+    for item in report.get("kb_history") or []:
+        if not isinstance(item, dict):
+            continue
+
+        question = str(item.get("question") or "").strip()
+        answer = str(item.get("answer") or "").strip()
+
+        if question:
+            kb_questions.append(question)
+
+        if answer:
+            kb_answers.append(answer)
+
+        if item.get("model"):
+            kb_models.append(str(item["model"]))
+
+        if item.get("variant"):
+            kb_variants.append(str(item["variant"]))
+
+    return (
+        "\n".join(customer),
+        "\n".join(ai),
+        ", ".join(dict.fromkeys(languages)),
+        "\n".join(kb_questions),
+        "\n".join(kb_answers),
+        ", ".join(dict.fromkeys(kb_models)),
+        ", ".join(dict.fromkeys(kb_variants)),
+    )
+
+
+def _excel_safe(value):
+    """Remove characters that Excel/openpyxl cannot store in worksheet cells."""
+    if value is None:
+        return None
+
+    if isinstance(value, str):
+        return "".join(
+            ch for ch in value
+            if ch in "\\t\\n\\r"
+            or 0x20 <= ord(ch) <= 0xD7FF
+            or 0xE000 <= ord(ch) <= 0xFFFD
+            or 0x10000 <= ord(ch) <= 0x10FFFF
+        )
+
+    if isinstance(value, (list, tuple)):
+        return ", ".join(str(_excel_safe(v)) for v in value)
+
+    if isinstance(value, dict):
+        return json.dumps(value, ensure_ascii=False)
+
+    return value
+
+
+def _report_excel_row(report):
+    start = report.get("start_time") or ""
+    end = report.get("end_time") or ""
+
+    call_date = (
+        start[:10]
+        if start
+        else (end[:10] if end else "")
+    )
+
+    disposition = report.get("disposition") or ""
+
+    status = (
+        report.get("conversation_status")
+        or report.get("status")
+        or (
+            "Customer Hang Up"
+            if disposition.lower() == "customer hang up"
+            else ("Completed" if end else "")
+        )
+    )
+
+    (
+        customer_text,
+        ai_text,
+        language,
+        kb_question,
+        kb_answer,
+        kb_model,
+        kb_variant,
+    ) = _conversation_parts(report)
+
+    return [
+        report.get("call_id"),
+        call_date,
+        start,
+        end,
+        report.get("duration_seconds"),
+        report.get("lead_id"),
+        report.get("phone_number"),
+        report.get("first_name"),
+        status,
+        disposition,
+
+        # Customer captured information
+        report.get("preferred_model"),
+        report.get("car_type"),
+        report.get("purchase_type"),
+        report.get("current_car"),
+        report.get("interested_model")
+        or report.get("preferred_model"),
+        report.get("budget"),
+        report.get("monthly_payment"),
+        report.get("purchase_timeline"),
+        report.get("callback_time"),
+        report.get("contact_preference"),
+
+        language,
+        customer_text,
+        ai_text,
+
+        # Verified KB information
+        kb_question,
+        kb_answer,
+        kb_model,
+        kb_variant,
+        "Toyota Malaysia official website" if kb_question else "",
+        call_date if kb_question else "",
+        "Malaysia" if kb_question else "",
+        (
+            "Price"
+            if kb_question
+            and "price" in kb_question.lower()
+            else ""
+        ),
+
+        "Yes"
+        if disposition in (
+            "Interested – Agent Call",
+            "Interested – Specific Model",
+            "Call Back Later",
+        )
+        else "No",
+
+        "Yes"
+        if disposition == "Interested – WhatsApp"
+        else "No",
+
+        report.get("recording"),
+
+        report.get("ai_comments")
+        or report.get("conversation_notes")
+        or "",
+
+        report.get("created_at")
+        or end
+        or start,
+    ]
+
+
+@app.route("/api/export/excel")
+def api_export_excel():
+    reports = load_reports()
+
+    date_from = request.args.get(
+        "date_from",
+        ""
+    ).strip()
+
+    date_to = request.args.get(
+        "date_to",
+        ""
+    ).strip()
+
+    phone = request.args.get(
+        "phone",
+        ""
+    ).strip()
+
+    df = (
+        datetime.fromisoformat(date_from).date()
+        if date_from
+        else None
+    )
+
+    dt = (
+        datetime.fromisoformat(date_to).date()
+        if date_to
+        else None
+    )
+
+    filtered = [
+        r for r in reports
+        if report_matches_filters(
+            r,
+            df,
+            dt,
+            phone,
+        )
+    ]
+
+    wb = Workbook()
+
+    ws = wb.active
+    ws.title = "Call_Report"
+
+    ws.append(EXCEL_HEADERS)
+
+    for report in filtered:
+        ws.append(
+            [_excel_safe(v) for v in _report_excel_row(report)]
+        )
+
+    ws.freeze_panes = "A2"
+    ws.auto_filter.ref = ws.dimensions
+
+    widths = [
+        38, 12, 24, 24, 16, 12, 18, 20,
+        20, 28, 24, 16, 18, 20, 24, 16,
+        20, 20, 20, 22, 16, 50, 50, 45,
+        60, 22, 22, 38, 16, 14, 16, 20,
+        18, 40, 60, 24,
+    ]
+
+    # ---------------------------------------------------------
+    # Call Summary sheet
+    # ---------------------------------------------------------
+    summary = wb.create_sheet("Call_Summary")
+
+    summary.append(["Toyota Malaysia AI - Call Summary"])
+    summary.append([])
+    summary.append(["Metric", "Value"])
+
+    total_calls = len(filtered)
+
+    phone_leads = sum(
+        1 for r in filtered
+        if r.get("disposition") in (
+            "Interested – Agent Call",
+            "Interested – Specific Model",
+        )
+    )
+
+    whatsapp_leads = sum(
+        1 for r in filtered
+        if r.get("disposition") == "Interested – WhatsApp"
+    )
+
+    interested = sum(
+        1 for r in filtered
+        if str(r.get("disposition") or "").startswith("Interested")
+    )
+
+    not_interested = sum(
+        1 for r in filtered
+        if r.get("disposition") == "Not Interested"
+    )
+
+    callback_later = sum(
+        1 for r in filtered
+        if r.get("disposition") == "Call Back Later"
+    )
+
+    wrong_number = sum(
+        1 for r in filtered
+        if r.get("disposition") == "Wrong Number"
+    )
+
+    do_not_contact = sum(
+        1 for r in filtered
+        if r.get("disposition") == "Do Not Contact"
+    )
+
+    customer_hangup = sum(
+        1 for r in filtered
+        if r.get("disposition") == "Customer Hang Up"
+    )
+
+    durations = []
+
+    for r in filtered:
+        try:
+            value = float(r.get("duration_seconds") or 0)
+            if value > 0:
+                durations.append(value)
+        except (TypeError, ValueError):
+            pass
+
+    average_duration = (
+        round(sum(durations) / len(durations), 2)
+        if durations else 0
+    )
+
+    summary_rows = [
+        ["Total Calls", total_calls],
+        ["Phone Leads", phone_leads],
+        ["WhatsApp Leads", whatsapp_leads],
+        ["Interested", interested],
+        ["Not Interested", not_interested],
+        ["Call Back Later", callback_later],
+        ["Wrong Number", wrong_number],
+        ["Do Not Contact", do_not_contact],
+        ["Customer Hang Up", customer_hangup],
+        ["Average Duration (Sec)", average_duration],
+    ]
+
+    for row in summary_rows:
+        summary.append(row)
+
+    summary.append([])
+    summary.append(["Applied Filters", ""])
+    summary.append(["Date From", date_from or "All"])
+    summary.append(["Date To", date_to or "All"])
+    summary.append(["Phone", phone or "All"])
+
+    summary.freeze_panes = "A4"
+    summary.column_dimensions["A"].width = 30
+    summary.column_dimensions["B"].width = 24
+
+    for cell in summary[1]:
+        cell.font = cell.font.copy(bold=True, size=14)
+
+    for cell in summary[3]:
+        cell.font = cell.font.copy(bold=True)
+
+    for index, width in enumerate(
+        widths,
+        start=1,
+    ):
+        ws.column_dimensions[
+            get_column_letter(index)
+        ].width = width
+
+    for cell in ws[1]:
+        cell.font = cell.font.copy(
+            bold=True
+        )
+
+    output = io.BytesIO()
+
+    wb.save(output)
+
+    output.seek(0)
+
+    return send_file(
+        output,
+        mimetype=(
+            "application/"
+            "vnd.openxmlformats-officedocument."
+            "spreadsheetml.sheet"
+        ),
+        as_attachment=True,
+        download_name="toyota_call_report.xlsx",
+    )
 
 
 def parse_date(value):

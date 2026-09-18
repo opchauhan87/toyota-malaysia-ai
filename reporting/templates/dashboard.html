@@ -50,7 +50,8 @@ body{background:var(--bg);color:var(--text);font-family:Inter,-apple-system,Blin
 <div class="col-lg-2 col-md-4"><label class="small text-muted mb-1">Date To</label><input id="dateTo" type="date" class="form-control form-control-sm"></div>
 <div class="col-lg-3 col-md-4"><label class="small text-muted mb-1">Phone Number</label><input id="phone" class="form-control form-control-sm" placeholder="Search phone number"></div>
 <div class="col-lg-2 col-md-4"><label class="small text-muted mb-1">Auto Refresh</label><select id="refreshRate" class="form-select form-select-sm"><option value="5">5 seconds</option><option value="10">10 seconds</option><option value="15">15 seconds</option><option value="30">30 seconds</option><option value="0">Off</option></select></div>
-<div class="col-lg-3 col-md-8 d-flex gap-2"><button class="btn btn-green btn-sm px-3" onclick="applyFilters()">Apply Filters</button><button class="btn btn-outline-secondary btn-sm px-3" onclick="resetFilters()">Reset</button><span class="ms-auto small text-muted align-self-center" id="filterInfo"></span></div>
+<div class="col-lg-3 col-md-8 d-flex gap-2"><button class="btn btn-green btn-sm px-3" onclick="applyFilters()">Apply Filters</button><button class="btn btn-outline-secondary btn-sm px-3" onclick="resetFilters()">Reset</button>
+<button class="btn btn-outline-success btn-sm px-3" onclick="exportExcel()">📊 Export Excel</button><span class="ms-auto small text-muted align-self-center" id="filterInfo"></span></div>
 </div>
 </div>
 
@@ -111,6 +112,16 @@ document.getElementById('refreshRate').addEventListener('change',configureRefres
 
 function applyFilters(){currentLeadFilter='all';loadReports()}
 function resetFilters(){document.getElementById('dateFrom').value='';document.getElementById('dateTo').value='';document.getElementById('phone').value='';currentLeadFilter='all';loadReports()}
+
+function exportExcel(){
+ let p=new URLSearchParams();
+ if(dateFrom.value)p.set('date_from',dateFrom.value);
+ if(dateTo.value)p.set('date_to',dateTo.value);
+ if(phone.value.trim())p.set('phone',phone.value.trim());
+
+ window.location.href='/toyota-reports/api/export/excel?'+p.toString();
+}
+
 function showHistory(type){currentLeadFilter=type;document.getElementById('historySection').scrollIntoView({behavior:'smooth',block:'start'});renderReports()}
 function scrollToLive(){document.getElementById('liveSection').scrollIntoView({behavior:'smooth',block:'start'})}
 
