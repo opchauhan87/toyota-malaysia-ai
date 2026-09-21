@@ -1211,12 +1211,77 @@ def detect_disposition_signal(state, text):
         "talk to an agent",
         "speak with an agent",
         "talk with an agent",
+        "i want to talk agent",
+        "i want to talk to agent",
+        "i want to talk to an agent",
+        "i want to speak agent",
+        "i want to speak to agent",
+        "i want to speak to an agent",
+        "let me talk to agent",
+        "let me talk to an agent",
+        "let me speak to agent",
+        "let me speak to an agent",
+        "connect me to agent",
+        "connect me to an agent",
+        "connect me with an agent",
     ]
+
+    # =========================================================
+    # AGENT CALL - STT / FUZZY VARIATIONS
+    # =========================================================
+    # Whisper may drop or misrecognize words such as "to", "an",
+    # or "agent". Handle strong transfer-intent combinations.
+    transfer_verbs = (
+        "talk",
+        "speak",
+        "connect",
+    )
+
+    transfer_targets = (
+        "agent",
+        "human",
+        "representative",
+        "person",
+    )
+
+    has_transfer_verb = any(x in t for x in transfer_verbs)
+    has_transfer_target = any(x in t for x in transfer_targets)
+
+    if has_transfer_verb and has_transfer_target:
+        state["intent"] = "Interested"
+        state["contact_preference"] = "Call"
+        state["transfer_requested"] = True
+        state["transfer_status"] = "requested"
+        state["disposition"] = "TTA"
+        print("AGENT TRANSFER REQUESTED (FUZZY)")
+        return "TTA"
+
+    # Common Whisper transcription variations where "agent"
+    # may be incorrectly transcribed as "isn't" / "is not".
+    stt_transfer_variations = [
+        "i want to talk isnt",
+        "i want to talk is not",
+        "i want to speak isnt",
+        "i want to speak is not",
+    ]
+
+    if any(x in t for x in stt_transfer_variations):
+        state["intent"] = "Interested"
+        state["contact_preference"] = "Call"
+        state["transfer_requested"] = True
+        state["transfer_status"] = "requested"
+        state["disposition"] = "TTA"
+        print("AGENT TRANSFER REQUESTED (STT VARIATION)")
+        return "TTA"
 
     if any(x in t for x in call_phrases):
         state["intent"] = "Interested"
         state["contact_preference"] = "Call"
-        return "Interested – Agent Call"
+        state["transfer_requested"] = True
+        state["transfer_status"] = "requested"
+        state["disposition"] = "TTA"
+        print("AGENT TRANSFER REQUESTED")
+        return "TTA"
 
     # =========================================================
     # POSITIVE INTEREST
@@ -1289,7 +1354,7 @@ def detect_disposition_signal(state, text):
                 return "Interested – WhatsApp"
 
             if state.get("contact_preference") == "Call":
-                return "Interested – Agent Call"
+                return "TTA"
 
             state["disposition"] = "Interested – Specific Model"
             return "Interested – Specific Model"
@@ -1388,13 +1453,13 @@ def classify_disposition(state):
 
     # Agent/phone preference.
     if "call" in contact or "phone" in contact:
-        return "Interested – Agent Call"
+        return "TTA"
 
     # Specific model without an explicit contact preference.
     if model:
         return "Interested – Specific Model"
 
-    return "Interested – Agent Call"
+    return "TTA"
 
 
 
@@ -1629,6 +1694,37 @@ def save_call_report(state, call_id, recording_file=None):
             f,
             indent=2,
             ensure_ascii=False,
+        )
+
+    # ---------------------------------------------------------
+    # TOYOTA MYSQL DATABASE
+    #
+    # JSON remains the local backup/audit copy.
+    # MySQL is now the primary structured call store.
+    #
+    # DB failure must NOT delete or invalidate the JSON report.
+    # ---------------------------------------------------------
+    try:
+        from toyota_db import save_call_to_db
+
+        db_result = save_call_to_db(report)
+
+        report["database_update"] = db_result
+
+        print(
+            "TOYOTA DB:",
+            db_result
+        )
+
+    except Exception as exc:
+        report["database_update"] = {
+            "success": False,
+            "error": repr(exc),
+        }
+
+        print(
+            "TOYOTA DB SAVE ERROR:",
+            repr(exc)
         )
 
     print("CALL REPORT:", filename)
@@ -2024,6 +2120,52 @@ def process_turn(conn, pcm, state, call_id, customer_recording=None):
                 state["_ai_recording"].extend(ai_pcm)
                 send_audio(conn, ai_pcm, customer_recording)
 
+            return True
+
+        # ---------------------------------------------------------
+        # HUMAN AGENT TRANSFER
+        # ---------------------------------------------------------
+        if detected_disposition == "TTA":
+            state["transfer_requested"] = True
+            state["transfer_status"] = "requested"
+            state["disposition"] = "TTA"
+            state["intent"] = "Interested"
+
+            answer = (
+                "Sure, I'll connect you with a Toyota agent now. "
+                "Please hold for a moment."
+            )
+
+            print("AGENT TRANSFER: REQUESTED")
+            print("Answer:", answer)
+
+            append_ai_response_to_report(
+                state,
+                call_id,
+                answer
+            )
+
+            audio = piper_speak(answer)
+
+            state.setdefault("_ai_recording", bytearray())
+            state["_ai_recording"].extend(audio)
+
+            audio_sent = send_audio(
+                conn,
+                audio,
+                customer_recording
+            )
+
+            if not audio_sent:
+                state["transfer_status"] = "customer_hung_up"
+                state["_customer_hung_up"] = True
+                return True
+
+            # Let the final transfer message finish playing.
+            time.sleep(0.30)
+
+            # The connection handler will create the transfer signal
+            # after this turn returns.
             return True
 
         # ---------------------------------------------------------
@@ -2600,6 +2742,10 @@ def handle_connection(conn, addr):
         "callback_later": False,
         "contact_preference": None,
 
+        # Human-agent transfer
+        "transfer_requested": False,
+        "transfer_status": None,
+
         # Customer requirement capture
         "customer_captured_model": None,
         "preferred_model": None,
@@ -2653,6 +2799,43 @@ def handle_connection(conn, addr):
 
             if header is None:
                 print("CUSTOMER HANGUP / AUDIO SOCKET CLOSED")
+
+                # -----------------------------------------------------
+                # CUSTOMER HANGUP BEFORE NORMAL CALL COMPLETION
+                #
+                # A caller may disconnect before process_turn()
+                # reaches call_completed=True. The call must still be
+                # persisted to JSON + MySQL.
+                # -----------------------------------------------------
+                state["_customer_hung_up"] = True
+
+                try:
+                    if not state.get("_final_report_saved"):
+                        state["_final_report_saved"] = True
+
+                        recording_file = save_call_recording(
+                            call_id,
+                            bytes(customer_recording),
+                            bytes(state.get("_ai_recording", b""))
+                        )
+
+                        save_call_report(
+                            state,
+                            call_id,
+                            recording_file
+                        )
+
+                        print(
+                            "CUSTOMER HANGUP REPORT SAVED:",
+                            call_id
+                        )
+
+                except Exception as exc:
+                    print(
+                        "CUSTOMER HANGUP REPORT SAVE ERROR:",
+                        repr(exc)
+                    )
+
                 break
 
             packet_type = header[0]
@@ -2745,14 +2928,60 @@ def handle_connection(conn, addr):
                                     bytes(state.get("_ai_recording", b""))
                                 )
 
-                                save_call_report(
-                                    state,
-                                    call_id,
-                                    recording_file
-                                )
+                                if not state.get("_final_report_saved"):
+                                    state["_final_report_saved"] = True
+
+                                    save_call_report(
+                                        state,
+                                        call_id,
+                                        recording_file
+                                    )
 
                                 # Allow final TTS to finish completely.
                                 time.sleep(0.30)
+
+                                # -------------------------------------------------
+                                # HUMAN AGENT TRANSFER SIGNAL
+                                #
+                                # Asterisk checks this file immediately after
+                                # AudioSocket() returns. Do NOT remove this file
+                                # here; Asterisk will remove it after reading it.
+                                # -------------------------------------------------
+                                if state.get("transfer_requested"):
+                                    audiosocket_uuid = state.get("audiosocket_uuid")
+
+                                    if audiosocket_uuid:
+                                        transfer_file = Path(
+                                            f"/run/hnc-ai/{audiosocket_uuid}.transfer"
+                                        )
+
+                                        try:
+                                            transfer_file.write_text(
+                                                "requested\\n",
+                                                encoding="utf-8"
+                                            )
+
+                                            state["transfer_status"] = "signaled"
+
+                                            print(
+                                                "AGENT TRANSFER SIGNAL CREATED:",
+                                                transfer_file
+                                            )
+
+                                        except Exception as exc:
+                                            state["transfer_status"] = "signal_error"
+
+                                            print(
+                                                "AGENT TRANSFER SIGNAL ERROR:",
+                                                repr(exc)
+                                            )
+                                    else:
+                                        state["transfer_status"] = "missing_uuid"
+
+                                        print(
+                                            "AGENT TRANSFER ERROR: "
+                                            "AudioSocket UUID missing"
+                                        )
 
                                 # Tell Asterisk AudioSocket to terminate.
                                 terminate_audiosocket(conn)
